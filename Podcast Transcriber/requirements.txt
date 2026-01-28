@@ -1,0 +1,11 @@
+# Core transcription dependencies
+openai-whisper
+requests
+tqdm
+feedparser
+
+# Analysis dependencies
+numpy
+pandas
+matplotlib
+seaborn
