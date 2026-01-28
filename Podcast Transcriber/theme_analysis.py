@@ -10,6 +10,7 @@ Analyzes podcast transcripts using two predefined taxonomies:
 import os
 import re
 import json
+import argparse
 from pathlib import Path
 from datetime import datetime
 from collections import defaultdict
@@ -20,13 +21,9 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Configuration
-TRANSCRIPTS_DIR = Path("/Users/scottewalt/Documents/Podcasts/podcast_transcripts/GTM_AI_Podcast")
-OUTPUT_DIR = Path("/Users/scottewalt/Documents/Podcast Transcriber/output")
+SCRIPT_DIR = Path(__file__).parent.resolve()
 MIN_CHUNK_WORDS = 50
 MAX_CHUNK_WORDS = 300
-
-# Ensure output directory exists
-OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
 # =============================================================================
 # TAXONOMY DEFINITIONS
@@ -259,12 +256,12 @@ def segment_transcript(text: str, min_words: int = MIN_CHUNK_WORDS,
     return chunks
 
 
-def ingest_transcripts() -> list[dict]:
+def ingest_transcripts(transcripts_dir: Path) -> list[dict]:
     """Load and parse all transcript files."""
     print("Ingesting transcripts...")
     transcripts = []
 
-    md_files = sorted(TRANSCRIPTS_DIR.glob("*.md"))
+    md_files = sorted(transcripts_dir.glob("*.md"))
     print(f"Found {len(md_files)} transcript files")
 
     for file_path in md_files:
@@ -387,7 +384,7 @@ def analyze_taxonomy(chunks: list[str], chunk_metadata: list[dict],
 
 
 def create_taxonomy_chart(analysis: dict, taxonomy: dict, taxonomy_name: str,
-                          filename: str, color_palette: str = 'Blues_d') -> None:
+                          filename: str, output_dir: Path, color_palette: str = 'Blues_d') -> None:
     """Create a horizontal bar chart for a taxonomy analysis."""
 
     # Sort categories by percentage
@@ -437,13 +434,13 @@ def create_taxonomy_chart(analysis: dict, taxonomy: dict, taxonomy_name: str,
     ax.set_axisbelow(True)
 
     plt.tight_layout()
-    plt.savefig(OUTPUT_DIR / filename, dpi=150, bbox_inches='tight')
+    plt.savefig(output_dir / filename, dpi=150, bbox_inches='tight')
     plt.close()
 
     print(f"Saved {filename}")
 
 
-def create_trend_chart(tools_analysis: dict, roles_analysis: dict) -> None:
+def create_trend_chart(tools_analysis: dict, roles_analysis: dict, output_dir: Path) -> None:
     """Create a combined trend chart showing top categories over time as percentages."""
 
     fig, axes = plt.subplots(1, 2, figsize=(16, 6))
@@ -511,14 +508,14 @@ def create_trend_chart(tools_analysis: dict, roles_analysis: dict) -> None:
     ax2.grid(True, linestyle='--', alpha=0.7)
 
     plt.tight_layout()
-    plt.savefig(OUTPUT_DIR / 'taxonomy_trends.png', dpi=150, bbox_inches='tight')
+    plt.savefig(output_dir / 'taxonomy_trends.png', dpi=150, bbox_inches='tight')
     plt.close()
 
     print("Saved taxonomy_trends.png")
 
 
 def generate_report(tools_analysis: dict, roles_analysis: dict,
-                    transcripts: list[dict]) -> None:
+                    transcripts: list[dict], output_dir: Path) -> None:
     """Generate markdown report."""
 
     report = f"""# GTM AI Podcast Analysis Report
@@ -586,7 +583,7 @@ What business functions and roles are discussed.
 
 """
 
-    output_path = OUTPUT_DIR / 'theme_report.md'
+    output_path = output_dir / 'theme_report.md'
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(report)
 
@@ -594,7 +591,7 @@ What business functions and roles are discussed.
 
 
 def generate_json_output(tools_analysis: dict, roles_analysis: dict,
-                         transcripts: list[dict]) -> None:
+                         transcripts: list[dict], output_dir: Path) -> None:
     """Generate JSON output."""
 
     output = {
@@ -630,23 +627,64 @@ def generate_json_output(tools_analysis: dict, roles_analysis: dict,
         }
     }
 
-    output_path = OUTPUT_DIR / 'theme_analysis.json'
+    output_path = output_dir / 'theme_analysis.json'
     with open(output_path, 'w', encoding='utf-8') as f:
         json.dump(output, f, indent=2, ensure_ascii=False)
 
     print(f"Saved JSON to {output_path}")
 
 
+def parse_args():
+    """Parse command-line arguments."""
+    parser = argparse.ArgumentParser(
+        description="Analyze GTM AI podcast transcripts for themes and trends.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python theme_analysis.py ../podcast_transcripts/GTM_AI_Podcast
+  python theme_analysis.py /path/to/transcripts -o ./my_output
+        """
+    )
+    parser.add_argument(
+        'input',
+        type=Path,
+        help='Path to directory containing transcript markdown files'
+    )
+    parser.add_argument(
+        '-o', '--output',
+        type=Path,
+        default=SCRIPT_DIR / 'output',
+        help='Output directory for analysis results (default: ./output)'
+    )
+    return parser.parse_args()
+
+
 def main():
     """Main analysis pipeline."""
+    args = parse_args()
+
+    # Resolve paths
+    transcripts_dir = args.input.resolve()
+    output_dir = args.output.resolve()
+
+    # Validate input directory
+    if not transcripts_dir.is_dir():
+        print(f"ERROR: Input directory not found: {transcripts_dir}")
+        return
+
+    # Ensure output directory exists
+    output_dir.mkdir(parents=True, exist_ok=True)
+
     print("=" * 60)
     print("GTM AI Podcast Theme Analysis")
     print("Tools & Tactics | Functions & Roles")
     print("=" * 60)
+    print(f"Input:  {transcripts_dir}")
+    print(f"Output: {output_dir}")
     print()
 
     # Step 1: Ingest transcripts
-    transcripts = ingest_transcripts()
+    transcripts = ingest_transcripts(transcripts_dir)
 
     if not transcripts:
         print("ERROR: No transcripts found!")
@@ -664,19 +702,19 @@ def main():
     # Step 4: Generate visualizations
     print("\nCreating visualizations...")
     create_taxonomy_chart(tools_analysis, TOOLS_TACTICS_TAXONOMY,
-                          "Tools & Tactics", "tools_tactics.png", "Blues_d")
+                          "Tools & Tactics", "tools_tactics.png", output_dir, "Blues_d")
     create_taxonomy_chart(roles_analysis, FUNCTIONS_ROLES_TAXONOMY,
-                          "Functions & Roles", "functions_roles.png", "Greens_d")
-    create_trend_chart(tools_analysis, roles_analysis)
+                          "Functions & Roles", "functions_roles.png", output_dir, "Greens_d")
+    create_trend_chart(tools_analysis, roles_analysis, output_dir)
 
     # Step 5: Generate outputs
-    generate_report(tools_analysis, roles_analysis, transcripts)
-    generate_json_output(tools_analysis, roles_analysis, transcripts)
+    generate_report(tools_analysis, roles_analysis, transcripts, output_dir)
+    generate_json_output(tools_analysis, roles_analysis, transcripts, output_dir)
 
     print()
     print("=" * 60)
     print("Analysis complete!")
-    print(f"Output files saved to: {OUTPUT_DIR}")
+    print(f"Output files saved to: {output_dir}")
     print("=" * 60)
 
 
