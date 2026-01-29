@@ -33,7 +33,7 @@ class Config:
 
     # Retrieval settings
     top_k: int = 10
-    similarity_threshold: float = 0.3
+    similarity_threshold: float = 0.1  # Lower threshold to ensure results
     mmr_lambda: float = 0.7  # Balance relevance vs diversity
 
     # Generation settings
