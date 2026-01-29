@@ -9,3 +9,11 @@ numpy
 pandas
 matplotlib
 seaborn
+
+# RAG dependencies
+openai>=1.0.0
+faiss-cpu
+tiktoken
+python-dotenv
+rich
+typer
