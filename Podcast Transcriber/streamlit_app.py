@@ -111,7 +111,7 @@ def main():
     # Header
     st.title("🎙️ GTM AI Podcast Search")
     st.markdown(
-        "Search 91 episodes of the GTM AI Podcast using semantic search. "
+        "Search 96 episodes of the GTM AI Podcast using semantic search. "
         "Ask questions about go-to-market strategies, sales, marketing, and AI."
     )
 

@@ -11,6 +11,19 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
+def get_secret(key: str, default: str = "") -> str:
+    """Get a secret from Streamlit secrets or environment variables."""
+    # Try Streamlit secrets first (for Streamlit Cloud deployment)
+    try:
+        import streamlit as st
+        if hasattr(st, 'secrets') and key in st.secrets:
+            return st.secrets[key]
+    except Exception:
+        pass
+    # Fall back to environment variables
+    return os.getenv(key, default)
+
+
 @dataclass
 class Config:
     """Configuration settings for the RAG system."""
@@ -21,16 +34,16 @@ class Config:
     transcripts_dir: Path = field(default=None)
 
     # OpenAI settings (for embeddings)
-    openai_api_key: str = field(default_factory=lambda: os.getenv("OPENAI_API_KEY", ""))
+    openai_api_key: str = field(default_factory=lambda: get_secret("OPENAI_API_KEY"))
     embedding_model: str = "text-embedding-3-small"
     embedding_dimensions: int = 1536
 
     # Anthropic settings (for generation)
-    anthropic_api_key: str = field(default_factory=lambda: os.getenv("ANTHROPIC_API_KEY", ""))
+    anthropic_api_key: str = field(default_factory=lambda: get_secret("ANTHROPIC_API_KEY"))
     llm_model: str = "claude-opus-4-5-20251101"
 
     # Pinecone settings (for cloud vector storage)
-    pinecone_api_key: str = field(default_factory=lambda: os.getenv("PINECONE_API_KEY", ""))
+    pinecone_api_key: str = field(default_factory=lambda: get_secret("PINECONE_API_KEY"))
     pinecone_index_name: str = "gtm-ai-podcast"
     pinecone_region: str = "us-east-1"
 

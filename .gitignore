@@ -31,6 +31,9 @@ Podcast Transcriber/data/
 # Environment files
 .env
 
+# Streamlit secrets (local development)
+.streamlit/secrets.toml
+
 # IDE
 .idea/
 .vscode/
