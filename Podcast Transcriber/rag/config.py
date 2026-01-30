@@ -20,11 +20,19 @@ class Config:
     data_dir: Path = field(default=None)
     transcripts_dir: Path = field(default=None)
 
-    # OpenAI settings
+    # OpenAI settings (for embeddings)
     openai_api_key: str = field(default_factory=lambda: os.getenv("OPENAI_API_KEY", ""))
     embedding_model: str = "text-embedding-3-small"
-    llm_model: str = "gpt-4o-mini"
     embedding_dimensions: int = 1536
+
+    # Anthropic settings (for generation)
+    anthropic_api_key: str = field(default_factory=lambda: os.getenv("ANTHROPIC_API_KEY", ""))
+    llm_model: str = "claude-opus-4-5-20251101"
+
+    # Pinecone settings (for cloud vector storage)
+    pinecone_api_key: str = field(default_factory=lambda: os.getenv("PINECONE_API_KEY", ""))
+    pinecone_index_name: str = "gtm-ai-podcast"
+    pinecone_region: str = "us-east-1"
 
     # Chunking settings
     chunk_size_tokens: int = 500  # Target 400-600 tokens
