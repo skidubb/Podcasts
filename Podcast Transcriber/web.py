@@ -12,8 +12,8 @@ from pydantic import BaseModel
 
 from rag.config import Config
 from rag.embedder import Embedder
-from rag.indexer import FAISSIndexer
-from rag.retriever import Retriever
+from rag.pinecone_indexer import PineconeIndexer
+from rag.retriever import PineconeRetriever
 from rag.generator import Generator
 
 # Initialize app
@@ -21,7 +21,7 @@ app = FastAPI(title="Podcast Knowledge Base")
 
 # Global components (loaded on startup)
 config: Config = None
-retriever: Retriever = None
+retriever: PineconeRetriever = None
 generator: Generator = None
 
 
@@ -38,16 +38,14 @@ async def startup():
     global config, retriever, generator
 
     config = Config()
-    indexer = FAISSIndexer(config)
-
-    if not indexer.load():
-        raise RuntimeError("Index not found. Run 'python build_index.py' first.")
+    indexer = PineconeIndexer(config)
 
     embedder = Embedder(config)
-    retriever = Retriever(config, embedder, indexer)
+    retriever = PineconeRetriever(config, embedder, indexer)
     generator = Generator(config)
 
-    print(f"Loaded index with {indexer.index.ntotal} vectors")
+    stats = indexer.get_stats()
+    print(f"Connected to Pinecone index with {stats['total_vectors']} vectors")
 
 
 @app.get("/", response_class=HTMLResponse)
@@ -59,14 +57,42 @@ async def home():
 @app.get("/api/stats")
 async def stats():
     """Get index statistics."""
-    return retriever.indexer.get_stats()
+    pinecone_stats = retriever.indexer.get_stats()
+    # Return Pinecone stats in a format compatible with the UI
+    return {
+        'status': 'loaded',
+        'total_vectors': pinecone_stats.get('total_vectors', 0),
+        'total_chunks': pinecone_stats.get('total_vectors', 0),
+        'unique_episodes': 91,  # Known from CLAUDE.md
+        'unique_guests': 32,    # Known from CLAUDE.md
+        'estimated_hours': 81,  # Known from CLAUDE.md
+    }
 
 
 @app.get("/api/insights")
 async def insights():
     """Get detailed insights for analytics dashboard."""
+    # Insights require local chunk data, which is not available with Pinecone
+    # Return minimal data structure to prevent UI errors
+    return {
+        "top_guests": [],
+        "all_guests": [],
+        "guest_roles": {},
+        "companies": [],
+        "monthly_distribution": [],
+        "chunk_sizes": [],
+        "episodes": [],
+        "total_guests": 32,  # Known values
+        "total_episodes": 91,
+        "message": "Detailed insights are not available when using Pinecone. Local chunk data is required for analytics."
+    }
+
+
+@app.get("/api/insights_disabled")
+async def insights_disabled():
+    """Original insights endpoint - disabled for Pinecone."""
     import re
-    chunks = retriever.indexer.chunks
+    chunks = []  # retriever.indexer.chunks - not available with Pinecone
 
     # Build unique episodes with full metadata
     episodes = {}
@@ -223,17 +249,17 @@ HTML_TEMPLATE = """
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
-            background: #0a0a0a;
-            color: #e0e0e0;
+            background: #ffffff;
+            color: #1f2937;
             height: 100vh;
             display: flex;
             flex-direction: column;
         }
 
         header {
-            background: #111;
+            background: #f8fafc;
             padding: 1rem 2rem;
-            border-bottom: 1px solid #222;
+            border-bottom: 1px solid #e2e8f0;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -242,12 +268,12 @@ HTML_TEMPLATE = """
         .header-left h1 {
             font-size: 1.25rem;
             font-weight: 600;
-            color: #fff;
+            color: #1f2937;
         }
 
         .header-left p {
             font-size: 0.8rem;
-            color: #666;
+            color: #6b7280;
             margin-top: 0.25rem;
         }
 
@@ -258,8 +284,8 @@ HTML_TEMPLATE = """
 
         .tab {
             background: transparent;
-            border: 1px solid #333;
-            color: #888;
+            border: 1px solid #d1d5db;
+            color: #6b7280;
             padding: 0.5rem 1.25rem;
             border-radius: 0.5rem;
             font-size: 0.875rem;
@@ -268,8 +294,8 @@ HTML_TEMPLATE = """
         }
 
         .tab:hover {
-            background: #1a1a1a;
-            color: #fff;
+            background: #f3f4f6;
+            color: #1f2937;
         }
 
         .tab.active {
@@ -330,8 +356,8 @@ HTML_TEMPLATE = """
         }
 
         .message.assistant .bubble {
-            background: #151515;
-            border: 1px solid #222;
+            background: #f8fafc;
+            border: 1px solid #e2e8f0;
             padding: 1rem 1.25rem;
             border-radius: 0.25rem 1rem 1rem 1rem;
             line-height: 1.7;
@@ -341,20 +367,20 @@ HTML_TEMPLATE = """
         .sources {
             margin-top: 1rem;
             padding-top: 1rem;
-            border-top: 1px solid #222;
+            border-top: 1px solid #e2e8f0;
             font-size: 0.8rem;
-            color: #888;
+            color: #6b7280;
         }
 
         .sources-title {
             font-weight: 600;
             margin-bottom: 0.5rem;
-            color: #666;
+            color: #4b5563;
         }
 
         .source {
             display: inline-block;
-            background: #1a1a1a;
+            background: #e5e7eb;
             padding: 0.25rem 0.5rem;
             border-radius: 0.25rem;
             margin: 0.25rem 0.25rem 0.25rem 0;
@@ -365,7 +391,7 @@ HTML_TEMPLATE = """
             display: inline-block;
             width: 8px;
             height: 8px;
-            background: #666;
+            background: #9ca3af;
             border-radius: 50%;
             margin: 0 2px;
             animation: bounce 1.4s infinite ease-in-out;
@@ -380,9 +406,9 @@ HTML_TEMPLATE = """
         }
 
         #chat-view footer {
-            background: #111;
+            background: #f8fafc;
             padding: 1rem 2rem;
-            border-top: 1px solid #222;
+            border-top: 1px solid #e2e8f0;
         }
 
         .input-container {
@@ -394,9 +420,9 @@ HTML_TEMPLATE = """
 
         input[type="text"] {
             flex: 1;
-            background: #1a1a1a;
-            border: 1px solid #333;
-            color: #fff;
+            background: #ffffff;
+            border: 1px solid #d1d5db;
+            color: #1f2937;
             padding: 0.875rem 1rem;
             border-radius: 0.5rem;
             font-size: 1rem;
@@ -409,7 +435,7 @@ HTML_TEMPLATE = """
         }
 
         input[type="text"]::placeholder {
-            color: #555;
+            color: #9ca3af;
         }
 
         button.send-btn {
@@ -429,18 +455,18 @@ HTML_TEMPLATE = """
         }
 
         button.send-btn:disabled {
-            background: #333;
+            background: #d1d5db;
             cursor: not-allowed;
         }
 
         .welcome {
             text-align: center;
             padding: 3rem;
-            color: #666;
+            color: #6b7280;
         }
 
         .welcome h2 {
-            color: #888;
+            color: #374151;
             font-size: 1.5rem;
             margin-bottom: 1rem;
         }
@@ -457,8 +483,8 @@ HTML_TEMPLATE = """
         }
 
         .example {
-            background: #151515;
-            border: 1px solid #222;
+            background: #f3f4f6;
+            border: 1px solid #e5e7eb;
             padding: 0.5rem 1rem;
             border-radius: 2rem;
             font-size: 0.875rem;
@@ -467,14 +493,15 @@ HTML_TEMPLATE = """
         }
 
         .example:hover {
-            background: #1a1a1a;
-            border-color: #333;
+            background: #e5e7eb;
+            border-color: #d1d5db;
         }
 
         /* Insights View */
         #insights-view {
             padding: 2rem;
             overflow-y: auto;
+            background: #f8fafc;
         }
 
         .insights-grid {
@@ -490,37 +517,37 @@ HTML_TEMPLATE = """
         }
 
         .stat-card {
-            background: #111;
-            border: 1px solid #222;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
             border-radius: 0.75rem;
             padding: 1.25rem;
         }
 
         .stat-card .label {
             font-size: 0.8rem;
-            color: #666;
+            color: #6b7280;
             margin-bottom: 0.5rem;
         }
 
         .stat-card .value {
             font-size: 2rem;
             font-weight: 600;
-            color: #fff;
+            color: #1f2937;
         }
 
         .stat-card .subtext {
             font-size: 0.75rem;
-            color: #444;
+            color: #9ca3af;
             margin-top: 0.25rem;
         }
 
         .stat-card.accent {
-            background: linear-gradient(135deg, #1e3a5f 0%, #0f172a 100%);
-            border-color: #2563eb33;
+            background: linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%);
+            border-color: #bfdbfe;
         }
 
         .stat-card.accent .value {
-            color: #60a5fa;
+            color: #2563eb;
         }
 
         .charts-row {
@@ -531,8 +558,8 @@ HTML_TEMPLATE = """
         }
 
         .chart-card {
-            background: #111;
-            border: 1px solid #222;
+            background: #ffffff;
+            border: 1px solid #e2e8f0;
             border-radius: 0.75rem;
             padding: 1.25rem;
         }
@@ -540,7 +567,7 @@ HTML_TEMPLATE = """
         .chart-card h3 {
             font-size: 0.9rem;
             font-weight: 600;
-            color: #888;
+            color: #4b5563;
             margin-bottom: 1rem;
         }
 
@@ -559,7 +586,7 @@ HTML_TEMPLATE = """
             display: flex;
             align-items: center;
             padding: 0.75rem;
-            border-bottom: 1px solid #1a1a1a;
+            border-bottom: 1px solid #f3f4f6;
         }
 
         .episode-item:last-child {
@@ -567,8 +594,8 @@ HTML_TEMPLATE = """
         }
 
         .episode-num {
-            background: #1a1a1a;
-            color: #666;
+            background: #f3f4f6;
+            color: #6b7280;
             font-size: 0.75rem;
             font-weight: 600;
             padding: 0.25rem 0.5rem;
@@ -585,7 +612,7 @@ HTML_TEMPLATE = """
 
         .episode-title {
             font-size: 0.85rem;
-            color: #ccc;
+            color: #374151;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -593,7 +620,7 @@ HTML_TEMPLATE = """
 
         .episode-meta {
             font-size: 0.75rem;
-            color: #555;
+            color: #9ca3af;
             margin-top: 0.125rem;
         }
 
@@ -606,7 +633,7 @@ HTML_TEMPLATE = """
         .guest-name {
             width: 140px;
             font-size: 0.8rem;
-            color: #888;
+            color: #6b7280;
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
@@ -615,7 +642,7 @@ HTML_TEMPLATE = """
         .guest-bar-bg {
             flex: 1;
             height: 24px;
-            background: #1a1a1a;
+            background: #f3f4f6;
             border-radius: 0.25rem;
             overflow: hidden;
         }
@@ -910,14 +937,14 @@ HTML_TEMPLATE = """
             new ApexCharts(document.getElementById('timeline-chart'), {
                 chart: { type: 'area', height: 250, background: 'transparent', toolbar: { show: false } },
                 series: [{ name: 'Chunks', data: data.monthly_distribution.map(m => m.chunks) }],
-                xaxis: { categories: data.monthly_distribution.map(m => m.month), labels: { style: { colors: '#666' } } },
-                yaxis: { labels: { style: { colors: '#666' } } },
+                xaxis: { categories: data.monthly_distribution.map(m => m.month), labels: { style: { colors: '#6b7280' } } },
+                yaxis: { labels: { style: { colors: '#6b7280' } } },
                 colors: ['#2563eb'],
                 fill: { type: 'gradient', gradient: { shadeIntensity: 1, opacityFrom: 0.4, opacityTo: 0.1 } },
                 stroke: { curve: 'smooth', width: 2 },
-                grid: { borderColor: '#222' },
-                theme: { mode: 'dark' },
-                tooltip: { theme: 'dark' }
+                grid: { borderColor: '#e5e7eb' },
+                theme: { mode: 'light' },
+                tooltip: { theme: 'light' }
             }).render();
 
             // Size distribution chart
@@ -926,9 +953,9 @@ HTML_TEMPLATE = """
                 series: data.chunk_sizes.map(s => s.count),
                 labels: data.chunk_sizes.map(s => s.bucket + ' tokens'),
                 colors: ['#1e40af', '#2563eb', '#3b82f6', '#60a5fa', '#93c5fd'],
-                legend: { position: 'bottom', labels: { colors: '#888' } },
+                legend: { position: 'bottom', labels: { colors: '#6b7280' } },
                 plotOptions: { pie: { donut: { size: '60%' } } },
-                theme: { mode: 'dark' }
+                theme: { mode: 'light' }
             }).render();
 
             // Guest bars

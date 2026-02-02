@@ -2,7 +2,7 @@
 
 from dataclasses import dataclass
 from datetime import datetime
-from typing import Optional
+from typing import Optional, TYPE_CHECKING
 
 import numpy as np
 
@@ -10,6 +10,9 @@ from .config import Config
 from .chunker import Chunk
 from .embedder import Embedder
 from .indexer import FAISSIndexer
+
+if TYPE_CHECKING:
+    from .pinecone_indexer import PineconeIndexer
 
 
 @dataclass
@@ -242,5 +245,143 @@ class Retriever:
             'date_range': {
                 'min': min(dates) if dates else None,
                 'max': max(dates) if dates else None,
+            },
+        }
+
+
+class PineconeRetriever:
+    """Semantic search using Pinecone vector database."""
+
+    def __init__(
+        self,
+        config: Config,
+        embedder: Embedder,
+        indexer: "PineconeIndexer",
+    ):
+        self.config = config
+        self.embedder = embedder
+        self.indexer = indexer
+
+    def search(
+        self,
+        query: str,
+        top_k: Optional[int] = None,
+        min_score: Optional[float] = None,
+        # Filters
+        podcast: Optional[str] = None,
+        episode_num: Optional[int] = None,
+        guest: Optional[str] = None,
+        date_from: Optional[str] = None,
+        date_to: Optional[str] = None,
+        # Diversity (not implemented for Pinecone yet)
+        use_mmr: bool = False,
+        mmr_lambda: Optional[float] = None,
+    ) -> list[RetrievalResult]:
+        """
+        Search for relevant chunks using Pinecone.
+
+        Args:
+            query: Search query
+            top_k: Number of results to return
+            min_score: Minimum similarity score threshold
+            podcast: Filter by podcast name
+            episode_num: Filter by episode number
+            guest: Filter by guest name (exact match in Pinecone)
+            date_from: Filter by start date (ISO format)
+            date_to: Filter by end date (ISO format)
+            use_mmr: Not implemented for Pinecone
+            mmr_lambda: Not implemented for Pinecone
+        """
+        top_k = top_k or self.config.top_k
+        min_score = min_score or self.config.similarity_threshold
+
+        # Embed query
+        query_embedding = self.embedder.embed_query(query)
+
+        # Build Pinecone filter
+        filter_dict = self._build_filter(
+            podcast=podcast,
+            episode_num=episode_num,
+            guest=guest,
+            date_from=date_from,
+            date_to=date_to,
+        )
+
+        # Search Pinecone
+        matches = self.indexer.search(
+            query_embedding=query_embedding,
+            top_k=top_k * 2,  # Fetch extra for score filtering
+            filter_dict=filter_dict if filter_dict else None,
+        )
+
+        # Convert to RetrievalResult
+        results = []
+        for i, match in enumerate(matches):
+            score = match.score
+            if score < min_score:
+                continue
+
+            chunk = self.indexer.chunk_from_match(match)
+            results.append(RetrievalResult(chunk=chunk, score=score, rank=i + 1))
+
+            if len(results) >= top_k:
+                break
+
+        # Re-rank results
+        for i, result in enumerate(results):
+            result.rank = i + 1
+
+        return results
+
+    def _build_filter(
+        self,
+        podcast: Optional[str] = None,
+        episode_num: Optional[int] = None,
+        guest: Optional[str] = None,
+        date_from: Optional[str] = None,
+        date_to: Optional[str] = None,
+    ) -> Optional[dict]:
+        """Build Pinecone filter dictionary."""
+        conditions = []
+
+        if podcast:
+            conditions.append({"podcast_name": {"$eq": podcast}})
+
+        if episode_num is not None:
+            conditions.append({"episode_num": {"$eq": episode_num}})
+
+        if guest:
+            # Pinecone doesn't support partial match, use exact match
+            conditions.append({"guest": {"$eq": guest}})
+
+        if date_from:
+            conditions.append({"date": {"$gte": date_from}})
+
+        if date_to:
+            conditions.append({"date": {"$lte": date_to}})
+
+        if not conditions:
+            return None
+
+        if len(conditions) == 1:
+            return conditions[0]
+
+        return {"$and": conditions}
+
+    def get_available_filters(self) -> dict:
+        """
+        Get available filter values.
+
+        Note: With Pinecone, we don't have local access to all chunks,
+        so this returns empty/minimal values. The Insights tab should
+        be disabled when using Pinecone.
+        """
+        return {
+            'podcasts': [],
+            'guests': [],
+            'episodes': [],
+            'date_range': {
+                'min': None,
+                'max': None,
             },
         }
