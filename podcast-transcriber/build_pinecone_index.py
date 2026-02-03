@@ -2,7 +2,7 @@
 """Build Pinecone index from podcast transcripts.
 
 This script:
-1. Parses all markdown transcripts from the GTM AI Podcast directory
+1. Parses all markdown transcripts from the configured transcripts directory
 2. Chunks them using token-based chunking (500 tokens, 75 overlap)
 3. Generates embeddings using OpenAI text-embedding-3-small
 4. Uploads vectors to Pinecone serverless index
@@ -10,6 +10,7 @@ This script:
 Usage:
     python build_pinecone_index.py
     python build_pinecone_index.py --rebuild  # Delete and recreate index
+    python build_pinecone_index.py --dry-run  # Parse and chunk without uploading
 """
 
 import argparse

@@ -51,7 +51,7 @@ async def startup():
 @app.get("/", response_class=HTMLResponse)
 async def home():
     """Serve the chat interface."""
-    return HTML_TEMPLATE
+    return get_html_template(config.podcast_name, config.podcast_description)
 
 
 @app.get("/api/stats")
@@ -232,13 +232,22 @@ async def query_stream(req: QueryRequest):
     return StreamingResponse(generate(), media_type="text/event-stream")
 
 
+def get_html_template(podcast_name: str, podcast_description: str) -> str:
+    """Generate HTML template with dynamic podcast name."""
+    return HTML_TEMPLATE.replace(
+        "{{PODCAST_NAME}}", podcast_name
+    ).replace(
+        "{{PODCAST_DESCRIPTION}}", podcast_description
+    )
+
+
 HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GTM AI Podcast Knowledge Base</title>
+    <title>{{PODCAST_NAME}} Knowledge Base</title>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <style>
         * {
@@ -679,7 +688,7 @@ HTML_TEMPLATE = """
 <body>
     <header>
         <div class="header-left">
-            <h1>GTM AI Podcast Knowledge Base</h1>
+            <h1>{{PODCAST_NAME}} Knowledge Base</h1>
             <p id="stats-line">Loading...</p>
         </div>
         <div class="tabs">
@@ -693,8 +702,8 @@ HTML_TEMPLATE = """
         <div id="chat-view" class="view active">
             <main id="chat">
                 <div class="welcome" id="welcome">
-                    <h2>Ask anything about GTM, Sales, and AI</h2>
-                    <p>Search across 90+ episodes featuring founders, VPs, and practitioners</p>
+                    <h2>Ask anything about {{PODCAST_NAME}}</h2>
+                    <p>{{PODCAST_DESCRIPTION}}</p>
                     <div class="examples" id="examples"></div>
                 </div>
             </main>
@@ -757,10 +766,10 @@ HTML_TEMPLATE = """
         let isLoading = false;
 
         const exampleQuestions = [
-            "What do guests say about cold email?",
-            "Who talked about RevOps alignment?",
-            "How should I scale past $1M ARR?",
-            "Best practices for AI in sales?"
+            "What are the key themes discussed?",
+            "What advice do guests give for beginners?",
+            "What trends do experts see emerging?",
+            "What tools or resources are recommended?"
         ];
 
         exampleQuestions.forEach(q => {

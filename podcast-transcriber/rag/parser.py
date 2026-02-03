@@ -1,4 +1,4 @@
-"""Podcast transcript parser for GTM AI Podcast."""
+"""Podcast transcript parser."""
 
 import re
 from pathlib import Path
@@ -18,7 +18,7 @@ class Episode:
     file_path: Path
     transcript: str
     word_count: int
-    podcast_name: str = "GTM AI Podcast"
+    podcast_name: str = "Podcast"
 
     def to_dict(self) -> dict:
         return {
@@ -36,7 +36,7 @@ class Episode:
 class PodcastParser:
     """Parser for podcast transcript markdown files."""
 
-    # Common guest name patterns in GTM AI Podcast titles
+    # Common guest name patterns in podcast titles
     GUEST_PATTERNS = [
         r'with\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)',  # "with John Smith"
         r'featuring\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)+)',
@@ -44,7 +44,7 @@ class PodcastParser:
         r'([A-Z][a-z]+\s+[A-Z][a-z]+),?\s+(?:CEO|CRO|VP|CMO|Founder)',  # Name + title
     ]
 
-    def __init__(self, podcast_name: str = "GTM AI Podcast"):
+    def __init__(self, podcast_name: str = "Podcast"):
         self.podcast_name = podcast_name
 
     def parse_file(self, file_path: Path) -> Episode:

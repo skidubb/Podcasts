@@ -20,7 +20,7 @@ from rag.generator import Generator
 
 app = typer.Typer(
     name="podcast-rag",
-    help="Query 48+ hours of GTM AI Podcast in seconds",
+    help="Query your podcast knowledge base using semantic search",
     add_completion=False,
 )
 console = Console()
@@ -55,14 +55,14 @@ def chat(
     streaming: bool = typer.Option(True, "--streaming/--no-streaming", help="Stream responses"),
 ):
     """Interactive chat mode for querying the podcast knowledge base."""
+    config, retriever, generator = load_system()
+
     console.print(Panel.fit(
-        "[bold blue]GTM AI Podcast Knowledge Base[/bold blue]\n"
-        "Query 48+ hours of expert conversation in seconds\n\n"
+        f"[bold blue]{config.podcast_name} Knowledge Base[/bold blue]\n"
+        "Query your podcast using semantic search\n\n"
         "Commands: [dim]quit, exit, /filters, /sources[/dim]",
         border_style="blue",
     ))
-
-    config, retriever, generator = load_system()
     stats = retriever.indexer.get_stats()
     console.print(f"[dim]Loaded {stats['unique_episodes']} episodes, {stats['total_chunks']} chunks[/dim]\n")
 
