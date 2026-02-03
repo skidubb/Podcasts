@@ -9,3 +9,16 @@ numpy
 pandas
 matplotlib
 seaborn
+
+# RAG dependencies
+openai>=1.0.0
+faiss-cpu
+tiktoken
+python-dotenv
+rich
+typer
+anthropic>=0.18.0
+
+# Pinecone + Streamlit (for shareable semantic search)
+pinecone>=5.0.0
+streamlit>=1.30.0
