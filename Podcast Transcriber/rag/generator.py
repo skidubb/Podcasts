@@ -1,23 +1,25 @@
-"""LLM response generation with citations."""
+"""LLM response generation with citations using Anthropic Claude."""
 
 from typing import Optional
 
-from openai import OpenAI
+import anthropic
 
 from .config import Config
 from .retriever import RetrievalResult
 
 
-SYSTEM_PROMPT = """You are an expert analyst for the GTM AI Podcast, a show about go-to-market strategies, sales, marketing, and AI in B2B SaaS.
+def get_system_prompt(config: Config) -> str:
+    """Generate dynamic system prompt based on podcast configuration."""
+    return f"""You are an expert analyst for {config.podcast_name}, {config.podcast_description}.
 
-Your role is to answer questions by synthesizing insights from podcast transcripts. You have access to conversations with industry experts including founders, VPs of Sales, CMOs, RevOps leaders, and AI practitioners.
+Your role is to answer questions by synthesizing insights from podcast transcripts. You have access to conversations with industry experts and thought leaders.
 
 Guidelines:
 1. Base your answers ONLY on the provided transcript excerpts
 2. Cite sources using [Episode X - Guest Name] format
 3. If information isn't in the excerpts, say so clearly
 4. Synthesize insights across multiple excerpts when relevant
-5. Be specific and actionable - these are practitioners seeking tactical advice
+5. Be specific and actionable - these are practitioners seeking practical advice
 6. When guests disagree, present multiple perspectives with attribution
 
 Response format:
@@ -27,11 +29,11 @@ Response format:
 
 
 class Generator:
-    """Generate RAG responses using LLM."""
+    """Generate RAG responses using Claude."""
 
     def __init__(self, config: Config):
         self.config = config
-        self.client = OpenAI(api_key=config.openai_api_key)
+        self.client = anthropic.Anthropic(api_key=config.anthropic_api_key)
         self.model = config.llm_model
         self.max_context_tokens = config.max_context_tokens
         self.temperature = config.temperature
@@ -44,7 +46,7 @@ class Generator:
         include_metadata: bool = True,
     ) -> str:
         """Generate a response using retrieved context."""
-        system_prompt = system_prompt or SYSTEM_PROMPT
+        system_prompt = system_prompt or get_system_prompt(self.config)
 
         # Build context from results
         context = self._build_context(results, include_metadata)
@@ -59,17 +61,17 @@ Relevant transcript excerpts:
 Based on these excerpts, please answer the question."""
 
         # Generate response
-        response = self.client.chat.completions.create(
+        response = self.client.messages.create(
             model=self.model,
+            max_tokens=1500,
+            system=system_prompt,
             messages=[
-                {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_message},
             ],
             temperature=self.temperature,
-            max_tokens=1500,
         )
 
-        return response.choices[0].message.content
+        return response.content[0].text
 
     def generate_streaming(
         self,
@@ -79,7 +81,7 @@ Based on these excerpts, please answer the question."""
         include_metadata: bool = True,
     ):
         """Generate a streaming response."""
-        system_prompt = system_prompt or SYSTEM_PROMPT
+        system_prompt = system_prompt or get_system_prompt(self.config)
         context = self._build_context(results, include_metadata)
 
         user_message = f"""Question: {query}
@@ -90,20 +92,17 @@ Relevant transcript excerpts:
 
 Based on these excerpts, please answer the question."""
 
-        stream = self.client.chat.completions.create(
+        with self.client.messages.stream(
             model=self.model,
+            max_tokens=1500,
+            system=system_prompt,
             messages=[
-                {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_message},
             ],
             temperature=self.temperature,
-            max_tokens=1500,
-            stream=True,
-        )
-
-        for chunk in stream:
-            if chunk.choices[0].delta.content:
-                yield chunk.choices[0].delta.content
+        ) as stream:
+            for text in stream.text_stream:
+                yield text
 
     def _build_context(
         self,

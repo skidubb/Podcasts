@@ -1,0 +1,474 @@
+#!/usr/bin/env python3
+"""Sync podcast episodes from RSS feed.
+
+This script:
+1. Fetches RSS feed to get latest episode list
+2. Compares against existing transcripts
+3. Downloads and transcribes any missing episodes
+4. Optionally rebuilds the Pinecone index
+
+Usage:
+    python sync_episodes.py                    # Check for and transcribe new episodes
+    python sync_episodes.py --dry-run          # Show what would be done without doing it
+    python sync_episodes.py --rebuild-index    # Also rebuild Pinecone index after transcribing
+    python sync_episodes.py --force-episode 92 # Force re-transcribe specific episode
+"""
+
+import os
+import re
+import sys
+import time
+import argparse
+import tempfile
+import subprocess
+from pathlib import Path
+from datetime import datetime
+from typing import Optional
+
+try:
+    import feedparser
+except ImportError:
+    print("Error: feedparser not installed. Run: pip install feedparser")
+    sys.exit(1)
+
+try:
+    import requests
+except ImportError:
+    print("Error: requests not installed. Run: pip install requests")
+    sys.exit(1)
+
+try:
+    from tqdm import tqdm
+except ImportError:
+    print("Warning: tqdm not installed. Progress bars will not be shown.")
+    tqdm = None
+
+# Import config
+from rag.config import Config
+
+# Constants
+RATE_LIMIT_SECONDS = 2
+REQUEST_TIMEOUT = 60
+SCRIPT_DIR = Path(__file__).parent
+
+
+def get_config() -> Config:
+    """Get configuration, with validation."""
+    config = Config()
+
+    if not config.rss_feed_url:
+        print("Error: RSS_FEED_URL not set in .env file")
+        print("Please set RSS_FEED_URL to your podcast's RSS feed URL")
+        sys.exit(1)
+
+    return config
+
+
+def slugify(text: str, max_length: int = 50) -> str:
+    """Convert text to a filesystem-safe slug."""
+    text = text.lower().strip()
+    text = re.sub(r'[^\w\s-]', '', text)
+    text = re.sub(r'[\s]+', '_', text)
+    text = re.sub(r'_+', '_', text)
+    return text[:max_length].rstrip('_')
+
+
+def parse_duration(duration_str: Optional[str]) -> str:
+    """Parse duration from various formats to human-readable string."""
+    if not duration_str:
+        return "Unknown"
+
+    if ':' in str(duration_str):
+        parts = str(duration_str).split(':')
+        if len(parts) == 3:
+            hours, mins, secs = map(int, parts)
+            if hours > 0:
+                return f"{hours}h {mins}m"
+            return f"{mins} min"
+        elif len(parts) == 2:
+            mins, secs = map(int, parts)
+            return f"{mins} min"
+
+    try:
+        total_secs = int(duration_str)
+        mins = total_secs // 60
+        return f"{mins} min"
+    except (ValueError, TypeError):
+        return str(duration_str)
+
+
+def fetch_rss_episodes(rss_url: str):
+    """Fetch episode list from RSS feed."""
+    print(f"Fetching RSS feed from {rss_url}...")
+
+    try:
+        feed = feedparser.parse(rss_url)
+
+        if feed.bozo and feed.bozo_exception:
+            print(f"Warning: Feed parsing issue: {feed.bozo_exception}")
+
+        podcast_title = feed.feed.get('title', 'Unknown Podcast')
+        print(f"Podcast: {podcast_title}")
+
+        episodes = []
+        for entry in feed.entries:
+            # Find the MP3 enclosure
+            mp3_url = None
+            for link in entry.get('links', []):
+                if link.get('type', '').startswith('audio/') or link.get('href', '').endswith('.mp3'):
+                    mp3_url = link.get('href')
+                    break
+
+            if not mp3_url:
+                for enclosure in entry.get('enclosures', []):
+                    if enclosure.get('type', '').startswith('audio/') or enclosure.get('url', '').endswith('.mp3'):
+                        mp3_url = enclosure.get('url')
+                        break
+
+            if not mp3_url:
+                print(f"Warning: No MP3 found for episode: {entry.get('title', 'Unknown')}")
+                continue
+
+            # Parse publication date
+            pub_date = entry.get('published', entry.get('updated', ''))
+            formatted_date = pub_date
+            parsed_date = None
+            try:
+                if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                    parsed_date = datetime(*entry.published_parsed[:6])
+                    formatted_date = parsed_date.strftime("%b %d, %Y")
+            except Exception:
+                pass
+
+            duration = entry.get('itunes_duration', entry.get('duration', ''))
+
+            episodes.append({
+                'title': entry.get('title', 'Unknown Episode'),
+                'mp3_url': mp3_url,
+                'date': formatted_date,
+                'parsed_date': parsed_date,
+                'duration': parse_duration(duration),
+                'description': entry.get('summary', entry.get('description', '')),
+            })
+
+        # RSS feeds typically have newest first, reverse to get chronological order
+        episodes.reverse()
+
+        print(f"Found {len(episodes)} episodes in feed")
+        return episodes, podcast_title
+
+    except Exception as e:
+        print(f"Error fetching RSS feed: {e}")
+        return [], "Unknown Podcast"
+
+
+def get_existing_episodes(transcripts_dir: Path) -> dict:
+    """Get existing transcript files and extract episode numbers."""
+    existing = {}
+
+    if not transcripts_dir.exists():
+        return existing
+
+    for md_file in transcripts_dir.glob("*.md"):
+        match = re.match(r'(\d+)_', md_file.name)
+        if match:
+            episode_num = int(match.group(1))
+            existing[episode_num] = md_file
+
+    return existing
+
+
+def find_missing_episodes(rss_episodes: list, existing: dict) -> list:
+    """Find episodes in RSS that don't have local transcripts."""
+    missing = []
+
+    for i, episode in enumerate(rss_episodes, 1):
+        if i not in existing:
+            missing.append((i, episode))
+
+    return missing
+
+
+def download_mp3(url: str, dest_path: Path) -> bool:
+    """Download MP3 file with optional progress bar."""
+    try:
+        response = requests.get(url, stream=True, timeout=REQUEST_TIMEOUT)
+        response.raise_for_status()
+
+        total_size = int(response.headers.get('content-length', 0))
+
+        with open(dest_path, 'wb') as f:
+            if tqdm and total_size > 0:
+                with tqdm(total=total_size, unit='B', unit_scale=True, desc="Downloading") as pbar:
+                    for chunk in response.iter_content(chunk_size=8192):
+                        if chunk:
+                            f.write(chunk)
+                            pbar.update(len(chunk))
+            else:
+                for chunk in response.iter_content(chunk_size=8192):
+                    if chunk:
+                        f.write(chunk)
+
+        return True
+
+    except requests.RequestException as e:
+        print(f"Download error: {e}")
+        return False
+
+
+def transcribe_audio(audio_path: Path, model: str = "base") -> Optional[str]:
+    """Transcribe audio file using Whisper."""
+    try:
+        import whisper
+        print(f"Transcribing with Whisper ({model} model)...")
+        whisper_model = whisper.load_model(model)
+        result = whisper_model.transcribe(str(audio_path), verbose=False)
+        return result.get('text', '')
+    except ImportError:
+        print("Error: openai-whisper not installed. Run: pip install openai-whisper")
+        return None
+    except Exception as e:
+        print(f"Transcription error: {e}")
+        return None
+
+
+def create_markdown(episode: dict, transcript: str, episode_num: int, podcast_title: str) -> str:
+    """Generate markdown content for an episode."""
+    description = re.sub(r'<[^>]+>', '', episode.get('description', ''))
+    description = description.strip()[:500]
+
+    content = f"""# {episode['title']}
+
+**Podcast:** {podcast_title}
+**Episode:** {episode_num}
+**Date:** {episode['date']}
+**Duration:** {episode['duration']}
+**MP3:** [{episode['title']}]({episode['mp3_url']})
+
+---
+
+## Description
+
+{description}
+
+---
+
+## Transcript
+
+{transcript}
+"""
+    return content
+
+
+def get_output_filename(episode: dict, episode_num: int) -> str:
+    """Generate output filename for an episode."""
+    slug = slugify(episode['title'])
+    return f"{episode_num:03d}_{slug}.md"
+
+
+def rebuild_pinecone_index():
+    """Rebuild the Pinecone index."""
+    print("\n" + "=" * 60)
+    print("Rebuilding Pinecone index...")
+    print("=" * 60)
+
+    build_script = SCRIPT_DIR / "build_pinecone_index.py"
+    if not build_script.exists():
+        print(f"Error: build_pinecone_index.py not found at {build_script}")
+        return False
+
+    try:
+        result = subprocess.run(
+            [sys.executable, str(build_script), "--rebuild"],
+            cwd=str(SCRIPT_DIR),
+            capture_output=False
+        )
+        return result.returncode == 0
+    except Exception as e:
+        print(f"Error rebuilding index: {e}")
+        return False
+
+
+def sync_episodes(
+    dry_run: bool = False,
+    rebuild_index: bool = False,
+    force_episode: Optional[int] = None,
+    whisper_model: str = None,
+):
+    """Main sync function."""
+    print("=" * 60)
+    print("Podcast Episode Sync")
+    print("=" * 60)
+    print()
+
+    # Load configuration
+    config = get_config()
+
+    # Get whisper model from config or argument
+    if whisper_model is None:
+        whisper_model = config.whisper_model
+
+    # Ensure transcripts directory exists
+    transcripts_dir = config.transcripts_dir
+    transcripts_dir.mkdir(parents=True, exist_ok=True)
+    print(f"Transcripts directory: {transcripts_dir}")
+
+    # Fetch RSS feed
+    rss_episodes, podcast_title = fetch_rss_episodes(config.rss_feed_url)
+    if not rss_episodes:
+        print("No episodes found in RSS feed. Exiting.")
+        return
+
+    # Get existing transcripts
+    existing = get_existing_episodes(transcripts_dir)
+    print(f"Existing transcripts: {len(existing)}")
+
+    # Find missing episodes
+    if force_episode:
+        # Force specific episode
+        if force_episode <= len(rss_episodes):
+            missing = [(force_episode, rss_episodes[force_episode - 1])]
+            print(f"Forcing re-transcription of episode {force_episode}")
+        else:
+            print(f"Episode {force_episode} not found in RSS feed (max: {len(rss_episodes)})")
+            return
+    else:
+        missing = find_missing_episodes(rss_episodes, existing)
+
+    if not missing:
+        print("\nAll episodes are already transcribed!")
+        if rebuild_index:
+            rebuild_pinecone_index()
+        return
+
+    print(f"\nMissing episodes: {len(missing)}")
+    for episode_num, episode in missing:
+        print(f"  - Episode {episode_num}: {episode['title'][:50]}...")
+
+    if dry_run:
+        print("\nDry run - no changes made.")
+        return
+
+    # Load Whisper model once
+    print(f"\nLoading Whisper model '{whisper_model}'...")
+    try:
+        import whisper
+        model = whisper.load_model(whisper_model)
+        print("Model loaded successfully!")
+    except ImportError:
+        print("Error: openai-whisper not installed. Run: pip install openai-whisper")
+        return
+    except Exception as e:
+        print(f"Error loading Whisper model: {e}")
+        return
+
+    # Process missing episodes
+    processed = 0
+    failed = 0
+
+    print(f"\nProcessing {len(missing)} episodes...\n")
+
+    for episode_num, episode in missing:
+        output_filename = get_output_filename(episode, episode_num)
+        output_path = transcripts_dir / output_filename
+
+        print("-" * 60)
+        print(f"Episode {episode_num}: {episode['title']}")
+
+        # Download MP3 to temp file
+        with tempfile.NamedTemporaryFile(suffix='.mp3', delete=False) as tmp_file:
+            tmp_path = Path(tmp_file.name)
+
+        try:
+            print(f"  -> Downloading from: {episode['mp3_url'][:60]}...")
+            if not download_mp3(episode['mp3_url'], tmp_path):
+                print(f"  -> Failed to download")
+                failed += 1
+                continue
+
+            # Transcribe
+            print(f"  -> Transcribing with Whisper ({whisper_model} model)...")
+            result = model.transcribe(str(tmp_path), verbose=False)
+            transcript = result.get('text', '')
+
+            if not transcript:
+                print(f"  -> Failed to transcribe")
+                failed += 1
+                continue
+
+            # Save markdown
+            markdown = create_markdown(episode, transcript, episode_num, podcast_title)
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(markdown)
+
+            print(f"  -> Saved: {output_filename}")
+            processed += 1
+
+        finally:
+            # Clean up temp file
+            if tmp_path.exists():
+                tmp_path.unlink()
+
+        # Rate limiting between episodes
+        if episode_num < len(missing):
+            time.sleep(RATE_LIMIT_SECONDS)
+
+    # Summary
+    print("\n" + "=" * 60)
+    print("SUMMARY")
+    print("=" * 60)
+    print(f"Podcast:            {podcast_title}")
+    print(f"RSS episodes:       {len(rss_episodes)}")
+    print(f"Missing episodes:   {len(missing)}")
+    print(f"Newly transcribed:  {processed}")
+    print(f"Failed:             {failed}")
+    print(f"\nTranscripts saved to: {transcripts_dir}")
+
+    # Rebuild index if requested and we processed episodes
+    if rebuild_index and processed > 0:
+        rebuild_pinecone_index()
+    elif rebuild_index and processed == 0:
+        print("\nNo new episodes to index.")
+
+    print("=" * 60)
+
+
+def main():
+    """Parse arguments and run sync."""
+    parser = argparse.ArgumentParser(
+        description="Sync podcast episodes from RSS feed"
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Show what would be done without doing it"
+    )
+    parser.add_argument(
+        "--rebuild-index",
+        action="store_true",
+        help="Rebuild Pinecone index after transcribing"
+    )
+    parser.add_argument(
+        "--force-episode",
+        type=int,
+        help="Force re-transcribe a specific episode number"
+    )
+    parser.add_argument(
+        "-m", "--model",
+        choices=["tiny", "base", "small", "medium", "large"],
+        default=None,
+        help="Whisper model (default: from config or 'base')"
+    )
+
+    args = parser.parse_args()
+
+    sync_episodes(
+        dry_run=args.dry_run,
+        rebuild_index=args.rebuild_index,
+        force_episode=args.force_episode,
+        whisper_model=args.model,
+    )
+
+
+if __name__ == "__main__":
+    main()

@@ -1,6 +1,7 @@
 """Configuration for RAG system."""
 
 import os
+import re
 from pathlib import Path
 from dataclasses import dataclass, field
 from typing import Optional
@@ -24,6 +25,18 @@ def get_secret(key: str, default: str = "") -> str:
     return os.getenv(key, default)
 
 
+def slugify_index_name(name: str) -> str:
+    """Convert podcast name to valid Pinecone index name.
+
+    Pinecone index names: lowercase alphanumeric and hyphens, max 45 chars.
+    """
+    slug = name.lower().strip()
+    slug = re.sub(r'[^\w\s-]', '', slug)
+    slug = re.sub(r'[\s_]+', '-', slug)
+    slug = re.sub(r'-+', '-', slug)
+    return slug[:45].strip('-')
+
+
 @dataclass
 class Config:
     """Configuration settings for the RAG system."""
@@ -32,6 +45,14 @@ class Config:
     base_dir: Path = field(default_factory=lambda: Path(__file__).parent.parent)
     data_dir: Path = field(default=None)
     transcripts_dir: Path = field(default=None)
+
+    # Podcast configuration
+    rss_feed_url: str = field(default_factory=lambda: get_secret("RSS_FEED_URL"))
+    podcast_name: str = field(default_factory=lambda: get_secret("PODCAST_NAME", "Podcast"))
+    podcast_description: str = field(default_factory=lambda: get_secret(
+        "PODCAST_DESCRIPTION",
+        "A podcast featuring conversations with industry experts"
+    ))
 
     # OpenAI settings (for embeddings)
     openai_api_key: str = field(default_factory=lambda: get_secret("OPENAI_API_KEY"))
@@ -44,8 +65,11 @@ class Config:
 
     # Pinecone settings (for cloud vector storage)
     pinecone_api_key: str = field(default_factory=lambda: get_secret("PINECONE_API_KEY"))
-    pinecone_index_name: str = "gtm-ai-podcast"
+    pinecone_index_name: str = field(default=None)
     pinecone_region: str = "us-east-1"
+
+    # Whisper settings
+    whisper_model: str = field(default_factory=lambda: get_secret("WHISPER_MODEL", "base"))
 
     # Chunking settings
     chunk_size_tokens: int = 500  # Target 400-600 tokens
@@ -62,22 +86,28 @@ class Config:
     temperature: float = 0.3
 
     def __post_init__(self):
+        # Set Pinecone index name from env or derive from podcast name
+        if self.pinecone_index_name is None:
+            env_index = get_secret("PINECONE_INDEX_NAME")
+            if env_index:
+                self.pinecone_index_name = env_index
+            else:
+                self.pinecone_index_name = slugify_index_name(self.podcast_name)
+
+        # Set data directory
         if self.data_dir is None:
             self.data_dir = self.base_dir / "data"
+
+        # Set transcripts directory from env or default
         if self.transcripts_dir is None:
-            # Check multiple possible locations for transcripts
-            possible_paths = [
-                self.base_dir.parent / "podcast_transcripts" / "GTM_AI_Podcast",
-                Path("/Users/scottewalt/Documents/Podcasts/podcast_transcripts/GTM_AI_Podcast"),
-                Path.home() / "Documents" / "Podcasts" / "podcast_transcripts" / "GTM_AI_Podcast",
-            ]
-            for path in possible_paths:
-                if path.exists():
-                    self.transcripts_dir = path
-                    break
+            env_transcripts = get_secret("TRANSCRIPTS_DIR")
+            if env_transcripts:
+                self.transcripts_dir = Path(env_transcripts)
+                if not self.transcripts_dir.is_absolute():
+                    self.transcripts_dir = self.base_dir / self.transcripts_dir
             else:
-                # Default fallback
-                self.transcripts_dir = possible_paths[0]
+                # Default to ./transcripts
+                self.transcripts_dir = self.base_dir / "transcripts"
 
         # Ensure directories exist
         self.data_dir.mkdir(parents=True, exist_ok=True)
@@ -105,6 +135,9 @@ class Config:
 
         if not self.openai_api_key:
             errors.append("OPENAI_API_KEY not set in environment")
+
+        if not self.rss_feed_url:
+            errors.append("RSS_FEED_URL not set in environment")
 
         if not self.transcripts_dir.exists():
             errors.append(f"Transcripts directory not found: {self.transcripts_dir}")

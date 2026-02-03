@@ -1,4 +1,4 @@
-"""Streamlit web app for GTM AI Podcast semantic search.
+"""Streamlit web app for podcast semantic search.
 
 A shareable web interface for querying podcast transcripts using
 Pinecone vector search and Claude for answer generation.
@@ -23,15 +23,6 @@ from rag.pinecone_indexer import PineconeIndexer
 from rag.chunker import Chunk
 from rag.retriever import RetrievalResult
 from rag.generator import Generator
-
-
-# Page configuration
-st.set_page_config(
-    page_title="GTM AI Podcast Search",
-    page_icon="🎙️",
-    layout="wide",
-    initial_sidebar_state="expanded",
-)
 
 
 @st.cache_resource
@@ -108,16 +99,27 @@ def get_unique_guests(indexer: PineconeIndexer) -> list[str]:
 
 
 def main():
+    # Get config for dynamic values
+    config = get_config()
+    podcast_name = config.podcast_name
+
+    # Page configuration
+    st.set_page_config(
+        page_title=f"{podcast_name} Search",
+        page_icon="🎙️",
+        layout="wide",
+        initial_sidebar_state="expanded",
+    )
+
     # Header
-    st.title("🎙️ GTM AI Podcast Search")
+    st.title(f"🎙️ {podcast_name} Search")
     st.markdown(
-        "Search 96 episodes of the GTM AI Podcast using semantic search. "
-        "Ask questions about go-to-market strategies, sales, marketing, and AI."
+        f"Search episodes of {podcast_name} using semantic search. "
+        "Ask questions and get AI-powered answers with citations."
     )
 
     # Initialize components
     try:
-        config = get_config()
         embedder = get_embedder(config)
         indexer = get_pinecone_indexer(config)
         generator = get_generator(config)
@@ -182,23 +184,23 @@ def main():
     # Main search interface
     query = st.text_input(
         "Ask a question about the podcast",
-        placeholder="How do experts recommend using AI in sales outreach?",
+        placeholder="What insights do experts share about this topic?",
     )
 
-    # Example queries
+    # Example queries (generic)
     with st.expander("Example questions"):
         col1, col2 = st.columns(2)
         with col1:
             st.markdown("""
-            - How should I scale past $1M ARR?
-            - What cold email strategies actually work?
-            - How do guests use Claude for marketing?
+            - What are the key themes discussed?
+            - What advice do guests give for beginners?
+            - What trends do experts see emerging?
             """)
         with col2:
             st.markdown("""
-            - What do experts say about AI in sales?
-            - How should founders approach their first sales hires?
-            - What's the best way to do product-led growth?
+            - What mistakes do guests say to avoid?
+            - What tools or resources are recommended?
+            - What predictions have guests made?
             """)
 
     if query:
