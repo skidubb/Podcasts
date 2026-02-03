@@ -1,58 +1,41 @@
-# Podcast Transcriber
+# Podcast Semantic Search
 
-Tools for downloading, transcribing, and analyzing podcast episodes.
+A RAG (Retrieval-Augmented Generation) system for semantic search over podcast transcripts. Automatically transcribes episodes from any podcast RSS feed and provides AI-powered search with citations.
+
+**See the main project in [`podcast-transcriber/`](./podcast-transcriber/) for full documentation and setup instructions.**
 
 ## Features
 
-- **podcast_transcriber.py** - Downloads and transcribes podcast episodes from any RSS feed using OpenAI Whisper
-- **theme_analysis.py** - Analyzes transcripts for themes, topics, and trends using predefined taxonomies
+- **Automatic Transcription**: Syncs with any podcast RSS feed and transcribes using OpenAI Whisper
+- **Semantic Search**: Find relevant content across all episodes using vector embeddings
+- **AI-Powered Answers**: Get synthesized answers from Claude with source citations
+- **Web Interface**: Clean Streamlit UI for searching
+- **Cloud-Ready**: Deploy to Streamlit Cloud with Pinecone vector storage
 
-## Installation
+## Quick Start
 
 ```bash
-cd "Podcast Transcriber"
-python -m venv podcast_venv
-source podcast_venv/bin/activate  # On Windows: podcast_venv\Scripts\activate
+cd podcast-transcriber
+
+# Setup
+python -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
+
+# Configure
+cp .env.example .env
+# Edit .env with your API keys and podcast RSS URL
+
+# Transcribe episodes
+python sync_episodes.py
+
+# Build search index
+python build_pinecone_index.py
+
+# Run web app
+streamlit run streamlit_app.py
 ```
 
-## Usage
+## License
 
-### Transcribe a Podcast
-
-```bash
-python podcast_transcriber.py <RSS_URL> [options]
-```
-
-**Options:**
-- `-e N, --episodes N` - Limit to N episodes (default: all)
-- `-o PATH, --output PATH` - Output directory (default: ~/podcast_transcripts)
-- `-m MODEL, --model MODEL` - Whisper model: tiny/base/small/medium/large (default: base)
-- `-r, --recent` - Start with most recent episodes (default: oldest first)
-
-**Example:**
-```bash
-python podcast_transcriber.py "https://example.com/feed.xml" -e 10 -m base
-```
-
-### Analyze Themes
-
-```bash
-python theme_analysis.py
-```
-
-Generates charts and reports analyzing topic distribution and trends across episodes.
-
-## Output
-
-Transcripts are saved as markdown files with metadata including:
-- Episode title
-- Publication date
-- Duration
-- MP3 link
-- Full transcript
-
-## Requirements
-
-- Python 3.8+
-- FFmpeg (required by Whisper for audio processing)
+MIT

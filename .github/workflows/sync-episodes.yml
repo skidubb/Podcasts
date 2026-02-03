@@ -1,0 +1,140 @@
+name: Sync Podcast Episodes
+
+on:
+  # Weekly on Sundays at midnight UTC
+  schedule:
+    - cron: '0 0 * * 0'
+
+  # Allow manual triggering
+  workflow_dispatch:
+    inputs:
+      rebuild_index:
+        description: 'Rebuild Pinecone index'
+        required: false
+        default: 'true'
+        type: boolean
+      force_episode:
+        description: 'Force re-transcribe specific episode number (optional)'
+        required: false
+        type: string
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Install Python dependencies
+        working-directory: ./podcast-transcriber
+        run: |
+          python -m pip install --upgrade pip
+          pip install feedparser requests tqdm openai-whisper
+          pip install -r requirements.txt
+
+      - name: Create transcripts directory
+        run: |
+          mkdir -p "./podcast-transcriber/transcripts"
+
+      - name: Sync transcripts from existing location
+        run: |
+          # If transcripts exist elsewhere, sync them here
+          # For GitHub Actions, we'll store transcripts in the repo
+          echo "Transcripts directory ready"
+
+      - name: Run episode sync
+        working-directory: ./podcast-transcriber
+        env:
+          # API Keys
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Podcast Configuration
+          RSS_FEED_URL: ${{ secrets.RSS_FEED_URL }}
+          PODCAST_NAME: ${{ secrets.PODCAST_NAME }}
+          PODCAST_DESCRIPTION: ${{ secrets.PODCAST_DESCRIPTION }}
+          PINECONE_INDEX_NAME: ${{ secrets.PINECONE_INDEX_NAME }}
+          # Workflow inputs
+          INPUT_REBUILD_INDEX: ${{ github.event.inputs.rebuild_index }}
+          INPUT_FORCE_EPISODE: ${{ github.event.inputs.force_episode }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          # Build the command with optional flags
+          CMD="python sync_episodes.py"
+
+          if [ "$INPUT_REBUILD_INDEX" = "true" ] || [ "$EVENT_NAME" = "schedule" ]; then
+            CMD="$CMD --rebuild-index"
+          fi
+
+          if [ -n "$INPUT_FORCE_EPISODE" ]; then
+            # Validate input is numeric only
+            if echo "$INPUT_FORCE_EPISODE" | grep -qE '^[0-9]+$'; then
+              CMD="$CMD --force-episode $INPUT_FORCE_EPISODE"
+            else
+              echo "Error: force_episode must be a number"
+              exit 1
+            fi
+          fi
+
+          echo "Running: $CMD"
+          $CMD
+
+      - name: Check for new transcripts
+        id: check_changes
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "New transcripts detected:"
+            git diff --cached --name-only
+          fi
+
+      - name: Commit and push new transcripts
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Get count of new files
+          NEW_COUNT=$(git diff --cached --name-only | grep -c '\.md$' || echo "0")
+
+          git commit -m "Add $NEW_COUNT new podcast transcript(s)
+
+          Automated sync from RSS feed
+
+          Co-Authored-By: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+
+          git push
+
+      - name: Summary
+        env:
+          HAS_CHANGES: ${{ steps.check_changes.outputs.has_changes }}
+        run: |
+          echo "## Sync Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          if [ "$HAS_CHANGES" = "true" ]; then
+            echo "New transcripts were added and committed." >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "### New Files" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            git log -1 --name-only --pretty=format: >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+          else
+            echo "No new episodes found. All transcripts are up to date." >> $GITHUB_STEP_SUMMARY
+          fi
