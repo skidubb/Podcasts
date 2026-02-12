@@ -1,11 +1,16 @@
 """LLM response generation with citations using Anthropic Claude."""
 
+import time
 from typing import Optional
 
 import anthropic
 
 from .config import Config
 from .retriever import RetrievalResult
+
+
+MAX_RETRIES = 3
+RETRY_DELAY = 2  # seconds
 
 
 def get_system_prompt(config: Config) -> str:
@@ -45,7 +50,7 @@ class Generator:
         system_prompt: Optional[str] = None,
         include_metadata: bool = True,
     ) -> str:
-        """Generate a response using retrieved context."""
+        """Generate a response using retrieved context with retry logic."""
         system_prompt = system_prompt or get_system_prompt(self.config)
 
         # Build context from results
@@ -60,18 +65,30 @@ Relevant transcript excerpts:
 
 Based on these excerpts, please answer the question."""
 
-        # Generate response
-        response = self.client.messages.create(
-            model=self.model,
-            max_tokens=1500,
-            system=system_prompt,
-            messages=[
-                {"role": "user", "content": user_message},
-            ],
-            temperature=self.temperature,
-        )
+        # Generate response with retries
+        last_error = None
+        for attempt in range(MAX_RETRIES):
+            try:
+                response = self.client.messages.create(
+                    model=self.model,
+                    max_tokens=1500,
+                    system=system_prompt,
+                    messages=[
+                        {"role": "user", "content": user_message},
+                    ],
+                    temperature=self.temperature,
+                )
+                return response.content[0].text
+            except anthropic.APIStatusError as e:
+                last_error = e
+                if e.status_code == 529 or "overloaded" in str(e).lower():
+                    if attempt < MAX_RETRIES - 1:
+                        time.sleep(RETRY_DELAY * (attempt + 1))
+                        continue
+                raise
 
-        return response.content[0].text
+        if last_error:
+            raise last_error
 
     def generate_streaming(
         self,
@@ -80,7 +97,7 @@ Based on these excerpts, please answer the question."""
         system_prompt: Optional[str] = None,
         include_metadata: bool = True,
     ):
-        """Generate a streaming response."""
+        """Generate a streaming response with retry logic."""
         system_prompt = system_prompt or get_system_prompt(self.config)
         context = self._build_context(results, include_metadata)
 
@@ -92,17 +109,31 @@ Relevant transcript excerpts:
 
 Based on these excerpts, please answer the question."""
 
-        with self.client.messages.stream(
-            model=self.model,
-            max_tokens=1500,
-            system=system_prompt,
-            messages=[
-                {"role": "user", "content": user_message},
-            ],
-            temperature=self.temperature,
-        ) as stream:
-            for text in stream.text_stream:
-                yield text
+        last_error = None
+        for attempt in range(MAX_RETRIES):
+            try:
+                with self.client.messages.stream(
+                    model=self.model,
+                    max_tokens=1500,
+                    system=system_prompt,
+                    messages=[
+                        {"role": "user", "content": user_message},
+                    ],
+                    temperature=self.temperature,
+                ) as stream:
+                    for text in stream.text_stream:
+                        yield text
+                return  # Success, exit retry loop
+            except anthropic.APIStatusError as e:
+                last_error = e
+                if e.status_code == 529 or "overloaded" in str(e).lower():
+                    if attempt < MAX_RETRIES - 1:
+                        time.sleep(RETRY_DELAY * (attempt + 1))  # Exponential backoff
+                        continue
+                raise  # Re-raise if not overloaded or out of retries
+
+        if last_error:
+            raise last_error
 
     def _build_context(
         self,

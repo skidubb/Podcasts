@@ -294,6 +294,7 @@ def sync_episodes(
     rebuild_index: bool = False,
     force_episode: Optional[int] = None,
     whisper_model: str = None,
+    limit: Optional[int] = None,
 ):
     """Main sync function."""
     print("=" * 60)
@@ -334,6 +335,11 @@ def sync_episodes(
             return
     else:
         missing = find_missing_episodes(rss_episodes, existing)
+
+    # Apply limit (take most recent N)
+    if limit and len(missing) > limit:
+        missing = missing[-limit:]
+        print(f"  (limited to most recent {limit})")
 
     if not missing:
         print("\nAll episodes are already transcribed!")
@@ -454,6 +460,12 @@ def main():
         help="Force re-transcribe a specific episode number"
     )
     parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Only process the N most recent missing episodes"
+    )
+    parser.add_argument(
         "-m", "--model",
         choices=["tiny", "base", "small", "medium", "large"],
         default=None,
@@ -467,6 +479,7 @@ def main():
         rebuild_index=args.rebuild_index,
         force_episode=args.force_episode,
         whisper_model=args.model,
+        limit=args.limit,
     )
 
 
