@@ -1,9 +1,9 @@
 name: Sync Podcast Episodes
 
 on:
-  # Weekly on Sundays at midnight UTC
-  schedule:
-    - cron: '0 0 * * 0'
+  # Weekly on Sundays at midnight UTC (disabled — transcript dir mismatch)
+  # schedule:
+  #   - cron: '0 0 * * 0'
 
   # Allow manual triggering
   workflow_dispatch:
