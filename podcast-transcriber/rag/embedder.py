@@ -10,6 +10,7 @@ from openai import OpenAI
 
 from .config import Config
 from .chunker import Chunk
+from .retry import retry_with_backoff, is_retryable_status
 
 
 class Embedder:
@@ -32,9 +33,12 @@ class Embedder:
         if cache_key in self._cache:
             return self._cache[cache_key]
 
-        response = self.client.embeddings.create(
+        response = retry_with_backoff(
+            self.client.embeddings.create,
             model=self.model,
             input=text,
+            should_retry=is_retryable_status,
+            label="embedding",
         )
         embedding = np.array(response.data[0].embedding, dtype=np.float32)
 
@@ -76,9 +80,12 @@ class Embedder:
                 print(f"Embedding batch {batch_start // self.BATCH_SIZE + 1}/{(len(missing_chunks) + self.BATCH_SIZE - 1) // self.BATCH_SIZE}")
 
             texts = [chunk.text for _, chunk in batch]
-            response = self.client.embeddings.create(
+            response = retry_with_backoff(
+                self.client.embeddings.create,
                 model=self.model,
                 input=texts,
+                should_retry=is_retryable_status,
+                label="embedding batch",
             )
 
             for j, embedding_data in enumerate(response.data):

@@ -1,8 +1,9 @@
 # Core transcription dependencies
 openai-whisper
-requests
-tqdm
-feedparser
+requests>=2.31,<3
+tqdm>=4.66,<5
+feedparser>=6.0,<7
+imageio-ffmpeg>=0.4,<1
 
 # Analysis dependencies
 numpy
@@ -11,14 +12,14 @@ matplotlib
 seaborn
 
 # RAG dependencies
-openai>=1.0.0
+openai>=1.60,<3
 faiss-cpu
-tiktoken
-python-dotenv
+tiktoken>=0.7,<1
+python-dotenv>=1.0,<2
 rich
 typer
-anthropic>=0.18.0
+anthropic>=0.40,<2
 
 # Pinecone + Streamlit (for shareable semantic search)
-pinecone>=5.0.0
-streamlit>=1.30.0
+pinecone>=8.0,<10
+streamlit>=1.40,<2

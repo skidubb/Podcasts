@@ -1,0 +1,12 @@
+# Minimal dependencies for CI episode sync (cloud transcription + incremental indexing).
+# Deliberately excludes openai-whisper/torch, faiss-cpu, streamlit, and the
+# analysis stack — GitHub Actions doesn't need them.
+feedparser>=6.0,<7
+requests>=2.31,<3
+tqdm>=4.66,<5
+python-dotenv>=1.0,<2
+openai>=1.60,<3
+numpy
+tiktoken>=0.7,<1
+pinecone>=8.0,<10
+imageio-ffmpeg>=0.4,<1

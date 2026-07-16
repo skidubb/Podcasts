@@ -7,6 +7,7 @@ from pinecone import Pinecone, ServerlessSpec
 
 from .config import Config
 from .chunker import Chunk
+from .retry import retry_with_backoff, is_retryable_status
 
 
 class PineconeIndexer:
@@ -109,7 +110,15 @@ class PineconeIndexer:
                     "metadata": metadata,
                 })
 
-            self.index.upsert(vectors=vectors, namespace=namespace)
+            # Per-batch retry doubles as resume: a transient failure re-sends
+            # only this batch, and upserts of already-sent ids are idempotent.
+            retry_with_backoff(
+                self.index.upsert,
+                vectors=vectors,
+                namespace=namespace,
+                should_retry=is_retryable_status,
+                label="Pinecone upsert",
+            )
             total_upserted += len(vectors)
             print(f"Upserted batch {i // batch_size + 1}: {total_upserted}/{len(chunks)} vectors")
 

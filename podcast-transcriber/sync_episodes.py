@@ -45,6 +45,7 @@ except ImportError:
 
 # Import config
 from rag.config import Config
+from rag.retry import retry_with_backoff, is_retryable_status
 
 # Constants
 RATE_LIMIT_SECONDS = 2
@@ -144,6 +145,7 @@ def fetch_rss_episodes(rss_url: str):
 
             episodes.append({
                 'title': entry.get('title', 'Unknown Episode'),
+                'guid': entry.get('id', '') or mp3_url,
                 'mp3_url': mp3_url,
                 'date': formatted_date,
                 'parsed_date': parsed_date,
@@ -162,55 +164,87 @@ def fetch_rss_episodes(rss_url: str):
         return [], "Unknown Podcast"
 
 
-def get_existing_episodes(transcripts_dir: Path) -> dict:
-    """Get existing transcript files and extract episode numbers."""
+def get_existing_episodes(transcripts_dir: Path) -> tuple[dict, set]:
+    """Get existing transcripts: {episode_num: path} and the set of known GUIDs.
+
+    GUIDs are read from the '**GUID:** ...' line in each transcript's header.
+    Older transcripts predate GUID tracking and only contribute a number.
+    """
     existing = {}
+    guids = set()
 
     if not transcripts_dir.exists():
-        return existing
+        return existing, guids
 
     for md_file in transcripts_dir.glob("*.md"):
         match = re.match(r'(\d+)_', md_file.name)
-        if match:
-            episode_num = int(match.group(1))
-            existing[episode_num] = md_file
+        if not match:
+            continue
+        episode_num = int(match.group(1))
+        existing[episode_num] = md_file
+        try:
+            header = md_file.read_text(encoding='utf-8')[:2000]
+            guid_match = re.search(r'^\*\*GUID:\*\*\s*(\S+)', header, re.MULTILINE)
+            if guid_match:
+                guids.add(guid_match.group(1))
+        except OSError:
+            pass
 
-    return existing
+    return existing, guids
 
 
-def find_missing_episodes(rss_episodes: list, existing: dict) -> list:
-    """Find episodes in RSS that don't have local transcripts."""
+def find_missing_episodes(rss_episodes: list, existing: dict, known_guids: set) -> list:
+    """Find episodes in RSS that don't have local transcripts.
+
+    An episode counts as existing if its GUID is known, or (for transcripts
+    that predate GUID tracking) if its feed position matches an existing
+    episode number. New episodes are numbered sequentially past the current
+    max so numbers never shift when the feed window changes.
+    """
     missing = []
+    next_num = max(existing.keys(), default=0) + 1
 
     for i, episode in enumerate(rss_episodes, 1):
-        if i not in existing:
-            missing.append((i, episode))
+        if episode['guid'] in known_guids:
+            continue
+        if i in existing:
+            continue  # legacy transcript without a stored GUID
+        missing.append((next_num, episode))
+        next_num += 1
 
     return missing
 
 
-def download_mp3(url: str, dest_path: Path) -> bool:
-    """Download MP3 file with optional progress bar."""
-    try:
-        response = requests.get(url, stream=True, timeout=REQUEST_TIMEOUT)
-        response.raise_for_status()
+def _download_mp3_once(url: str, dest_path: Path) -> None:
+    """Download MP3 file with optional progress bar (single attempt)."""
+    response = requests.get(url, stream=True, timeout=REQUEST_TIMEOUT)
+    response.raise_for_status()
 
-        total_size = int(response.headers.get('content-length', 0))
+    total_size = int(response.headers.get('content-length', 0))
 
-        with open(dest_path, 'wb') as f:
-            if tqdm and total_size > 0:
-                with tqdm(total=total_size, unit='B', unit_scale=True, desc="Downloading") as pbar:
-                    for chunk in response.iter_content(chunk_size=8192):
-                        if chunk:
-                            f.write(chunk)
-                            pbar.update(len(chunk))
-            else:
+    with open(dest_path, 'wb') as f:
+        if tqdm and total_size > 0:
+            with tqdm(total=total_size, unit='B', unit_scale=True, desc="Downloading") as pbar:
                 for chunk in response.iter_content(chunk_size=8192):
                     if chunk:
                         f.write(chunk)
+                        pbar.update(len(chunk))
+        else:
+            for chunk in response.iter_content(chunk_size=8192):
+                if chunk:
+                    f.write(chunk)
 
+
+def download_mp3(url: str, dest_path: Path) -> bool:
+    """Download MP3 with retry and exponential backoff."""
+    try:
+        retry_with_backoff(
+            _download_mp3_once, url, dest_path,
+            retryable=(requests.RequestException,),
+            should_retry=is_retryable_status,
+            label="download",
+        )
         return True
-
     except requests.RequestException as e:
         print(f"Download error: {e}")
         return False
@@ -232,6 +266,23 @@ def transcribe_audio(audio_path: Path, model: str = "base") -> Optional[str]:
         return None
 
 
+def transcribe_audio_cloud(audio_path: Path, openai_client) -> Optional[str]:
+    """Transcribe audio via the OpenAI Whisper API, compressing if needed."""
+    from transcribe_cloud import compress_if_needed, transcribe_episode
+
+    try:
+        audio_path = compress_if_needed(audio_path)
+        transcript = retry_with_backoff(
+            transcribe_episode, openai_client, audio_path,
+            should_retry=is_retryable_status,
+            label="cloud transcription",
+        )
+        return transcript
+    except Exception as e:
+        print(f"Cloud transcription error: {e}")
+        return None
+
+
 def create_markdown(episode: dict, transcript: str, episode_num: int, podcast_title: str) -> str:
     """Generate markdown content for an episode."""
     description = re.sub(r'<[^>]+>', '', episode.get('description', ''))
@@ -243,6 +294,7 @@ def create_markdown(episode: dict, transcript: str, episode_num: int, podcast_ti
 **Episode:** {episode_num}
 **Date:** {episode['date']}
 **Duration:** {episode['duration']}
+**GUID:** {episode.get('guid', '')}
 **MP3:** [{episode['title']}]({episode['mp3_url']})
 
 ---
@@ -264,6 +316,25 @@ def get_output_filename(episode: dict, episode_num: int) -> str:
     """Generate output filename for an episode."""
     slug = slugify(episode['title'])
     return f"{episode_num:03d}_{slug}.md"
+
+
+def index_new_episode(episode_num: int) -> bool:
+    """Incrementally index a single episode into Pinecone (no full rebuild)."""
+    add_script = SCRIPT_DIR / "add_episode.py"
+    if not add_script.exists():
+        print(f"Error: add_episode.py not found at {add_script}")
+        return False
+
+    try:
+        result = subprocess.run(
+            [sys.executable, str(add_script), str(episode_num)],
+            cwd=str(SCRIPT_DIR),
+            capture_output=False
+        )
+        return result.returncode == 0
+    except Exception as e:
+        print(f"Error indexing episode {episode_num}: {e}")
+        return False
 
 
 def rebuild_pinecone_index():
@@ -292,8 +363,11 @@ def rebuild_pinecone_index():
 def sync_episodes(
     dry_run: bool = False,
     rebuild_index: bool = False,
+    index_new: bool = False,
     force_episode: Optional[int] = None,
     whisper_model: str = None,
+    limit: Optional[int] = None,
+    cloud: bool = False,
 ):
     """Main sync function."""
     print("=" * 60)
@@ -320,8 +394,8 @@ def sync_episodes(
         return
 
     # Get existing transcripts
-    existing = get_existing_episodes(transcripts_dir)
-    print(f"Existing transcripts: {len(existing)}")
+    existing, known_guids = get_existing_episodes(transcripts_dir)
+    print(f"Existing transcripts: {len(existing)} ({len(known_guids)} with GUIDs)")
 
     # Find missing episodes
     if force_episode:
@@ -333,7 +407,12 @@ def sync_episodes(
             print(f"Episode {force_episode} not found in RSS feed (max: {len(rss_episodes)})")
             return
     else:
-        missing = find_missing_episodes(rss_episodes, existing)
+        missing = find_missing_episodes(rss_episodes, existing, known_guids)
+
+    # Apply limit (take most recent N)
+    if limit and len(missing) > limit:
+        missing = missing[-limit:]
+        print(f"  (limited to most recent {limit})")
 
     if not missing:
         print("\nAll episodes are already transcribed!")
@@ -349,26 +428,38 @@ def sync_episodes(
         print("\nDry run - no changes made.")
         return
 
-    # Load Whisper model once
-    print(f"\nLoading Whisper model '{whisper_model}'...")
-    try:
-        import whisper
-        model = whisper.load_model(whisper_model)
-        print("Model loaded successfully!")
-    except ImportError:
-        print("Error: openai-whisper not installed. Run: pip install openai-whisper")
-        return
-    except Exception as e:
-        print(f"Error loading Whisper model: {e}")
-        return
+    # Set up transcription backend
+    model = None
+    openai_client = None
+    if cloud:
+        print("\nUsing OpenAI Whisper API for transcription (cloud mode)")
+        if not config.openai_api_key:
+            print("Error: OPENAI_API_KEY not set (required for --cloud)")
+            return
+        from openai import OpenAI
+        openai_client = OpenAI(api_key=config.openai_api_key)
+    else:
+        # Load Whisper model once
+        print(f"\nLoading Whisper model '{whisper_model}'...")
+        try:
+            import whisper
+            model = whisper.load_model(whisper_model)
+            print("Model loaded successfully!")
+        except ImportError:
+            print("Error: openai-whisper not installed. Run: pip install openai-whisper")
+            return
+        except Exception as e:
+            print(f"Error loading Whisper model: {e}")
+            return
 
     # Process missing episodes
     processed = 0
     failed = 0
+    indexed = 0
 
     print(f"\nProcessing {len(missing)} episodes...\n")
 
-    for episode_num, episode in missing:
+    for idx, (episode_num, episode) in enumerate(missing):
         output_filename = get_output_filename(episode, episode_num)
         output_path = transcripts_dir / output_filename
 
@@ -387,9 +478,13 @@ def sync_episodes(
                 continue
 
             # Transcribe
-            print(f"  -> Transcribing with Whisper ({whisper_model} model)...")
-            result = model.transcribe(str(tmp_path), verbose=False)
-            transcript = result.get('text', '')
+            if cloud:
+                print(f"  -> Transcribing via OpenAI API...")
+                transcript = transcribe_audio_cloud(tmp_path, openai_client)
+            else:
+                print(f"  -> Transcribing with Whisper ({whisper_model} model)...")
+                result = model.transcribe(str(tmp_path), verbose=False)
+                transcript = result.get('text', '')
 
             if not transcript:
                 print(f"  -> Failed to transcribe")
@@ -404,13 +499,22 @@ def sync_episodes(
             print(f"  -> Saved: {output_filename}")
             processed += 1
 
+            # Incrementally index the new episode (no full rebuild)
+            if index_new:
+                print(f"  -> Indexing episode {episode_num} into Pinecone...")
+                if index_new_episode(episode_num):
+                    indexed += 1
+                else:
+                    print(f"  -> Warning: indexing failed for episode {episode_num}")
+
         finally:
-            # Clean up temp file
-            if tmp_path.exists():
-                tmp_path.unlink()
+            # Clean up temp files (compression may leave a .compressed.mp3)
+            for leftover in (tmp_path, tmp_path.with_suffix('.compressed.mp3')):
+                if leftover.exists():
+                    leftover.unlink()
 
         # Rate limiting between episodes
-        if episode_num < len(missing):
+        if idx < len(missing) - 1:
             time.sleep(RATE_LIMIT_SECONDS)
 
     # Summary
@@ -422,6 +526,8 @@ def sync_episodes(
     print(f"Missing episodes:   {len(missing)}")
     print(f"Newly transcribed:  {processed}")
     print(f"Failed:             {failed}")
+    if index_new:
+        print(f"Indexed:            {indexed}")
     print(f"\nTranscripts saved to: {transcripts_dir}")
 
     # Rebuild index if requested and we processed episodes
@@ -446,12 +552,28 @@ def main():
     parser.add_argument(
         "--rebuild-index",
         action="store_true",
-        help="Rebuild Pinecone index after transcribing"
+        help="Fully rebuild the Pinecone index after transcribing (manual use)"
+    )
+    parser.add_argument(
+        "--index-new",
+        action="store_true",
+        help="Incrementally index each newly transcribed episode into Pinecone"
+    )
+    parser.add_argument(
+        "--cloud",
+        action="store_true",
+        help="Transcribe via the OpenAI Whisper API instead of local Whisper"
     )
     parser.add_argument(
         "--force-episode",
         type=int,
         help="Force re-transcribe a specific episode number"
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        help="Only process the N most recent missing episodes"
     )
     parser.add_argument(
         "-m", "--model",
@@ -465,8 +587,11 @@ def main():
     sync_episodes(
         dry_run=args.dry_run,
         rebuild_index=args.rebuild_index,
+        index_new=args.index_new,
         force_episode=args.force_episode,
         whisper_model=args.model,
+        limit=args.limit,
+        cloud=args.cloud,
     )
 
 

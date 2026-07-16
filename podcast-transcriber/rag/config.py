@@ -61,7 +61,7 @@ class Config:
 
     # Anthropic settings (for generation)
     anthropic_api_key: str = field(default_factory=lambda: get_secret("ANTHROPIC_API_KEY"))
-    llm_model: str = "claude-opus-4-5-20251101"
+    llm_model: str = field(default_factory=lambda: get_secret("LLM_MODEL", "claude-sonnet-5"))
 
     # Pinecone settings (for cloud vector storage)
     pinecone_api_key: str = field(default_factory=lambda: get_secret("PINECONE_API_KEY"))

@@ -9,9 +9,9 @@ on:
   workflow_dispatch:
     inputs:
       rebuild_index:
-        description: 'Rebuild Pinecone index'
+        description: 'Fully rebuild Pinecone index (manual use only)'
         required: false
-        default: 'true'
+        default: 'false'
         type: boolean
       force_episode:
         description: 'Force re-transcribe specific episode number (optional)'
@@ -21,40 +21,26 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    # Cloud transcription takes minutes per episode; a healthy weekly run
+    # finishes in well under an hour. Fail fast instead of burning 6 hours.
+    timeout-minutes: 120
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install system dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y ffmpeg
-
       - name: Install Python dependencies
         working-directory: ./podcast-transcriber
         run: |
           python -m pip install --upgrade pip
-          pip install feedparser requests tqdm openai-whisper
-          pip install -r requirements.txt
-
-      - name: Create transcripts directory
-        run: |
-          mkdir -p "./podcast-transcriber/transcripts"
-
-      - name: Sync transcripts from existing location
-        run: |
-          # If transcripts exist elsewhere, sync them here
-          # For GitHub Actions, we'll store transcripts in the repo
-          echo "Transcripts directory ready"
+          pip install -r requirements-sync.txt
 
       - name: Run episode sync
         working-directory: ./podcast-transcriber
@@ -71,12 +57,11 @@ jobs:
           # Workflow inputs
           INPUT_REBUILD_INDEX: ${{ github.event.inputs.rebuild_index }}
           INPUT_FORCE_EPISODE: ${{ github.event.inputs.force_episode }}
-          EVENT_NAME: ${{ github.event_name }}
         run: |
-          # Build the command with optional flags
-          CMD="python sync_episodes.py"
+          # Cloud transcription (OpenAI Whisper API) + incremental indexing
+          CMD="python sync_episodes.py --cloud --index-new"
 
-          if [ "$INPUT_REBUILD_INDEX" = "true" ] || [ "$EVENT_NAME" = "schedule" ]; then
+          if [ "$INPUT_REBUILD_INDEX" = "true" ]; then
             CMD="$CMD --rebuild-index"
           fi
 
@@ -96,7 +81,7 @@ jobs:
       - name: Check for new transcripts
         id: check_changes
         run: |
-          git add -A
+          git add podcast-transcriber/transcripts/
           if git diff --cached --quiet; then
             echo "has_changes=false" >> $GITHUB_OUTPUT
           else

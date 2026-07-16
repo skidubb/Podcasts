@@ -13,8 +13,7 @@ __pycache__/
 *$py.class
 *.so
 
-# User data (transcripts and index data)
-transcripts/
+# User data (index data; transcripts are committed so CI can persist them)
 data/
 
 # OS files
