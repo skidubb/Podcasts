@@ -202,8 +202,16 @@ jobs:
 
           Co-Authored-By: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
 
+          # Retry push: concurrent podcast runs may land commits between
+          # our rebase and push
+          n=0
           git pull --rebase origin main
-          git push
+          until git push; do
+            n=$((n+1))
+            if [ $n -ge 3 ]; then exit 1; fi
+            sleep $((n * 5))
+            git pull --rebase origin main
+          done
 
       - name: Summary
         if: env.SELECTED == 'true'
