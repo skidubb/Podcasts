@@ -32,6 +32,9 @@ on:
         required: false
         type: string
 
+permissions:
+  contents: write  # workflow commits transcripts back to the repo
+
 jobs:
   sync:
     runs-on: ubuntu-latest
