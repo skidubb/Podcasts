@@ -3,7 +3,7 @@
 import re
 import json
 from pathlib import Path
-from dataclasses import dataclass, asdict
+from dataclasses import dataclass, asdict, field
 from typing import Optional, Iterator
 
 import tiktoken
@@ -28,6 +28,12 @@ class Chunk:
     # Position metadata
     chunk_index: int
     total_chunks: int
+
+    # Extracted entities (episode-level, copied onto every chunk)
+    people: list = field(default_factory=list)
+    companies: list = field(default_factory=list)
+    products: list = field(default_factory=list)
+    topics: list = field(default_factory=list)
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -143,6 +149,10 @@ class Chunker:
                 podcast_name=episode.podcast_name,
                 chunk_index=i,
                 total_chunks=len(chunks),
+                people=episode.people,
+                companies=episode.companies,
+                products=episode.products,
+                topics=episode.topics,
             )
             result.append(chunk)
 

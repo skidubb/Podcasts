@@ -1,0 +1,44 @@
+{
+  "guest": "Vince Jeong",
+  "people": [
+    "Vince Jeong",
+    "Coach K",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "Sparkwise",
+    "McKinsey",
+    "GTM AI Academy",
+    "OpenAI",
+    "Microsoft",
+    "Google"
+  ],
+  "products": [
+    "Sparkwise",
+    "ChatGPT",
+    "Zoom",
+    "Miro",
+    "Midjourney",
+    "Jarvis"
+  ],
+  "topics": [
+    "corporate learning",
+    "group learning",
+    "ai in education",
+    "remote learning",
+    "gen ai adoption",
+    "change management",
+    "employee training",
+    "learning platforms",
+    "skill development",
+    "ai tools training",
+    "human-ai interaction",
+    "critical thinking",
+    "content generation",
+    "sales enablement",
+    "organizational development"
+  ],
+  "episode_num": 24,
+  "title": "AI-Powered Group Learning: Revolutionizing Corporate Education with Vince Jeong of Sparkwise",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,38 @@
+{
+  "guest": "Joey Brodsky",
+  "people": [
+    "Joey Brodsky",
+    "Coach K",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "Stott and May",
+    "GTM AI Academy",
+    "Staten May"
+  ],
+  "products": [
+    "ChatGPT",
+    "Gong",
+    "Chorus",
+    "Google Docs"
+  ],
+  "topics": [
+    "ai in sales",
+    "go-to-market strategy",
+    "recruitment",
+    "sales enablement",
+    "ai resume screening",
+    "sales velocity",
+    "hiring early-stage startups",
+    "novel product sales",
+    "ai tools adoption",
+    "sales leadership skills",
+    "candidate matching",
+    "sales coaching",
+    "job search strategy",
+    "human-ai collaboration"
+  ],
+  "episode_num": 20,
+  "title": "#20 GTM AI Podcast: AI's Impact on Go-to-Market Strategies and Recruitment with Joey Brodsky",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,57 @@
+{
+  "guest": "Matt Paige",
+  "people": [
+    "Matt Paige",
+    "Jonathan Moss",
+    "Coach K",
+    "Marc Benioff",
+    "Darshan Somashekar",
+    "Jonathan Carford"
+  ],
+  "companies": [
+    "HatchWorks AI",
+    "Salesforce",
+    "Upshot",
+    "Momentum",
+    "Databricks",
+    "Airbnb",
+    "OpenAI",
+    "Google",
+    "Hugging Face"
+  ],
+  "products": [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Blankly",
+    "Lovable",
+    "Bolt",
+    "Cursor",
+    "Replit",
+    "Browser Use",
+    "Gland AI",
+    "Hume",
+    "Operator",
+    "Hugging Face Studio",
+    "Agent.ai",
+    "Dubrover",
+    "Deep Research"
+  ],
+  "topics": [
+    "ai disruption",
+    "incumbents vs startups",
+    "workflow automation",
+    "ai agents",
+    "data democratization",
+    "job displacement",
+    "ai implementation strategy",
+    "crm transformation",
+    "ai development tools",
+    "roi measurement",
+    "ai-native solutions",
+    "no-code ai building"
+  ],
+  "episode_num": 75,
+  "title": "The AI Battle Between Incumbents and Startups- Matt Paige",
+  "model": "claude-haiku-4-5-20251001"
+}

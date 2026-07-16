@@ -1,0 +1,46 @@
+{
+  "guest": "Lihong Hicken",
+  "people": [
+    "Lihong Hicken",
+    "Jonathan Moss",
+    "Coach K",
+    "Chris Walker"
+  ],
+  "companies": [
+    "Theysaid.io",
+    "GTM AI Academy",
+    "User Testing",
+    "Qualtrics",
+    "SurveyMonkey",
+    "GIP Prime",
+    "Carta",
+    "Salesforce"
+  ],
+  "products": [
+    "Theysaid.io",
+    "Qualtrics",
+    "SurveyMonkey",
+    "ChatGPT",
+    "GTM AI Academy"
+  ],
+  "topics": [
+    "ai surveys",
+    "sales pipeline generation",
+    "outbound sales",
+    "win-loss analysis",
+    "customer engagement",
+    "conversational ai",
+    "market research",
+    "customer retention",
+    "upsell strategies",
+    "sales qualification",
+    "product positioning",
+    "qualitative research",
+    "go-to-market strategy",
+    "customer feedback",
+    "gtm ai"
+  ],
+  "episode_num": 43,
+  "title": "How AI Surveys are Revolutionizing Sales Pipeline Generation",
+  "model": "claude-haiku-4-5-20251001"
+}

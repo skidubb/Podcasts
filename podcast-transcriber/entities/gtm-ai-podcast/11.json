@@ -1,0 +1,46 @@
+{
+  "guest": "Timothy Riffe",
+  "people": [
+    "Timothy Riffe",
+    "Coach K",
+    "Jonathan Moss",
+    "Sam Altman"
+  ],
+  "companies": [
+    "Unified Software Solutions",
+    "GTM AI Academy",
+    "Marine Corps",
+    "JP Morgan",
+    "Morgan Stanley",
+    "University of Minnesota",
+    "University of Phoenix",
+    "AWS",
+    "Netflix"
+  ],
+  "products": [
+    "ChatGPT",
+    "Jasper",
+    "Sora",
+    "GPT-5"
+  ],
+  "topics": [
+    "ai product development",
+    "ai implementation strategy",
+    "data management and governance",
+    "machine learning models",
+    "retrieval augmented generation",
+    "zero-shot learning",
+    "ai mentorship platform",
+    "data privacy and anonymization",
+    "fine-tuning language models",
+    "autonomous ai agents",
+    "change management",
+    "ai risk mitigation",
+    "go-to-market strategy",
+    "financial services ai",
+    "job transformation with ai"
+  ],
+  "episode_num": 11,
+  "title": "#11 GTM AI Podcast: Timothy Riffe, Navigating and creating AI tech in the modern world",
+  "model": "claude-haiku-4-5-20251001"
+}

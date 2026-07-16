@@ -1,0 +1,52 @@
+{
+  "guest": "Sriya Maram",
+  "people": [
+    "Sriya Maram",
+    "Coach K",
+    "Jonathan Moss",
+    "Rush",
+    "Sam Altman",
+    "Scriven"
+  ],
+  "companies": [
+    "Persana AI",
+    "GTM AI Academy",
+    "LinkedIn",
+    "Y Combinator",
+    "UC Davis",
+    "OpenAI",
+    "Zapier",
+    "Outreach",
+    "Salesloft",
+    "Google"
+  ],
+  "products": [
+    "Persana AI",
+    "GPT-4",
+    "Claude",
+    "Chat GPT",
+    "Zapier",
+    "Outreach",
+    "Salesloft"
+  ],
+  "topics": [
+    "ai workflows",
+    "sales automation",
+    "outbound email",
+    "lead research",
+    "buyer intent",
+    "prompt engineering",
+    "lead scoring",
+    "account research",
+    "inbound automation",
+    "personalization",
+    "sdr automation",
+    "ai models",
+    "synthesis ai",
+    "no-code tools",
+    "workflow automation"
+  ],
+  "episode_num": 14,
+  "title": "#14 GTM AI Podcast: Empower teams with AI-Powered Workflows with Sriya Maram of Persana AI",
+  "model": "claude-haiku-4-5-20251001"
+}

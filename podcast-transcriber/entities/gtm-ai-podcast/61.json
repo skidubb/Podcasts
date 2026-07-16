@@ -1,0 +1,58 @@
+{
+  "guest": "Desiree Jessica",
+  "people": [
+    "Jonathan Kvarfordt",
+    "Coach K",
+    "Desiree Jessica",
+    "Chris Walker"
+  ],
+  "companies": [
+    "Loyee.ai",
+    "GTM AI Academy",
+    "AI Business Network",
+    "Apollo",
+    "Clay",
+    "Zoom Info",
+    "Ocean.io",
+    "HubSpot",
+    "Salesforce",
+    "G2",
+    "Wormy",
+    "University of Miami",
+    "Yale",
+    "Berkeley"
+  ],
+  "products": [
+    "Loyee",
+    "Clay",
+    "Apollo",
+    "Zoom Info",
+    "Ocean.io",
+    "HubSpot",
+    "Salesforce",
+    "G2",
+    "Wormy",
+    "OpenAI",
+    "Gemini",
+    "LinkedIn"
+  ],
+  "topics": [
+    "icp identification",
+    "lead scoring",
+    "account research",
+    "outbound sales",
+    "go-to-market strategy",
+    "ai research agents",
+    "intent signals",
+    "data enrichment",
+    "sales automation",
+    "market penetration",
+    "customer acquisition",
+    "revenue optimization",
+    "machine learning models",
+    "contact quality"
+  ],
+  "episode_num": 61,
+  "title": "Identifying, Optimizing, Maximizing Revenue with AI",
+  "model": "claude-haiku-4-5-20251001"
+}

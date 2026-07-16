@@ -1,0 +1,54 @@
+{
+  "guest": "Gal",
+  "people": [
+    "Coach K",
+    "Jonathan Moss",
+    "Gal",
+    "Godly"
+  ],
+  "companies": [
+    "Aligned",
+    "GTM AI Academy",
+    "GTM AI Podcast",
+    "Gartner",
+    "Salesforce",
+    "Tesla",
+    "Consensus",
+    "Clay",
+    "11x",
+    "Gong",
+    "Intercom",
+    "Wormly",
+    "Senspark"
+  ],
+  "products": [
+    "ChatGPT",
+    "GPT-4",
+    "Digital Sales Rooms",
+    "Aligned platform",
+    "Consensus co-pilot",
+    "Senspark AI",
+    "Intercom chat",
+    "Clay"
+  ],
+  "topics": [
+    "digital sales rooms",
+    "ai in sales",
+    "buyer journey",
+    "sales complexity",
+    "buyer empathy",
+    "customer collaboration",
+    "deal management",
+    "multi-threading",
+    "sales enablement",
+    "buyer-led selling",
+    "sales automation",
+    "sdr evolution",
+    "enterprise sales",
+    "ai-powered insights",
+    "go-to-market strategy"
+  ],
+  "episode_num": 33,
+  "title": "AI Revolution in Sales: How Digital Sales Rooms and AI Are Reshaping the Buyer's Journey",
+  "model": "claude-haiku-4-5-20251001"
+}

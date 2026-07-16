@@ -1,0 +1,54 @@
+{
+  "guest": "Trevor Lee",
+  "people": [
+    "Trevor Lee",
+    "Coach K",
+    "Jonathan Moss",
+    "John Ferries",
+    "Jason Lemkin"
+  ],
+  "companies": [
+    "Myko.ai",
+    "GTM AI Academy",
+    "Symbi",
+    "Salesforce",
+    "HubSpot",
+    "Snowflake",
+    "OpenAI",
+    "Anthropic",
+    "Microsoft Azure",
+    "GONG",
+    "Coastal Adventures"
+  ],
+  "products": [
+    "Myko.ai",
+    "ChatGPT",
+    "GPT-4",
+    "DALL-E",
+    "Claude",
+    "Salesforce",
+    "HubSpot",
+    "Snowflake",
+    "Sales LOS",
+    "Jarvis"
+  ],
+  "topics": [
+    "revenue operations",
+    "sales analytics",
+    "natural language ai",
+    "data security",
+    "gtm team efficiency",
+    "sales enablement",
+    "ai automation",
+    "crm optimization",
+    "win rate analysis",
+    "outbound sales",
+    "ai agents",
+    "enterprise compliance",
+    "sales process optimization",
+    "data governance"
+  ],
+  "episode_num": 16,
+  "title": "#16 GTM AI Podcast: Impact of AI on Revops and GTM Teams with Trevor Lee of Myko.ai",
+  "model": "claude-haiku-4-5-20251001"
+}

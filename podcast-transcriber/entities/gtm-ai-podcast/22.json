@@ -1,0 +1,52 @@
+{
+  "guest": "Amrutha Gujar",
+  "people": [
+    "Amrutha Gujar",
+    "Jonathan Kvarfordt",
+    "Coach K",
+    "Jonathan Moss",
+    "Tony Stark"
+  ],
+  "companies": [
+    "Structured Labs",
+    "GTM AI Academy",
+    "Microsoft",
+    "Meta",
+    "Google",
+    "Persona",
+    "Y Combinator",
+    "Salesforce",
+    "Amazon Fresh"
+  ],
+  "products": [
+    "Structured",
+    "Looker",
+    "Google Studio",
+    "ChatGPT-4",
+    "GPT-4o",
+    "Apache ECharts",
+    "OpenAI",
+    "GitHub",
+    "Slack"
+  ],
+  "topics": [
+    "revenue operations",
+    "ai automation",
+    "data integration",
+    "business intelligence",
+    "customer segmentation",
+    "first principles thinking",
+    "gtm strategy",
+    "data fragmentation",
+    "customer health scores",
+    "icp identification",
+    "sales operations",
+    "multi-modal ai",
+    "ai agents",
+    "go-to-market",
+    "operational efficiency"
+  ],
+  "episode_num": 22,
+  "title": "#22 GTM AI Podcast: How AI is Reshaping Revops with Amrutha Gujar of Structured Labs",
+  "model": "claude-haiku-4-5-20251001"
+}

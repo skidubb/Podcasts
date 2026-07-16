@@ -1,0 +1,44 @@
+{
+  "guest": "Jonathan Moss",
+  "people": [
+    "Coach K",
+    "Jonathan Moss",
+    "Andy"
+  ],
+  "companies": [
+    "Meta",
+    "Expertise"
+  ],
+  "products": [
+    "Claude",
+    "Chat GPT",
+    "Menace",
+    "HubSpot",
+    "Zapier",
+    "Make",
+    "Google Drive",
+    "Canva",
+    "Notion",
+    "Gmail",
+    "Google Calendar"
+  ],
+  "topics": [
+    "ai prompting framework",
+    "gtm strategy",
+    "workflow automation",
+    "data analysis",
+    "competitive analysis",
+    "ai agents",
+    "presentation creation",
+    "email automation",
+    "calendar integration",
+    "no-code workflows",
+    "interactive dashboards",
+    "content generation",
+    "sales efficiency",
+    "ai productivity"
+  ],
+  "episode_num": 91,
+  "title": "The 5-Part AI Framework That Saves GTM Teams 15+ Hours Weekly",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,60 @@
+{
+  "guest": "Hector Forwood",
+  "people": [
+    "Hector Forwood",
+    "Jonathan Kvarfordt",
+    "Coach K",
+    "Jonathan Moss",
+    "James Dean",
+    "Karen Flamingen",
+    "Chris Walker"
+  ],
+  "companies": [
+    "Flooencer",
+    "GTM AI",
+    "HubSpot",
+    "Wix",
+    "Notion",
+    "Cognizant",
+    "BT",
+    "Game",
+    "Amazon",
+    "Blockbuster",
+    "Apollo",
+    "Outreach.io",
+    "Supreme",
+    "Oreo",
+    "Crossbeam",
+    "PepsiCo",
+    "Mango"
+  ],
+  "products": [
+    "ChatGPT",
+    "Claude AI",
+    "Perplexity",
+    "Opus",
+    "DeepSeek",
+    "Zapier",
+    "Lead Delta",
+    "Zapier API"
+  ],
+  "topics": [
+    "b2b influencer marketing",
+    "ai content creation",
+    "linkedin strategy",
+    "creator economy",
+    "pricing dynamics",
+    "thought leadership",
+    "brand awareness",
+    "content dissemination",
+    "ai-human balance",
+    "influencer campaigns",
+    "engagement metrics",
+    "cpm pricing",
+    "authentic content",
+    "proprietary datasets"
+  ],
+  "episode_num": 82,
+  "title": "GTM AI Podcast: B2B Influencer Marketing and the AI-Human Balance with Hector Forwood",
+  "model": "claude-haiku-4-5-20251001"
+}

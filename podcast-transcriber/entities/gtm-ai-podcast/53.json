@@ -1,0 +1,51 @@
+{
+  "guest": "Joy Tang",
+  "people": [
+    "Joy Tang",
+    "Coach K",
+    "Jonathan Moss",
+    "Mark Zuckerberg",
+    "Meta",
+    "Google",
+    "TikTok"
+  ],
+  "companies": [
+    "Markable.ai",
+    "MIT",
+    "Facebook",
+    "Amazon",
+    "Walmart",
+    "Target",
+    "Wayfair",
+    "Instagram",
+    "YouTube",
+    "Reddit",
+    "Louis Vuitton",
+    "One Mind"
+  ],
+  "products": [
+    "Markable",
+    "visual recognition technology",
+    "AI content generation",
+    "auto response",
+    "sales avatar",
+    "QR codes"
+  ],
+  "topics": [
+    "ai for social media",
+    "influencer marketing",
+    "content creation automation",
+    "entrepreneurship",
+    "computer vision",
+    "high-frequency trading",
+    "brand growth",
+    "creator economy",
+    "ai tools for non-technical users",
+    "social commerce",
+    "dark social",
+    "product discovery"
+  ],
+  "episode_num": 53,
+  "title": "AI, Influence, and the Future of Brand Growth with Joy CEO of Markable.ai",
+  "model": "claude-haiku-4-5-20251001"
+}

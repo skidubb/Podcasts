@@ -1,0 +1,48 @@
+{
+  "guest": "James Pursey",
+  "people": [
+    "James Pursey",
+    "Coach K",
+    "Jonathan Moss",
+    "Tom Boston"
+  ],
+  "companies": [
+    "Replicate",
+    "GTM AI Academy",
+    "Similar Web",
+    "Gong",
+    "Chorus",
+    "Outreach",
+    "Salesforce",
+    "OpenAI",
+    "LinkedIn"
+  ],
+  "products": [
+    "Replicate",
+    "ChatGPT",
+    "Gong",
+    "Chorus",
+    "Outreach",
+    "Salesforce",
+    "Train This AI"
+  ],
+  "topics": [
+    "sales training",
+    "knowledge retention",
+    "ai coaching",
+    "sales enablement",
+    "roleplay simulation",
+    "call analysis",
+    "sales methodology",
+    "behavior change",
+    "feedback automation",
+    "conversational ai",
+    "sales rep performance",
+    "playbook adoption",
+    "learning personalization",
+    "go-to-market teams"
+  ],
+  "episode_num": 9,
+  "title": "#9 GTM AI Podcast: How AI can Actually Make Training Stick, James Pursey of Replicate",
+  "model": "claude-haiku-4-5-20251001"
+}

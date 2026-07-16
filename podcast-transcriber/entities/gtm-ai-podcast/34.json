@@ -1,0 +1,51 @@
+{
+  "guest": "Taimoor",
+  "people": [
+    "Jonathan Moss",
+    "Coach K",
+    "Jon",
+    "Sam Altman",
+    "Taimoor"
+  ],
+  "companies": [
+    "Go-to-Market OS",
+    "GTM AI Academy",
+    "RevOps Co-op",
+    "Y Combinator",
+    "Salesforce",
+    "HubSpot",
+    "Zapier",
+    "Make",
+    "Google",
+    "OpenAI"
+  ],
+  "products": [
+    "ChatGPT",
+    "Clay",
+    "GPT-4",
+    "o1",
+    "Copilot",
+    "HubSpot Agent.ai",
+    "Salesforce Agent Force",
+    "Google Sheets",
+    "Salesforce"
+  ],
+  "topics": [
+    "territory building",
+    "lead scoring",
+    "revenue operations",
+    "ai automation",
+    "go-to-market strategy",
+    "profitable growth",
+    "data enrichment",
+    "lead assignment",
+    "icp scoring",
+    "ai co-pilot",
+    "revops efficiency",
+    "process automation",
+    "ai tools evaluation"
+  ],
+  "episode_num": 34,
+  "title": "Revolutionizing RevOps: AI-Powered Territory Building and Lead Scoring",
+  "model": "claude-haiku-4-5-20251001"
+}

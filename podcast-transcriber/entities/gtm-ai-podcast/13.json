@@ -1,0 +1,54 @@
+{
+  "guest": "Frank Sonders",
+  "people": [
+    "Frank Sonders",
+    "Coach K",
+    "Jonathan Moss",
+    "James",
+    "Sam Maloney"
+  ],
+  "companies": [
+    "Salesforge",
+    "MailForge",
+    "Google",
+    "Simo Web",
+    "Black Row",
+    "GTM AI Academy",
+    "Outreach",
+    "Salesloft",
+    "Lavender",
+    "Reggie",
+    "Lemlist",
+    "Pavilion",
+    "Rev Genius"
+  ],
+  "products": [
+    "Salesforge AI",
+    "MailForge",
+    "GPT-5",
+    "Gmail",
+    "Outlook",
+    "G2",
+    "Catero"
+  ],
+  "topics": [
+    "ai in sales",
+    "email automation",
+    "gtm efficiency",
+    "lean teams",
+    "smb sales",
+    "lead generation",
+    "conversion rates",
+    "email deliverability",
+    "autonomous sales",
+    "consumption-based pricing",
+    "sales infrastructure",
+    "personalization at scale",
+    "job automation",
+    "machine learning for sales",
+    "outbound email"
+  ],
+  "episode_num": 13,
+  "title": "#13 GTM AI Podcast: Building Leaner, Meaner, more Efficient GTM teams with AI: Frank Sonders of Salesforge",
+  "model": "claude-haiku-4-5-20251001"
+}

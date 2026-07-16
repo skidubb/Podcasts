@@ -1,0 +1,45 @@
+{
+  "guest": "Martin Blinder and Xavier Wilders",
+  "people": [
+    "Martin Blinder",
+    "Xavier Wilders",
+    "Coach K",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "Symbe",
+    "GTM AI Academy",
+    "Salesforce",
+    "HubSpot",
+    "OpenAI"
+  ],
+  "products": [
+    "Symbe",
+    "GPT",
+    "Salesforce",
+    "HubSpot",
+    "Google Docs",
+    "Notion",
+    "Mirabord"
+  ],
+  "topics": [
+    "business cases",
+    "sales enablement",
+    "ai automation",
+    "go-to-market strategy",
+    "value proposition",
+    "sales velocity",
+    "buyer-seller collaboration",
+    "sales cycle acceleration",
+    "deal pipeline",
+    "roi calculation",
+    "customer champion support",
+    "business case analytics",
+    "sales tech stack",
+    "ai integration",
+    "operational efficiency"
+  ],
+  "episode_num": 10,
+  "title": "#10 GTM AI Podcast: Leveraging AI for Collaborative, Value-Based Business Cases with Martin Blinder & Xavier Wilders of Symbe",
+  "model": "claude-haiku-4-5-20251001"
+}

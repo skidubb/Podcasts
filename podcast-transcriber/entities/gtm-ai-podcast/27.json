@@ -1,0 +1,54 @@
+{
+  "guest": "Bruno Estrella",
+  "people": [
+    "Bruno Estrella",
+    "Coach K",
+    "Jonathan Moss",
+    "Sam Altman"
+  ],
+  "companies": [
+    "Clay",
+    "GTM AI Academy",
+    "Webflow",
+    "Ramp",
+    "Notion",
+    "Racks",
+    "Nike",
+    "ZoomInfo",
+    "Apollo"
+  ],
+  "products": [
+    "Clay",
+    "Salesforce",
+    "Google Maps",
+    "Google Search",
+    "ChatGPT",
+    "Gemini",
+    "Claude",
+    "11 Labs",
+    "Synthesia",
+    "Sora",
+    "Google Ads",
+    "Webflow"
+  ],
+  "topics": [
+    "data enrichment",
+    "go-to-market strategy",
+    "ai-powered research",
+    "outbound sales",
+    "inbound marketing",
+    "sales automation",
+    "icp targeting",
+    "email finding",
+    "lead qualification",
+    "customer retention",
+    "pipeline generation",
+    "product-led growth",
+    "consumption-based pricing",
+    "buyer journey",
+    "sales enablement"
+  ],
+  "episode_num": 27,
+  "title": "Revolutionizing Go-to-Market Strategies with AI-Powered Data Enrichment: Insights from Clay's Bruno Estrella",
+  "model": "claude-haiku-4-5-20251001"
+}

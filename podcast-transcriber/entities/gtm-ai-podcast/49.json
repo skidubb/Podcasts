@@ -1,0 +1,52 @@
+{
+  "guest": "Andrew",
+  "people": [
+    "Andrew",
+    "Jonathan Moss",
+    "Coach K",
+    "Jonathan Winer",
+    "Kai Foulee",
+    "Sam Altman",
+    "Frank Slootman",
+    "Mustafa Suleyman"
+  ],
+  "companies": [
+    "HumanX",
+    "GTM AI Academy",
+    "Primary Ventures",
+    "OpenAI",
+    "Snowflake",
+    "Inflection AI",
+    "AWS",
+    "Databricks",
+    "Salesforce",
+    "Zscaler",
+    "Pfizer",
+    "Bird",
+    "Lime"
+  ],
+  "products": [
+    "ChatGPT",
+    "Perplexity",
+    "Zoom"
+  ],
+  "topics": [
+    "ai conferences",
+    "ai events",
+    "enterprise ai adoption",
+    "ai strategy",
+    "generative ai",
+    "ai deployment",
+    "ai infrastructure",
+    "data management",
+    "ai use cases",
+    "organizational change management",
+    "ai in business",
+    "vendor selection",
+    "industry verticals",
+    "ai matchmaking"
+  ],
+  "episode_num": 49,
+  "title": "Inside the Future of AI Events: How HumanX is Revolutionizing AI Conferences",
+  "model": "claude-haiku-4-5-20251001"
+}

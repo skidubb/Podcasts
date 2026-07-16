@@ -1,0 +1,52 @@
+{
+  "guest": "Chad Sanderson",
+  "people": [
+    "Chad Sanderson",
+    "Jonathan Moss",
+    "Coach K",
+    "Jonathan Carford"
+  ],
+  "companies": [
+    "Deep Human X",
+    "DeepHumanX",
+    "Ingersoll Rand",
+    "Microsoft",
+    "Google",
+    "Workday",
+    "Salesforce",
+    "Meta",
+    "GTM AI Podcast",
+    "AI Business Network"
+  ],
+  "products": [
+    "ChatGPT",
+    "GPT-3.5",
+    "Claude",
+    "Harpa",
+    "Chrome extensions",
+    "Google Gemini",
+    "Perplexity",
+    "quantum computing",
+    "Willow chip"
+  ],
+  "topics": [
+    "ai augmentation",
+    "human-machine balance",
+    "critical thinking",
+    "digital transformation",
+    "ai adoption",
+    "organizational change management",
+    "ai enablement",
+    "employee upskilling",
+    "ai displacement",
+    "business innovation",
+    "revenue operations",
+    "smb transformation",
+    "ai mindset",
+    "agility",
+    "workplace automation"
+  ],
+  "episode_num": 77,
+  "title": "Navigating the AI Revolution: Insights from Chad Sanderson of DeepHumanX",
+  "model": "claude-haiku-4-5-20251001"
+}

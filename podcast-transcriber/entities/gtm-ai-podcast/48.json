@@ -1,0 +1,53 @@
+{
+  "guest": "Dustin",
+  "people": [
+    "Jonathan Kvarfordt",
+    "Coach K",
+    "Michael Hyatt",
+    "Stephanie Garcia",
+    "Dustin's wife"
+  ],
+  "companies": [
+    "Magi AI",
+    "University of Notre Dame",
+    "GTM AI Academy",
+    "Rescue.me Chicago",
+    "OpenAI",
+    "Google"
+  ],
+  "products": [
+    "Magi",
+    "ChatGPT",
+    "Claude AI",
+    "Stable Diffusion",
+    "Leonardo AI",
+    "Runway",
+    "Luma Dream Machine",
+    "YouTube",
+    "WordPress",
+    "Threads",
+    "X",
+    "Instagram",
+    "Facebook",
+    "Bluesky"
+  ],
+  "topics": [
+    "ai workflows",
+    "marketing automation",
+    "content creation",
+    "persona engineering",
+    "ai agents",
+    "seo and ai",
+    "business productivity",
+    "ai integration",
+    "brand voice",
+    "go-to-market strategy",
+    "entrepreneurship",
+    "ai tools consolidation",
+    "creative burnout",
+    "ai accessibility"
+  ],
+  "episode_num": 48,
+  "title": "Revolutionizing Sales and Marketing Workflows with AI",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,58 @@
+{
+  "guest": "Mustafa Saeed",
+  "people": [
+    "Mustafa Saeed",
+    "Coach K",
+    "Jonathan Moss",
+    "ChatGPT"
+  ],
+  "companies": [
+    "Luella.AI",
+    "Apple",
+    "Google",
+    "Microsoft",
+    "Oracle",
+    "Facebook",
+    "HubSpot",
+    "G2",
+    "Trustpilot",
+    "LinkedIn",
+    "Y Combinator",
+    "Ampersand",
+    "Zapier",
+    "Make",
+    "OpenAI",
+    "Gemini",
+    "Claude",
+    "Clearco",
+    "AWS"
+  ],
+  "products": [
+    "iOS 14.5",
+    "Luella Deliverability Agent",
+    "Luella Prospecting Agent",
+    "Luella Relationship Building Agent",
+    "Operator",
+    "Reggie"
+  ],
+  "topics": [
+    "email deliverability",
+    "cold email outreach",
+    "ai agents",
+    "sales automation",
+    "spam detection",
+    "intent data",
+    "reinforcement learning",
+    "go-to-market strategy",
+    "b2b sales",
+    "ai infrastructure",
+    "agent orchestration",
+    "human-ai collaboration",
+    "email warm-up",
+    "prospect targeting",
+    "revenue optimization"
+  ],
+  "episode_num": 57,
+  "title": "Exploring AI in Email & Communications to increase revenue with Luella.AI CEO Mustafa Saaed",
+  "model": "claude-haiku-4-5-20251001"
+}

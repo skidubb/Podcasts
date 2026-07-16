@@ -1,0 +1,57 @@
+{
+  "guest": "Scott Martinez",
+  "people": [
+    "Scott Martinez",
+    "Jonathan Carpher",
+    "Coach K",
+    "Kyle Williams",
+    "Joe Gilkid",
+    "Joey",
+    "Justin Middleton",
+    "Airy Ross"
+  ],
+  "companies": [
+    "B2B Catalyst",
+    "GTM AI Podcast",
+    "AI Business Network",
+    "GTM AI Academy",
+    "Stripe",
+    "Segment",
+    "Outreach",
+    "Salesforce",
+    "GetRevenue",
+    "Lavender",
+    "Eight Signals",
+    "Signals",
+    "UPS"
+  ],
+  "products": [
+    "Airtable",
+    "Accio",
+    "ChatGPT",
+    "TightNecks",
+    "LinkedIn",
+    "Salesforce",
+    "Lavender",
+    "Outreach"
+  ],
+  "topics": [
+    "gtm architecture",
+    "sales engineering",
+    "account qualification",
+    "pipeline generation",
+    "ai in sales",
+    "cold email",
+    "phone outreach",
+    "sales process optimization",
+    "lead scoring",
+    "conversation rates",
+    "messaging framework",
+    "data quality",
+    "sales enablement",
+    "bottleneck analysis"
+  ],
+  "episode_num": 65,
+  "title": "Deep Dive into Modern Sales Architecture Powered by AI",
+  "model": "claude-haiku-4-5-20251001"
+}

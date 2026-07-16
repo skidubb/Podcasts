@@ -1,0 +1,40 @@
+{
+  "guest": "Alina V.",
+  "people": [
+    "Alina V.",
+    "Jonathan Moss",
+    "Coach K",
+    "Jonathan Carpenter"
+  ],
+  "companies": [
+    "Chili Piper",
+    "GTM AI Academy",
+    "AI Business Network"
+  ],
+  "products": [
+    "Salesforce",
+    "HubSpot",
+    "Snowflake",
+    "Gemini",
+    "Claude"
+  ],
+  "topics": [
+    "ai agents",
+    "job displacement",
+    "career reinvention",
+    "data infrastructure",
+    "lead routing",
+    "demand conversion",
+    "go-to-market strategy",
+    "ai implementation",
+    "sales automation",
+    "personal mission",
+    "self-acceptance",
+    "conversational ai",
+    "buyer journey",
+    "leadership mindset"
+  ],
+  "episode_num": 83,
+  "title": "GTM AI Podcast: Your Job Title is Becoming Obsolete and Why You're Refusing to See It",
+  "model": "claude-haiku-4-5-20251001"
+}

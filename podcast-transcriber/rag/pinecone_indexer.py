@@ -103,6 +103,12 @@ class PineconeIndexer:
                     "total_chunks": chunk.total_chunks,
                     "token_count": chunk.token_count,
                 }
+                # Entity fields are omitted (not written as empty lists) when
+                # unset, so entity filters never match un-enriched chunks.
+                for key in ("people", "companies", "products", "topics"):
+                    values = getattr(chunk, key, None)
+                    if values:
+                        metadata[key] = values
 
                 vectors.append({
                     "id": chunk.chunk_id,
@@ -159,6 +165,58 @@ class PineconeIndexer:
 
         return results.matches
 
+    def update_episode_entities(
+        self,
+        podcast_name: str,
+        episode_num: int,
+        entities: dict,
+        namespace: str = "",
+    ) -> int:
+        """Set entity metadata on every existing chunk of an episode.
+
+        Partial metadata update only — vector values are untouched, so no
+        re-embedding is needed. Returns the number of records updated.
+        """
+        # Empty lists are omitted — Pinecone silently ignores them anyway,
+        # and un-enriched fields should stay invisible to entity filters.
+        set_metadata = {
+            key: entities[key]
+            for key in ("people", "companies", "products", "topics")
+            if entities.get(key)
+        }
+        if entities.get("guest"):
+            set_metadata["guest"] = entities["guest"]
+        if not set_metadata:
+            return 0
+
+        # Enumerate the episode's chunk IDs with a filtered query anchored on
+        # chunk 0. GET-based fetch/list mangle IDs containing spaces, so stick
+        # to POST-based query/update.
+        first_id = f"{podcast_name}_{episode_num}_0"
+        response = self.index.query(
+            id=first_id,
+            top_k=1000,
+            filter={"episode_num": episode_num},
+            include_metadata=False,
+            namespace=namespace,
+        )
+        vector_ids = [match.id for match in response.matches]
+        if not vector_ids:
+            return 0
+
+        updated = 0
+        for vector_id in vector_ids:
+            retry_with_backoff(
+                self.index.update,
+                id=vector_id,
+                set_metadata=set_metadata,
+                namespace=namespace,
+                should_retry=is_retryable_status,
+                label="Pinecone metadata update",
+            )
+            updated += 1
+        return updated
+
     def delete_all(self, namespace: str = "") -> None:
         """Delete all vectors in a namespace."""
         self.index.delete(delete_all=True, namespace=namespace)
@@ -187,4 +245,8 @@ class PineconeIndexer:
             podcast_name=metadata.get("podcast_name", ""),
             chunk_index=metadata.get("chunk_index", 0),
             total_chunks=metadata.get("total_chunks", 1),
+            people=list(metadata.get("people", [])),
+            companies=list(metadata.get("companies", [])),
+            products=list(metadata.get("products", [])),
+            topics=list(metadata.get("topics", [])),
         )

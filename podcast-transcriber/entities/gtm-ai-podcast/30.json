@@ -1,0 +1,56 @@
+{
+  "guest": "Paul Baier",
+  "people": [
+    "Paul Baier",
+    "Coach K",
+    "Jonathan Moss",
+    "John",
+    "Ethan Mollick",
+    "Chris"
+  ],
+  "companies": [
+    "GAI Insights",
+    "GTM AI Academy",
+    "GTM AI Podcast",
+    "MIT",
+    "McKinsey",
+    "Blue Cross Blue Shield",
+    "John Deere",
+    "OpenAI",
+    "Google",
+    "Apple",
+    "Purdue"
+  ],
+  "products": [
+    "ChatGPT",
+    "GPT-4",
+    "Perplexity",
+    "Character AI",
+    "Custom GPT",
+    "Chatbase",
+    "Midjourney",
+    "DALL-E",
+    "Sora",
+    "Flocks"
+  ],
+  "topics": [
+    "ai adoption strategy",
+    "generative ai in business",
+    "employee upskilling",
+    "customer service automation",
+    "change management",
+    "ai roi measurement",
+    "prompt engineering",
+    "contract analysis",
+    "unstructured data",
+    "ai vs jobs",
+    "co-intelligence",
+    "learning communities",
+    "ai hallucinations",
+    "probabilistic software",
+    "search engine disruption"
+  ],
+  "episode_num": 30,
+  "title": "Why Slow Adoption Could Sink Your Business with Paul Baier of GAI Insights",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,45 @@
+{
+  "guest": "Gary Schwake",
+  "people": [
+    "Gary Schwake",
+    "Jonathan Moss",
+    "Coach K",
+    "Jonathan Carford",
+    "Jonathan Koshka"
+  ],
+  "companies": [
+    "Sparkhire",
+    "Spark Hire, Inc.",
+    "Yield Group",
+    "Boathouse Capital",
+    "CoMeat",
+    "Chally",
+    "Brown University",
+    "Vesta"
+  ],
+  "products": [
+    "Zoom Info",
+    "one-way video interview solution"
+  ],
+  "topics": [
+    "hiring solutions",
+    "ai in recruitment",
+    "ideal customer profile",
+    "go-to-market strategy",
+    "video interviews",
+    "applicant tracking",
+    "talent assessment",
+    "people-powered organizations",
+    "unstructured data analysis",
+    "algorithmic bias in hiring",
+    "sales enablement",
+    "customer success",
+    "data-driven decision making",
+    "organizational structure",
+    "ai implementation",
+    "human-ai collaboration"
+  ],
+  "episode_num": 60,
+  "title": "THE FUTURE OF HIRING: AI AND HUMAN INSIGHT WITH Gary Schwake  of Sparkhire",
+  "model": "claude-haiku-4-5-20251001"
+}

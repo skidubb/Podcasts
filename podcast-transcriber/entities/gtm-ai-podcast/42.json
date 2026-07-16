@@ -1,0 +1,58 @@
+{
+  "guest": "Tahnee Perry",
+  "people": [
+    "Coach K",
+    "Jonathan Carpher",
+    "Tahnee Perry",
+    "Sam Altman",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "GTM AI Academy",
+    "GTM AI Podcast",
+    "Clana",
+    "Toyota",
+    "Buzzfeed",
+    "Google",
+    "OpenAI",
+    "Microsoft",
+    "Notion"
+  ],
+  "products": [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Midjourney",
+    "Perplexity",
+    "Reclaim",
+    "Read.ai",
+    "Grammarly",
+    "Answer the Public",
+    "SEMrush",
+    "Surfer SEO",
+    "Moz",
+    "Scalenut",
+    "Microsoft 365",
+    "Google Workspace"
+  ],
+  "topics": [
+    "ai marketing",
+    "content creation",
+    "seo and search trends",
+    "ai tools for marketers",
+    "personalization",
+    "chatbots and ai agents",
+    "branding strategy",
+    "workflow optimization",
+    "human-ai collaboration",
+    "prompt engineering",
+    "ai adoption for teams",
+    "persona research",
+    "video content production",
+    "generative ai",
+    "marketing automation"
+  ],
+  "episode_num": 42,
+  "title": "How to Combine AI Tools with Human Expertise for 10X Marketing Results",
+  "model": "claude-haiku-4-5-20251001"
+}

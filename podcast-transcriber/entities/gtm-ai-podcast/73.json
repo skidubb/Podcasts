@@ -1,0 +1,44 @@
+{
+  "guest": "Ken Babcock",
+  "people": [
+    "Ken Babcock",
+    "Coach K",
+    "Jonathan Moss",
+    "Jonathan Austin"
+  ],
+  "companies": [
+    "Tango",
+    "Uber",
+    "Walmart",
+    "Nike",
+    "Amazon",
+    "Salesforce",
+    "GTM AI"
+  ],
+  "products": [
+    "Tango",
+    "Chrome extension",
+    "CRM",
+    "Salesforce"
+  ],
+  "topics": [
+    "sales admin automation",
+    "crm challenges",
+    "process documentation",
+    "ai automation",
+    "sales productivity",
+    "workflow automation",
+    "change management",
+    "speed 60 method",
+    "hybrid automation",
+    "sales enablement",
+    "human-in-the-loop ai",
+    "startup culture",
+    "leadership development",
+    "learning organizations",
+    "deal momentum"
+  ],
+  "episode_num": 73,
+  "title": "How AI Is Finally Fixing the Sales Administrative Nightmare",
+  "model": "claude-haiku-4-5-20251001"
+}

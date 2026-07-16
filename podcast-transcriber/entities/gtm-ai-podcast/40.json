@@ -1,0 +1,63 @@
+{
+  "guest": "Amanda Kahlow",
+  "people": [
+    "Amanda Kahlow",
+    "Coach K",
+    "Jonathan Moss",
+    "Jacques",
+    "Mark Benioff",
+    "Mike Mabel",
+    "Devon",
+    "Barack Obama",
+    "Deepak Chopra"
+  ],
+  "companies": [
+    "1Mind",
+    "SixSense",
+    "GTM AI Academy",
+    "AI Power GTM",
+    "HubSpot",
+    "Salesforce",
+    "Forrester",
+    "Gigant Information Group",
+    "Intel",
+    "Cisco",
+    "AI Foundation",
+    "Pavilion",
+    "Evgenius",
+    "New Relic",
+    "Uber",
+    "Airbnb",
+    "OpenAI",
+    "Perplexity",
+    "G2"
+  ],
+  "products": [
+    "Gemini",
+    "ChatGPT",
+    "Claude",
+    "Llama",
+    "Salesforce CRM",
+    "HubSpot CRM",
+    "Zoom"
+  ],
+  "topics": [
+    "ai-led growth",
+    "sales automation",
+    "buyer experience",
+    "ai sales reps",
+    "conversational ai",
+    "enterprise sales",
+    "product-led growth",
+    "sales enablement",
+    "deterministic vs generative ai",
+    "go-to-market strategy",
+    "ai personalization",
+    "revenue growth",
+    "digital workers",
+    "relationship selling"
+  ],
+  "episode_num": 40,
+  "title": "AI Led Growth: The New Path for AI and Sales with 1Mind CEO Amanda Kahlow",
+  "model": "claude-haiku-4-5-20251001"
+}

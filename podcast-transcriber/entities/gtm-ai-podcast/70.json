@@ -1,0 +1,40 @@
+{
+  "guest": "Anurag Goel",
+  "people": [
+    "Anurag Goel",
+    "Jonathan Moss",
+    "Coach K"
+  ],
+  "companies": [
+    "Red Hat",
+    "Salesforce",
+    "Adobe",
+    "Google",
+    "ServiceNow",
+    "BCG",
+    "IDC"
+  ],
+  "products": [
+    "Salesforce",
+    "MEDDIC"
+  ],
+  "topics": [
+    "ai roi",
+    "ai pilots",
+    "poc strategy",
+    "value selling",
+    "go-to-market",
+    "business case",
+    "kpis",
+    "sales enablement",
+    "ai adoption",
+    "enterprise ai",
+    "customer service",
+    "deal progression",
+    "sales productivity",
+    "process optimization"
+  ],
+  "episode_num": 70,
+  "title": "The $5 Million POC: How One AI Pilot Exposed the 88% Failure Rate Nobody's Talking About",
+  "model": "claude-haiku-4-5-20251001"
+}

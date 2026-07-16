@@ -1,0 +1,60 @@
+{
+  "guest": "Hussain Al Shorafa",
+  "people": [
+    "Hussain Al Shorafa",
+    "Jonathan Moss",
+    "Coach K",
+    "Kobe Bryant",
+    "Michael Kay"
+  ],
+  "companies": [
+    "Revic.ai",
+    "GTM AI Podcast",
+    "GTM AI Academy",
+    "AI Business Network",
+    "Six Sense",
+    "Demandbase",
+    "ZoomInfo",
+    "Salesforce",
+    "Gong",
+    "Clearbit",
+    "Mambora",
+    "Intuit",
+    "Equifax",
+    "TransUnion",
+    "Netflix",
+    "Glean",
+    "Writer"
+  ],
+  "products": [
+    "Salesforce",
+    "Gong",
+    "Clearbit",
+    "Six Sense",
+    "Demandbase",
+    "ZoomInfo",
+    "Clay",
+    "Slack",
+    "Apple Health"
+  ],
+  "topics": [
+    "ideal customer profile",
+    "revenue operations",
+    "pipeline quality",
+    "sales intelligence",
+    "tribal knowledge",
+    "account targeting",
+    "intent data",
+    "ai in sales",
+    "territory planning",
+    "icp validation",
+    "go-to-market strategy",
+    "conversational intelligence",
+    "data enrichment",
+    "sales enablement",
+    "customer acquisition"
+  ],
+  "episode_num": 86,
+  "title": "$40M in Dead Pipeline: The ICP Lie Most Revenue Teams Are Living ft. Hussain Al Shorafa of Revic.ai",
+  "model": "claude-haiku-4-5-20251001"
+}

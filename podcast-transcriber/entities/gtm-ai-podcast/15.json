@@ -1,0 +1,44 @@
+{
+  "guest": "Mark Fershteyn",
+  "people": [
+    "Mark Fershteyn",
+    "Coach K",
+    "Jonathan Moss",
+    "Sam Altman"
+  ],
+  "companies": [
+    "Recapped.io",
+    "GTM AI Academy",
+    "Citrix",
+    "Brightly",
+    "Siemens",
+    "OpenAI"
+  ],
+  "products": [
+    "Recapped",
+    "ChatGPT",
+    "Llama 3",
+    "Sora",
+    "Jarvis"
+  ],
+  "topics": [
+    "revenue execution",
+    "ai in sales",
+    "deal management",
+    "buyer experience",
+    "sales process",
+    "mutual action plans",
+    "crm integration",
+    "sales enablement",
+    "deal rooms",
+    "sales automation",
+    "adoption challenges",
+    "ai and jobs",
+    "training and onboarding",
+    "sales forecasting",
+    "collaborative selling"
+  ],
+  "episode_num": 15,
+  "title": "#15 GTM AI Podcast: Revenue Execution & Enabling the buyers experience with AI, Mark Fershteyn of Recapped.io",
+  "model": "claude-haiku-4-5-20251001"
+}

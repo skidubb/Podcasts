@@ -1,0 +1,56 @@
+{
+  "guest": "Murali Mahalingam",
+  "people": [
+    "Jonathan Kvarfordt",
+    "Coach K",
+    "Murali Mahalingam",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "Tursio.ai",
+    "GTM AI Academy",
+    "Alchemy",
+    "Rastin",
+    "Splong",
+    "Mars",
+    "LV",
+    "Microsoft",
+    "OpenAI",
+    "Anthropic",
+    "Meta",
+    "Xai",
+    "Salesforce",
+    "Rukte",
+    "Clarifai"
+  ],
+  "products": [
+    "ChatGPT",
+    "Claude",
+    "Grock",
+    "Llama",
+    "GPT-1",
+    "Tursio GenAI Machine",
+    "Sora",
+    "Elasticsearch"
+  ],
+  "topics": [
+    "business intelligence",
+    "data analytics",
+    "ai copilots",
+    "structured data",
+    "database ai",
+    "data security",
+    "regulatory compliance",
+    "natural language queries",
+    "hallucination reduction",
+    "roi measurement",
+    "workflow automation",
+    "agentic ai",
+    "large language models",
+    "on-premise ai",
+    "financial services ai"
+  ],
+  "episode_num": 45,
+  "title": "Unlocking Business Intelligence with Secure, In-House Database AI Solutions",
+  "model": "claude-haiku-4-5-20251001"
+}

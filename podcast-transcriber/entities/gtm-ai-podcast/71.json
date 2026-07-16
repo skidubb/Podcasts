@@ -1,0 +1,53 @@
+{
+  "guest": "Brannon Santos",
+  "people": [
+    "Brannon Santos",
+    "Jonathan Moss",
+    "Coach K",
+    "Chris Farley",
+    "Lewis and Clark"
+  ],
+  "companies": [
+    "Peel",
+    "GTM AI Podcast",
+    "AI Business Network",
+    "GTM AI Academy",
+    "B2BMX",
+    "Winning by Design",
+    "RISE",
+    "Qualtrics",
+    "Notable VC"
+  ],
+  "products": [
+    "Peel",
+    "Peel RMS",
+    "Gong",
+    "Fathom",
+    "Diorums",
+    "Cove",
+    "Notebook LM",
+    "ChatGPT",
+    "Momentum",
+    "Operator"
+  ],
+  "topics": [
+    "voice ai",
+    "sales automation",
+    "ai agents",
+    "sales demos",
+    "discovery process",
+    "buyer experience",
+    "conversational ai",
+    "sales enablement",
+    "go-to-market strategy",
+    "customer research",
+    "pipeline acceleration",
+    "friction reduction",
+    "agentic workflows",
+    "revenue intelligence",
+    "learning personalization"
+  ],
+  "episode_num": 71,
+  "title": "The AI Agent Revolution: How Peel's Voice AI is Killing the Traditional Sales Demo (And Why That's a Good Thing)",
+  "model": "claude-haiku-4-5-20251001"
+}

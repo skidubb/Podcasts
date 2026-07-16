@@ -1,0 +1,46 @@
+{
+  "guest": "Scott Ewalt",
+  "people": [
+    "Scott Ewalt",
+    "Coach K",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "Cardinal Element",
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "Gong"
+  ],
+  "products": [
+    "Claude",
+    "GPT-5.2",
+    "Gemini 3",
+    "Cursor",
+    "Cloud Code",
+    "Opus 4.5",
+    "ChatGPT",
+    "Notebook LM",
+    "Whisper Flow",
+    "Willow"
+  ],
+  "topics": [
+    "competitive intelligence",
+    "ai automation",
+    "vector databases",
+    "podcast analysis",
+    "battle cards",
+    "sales enablement",
+    "gtm strategy",
+    "ai tools",
+    "no-code development",
+    "prompt engineering",
+    "data extraction",
+    "transcription",
+    "embeddings",
+    "knowledge base"
+  ],
+  "episode_num": 93,
+  "title": "How to Replace a $300K Competitive Intel Team with $30 and 4 Hours",
+  "model": "claude-haiku-4-5-20251001"
+}

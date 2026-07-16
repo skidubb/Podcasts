@@ -1,0 +1,31 @@
+{
+  "guest": "Michael Ocean",
+  "people": [
+    "Michael Ocean",
+    "Coach K",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "Sellmethispen.ai"
+  ],
+  "products": [
+    "sellmethispen.ai"
+  ],
+  "topics": [
+    "ai in sales",
+    "go-to-market strategy",
+    "sales enablement",
+    "ai roleplay",
+    "real-time call assistance",
+    "call summaries",
+    "sales reps training",
+    "user adoption",
+    "ramp onboarding",
+    "sales playbooks",
+    "deal closing",
+    "muscle memory training"
+  ],
+  "episode_num": 12,
+  "title": "#12 GTM AI Podcast: From Rookie to Rockstar, How AI is transforming Sales with Michael Ocean of Sellmethispen.ai",
+  "model": "claude-haiku-4-5-20251001"
+}

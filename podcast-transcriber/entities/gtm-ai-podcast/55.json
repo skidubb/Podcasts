@@ -1,0 +1,50 @@
+{
+  "guest": "Paul Glover",
+  "people": [
+    "Paul Glover",
+    "Coach K",
+    "Jonathan Moss",
+    "Jonathan Austin"
+  ],
+  "companies": [
+    "Burendo",
+    "Microsoft",
+    "OpenAI",
+    "Google",
+    "Move Works",
+    "Riser",
+    "Stack Overflow",
+    "Nature"
+  ],
+  "products": [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "GitHub Copilot",
+    "Cursor",
+    "Bolt",
+    "Jira",
+    "Azure DevOps",
+    "Notion",
+    "Prumchain"
+  ],
+  "topics": [
+    "ai integration",
+    "business operations",
+    "rag systems",
+    "enterprise automation",
+    "agile methodology",
+    "documentation",
+    "prompt engineering",
+    "code generation",
+    "product delivery",
+    "ai productivity",
+    "context management",
+    "data strategy",
+    "requirements documentation",
+    "process optimization"
+  ],
+  "episode_num": 55,
+  "title": "Key Strategies for Integrating AI in Business Operations with Paul Glover",
+  "model": "claude-haiku-4-5-20251001"
+}

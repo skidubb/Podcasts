@@ -1,0 +1,48 @@
+{
+  "guest": "Kevin DePopas",
+  "people": [
+    "Kevin DePopas",
+    "Coach K",
+    "Jonathan Moss",
+    "Kevin's wife",
+    "Kevin's brother",
+    "Will Read"
+  ],
+  "companies": [
+    "Liminal",
+    "GTM AI Academy",
+    "Deloitte Consulting",
+    "OpenAI",
+    "Microsoft",
+    "Anthropic",
+    "Salesforce"
+  ],
+  "products": [
+    "ChatGPT",
+    "GPT-4",
+    "Claude 3.5",
+    "Gemini",
+    "Microsoft Copilot",
+    "Lavender AI",
+    "Liminal"
+  ],
+  "topics": [
+    "ai security",
+    "enterprise ai adoption",
+    "generative ai governance",
+    "data privacy",
+    "shadow ai",
+    "prompt engineering",
+    "ai user training",
+    "compliance and regulation",
+    "multi-model enterprise",
+    "go-to-market strategy",
+    "ai centers of excellence",
+    "workflow automation",
+    "ai hallucinations",
+    "voice recognition ai"
+  ],
+  "episode_num": 26,
+  "title": "Securing AI: How Liminal is Revolutionizing Enterprise-Wide AI Adoption",
+  "model": "claude-haiku-4-5-20251001"
+}

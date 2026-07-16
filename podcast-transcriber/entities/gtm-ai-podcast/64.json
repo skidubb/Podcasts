@@ -1,0 +1,53 @@
+{
+  "guest": "Lauren Morgenstein",
+  "people": [
+    "Lauren Morgenstein",
+    "Jonathan Kvarfordt",
+    "Coach K",
+    "Simon Sinek",
+    "Paul Roetzer"
+  ],
+  "companies": [
+    "Procter & Gamble",
+    "Wonder Consulting",
+    "Northwestern University",
+    "Marketing AI Institute",
+    "Microsoft",
+    "OpenAI",
+    "Google",
+    "Meta",
+    "Perplexity"
+  ],
+  "products": [
+    "ChatGPT",
+    "GPT-4",
+    "GPT-4o",
+    "O1",
+    "O1 Pro",
+    "Ideogram",
+    "Google Deep Research",
+    "Copilot",
+    "Copy.ai",
+    "Otter.ai"
+  ],
+  "topics": [
+    "ai transformation framework",
+    "ai councils",
+    "change management",
+    "organizational culture",
+    "ai adoption",
+    "consumer insights",
+    "marketing automation",
+    "product innovation",
+    "ai-native companies",
+    "upskilling",
+    "business process integration",
+    "ai trends 2025",
+    "prompting",
+    "customer experience",
+    "accountability metrics"
+  ],
+  "episode_num": 64,
+  "title": "Navigating the AI Revolution: AI Transformation Five Step Framework",
+  "model": "claude-haiku-4-5-20251001"
+}

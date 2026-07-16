@@ -1,0 +1,49 @@
+{
+  "guest": "Mac Reddin",
+  "people": [
+    "Mac Reddin",
+    "Coach K",
+    "Jonathan Moss",
+    "Parker Conrad",
+    "Elon Musk",
+    "Tony Stark",
+    "MrBeast"
+  ],
+  "companies": [
+    "Commsor",
+    "GTM AI Academy",
+    "Ripling",
+    "Chewy",
+    "Pets.com",
+    "Tesla",
+    "Bumble",
+    "Match"
+  ],
+  "products": [
+    "ChatGPT",
+    "LinkedIn",
+    "Minecraft",
+    "Suno",
+    "GONG",
+    "Cameo"
+  ],
+  "topics": [
+    "ai skepticism",
+    "relationship building",
+    "sales automation",
+    "ai implementation",
+    "human connection",
+    "network activation",
+    "warm introductions",
+    "ai chatbots",
+    "personalization",
+    "founder journey",
+    "ai tools evaluation",
+    "b2b sales",
+    "marketing automation",
+    "ai vs human"
+  ],
+  "episode_num": 29,
+  "title": "The Human Edge in AI:  Relationship-Building in the Age of Automation",
+  "model": "claude-haiku-4-5-20251001"
+}

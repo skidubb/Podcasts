@@ -1,0 +1,60 @@
+{
+  "guest": "Burak Aksar",
+  "people": [
+    "Burak Aksar",
+    "Jonathan Moss",
+    "Coach K",
+    "Mark Roberge",
+    "Aaron Ross"
+  ],
+  "companies": [
+    "Spiky",
+    "IBM",
+    "Sandia National Labs",
+    "Gong",
+    "Sales Loft",
+    "Kaya",
+    "Chorus",
+    "Fathom",
+    "Fireflies",
+    "Otter",
+    "OpenAI",
+    "Meta",
+    "GTM AI Academy"
+  ],
+  "products": [
+    "Spiky",
+    "Gong",
+    "Sales Loft",
+    "Chorus",
+    "Kaya",
+    "Fathom",
+    "Fireflies",
+    "Otter",
+    "Zoom",
+    "OpenAI API",
+    "GitHub Copilot",
+    "Claude",
+    "ChatGPT"
+  ],
+  "topics": [
+    "revenue intelligence",
+    "conversation intelligence",
+    "ai for sales",
+    "non-verbal cues",
+    "vocal metrics",
+    "facial recognition",
+    "call recording",
+    "sales coaching",
+    "deal analysis",
+    "customer conversations",
+    "go-to-market strategy",
+    "machine learning",
+    "data privacy",
+    "ai ethics",
+    "explainability"
+  ],
+  "episode_num": 19,
+  "title": "#19 GTM AI Podcast: Leveraging AI for Revenue Intelligence: Insights from Burak Aksar, Co-Founder of Spiky",
+  "model": "claude-haiku-4-5-20251001"
+}

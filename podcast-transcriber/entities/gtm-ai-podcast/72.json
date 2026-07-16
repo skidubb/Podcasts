@@ -1,0 +1,47 @@
+{
+  "guest": "Ross Rich",
+  "people": [
+    "Ross Rich",
+    "Coach K",
+    "Jonathan Moss",
+    "Jin"
+  ],
+  "companies": [
+    "Accord",
+    "Stripe",
+    "GoNimbly",
+    "GTM AI Podcast",
+    "AI Business Network",
+    "GTM AI Academy",
+    "House of Yes"
+  ],
+  "products": [
+    "Salesforce",
+    "Gemini",
+    "ChatGPT",
+    "Google",
+    "Uber",
+    "Netflix",
+    "Amazon"
+  ],
+  "topics": [
+    "sales execution excellence",
+    "human sales skills",
+    "ai augmentation",
+    "go-to-market strategy",
+    "stakeholder engagement",
+    "sales training",
+    "customer collaboration",
+    "enterprise sales",
+    "sales culture",
+    "operational rigor",
+    "account research",
+    "ai in sales",
+    "sales craft",
+    "buyer behavior",
+    "sales team scaling"
+  ],
+  "episode_num": 72,
+  "title": "Why AI Makes Human Sales Skills More Valuable Than Ever",
+  "model": "claude-haiku-4-5-20251001"
+}

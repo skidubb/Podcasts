@@ -1,0 +1,48 @@
+{
+  "guest": "Snehal",
+  "people": [
+    "Coach K",
+    "Jonathan Moss",
+    "Snehal"
+  ],
+  "companies": [
+    "MeetRecord",
+    "GTM AI Academy",
+    "AI Powered GTM",
+    "Snapchat",
+    "Nokia",
+    "Samsung",
+    "OpenAI",
+    "Google Cloud",
+    "Gartner"
+  ],
+  "products": [
+    "MeetRecord",
+    "ChatGPT",
+    "OpenAI",
+    "Google Cloud",
+    "Llama 3.1",
+    "Gemini",
+    "Snapchat filters"
+  ],
+  "topics": [
+    "sales automation",
+    "ai coaching",
+    "revenue intelligence",
+    "call transcription",
+    "prompt engineering",
+    "fine-tuning",
+    "crm automation",
+    "sales enablement",
+    "remote sales",
+    "deal scoring",
+    "sales insights",
+    "ai agents",
+    "rag retrieval",
+    "text-to-action",
+    "sales pipeline"
+  ],
+  "episode_num": 35,
+  "title": "AI-Powered Sales Insights: MeetRecord CEO Reveals Future of Revenue Team Automation",
+  "model": "claude-haiku-4-5-20251001"
+}

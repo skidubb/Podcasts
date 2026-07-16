@@ -1,0 +1,52 @@
+{
+  "guest": "Kim Hacker",
+  "people": [
+    "Kim Hacker",
+    "Jonathan Moss",
+    "Coach K",
+    "Alex",
+    "Sarah",
+    "Dan"
+  ],
+  "companies": [
+    "Arrows",
+    "HubSpot",
+    "GTM AI Academy",
+    "AI Business Network",
+    "Ramp",
+    "G2"
+  ],
+  "products": [
+    "Fathom",
+    "Granola",
+    "Circleback",
+    "Fireflies",
+    "Otter",
+    "Chorus",
+    "Gong",
+    "ChatGPT",
+    "Claude",
+    "Descript",
+    "Riverside",
+    "Palana",
+    "Momentum",
+    "Hubspot"
+  ],
+  "topics": [
+    "ai note-takers",
+    "sales innovation",
+    "meeting notes quality",
+    "digital sales rooms",
+    "ai-powered sales",
+    "sales enablement",
+    "deal management",
+    "buyer experience",
+    "sales process automation",
+    "crm integration",
+    "content personalization",
+    "sales rep efficiency"
+  ],
+  "episode_num": 63,
+  "title": "AI Notetakers and Sales Innovation with Kim Hacker",
+  "model": "claude-haiku-4-5-20251001"
+}

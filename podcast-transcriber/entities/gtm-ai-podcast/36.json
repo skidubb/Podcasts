@@ -1,0 +1,50 @@
+{
+  "guest": "Eldar Agayev",
+  "people": [
+    "Eldar Agayev",
+    "Coach K",
+    "Jonathan Moss",
+    "Chris"
+  ],
+  "companies": [
+    "Hachly",
+    "GTM AI Academy",
+    "AI Power GTM",
+    "University of Warwick",
+    "Klarna",
+    "Counter-Strike",
+    "Google",
+    "LinkedIn",
+    "Netflix",
+    "Salesforce",
+    "HubSpot"
+  ],
+  "products": [
+    "Hachly AI",
+    "Mind Explorer AI",
+    "ChatGPT",
+    "Google Analytics",
+    "Facebook Ads",
+    "Telegram",
+    "Zapier"
+  ],
+  "topics": [
+    "ai chatbots",
+    "sales conversion",
+    "website engagement",
+    "lead generation",
+    "conversational marketing",
+    "sales automation",
+    "customer experience",
+    "b2b sales",
+    "ai agents",
+    "onboarding automation",
+    "enterprise software",
+    "smb tools",
+    "marketing automation",
+    "revenue optimization"
+  ],
+  "episode_num": 36,
+  "title": "AI Chatbots: The Future of Website Sales Conversion",
+  "model": "claude-haiku-4-5-20251001"
+}

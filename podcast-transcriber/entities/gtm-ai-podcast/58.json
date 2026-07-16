@@ -1,0 +1,57 @@
+{
+  "guest": "Jacco van der Kooij",
+  "people": [
+    "Jacco van der Kooij",
+    "Jonathan Moss",
+    "Coach K",
+    "Sam Altman",
+    "Marc Kosinski",
+    "Satya Nadella",
+    "David Spitz",
+    "Billy Blanks",
+    "Joanna"
+  ],
+  "companies": [
+    "Winning by Design",
+    "Uber Eats",
+    "DocuSign",
+    "Salesforce",
+    "Microsoft",
+    "OpenAI",
+    "Chewy",
+    "Carvana",
+    "Tesla",
+    "AWS",
+    "One Mind",
+    "GTM AI Academy",
+    "AI Business Network"
+  ],
+  "products": [
+    "Jack",
+    "ChatGPT",
+    "Salesforce Tower",
+    "iPhone",
+    "CRM",
+    "ERP"
+  ],
+  "topics": [
+    "ai-led growth",
+    "go-to-market strategy",
+    "revenue architecture",
+    "sales automation",
+    "buyer experience",
+    "gtm efficiency",
+    "ai agents",
+    "saas consolidation",
+    "economic horizon",
+    "pricing models",
+    "dynamic pricing",
+    "ai sdr",
+    "customer acquisition cost",
+    "nrr decline",
+    "mergers and acquisitions"
+  ],
+  "episode_num": 58,
+  "title": "Dramatic Shift and Impact of AI on Business and Go To Market",
+  "model": "claude-haiku-4-5-20251001"
+}

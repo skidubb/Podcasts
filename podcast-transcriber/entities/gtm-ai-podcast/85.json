@@ -1,0 +1,53 @@
+{
+  "guest": "Varun Puri",
+  "people": [
+    "Varun Puri",
+    "Jonathan Moss",
+    "Coach K",
+    "Sergey Brin",
+    "Kelly"
+  ],
+  "companies": [
+    "Yoodli",
+    "Google",
+    "Fortune 50",
+    "Asana",
+    "Databricks",
+    "Snowflake",
+    "Ring Central",
+    "Clarna",
+    "McKinsey",
+    "Pfizer",
+    "Loom Sales"
+  ],
+  "products": [
+    "Yoodli",
+    "Excel",
+    "CRM",
+    "ChatGPT",
+    "Google Glass",
+    "Notebook LM",
+    "Salesforce",
+    "Apple Health",
+    "Peloton"
+  ],
+  "topics": [
+    "communication skills",
+    "ai roleplay",
+    "sales enablement",
+    "speech coaching",
+    "public speaking",
+    "practice and feedback",
+    "gtm",
+    "learning and development",
+    "ai in training",
+    "voice and tone analysis",
+    "confidence building",
+    "immigrant experience",
+    "human-ai collaboration",
+    "behavior change"
+  ],
+  "episode_num": 85,
+  "title": "Why Communication Is Your New Competitive Advantage for GTM",
+  "model": "claude-haiku-4-5-20251001"
+}

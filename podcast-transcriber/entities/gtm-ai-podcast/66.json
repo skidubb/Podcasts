@@ -1,0 +1,44 @@
+{
+  "guest": "Tas Hirani",
+  "people": [
+    "Tas Hirani",
+    "Jonathan Moss",
+    "Coach K",
+    "Tasleem"
+  ],
+  "companies": [
+    "General Electric",
+    "GE",
+    "Salesforce",
+    "Microsoft",
+    "Snapchat"
+  ],
+  "products": [
+    "ChatGPT",
+    "LinkedIn Navigator",
+    "Momentum",
+    "Copilot",
+    "Claude",
+    "Perplexity"
+  ],
+  "topics": [
+    "ai adoption",
+    "sales enablement",
+    "change management",
+    "ai tools evaluation",
+    "friction reduction",
+    "sales productivity",
+    "crm automation",
+    "conversation intelligence",
+    "user experience",
+    "data entry automation",
+    "sales methodology",
+    "ai implementation strategy",
+    "revenue operations",
+    "account research",
+    "vendor selection"
+  ],
+  "episode_num": 66,
+  "title": "Why 90% of Sales AI Tools Fail (and the 3-Step Fix That Changed Everything)",
+  "model": "claude-haiku-4-5-20251001"
+}

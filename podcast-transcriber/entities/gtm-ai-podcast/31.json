@@ -1,0 +1,44 @@
+{
+  "guest": "Alex McNotten",
+  "people": [
+    "Alex McNotten",
+    "Coach K",
+    "Jonathan Moss",
+    "Alistair",
+    "Ben",
+    "Taylor"
+  ],
+  "companies": [
+    "GRW AI",
+    "GTM AI Academy",
+    "Business Desk",
+    "New Zealand Trade and Enterprise"
+  ],
+  "products": [
+    "Taylor",
+    "ChatGPT",
+    "Claude",
+    "GPT-4",
+    "Grow AI"
+  ],
+  "topics": [
+    "ai sales coaching",
+    "sales enablement",
+    "revenue teams",
+    "sales execution gap",
+    "deal coaching",
+    "quota attainment",
+    "sales skills development",
+    "ai augmentation",
+    "sales manager training",
+    "customer communications",
+    "sales cycle acceleration",
+    "team intelligence",
+    "llm integration",
+    "sales methodology",
+    "performance improvement"
+  ],
+  "episode_num": 31,
+  "title": "AI-Powered Sales Coaching: How GRW AI is Revolutionizing Revenue Teams",
+  "model": "claude-haiku-4-5-20251001"
+}

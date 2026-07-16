@@ -1,0 +1,47 @@
+{
+  "guest": "Harald Roine",
+  "people": [
+    "Harald Roine",
+    "Coach K",
+    "Jonathan Moss",
+    "Robert Cialdini",
+    "Gary Vaynerchuk",
+    "Trump",
+    "Gong"
+  ],
+  "companies": [
+    "Bureau Ventures",
+    "GTM AI Podcast",
+    "GTM AI Academy",
+    "AI Business Network",
+    "Gong",
+    "Cambridge Analytica"
+  ],
+  "products": [
+    "LinkedIn",
+    "Growth Card",
+    "Cursor",
+    "Lead Chat",
+    "Client Happiness Index"
+  ],
+  "topics": [
+    "value-first marketing",
+    "demand generation",
+    "linkedin organic content",
+    "ai in marketing",
+    "content marketing strategy",
+    "lead generation",
+    "paid vs organic media",
+    "reciprocity bias",
+    "owned media",
+    "email marketing",
+    "ai automation",
+    "b2b outreach",
+    "psychological nurturing",
+    "client success",
+    "go-to-market strategy"
+  ],
+  "episode_num": 79,
+  "title": "AI and Gravity Marketing, taking things to the next level with Harald Roine",
+  "model": "claude-haiku-4-5-20251001"
+}

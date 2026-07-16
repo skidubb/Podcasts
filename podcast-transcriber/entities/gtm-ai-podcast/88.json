@@ -1,0 +1,61 @@
+{
+  "guest": "Elliot Garreffa",
+  "people": [
+    "Elliot Garreffa",
+    "Jonathan Moss",
+    "Coach K",
+    "Jonathan Carfer"
+  ],
+  "companies": [
+    "Ghost Team",
+    "Web3 Audience",
+    "Capgemini",
+    "Salesforce",
+    "HubSpot",
+    "Google",
+    "Anthropic",
+    "OpenAI",
+    "Runway",
+    "GTM AI Academy",
+    "AI Business Network"
+  ],
+  "products": [
+    "Claude",
+    "ChatGPT",
+    "Google Analytics",
+    "Google Search Console",
+    "Ahrefs",
+    "Semrush",
+    "MCPs",
+    "LangChain",
+    "N8N",
+    "Lindy",
+    "Zapier",
+    "Make",
+    "Perplexity",
+    "Data for SEO",
+    "FireCrawl",
+    "Cursor",
+    "Core Code"
+  ],
+  "topics": [
+    "ai implementation",
+    "workflow automation",
+    "go-to-market strategy",
+    "content creation",
+    "seo automation",
+    "ai adoption failures",
+    "proof of concept",
+    "business process redesign",
+    "ai tools integration",
+    "change management",
+    "no-code automation",
+    "data engineering",
+    "prompt engineering",
+    "human-in-the-loop systems",
+    "roi measurement"
+  ],
+  "episode_num": 88,
+  "title": "How to Actually Implement AI That Works (Not Another Failed Pilot)",
+  "model": "claude-haiku-4-5-20251001"
+}

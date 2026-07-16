@@ -1,0 +1,51 @@
+{
+  "guest": "Sami Rejeb",
+  "people": [
+    "Sami Rejeb",
+    "Coach K",
+    "Jonathan Moss",
+    "Jonathan Carford"
+  ],
+  "companies": [
+    "KPMG",
+    "Oracle",
+    "Salesforce",
+    "Value Orbit",
+    "Gong",
+    "OpenAI",
+    "Google",
+    "Microsoft",
+    "Pavillion"
+  ],
+  "products": [
+    "Salesforce CRM",
+    "Salesforce AgentForce",
+    "Value Orbit",
+    "Gong",
+    "OpenAI",
+    "Deep Search",
+    "Operator",
+    "Google Deep Research",
+    "CRM automation tools"
+  ],
+  "topics": [
+    "sales ai",
+    "revenue operations",
+    "crm automation",
+    "deal forecasting",
+    "sales enablement",
+    "ai-driven sales",
+    "revenue intelligence",
+    "sales methodology",
+    "process automation",
+    "icp targeting",
+    "sales coaching",
+    "go-to-market strategy",
+    "pipeline management",
+    "ai implementation",
+    "sales technology"
+  ],
+  "episode_num": 62,
+  "title": "Exploring the future of Sales and AI with Sami Rejeb",
+  "model": "claude-haiku-4-5-20251001"
+}

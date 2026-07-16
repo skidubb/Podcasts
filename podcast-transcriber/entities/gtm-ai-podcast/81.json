@@ -1,0 +1,43 @@
+{
+  "guest": "Navin Persaud",
+  "people": [
+    "Navin Persaud",
+    "Jonathan Kvarfordt",
+    "Coach K",
+    "Jonathan Moss",
+    "Santi"
+  ],
+  "companies": [
+    "1Password",
+    "IBM",
+    "Momentum",
+    "GTM AI Academy",
+    "AI Business Network",
+    "OpenAI"
+  ],
+  "products": [
+    "Momentum",
+    "1Password",
+    "Salesforce",
+    "MEDDIC"
+  ],
+  "topics": [
+    "revenue operations",
+    "ai implementation",
+    "sales enablement",
+    "conversational intelligence",
+    "data security",
+    "sales methodology",
+    "gtm strategy",
+    "deal hygiene",
+    "coaching and enablement",
+    "data enrichment",
+    "problem-first approach",
+    "business intelligence",
+    "sales process automation",
+    "organizational maturity"
+  ],
+  "episode_num": 81,
+  "title": "AI and Revops Insights and Use Cases with Navin Persaud",
+  "model": "claude-haiku-4-5-20251001"
+}

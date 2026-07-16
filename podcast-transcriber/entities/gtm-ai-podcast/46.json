@@ -1,0 +1,57 @@
+{
+  "guest": "Ryan",
+  "people": [
+    "Ryan",
+    "Coach K",
+    "Jonathan Carpenter",
+    "Jonathan Moss",
+    "Aaron",
+    "Charlie Carpenter"
+  ],
+  "companies": [
+    "Alysio",
+    "Qualtrics",
+    "Goldman Sachs",
+    "Octa",
+    "Laceworks",
+    "GTM AI Academy",
+    "Salesforce",
+    "Outreach",
+    "HubSpot",
+    "Apollo",
+    "Gong"
+  ],
+  "products": [
+    "Alysio",
+    "Salesforce",
+    "Outreach",
+    "Larry Gong",
+    "HubSpot",
+    "Copy AI",
+    "ChatGPT",
+    "OpenAI",
+    "Claude",
+    "Gemini",
+    "Google Gemini 2.0",
+    "Apollo"
+  ],
+  "topics": [
+    "sales metrics",
+    "ai coaching",
+    "activity tracking",
+    "sales performance",
+    "lead indicators",
+    "sales enablement",
+    "point-based system",
+    "sales accountability",
+    "referral tracking",
+    "linkedin outreach",
+    "skill assessment",
+    "sales productivity",
+    "gtm strategy",
+    "four disciplines of execution"
+  ],
+  "episode_num": 46,
+  "title": "Revolutionizing Sales Metrics with Alysio and AI",
+  "model": "claude-haiku-4-5-20251001"
+}

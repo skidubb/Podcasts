@@ -1,0 +1,52 @@
+{
+  "guest": "Ioanna Mantzouridou Onasi",
+  "people": [
+    "Coach K",
+    "Jonathan Moss",
+    "Ioanna Mantzouridou Onasi",
+    "David Ways",
+    "Elon Musk",
+    "Tony Stark"
+  ],
+  "companies": [
+    "Dextego",
+    "GTM AI Academy",
+    "GTM AI",
+    "Sales Collective",
+    "Pavilion",
+    "Salesforce",
+    "Monday",
+    "OpenAI",
+    "Yardstick",
+    "Marvel"
+  ],
+  "products": [
+    "Dextego",
+    "GPT",
+    "OpenAI API",
+    "CRM",
+    "Salesforce Einstein",
+    "HubSpot",
+    "Call recorder tools"
+  ],
+  "topics": [
+    "sales enablement",
+    "ai coaching",
+    "sales training",
+    "role playing",
+    "sales cycle optimization",
+    "personalized coaching",
+    "first time managers",
+    "ai models",
+    "human-ai balance",
+    "sales methodology",
+    "bdr training",
+    "deal negotiation",
+    "sales messaging",
+    "change management",
+    "tech stack strategy"
+  ],
+  "episode_num": 44,
+  "title": "Transforming Enablement with AI Coaching",
+  "model": "claude-haiku-4-5-20251001"
+}

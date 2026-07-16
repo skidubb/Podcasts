@@ -1,0 +1,42 @@
+{
+  "guest": "JB Degune",
+  "people": [
+    "Jonathan Kvarfordt",
+    "Coach K",
+    "JB Degune",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "Evergrowth",
+    "Trustpilot",
+    "GTM AI Academy",
+    "AI Business Network",
+    "Clay"
+  ],
+  "products": [
+    "ChatGPT",
+    "Evergrowth platform",
+    "Zoom Info",
+    "Waterfall",
+    "Momentum"
+  ],
+  "topics": [
+    "ai agents",
+    "sales automation",
+    "pipeline generation",
+    "outbound sales",
+    "customer-centric selling",
+    "research agents",
+    "icp definition",
+    "sdr productivity",
+    "buyer empowerment",
+    "gtm efficiency",
+    "lead qualification",
+    "sales personalization",
+    "ai in sales",
+    "agent workflows"
+  ],
+  "episode_num": 84,
+  "title": "AI in Sales: The Evergrowth Model for Maximizing Pipeline Efficiency",
+  "model": "claude-haiku-4-5-20251001"
+}

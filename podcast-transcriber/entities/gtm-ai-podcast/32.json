@@ -1,0 +1,47 @@
+{
+  "guest": "Jonathan Moss",
+  "people": [
+    "Jonathan Moss",
+    "Coach K",
+    "Zayn",
+    "Mark Roberge"
+  ],
+  "companies": [
+    "GTM AI Academy",
+    "OpenAI",
+    "Anthropic",
+    "HubSpot",
+    "Salesforce",
+    "Momentum",
+    "Day1.AI",
+    "Tio"
+  ],
+  "products": [
+    "ChatGPT",
+    "Custom GPT",
+    "Claude",
+    "Zapier",
+    "Make",
+    "Momentum.io"
+  ],
+  "topics": [
+    "custom gpts",
+    "go-to-market strategy",
+    "ai agents",
+    "knowledge base optimization",
+    "prompt engineering",
+    "domain expertise",
+    "specialized models",
+    "gtm frameworks",
+    "buyer personas",
+    "ideal customer profile",
+    "sales messaging",
+    "pricing strategy",
+    "workflow automation",
+    "ai enablement",
+    "ai context"
+  ],
+  "episode_num": 32,
+  "title": "How to build a Custom GPT that saves you HOURS",
+  "model": "claude-haiku-4-5-20251001"
+}

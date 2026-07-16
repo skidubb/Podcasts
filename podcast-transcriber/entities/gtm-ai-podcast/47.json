@@ -1,0 +1,53 @@
+{
+  "guest": "Ram Bulusu",
+  "people": [
+    "Ram Bulusu",
+    "Jonathan Carford",
+    "Coach K",
+    "Henry Ford"
+  ],
+  "companies": [
+    "Sanofi",
+    "Google",
+    "Microsoft",
+    "Anthropic",
+    "Palo Alto Networks",
+    "Cisco",
+    "Salesforce",
+    "Amazon",
+    "Alert AI",
+    "United Healthcare",
+    "Boeing",
+    "PG&E"
+  ],
+  "products": [
+    "ChatGPT",
+    "Microsoft Copilot",
+    "Claude",
+    "Google Gemini",
+    "Vertex AI",
+    "Salesforce Einstein",
+    "Freestyle Libre",
+    "Walk Nine AI"
+  ],
+  "topics": [
+    "generative ai",
+    "go-to-market strategy",
+    "healthcare ai",
+    "business process automation",
+    "cybersecurity",
+    "ai implementation",
+    "industrial coding",
+    "data privacy",
+    "ai tool adoption",
+    "vertical-specific ai",
+    "plug-and-play solutions",
+    "regulatory compliance",
+    "intellectual property protection",
+    "ai disruption",
+    "predictive analytics"
+  ],
+  "episode_num": 47,
+  "title": "Successfully Selling AI Solutions in Today's Market",
+  "model": "claude-haiku-4-5-20251001"
+}

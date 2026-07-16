@@ -1,0 +1,55 @@
+{
+  "guest": "Jack Siney",
+  "people": [
+    "Jack Siney",
+    "Jonathan Kvarfordt",
+    "Coach K",
+    "Steve Jobs",
+    "Elon Musk",
+    "Henry Ford",
+    "Christopher Columbus",
+    "Derek Jeter"
+  ],
+  "companies": [
+    "FrontRace",
+    "GovSpen",
+    "Navy",
+    "Salesforce",
+    "HubSpot",
+    "AOL",
+    "Amazon",
+    "eBay",
+    "AI Business Network",
+    "GTM AI Academy"
+  ],
+  "products": [
+    "Salesforce",
+    "HubSpot",
+    "ChatGPT",
+    "GPT",
+    "FrontRace",
+    "CRM tools",
+    "call recording tools",
+    "video conferencing",
+    "telephony systems"
+  ],
+  "topics": [
+    "ai metrics",
+    "sales performance",
+    "data analytics",
+    "sales automation",
+    "crm integration",
+    "manager insights",
+    "ai adoption",
+    "sales process optimization",
+    "work from home impact",
+    "ai authentication",
+    "sales workflow",
+    "ai agents",
+    "gtm strategy",
+    "team productivity"
+  ],
+  "episode_num": 56,
+  "title": "AI Metrics that Win Deals and Unlock Sales Performance",
+  "model": "claude-haiku-4-5-20251001"
+}

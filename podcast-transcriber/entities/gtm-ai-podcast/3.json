@@ -1,0 +1,52 @@
+{
+  "guest": "Ashley Wilson and Santiago Setsman",
+  "people": [
+    "Ashley Wilson",
+    "Santiago Setsman",
+    "Coach K",
+    "Jonathan Moss",
+    "Santi",
+    "Moise"
+  ],
+  "companies": [
+    "Momentum",
+    "GTM AI Academy",
+    "OpenAI",
+    "Gong",
+    "Zapier",
+    "Salesforce",
+    "Sales Loft",
+    "Chorus",
+    "Amazon Prime"
+  ],
+  "products": [
+    "Momentum",
+    "ChatGPT",
+    "Slack",
+    "Microsoft Teams",
+    "Gong",
+    "Zapier",
+    "Salesforce",
+    "Zoom",
+    "Gmail"
+  ],
+  "topics": [
+    "ai automation",
+    "go-to-market",
+    "sales enablement",
+    "conversation intelligence",
+    "call summarization",
+    "multilingual support",
+    "crm automation",
+    "sales coaching",
+    "workflow automation",
+    "data extraction",
+    "sales operations",
+    "ai adoption",
+    "revenue intelligence",
+    "slack integration"
+  ],
+  "episode_num": 3,
+  "title": "#3-GTM AI Podcast with Momentum-AI and the Power of Automation",
+  "model": "claude-haiku-4-5-20251001"
+}

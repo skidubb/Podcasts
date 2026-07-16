@@ -1,0 +1,53 @@
+{
+  "guest": "Dustin Beaudoin",
+  "people": [
+    "Dustin Beaudoin",
+    "Coach K",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "ChatAE",
+    "Airplane",
+    "Salesforce",
+    "Microsoft",
+    "OpenAI",
+    "Google",
+    "Gong",
+    "Chorus",
+    "Apollo",
+    "Perplexity",
+    "GTM AI Academy",
+    "GTM AI Power",
+    "Deloitte"
+  ],
+  "products": [
+    "ChatAE",
+    "ChatGPT",
+    "Custom GPT",
+    "Gemini",
+    "Zoom",
+    "Slack",
+    "Notion",
+    "Google Docs"
+  ],
+  "topics": [
+    "ai sales tools",
+    "sales enablement",
+    "ai sdr",
+    "sales automation",
+    "call preparation",
+    "post-call follow-up",
+    "sales workflow",
+    "junior rep training",
+    "sales productivity",
+    "ai adoption",
+    "b2b sales",
+    "sales methodology",
+    "ai agents",
+    "customer education",
+    "enterprise sales"
+  ],
+  "episode_num": 38,
+  "title": "ChatAE Founder Reveals How AI Sales Tools Are Actually Making Sales Teams Better, Not Replacing Them",
+  "model": "claude-haiku-4-5-20251001"
+}

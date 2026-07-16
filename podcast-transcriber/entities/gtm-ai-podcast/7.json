@@ -1,0 +1,55 @@
+{
+  "guest": "Tyler Manning and Hunter Thompson",
+  "people": [
+    "Tyler Manning",
+    "Hunter Thompson",
+    "Coach K",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "Kipsy",
+    "GTM AI Academy",
+    "Salesforce",
+    "HubSpot",
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "Gong",
+    "Chorus",
+    "Sales Loft",
+    "Outreach"
+  ],
+  "products": [
+    "Kipsy",
+    "Otter AI",
+    "Fathom",
+    "Fireflies",
+    "Gong",
+    "Chorus",
+    "Sales Loft",
+    "Outreach",
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Sora",
+    "HubSpot CRM",
+    "Salesforce CRM"
+  ],
+  "topics": [
+    "sales ai",
+    "conversation intelligence",
+    "meeting transcription",
+    "crm data entry",
+    "sales forecasting",
+    "ai accuracy",
+    "trust and verification",
+    "sales playbooks",
+    "ai model comparison",
+    "sales team enablement",
+    "retrieval augmented generation",
+    "real-time sales insights"
+  ],
+  "episode_num": 7,
+  "title": "#7 GTM AI Podcast: Taking Sales to the Next Level with AI, Tyler Manning and Hunter Thompson of Kipsy",
+  "model": "claude-haiku-4-5-20251001"
+}

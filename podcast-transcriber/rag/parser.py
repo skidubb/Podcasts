@@ -20,6 +20,12 @@ class Episode:
     word_count: int
     podcast_name: str = "Podcast"
 
+    # Extracted entities (populated by rag.entity_extractor, not the parser)
+    people: list = field(default_factory=list)
+    companies: list = field(default_factory=list)
+    products: list = field(default_factory=list)
+    topics: list = field(default_factory=list)
+
     def to_dict(self) -> dict:
         return {
             "episode_num": self.episode_num,
@@ -30,6 +36,10 @@ class Episode:
             "file_path": str(self.file_path),
             "word_count": self.word_count,
             "podcast_name": self.podcast_name,
+            "people": self.people,
+            "companies": self.companies,
+            "products": self.products,
+            "topics": self.topics,
         }
 
 

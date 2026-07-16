@@ -1,0 +1,44 @@
+{
+  "guest": "Maddie Bell",
+  "people": [
+    "Maddie Bell",
+    "Jonathan Carpenter",
+    "Coach K",
+    "Mike Bell",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "Synapsa",
+    "Procter & Gamble",
+    "Nielsen",
+    "Momentum",
+    "Pavilion"
+  ],
+  "products": [
+    "Claude",
+    "Perplexity",
+    "Quad Code",
+    "Vercel",
+    "LinkedIn"
+  ],
+  "topics": [
+    "ai go-to-market strategy",
+    "brand building",
+    "ai effectiveness pyramid",
+    "knowledge repositories",
+    "agentic systems",
+    "buyer communication",
+    "content production automation",
+    "protocol and personality",
+    "persuasion in sales",
+    "build vs buy decisions",
+    "multiplayer ai orchestration",
+    "ai reliability",
+    "b2b saas",
+    "sales enablement",
+    "design systems"
+  ],
+  "episode_num": 113,
+  "title": "Why 40% of AI Tools Get Fired and how She Built a 100% AI-Coded Brand",
+  "model": "claude-haiku-4-5-20251001"
+}

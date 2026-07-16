@@ -1,0 +1,44 @@
+{
+  "guest": "Meredith Thatcher and Lisa Chillingsworth Watson",
+  "people": [
+    "Jonathan Kvarfordt",
+    "Meredith Thatcher",
+    "Lisa Chillingsworth Watson",
+    "Shavon Thatcher",
+    "Sam Altman"
+  ],
+  "companies": [
+    "Accelerate AI Inc.",
+    "GTM AI Academy",
+    "Agile Work Solutions",
+    "Canadian Medical Association",
+    "IFMA",
+    "Canadian Association of Professional Speakers",
+    "Moderna",
+    "Fortune 100"
+  ],
+  "products": [
+    "Co-pilot",
+    "ChatGPT",
+    "Robotic Process Automation",
+    "Machine Learning"
+  ],
+  "topics": [
+    "ai adoption",
+    "business transformation",
+    "productivity gains",
+    "ai strategy",
+    "task automation",
+    "ai assessment tools",
+    "change management",
+    "employee upskilling",
+    "organizational alignment",
+    "generative ai",
+    "ai governance",
+    "workforce transition",
+    "competitive advantage"
+  ],
+  "episode_num": 28,
+  "title": "Accelerating AI Adoption: Strategies for Business Transformation and Productivity Gains",
+  "model": "claude-haiku-4-5-20251001"
+}

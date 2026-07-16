@@ -1,0 +1,45 @@
+{
+  "guest": "Reuben Bailon",
+  "people": [
+    "Reuben Bailon",
+    "Coach K",
+    "Jonathan Moss",
+    "Jonathan Austin"
+  ],
+  "companies": [
+    "Amazon",
+    "Boston Consulting Group",
+    "AI Business Network",
+    "GTM AI Academy"
+  ],
+  "products": [
+    "ChatGPT",
+    "Generative AI",
+    "Machine Learning",
+    "Computer Vision",
+    "LLMs",
+    "Open AI",
+    "Meta",
+    "Anthropic"
+  ],
+  "topics": [
+    "ai implementation",
+    "business objectives",
+    "problem definition",
+    "stakeholder alignment",
+    "adoption planning",
+    "generative ai",
+    "machine learning",
+    "computer vision",
+    "roi measurement",
+    "change management",
+    "employee experience",
+    "automation",
+    "ai use cases",
+    "implementation strategy",
+    "agentic systems"
+  ],
+  "episode_num": 54,
+  "title": "The Art and Science of AI Implementation with Reuben Bailon",
+  "model": "claude-haiku-4-5-20251001"
+}

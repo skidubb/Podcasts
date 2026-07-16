@@ -1,0 +1,56 @@
+{
+  "guest": "Sasha Hanukah",
+  "people": [
+    "Jonathan Moss",
+    "Coach K",
+    "Sasha Hanukah",
+    "Michael",
+    "Sam Altman",
+    "Tony Stark"
+  ],
+  "companies": [
+    "Folderly",
+    "Google",
+    "Microsoft",
+    "Mac",
+    "GTM AI Academy",
+    "OpenAI",
+    "HubSpot",
+    "Mailchimp",
+    "Clay",
+    "Notion",
+    "LinkedIn"
+  ],
+  "products": [
+    "ChatGPT",
+    "Claude",
+    "Gamma",
+    "Midjourney",
+    "Opus",
+    "TheScript",
+    "Dex",
+    "Perplexity",
+    "Gmail",
+    "Outlook"
+  ],
+  "topics": [
+    "email deliverability",
+    "ai spam detection",
+    "cold outreach",
+    "sales automation",
+    "email marketing",
+    "domain reputation",
+    "ip warming",
+    "spin text",
+    "ai writing detection",
+    "multi-channel outreach",
+    "prompt engineering",
+    "ai tools workflow",
+    "b2b sales",
+    "lead generation",
+    "inbox placement"
+  ],
+  "episode_num": 89,
+  "title": "Google's AI Is Judging Your AI: The Email Deliverability Wake-Up Call Every Sales Team Is Missing",
+  "model": "claude-haiku-4-5-20251001"
+}

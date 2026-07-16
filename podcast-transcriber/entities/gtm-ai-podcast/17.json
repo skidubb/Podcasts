@@ -1,0 +1,49 @@
+{
+  "guest": "Jonathan Moss",
+  "people": [
+    "Jonathan Moss",
+    "Coach K",
+    "Sam Altman",
+    "Lex Fridman",
+    "Dylan",
+    "Elizabeth McAlley"
+  ],
+  "companies": [
+    "GTM AI Academy",
+    "Pavilion",
+    "Microsoft",
+    "Winning by Design",
+    "Zapier",
+    "RocketReach",
+    "Utah Chapter of Revenue Enablement Society"
+  ],
+  "products": [
+    "ChatGPT",
+    "Claude",
+    "Copilot",
+    "Make",
+    "Momentum",
+    "PowerPoint",
+    "Teams"
+  ],
+  "topics": [
+    "go-to-market strategy",
+    "ai implementation",
+    "sales automation",
+    "customer success",
+    "revenue operations",
+    "ai personalization",
+    "health scoring",
+    "churn prediction",
+    "lead scoring",
+    "content distribution",
+    "close loss analysis",
+    "data governance",
+    "ai agents",
+    "workflow automation",
+    "outbound personalization"
+  ],
+  "episode_num": 17,
+  "title": "#17 GTM AI Podcast: AI Powered Go To Market Strategy and Execution with Jonathan Moss",
+  "model": "claude-haiku-4-5-20251001"
+}

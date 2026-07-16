@@ -1,0 +1,42 @@
+{
+  "guest": "Victor Adefuye",
+  "people": [
+    "Victor Adefuye",
+    "Jonathan Moss",
+    "Coach K",
+    "Jonathan Austin"
+  ],
+  "companies": [
+    "Dana Consulting",
+    "Winning by Design",
+    "Zendesk",
+    "GTM AI Academy",
+    "AI Business Network"
+  ],
+  "products": [
+    "ChatGPT",
+    "Gong",
+    "Outreach",
+    "Zoom",
+    "Custom GPT"
+  ],
+  "topics": [
+    "sales coaching",
+    "ai in sales",
+    "behavior change",
+    "sales forecasting",
+    "deal qualification",
+    "meddic scoring",
+    "call recording analysis",
+    "sales training",
+    "ai implementation",
+    "sales performance",
+    "conversational intelligence",
+    "roi measurement",
+    "sales enablement",
+    "sales process optimization"
+  ],
+  "episode_num": 51,
+  "title": "Mastering Sales with AI: Strategies for Effective Coaching & Revenue Growth",
+  "model": "claude-haiku-4-5-20251001"
+}

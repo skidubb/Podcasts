@@ -1,0 +1,51 @@
+{
+  "guest": "Peter Ostrow",
+  "people": [
+    "Peter Ostrow",
+    "Jonathan Moss",
+    "Coach K",
+    "Tom Hanks",
+    "Shivan Fatcher",
+    "Chris Pratt",
+    "Jennifer Lopez",
+    "Sandra Bullock",
+    "George Clooney"
+  ],
+  "companies": [
+    "Forrester",
+    "GTM AI Academy",
+    "Google",
+    "Microsoft",
+    "Apollo",
+    "Stop and Shop"
+  ],
+  "products": [
+    "ChatGPT",
+    "Google Assistant",
+    "Siri",
+    "Alexa",
+    "CRM",
+    "LMS",
+    "digital sales room"
+  ],
+  "topics": [
+    "revenue enablement",
+    "ai in sales",
+    "go-to-market strategy",
+    "sales skills adaptation",
+    "seller efficiency",
+    "content creation",
+    "data governance",
+    "ai deployment",
+    "decision-making",
+    "sales methodology",
+    "prompt engineering",
+    "machine learning",
+    "sales training",
+    "human-machine trust",
+    "measurement models"
+  ],
+  "episode_num": 2,
+  "title": "#2: GTM AI Podcast: Peter Ostrow from Forrester on Revolutionizing Revenue Enablement with AI - Skills, Tools, and Human Touch",
+  "model": "claude-haiku-4-5-20251001"
+}

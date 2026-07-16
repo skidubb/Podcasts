@@ -1,0 +1,47 @@
+{
+  "guest": "Nate Varel",
+  "people": [
+    "Nate Varel",
+    "Jonathan Kvarfordt",
+    "Coach K",
+    "Steve Jobs",
+    "Chad"
+  ],
+  "companies": [
+    "Letter.ai",
+    "Perro AI",
+    "Options Clearing Corporation",
+    "Directive",
+    "PWC",
+    "GTM AI Academy",
+    "One Mind",
+    "Zillow"
+  ],
+  "products": [
+    "Letter",
+    "Momentum",
+    "Microsoft Copilot",
+    "Salesforce",
+    "Digital Sales Room"
+  ],
+  "topics": [
+    "revenue enablement",
+    "ai native platforms",
+    "sales enablement",
+    "enablement tools",
+    "ai agents",
+    "content and context",
+    "sales rep preparation",
+    "revenue attribution",
+    "legacy platforms vs ai native",
+    "sales coaching",
+    "deal support",
+    "customer experience",
+    "enablement mindset shift",
+    "tech stack optimization",
+    "llm capabilities"
+  ],
+  "episode_num": 76,
+  "title": "How AI is Reshaping Revenue and Sales Enablement with Nate Varel",
+  "model": "claude-haiku-4-5-20251001"
+}

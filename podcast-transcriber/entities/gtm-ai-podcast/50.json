@@ -1,0 +1,63 @@
+{
+  "guest": "Nick Bhavsar",
+  "people": [
+    "Nick Bhavsar",
+    "Jonathan Moss",
+    "Coach K",
+    "David Spitz",
+    "Kerry Cunningham",
+    "Nicole Leffer",
+    "Marty McFly"
+  ],
+  "companies": [
+    "Velocity Engine",
+    "Shasta Ventures",
+    "SolarWinds",
+    "Spiceworks",
+    "Levelset",
+    "ProCore",
+    "Intel",
+    "HubSpot",
+    "Marketo",
+    "Benchport",
+    "Winning by Design",
+    "Six Cents",
+    "GTM AI Academy",
+    "AI Business Network",
+    "CMO Coffee Talk",
+    "Pavilion"
+  ],
+  "products": [
+    "Velocity Engine",
+    "Chat GPT",
+    "Outreach",
+    "Salesforce",
+    "Gong",
+    "Marketo",
+    "HubSpot",
+    "Amazon",
+    "Netflix",
+    "Uber",
+    "Spotify"
+  ],
+  "topics": [
+    "go-to-market strategy",
+    "marketing fundamentals",
+    "ai-powered gtm",
+    "buyer personas",
+    "segmentation and positioning",
+    "sales efficiency",
+    "marketing automation",
+    "customer acquisition cost",
+    "content personalization",
+    "buying committee",
+    "messaging frameworks",
+    "product marketing",
+    "revenue operations",
+    "consumerization of b2b",
+    "marketing-driven revenue"
+  ],
+  "episode_num": 50,
+  "title": "AI Powered GTM Marketing Strategies",
+  "model": "claude-haiku-4-5-20251001"
+}

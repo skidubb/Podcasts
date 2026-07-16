@@ -1,0 +1,41 @@
+{
+  "guest": null,
+  "people": [
+    "Coach K",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "GTM AI Academy",
+    "Symmetric",
+    "Sales Velocity Labs",
+    "Blockbuster",
+    "Netflix",
+    "Fortune 500"
+  ],
+  "products": [
+    "ChatGPT",
+    "ChatGPT Web Pilot",
+    "MarsView",
+    "Google",
+    "Bing"
+  ],
+  "topics": [
+    "ai adoption",
+    "go-to-market strategy",
+    "sales enablement",
+    "business impact",
+    "ai tools",
+    "revenue enablement",
+    "customer success",
+    "ai workforce disruption",
+    "enterprise sales",
+    "product marketing",
+    "ai strategy",
+    "sales research",
+    "team productivity",
+    "ai powered roles"
+  ],
+  "episode_num": 1,
+  "title": "#1 GTM AI Podcast Overview and Intro!",
+  "model": "claude-haiku-4-5-20251001"
+}

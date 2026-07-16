@@ -1,0 +1,61 @@
+{
+  "guest": "Shashank Singh, Katie Wade, Steven MacNeil",
+  "people": [
+    "Coach K",
+    "Jonathan Moss",
+    "Shashank Singh",
+    "Katie Wade",
+    "Steven MacNeil",
+    "Sam Altman"
+  ],
+  "companies": [
+    "GTM AI Academy",
+    "GTM AI Power",
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "Monday.com",
+    "Notion",
+    "Slack",
+    "Asana",
+    "Trello",
+    "Jira",
+    "ClickUp",
+    "Airtable"
+  ],
+  "products": [
+    "Kroolo",
+    "Claude",
+    "Gemini",
+    "Llama",
+    "Google Docs",
+    "Confluence",
+    "Asana",
+    "Monday.com",
+    "Notion",
+    "Slack",
+    "Trello",
+    "Jira",
+    "ClickUp",
+    "Airtable",
+    "Spot"
+  ],
+  "topics": [
+    "ai productivity",
+    "ai native platforms",
+    "project management",
+    "team collaboration",
+    "ai agents",
+    "workflow automation",
+    "tool consolidation",
+    "adoption",
+    "large language models",
+    "go-to-market",
+    "sales enablement",
+    "remote teams",
+    "agentic workflows"
+  ],
+  "episode_num": 39,
+  "title": "Kroolo The Only AI Productivity Tool You Will Ever Need",
+  "model": "claude-haiku-4-5-20251001"
+}

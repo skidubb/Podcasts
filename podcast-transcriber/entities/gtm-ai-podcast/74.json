@@ -1,0 +1,57 @@
+{
+  "guest": "Liza Adams",
+  "people": [
+    "Liza Adams",
+    "Coach K",
+    "Jonathan Moss",
+    "Tony",
+    "Crestodina",
+    "Lisa Adams"
+  ],
+  "companies": [
+    "Pierce Storage",
+    "Smartsheet",
+    "Cover Technologies",
+    "Growth Path Partners",
+    "GTM AI Academy",
+    "AI Business Network",
+    "GTM AI Podcast",
+    "McKinsey",
+    "Moderna",
+    "Captera",
+    "G2",
+    "Trust Radius"
+  ],
+  "products": [
+    "ChatGPT",
+    "Perplexity",
+    "Google Gemini",
+    "Claude",
+    "NotebookLM",
+    "Google Deep Research",
+    "Custom GPTs",
+    "11 Labs",
+    "Replit",
+    "Cursor",
+    "Bolt"
+  ],
+  "topics": [
+    "ai in marketing",
+    "go-to-market strategy",
+    "ai assistants",
+    "content marketing",
+    "customer insights",
+    "ai automation",
+    "personalization",
+    "thought partnership",
+    "ai adoption",
+    "zero-click search",
+    "prompting strategies",
+    "team augmentation",
+    "marketing ai tools",
+    "buyer journey"
+  ],
+  "episode_num": 74,
+  "title": "Harnessing AI For Strategic Marketing with Liza Adams",
+  "model": "claude-haiku-4-5-20251001"
+}

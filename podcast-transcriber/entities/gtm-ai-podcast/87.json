@@ -1,0 +1,52 @@
+{
+  "guest": "Ken Roden",
+  "people": [
+    "Ken Roden",
+    "Jonathan Moss",
+    "Coach K",
+    "Jonathan Carverd"
+  ],
+  "companies": [
+    "Infor",
+    "Temple University",
+    "MIT",
+    "Salesforce",
+    "Make",
+    "Mind Studio",
+    "Facebook",
+    "Instagram",
+    "Amazon",
+    "Canva"
+  ],
+  "products": [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "GenSpark",
+    "Opus Pro",
+    "Slack",
+    "Wikipedia",
+    "Co-pilot",
+    "Alexa"
+  ],
+  "topics": [
+    "ai adoption",
+    "leadership blindspots",
+    "ai strategy",
+    "change management",
+    "employee confidence",
+    "workflow automation",
+    "data entry",
+    "crm management",
+    "ai implementation",
+    "prompting skills",
+    "job displacement",
+    "ai fatigue",
+    "data privacy",
+    "ai tools comparison",
+    "go-to-market strategy"
+  ],
+  "episode_num": 87,
+  "title": "Why 93% of Your Team Uses AI But You Think It's 30%",
+  "model": "claude-haiku-4-5-20251001"
+}

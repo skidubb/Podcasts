@@ -1,0 +1,52 @@
+{
+  "guest": "Noah Zanden",
+  "people": [
+    "Noah Zanden",
+    "Coach K",
+    "Jonathan Moss",
+    "Tony Fidel",
+    "Jerry Far",
+    "OpenAI"
+  ],
+  "companies": [
+    "Quantified AI",
+    "GTM AI Academy",
+    "Lehman Brothers",
+    "Dojo Bank",
+    "Microsoft",
+    "Qualtrics",
+    "Wall Street",
+    "Gong",
+    "Chorus"
+  ],
+  "products": [
+    "Quantified.ai",
+    "GPT-2",
+    "ChatGPT",
+    "Excel",
+    "Zoom",
+    "Gong",
+    "Chorus",
+    "conversation intelligence"
+  ],
+  "topics": [
+    "sales roleplay",
+    "ai avatars",
+    "sales enablement",
+    "behavioral coaching",
+    "sales training",
+    "conversation intelligence",
+    "ai for gtm",
+    "sales performance",
+    "onboarding",
+    "certification",
+    "nonverbal communication",
+    "sales simulations",
+    "go-to-market strategy",
+    "ai implementation",
+    "sales methodology"
+  ],
+  "episode_num": 4,
+  "title": "#4 GTM AI Podcast: Quantified.AI with CEO Noah, Why Everyone Hates Roleplay and How AI Can Fix It",
+  "model": "claude-haiku-4-5-20251001"
+}

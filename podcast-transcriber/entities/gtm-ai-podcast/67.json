@@ -1,0 +1,46 @@
+{
+  "guest": "Amos Bar Joseph",
+  "people": [
+    "Amos Bar Joseph",
+    "Jonathan Kvarfordt",
+    "Coach K",
+    "Jonathan Moss",
+    "Sam Altman",
+    "Geoffrey Moore"
+  ],
+  "companies": [
+    "Swan AI",
+    "Yachtco",
+    "Salesforce",
+    "Slack",
+    "Clay"
+  ],
+  "products": [
+    "Swan AI",
+    "Clay",
+    "Warmly",
+    "RocketReach",
+    "Salesforce",
+    "Slack"
+  ],
+  "topics": [
+    "autonomous business",
+    "ai agents",
+    "go-to-market strategy",
+    "pipeline generation",
+    "website personalization",
+    "human-ai collaboration",
+    "scaling with ai",
+    "smb growth",
+    "sales automation",
+    "intent data",
+    "agentic solutions",
+    "founder efficiency",
+    "first-party data",
+    "sales enablement",
+    "business process automation"
+  ],
+  "episode_num": 67,
+  "title": "The $30M Playbook Part 1: How to Build an Autonomous Business with 3 People and AI Agents",
+  "model": "claude-haiku-4-5-20251001"
+}

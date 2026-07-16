@@ -1,0 +1,47 @@
+{
+  "guest": "Jonathan Moss",
+  "people": [
+    "Jonathan Moss",
+    "Coach K",
+    "LL Cool J"
+  ],
+  "companies": [
+    "GTM AI Academy",
+    "OpenAI",
+    "Experient Health",
+    "Athena",
+    "Spotify",
+    "Apple",
+    "Sony",
+    "Google"
+  ],
+  "products": [
+    "ChatGPT",
+    "GPT",
+    "Midjourney",
+    "Perplexity",
+    "Excel",
+    "G2",
+    "YouTube"
+  ],
+  "topics": [
+    "prompting frameworks",
+    "ai prompting techniques",
+    "context in prompts",
+    "domain expertise",
+    "ai output quality",
+    "go-to-market strategy",
+    "sales enablement",
+    "competitive research",
+    "battle cards",
+    "icp development",
+    "buyer personas",
+    "discovery questions",
+    "prompt engineering",
+    "creative frameworks",
+    "ai in the loop"
+  ],
+  "episode_num": 21,
+  "title": "#21 GTM AI Podcast: GTM & AI Session Prompting to get to the next level with A﻿I with Jonathan Moss",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,44 @@
+{
+  "guest": "Christina Brady",
+  "people": [
+    "Christina Brady",
+    "Coach K",
+    "Jonathan Moss",
+    "Elon Musk"
+  ],
+  "companies": [
+    "Luster.ai",
+    "GTM AI Academy",
+    "Groupon",
+    "Glassdoor",
+    "Sales Assembly",
+    "Speck",
+    "Women in Sales",
+    "Netflix",
+    "Nissan",
+    "OpenAI"
+  ],
+  "products": [
+    "Luster",
+    "ChatGPT",
+    "Gran Turismo",
+    "Marketersindemand"
+  ],
+  "topics": [
+    "sales practice",
+    "ai simulation",
+    "conversational intelligence",
+    "sales enablement",
+    "learning and development",
+    "role play training",
+    "revenue team scaling",
+    "ai trust",
+    "perfect practice",
+    "sales methodology",
+    "team analytics",
+    "product differentiation"
+  ],
+  "episode_num": 6,
+  "title": "#6 GTM AI Podcast: CEO & CoFounder Christina Brady, Empowering and Scaling Revenue teams with AI",
+  "model": "claude-haiku-4-5-20251001"
+}

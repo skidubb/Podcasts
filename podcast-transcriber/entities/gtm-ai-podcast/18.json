@@ -1,0 +1,52 @@
+{
+  "guest": "Yuval Karmi",
+  "people": [
+    "Yuval Karmi",
+    "Coach K",
+    "Jonathan Moss",
+    "Satya Nadella",
+    "Sam Altman"
+  ],
+  "companies": [
+    "Glitter.io",
+    "Simpo",
+    "Walnut",
+    "GTM AI Academy",
+    "OpenAI",
+    "Google",
+    "Make.com",
+    "Zapier"
+  ],
+  "products": [
+    "Glitter AI",
+    "Loom",
+    "Scribe",
+    "Guide",
+    "ChatGPT",
+    "GPT-4",
+    "Intercom",
+    "Notion",
+    "Sales Loft",
+    "Momentum"
+  ],
+  "topics": [
+    "documentation automation",
+    "ai transcription",
+    "process documentation",
+    "workflow optimization",
+    "onboarding guides",
+    "employee training",
+    "sop creation",
+    "ai integration",
+    "voice-to-text",
+    "second brain",
+    "business scaling",
+    "team delegation",
+    "ai future trends",
+    "silo breakdown",
+    "unified ai interface"
+  ],
+  "episode_num": 18,
+  "title": "#18 GTM AI Podcast: How AI enhances workflow and documentation with Yuval Karmi of Glitter.io",
+  "model": "claude-haiku-4-5-20251001"
+}

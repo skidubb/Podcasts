@@ -1,0 +1,51 @@
+{
+  "guest": "Dave Kennett",
+  "people": [
+    "Dave Kennett",
+    "Jonathan Moss",
+    "Coach K",
+    "Corey Bray",
+    "Mark Cosaglow",
+    "Kyle Norton"
+  ],
+  "companies": [
+    "ReplayzIQ",
+    "GTM AI Academy",
+    "AutoTrader",
+    "WW Grainger",
+    "Outreach",
+    "Vidyard",
+    "Clue",
+    "Mindbody",
+    "IBM",
+    "Gong",
+    "Zoom Info"
+  ],
+  "products": [
+    "ReplayzIQ",
+    "Gong",
+    "Chorus",
+    "Salesforce",
+    "ChatGPT",
+    "GPT"
+  ],
+  "topics": [
+    "sales coaching",
+    "ai call scoring",
+    "sales enablement",
+    "conversational intelligence",
+    "call recording analysis",
+    "sales rep training",
+    "large language models",
+    "sales process optimization",
+    "win rate improvement",
+    "sales skills assessment",
+    "ai accuracy",
+    "coaching culture",
+    "sales leader tools",
+    "ai sales rep"
+  ],
+  "episode_num": 5,
+  "title": "#5 GTM AI Podcast: Dave Kennet CEO of ReplayzIQ, Revolutionizing Sales Coaching with AI",
+  "model": "claude-haiku-4-5-20251001"
+}

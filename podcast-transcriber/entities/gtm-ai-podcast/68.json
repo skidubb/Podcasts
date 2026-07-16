@@ -1,0 +1,45 @@
+{
+  "guest": "Amos Bar Joseph",
+  "people": [
+    "Amos Bar Joseph",
+    "Jonathan Moss",
+    "Coach K"
+  ],
+  "companies": [
+    "Swan AI",
+    "KPMG",
+    "Silicon Valley"
+  ],
+  "products": [
+    "Swan AI",
+    "Shakespeare",
+    "Observer",
+    "Connector",
+    "Hunter",
+    "Gatekeeper",
+    "Clay",
+    "Chat GPT",
+    "Autonomous Business OS GPT",
+    "Slack"
+  ],
+  "topics": [
+    "autonomous business model",
+    "ai agents",
+    "gtm strategy",
+    "human-ai collaboration",
+    "smb growth",
+    "sales automation",
+    "go-to-market engineering",
+    "founder burnout",
+    "startup scaling",
+    "ai-powered sales",
+    "workflow automation",
+    "prompt engineering",
+    "agent training",
+    "lead qualification",
+    "gtm experimentation"
+  ],
+  "episode_num": 68,
+  "title": "The $30M Playbook Part 2: How to Build an Autonomous Business with 3 People and AI Agents",
+  "model": "claude-haiku-4-5-20251001"
+}

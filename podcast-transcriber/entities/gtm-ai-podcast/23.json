@@ -1,0 +1,52 @@
+{
+  "guest": "Adam Smith",
+  "people": [
+    "Adam Smith",
+    "Coach K",
+    "Jonathan Moss",
+    "Rowan",
+    "Sam Altman",
+    "Elon Musk"
+  ],
+  "companies": [
+    "Workbounce",
+    "GTM AI Academy",
+    "Peacon",
+    "Workday",
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "Momentum",
+    "Volvo"
+  ],
+  "products": [
+    "ChatGPT",
+    "GPT-3.5",
+    "GPT-4",
+    "Claude",
+    "Slack",
+    "Google Drive",
+    "Notion",
+    "Workbounce Platform",
+    "Sky"
+  ],
+  "topics": [
+    "ai agents",
+    "sales enablement",
+    "go-to-market strategy",
+    "large language models",
+    "remote work",
+    "content creation",
+    "knowledge management",
+    "ai implementation",
+    "business impact",
+    "automation",
+    "onboarding",
+    "productivity",
+    "ai collaboration",
+    "enterprise ai"
+  ],
+  "episode_num": 23,
+  "title": "AI Agents Real Help for GTM? Or overhyped Buzz? Adam Smith of Workbounce",
+  "model": "claude-haiku-4-5-20251001"
+}

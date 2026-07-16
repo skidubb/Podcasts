@@ -1,0 +1,59 @@
+{
+  "guest": "Elaine Zelby",
+  "people": [
+    "Elaine Zelby",
+    "Coach K",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "Tofu",
+    "Signal Fire",
+    "GTM AI Academy",
+    "OpenAI",
+    "Anthropic",
+    "Google",
+    "Apollo",
+    "HubSpot",
+    "Gartner",
+    "Sora",
+    "Opus",
+    "ElevenLabs",
+    "Trumpet"
+  ],
+  "products": [
+    "Tofu",
+    "GPT-3",
+    "GPT-4",
+    "Claude",
+    "Gemini",
+    "Sonic",
+    "Apollo",
+    "HubSpot",
+    "Opus",
+    "ElevenLabs",
+    "Gamma",
+    "Beautiful.ai",
+    "Trumpet",
+    "Loom",
+    "Descript"
+  ],
+  "topics": [
+    "ai marketing automation",
+    "content creation",
+    "top-of-funnel marketing",
+    "personalization at scale",
+    "b2b marketing",
+    "marketing stack integration",
+    "ai tool evaluation",
+    "workflow automation",
+    "account-based marketing",
+    "marketing ops",
+    "ai imagery generation",
+    "video automation",
+    "ai adoption strategy",
+    "product positioning"
+  ],
+  "episode_num": 25,
+  "title": "Next level Marketing with AI: Elaine Zelby of TOFU",
+  "model": "claude-haiku-4-5-20251001"
+}

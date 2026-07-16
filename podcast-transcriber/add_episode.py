@@ -19,6 +19,7 @@ from rag.config import Config
 from rag.parser import PodcastParser
 from rag.chunker import Chunker
 from rag.embedder import Embedder
+from rag.entity_extractor import EntityExtractor, apply_entities
 from rag.pinecone_indexer import PineconeIndexer
 
 
@@ -88,8 +89,20 @@ def main():
     podcast_parser = PodcastParser(podcast_name=config.podcast_name)
     episode = podcast_parser.parse_file(episode_file)
     print(f"  Title: {episode.title}")
-    print(f"  Guest: {episode.guest or 'N/A'}")
     print(f"  Word count: {episode.word_count:,}")
+    print()
+
+    # Step 1b: Extract entities (cached per episode in data/entities/)
+    print("Step 1b: Extracting entities...")
+    if config.anthropic_api_key:
+        extractor = EntityExtractor(config)
+        entities = extractor.extract(episode)
+        apply_entities(episode, entities)
+        print(f"  Guest: {episode.guest or 'N/A'}")
+        print(f"  People: {len(episode.people)}, Companies: {len(episode.companies)}, "
+              f"Products: {len(episode.products)}, Topics: {len(episode.topics)}")
+    else:
+        print("  Skipped (ANTHROPIC_API_KEY not set)")
     print()
 
     # Step 2: Chunk the episode

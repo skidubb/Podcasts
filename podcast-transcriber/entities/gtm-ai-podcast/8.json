@@ -1,0 +1,55 @@
+{
+  "guest": "Brian Dietmeyer and Patrick Lowndes",
+  "people": [
+    "Coach K",
+    "Jonathan Moss",
+    "Brian Dietmeyer",
+    "Patrick Lowndes",
+    "Max Baserman",
+    "Jason",
+    "Jim Dickey"
+  ],
+  "companies": [
+    "Close Strong",
+    "GTM AI Academy",
+    "Harvard Negotiation Project",
+    "Northwestern Wildcats",
+    "Utah Utes",
+    "Microsoft",
+    "Google",
+    "FedEx",
+    "ServiceNow",
+    "Salesforce",
+    "Gartner"
+  ],
+  "products": [
+    "Close Strong AI",
+    "ChatGPT",
+    "OpenAI",
+    "Claude",
+    "Jasper",
+    "Medic",
+    "Challenger",
+    "RevenueLift",
+    "Revenueu"
+  ],
+  "topics": [
+    "intelligent applications",
+    "ai in sales",
+    "opportunity coaching",
+    "sales methodology",
+    "go-to-market strategy",
+    "deal management",
+    "sales training",
+    "sales enablement",
+    "competitive analysis",
+    "discovery process",
+    "close rates",
+    "ai vs ia",
+    "sales coaching automation",
+    "revenue enablement"
+  ],
+  "episode_num": 8,
+  "title": "#8 GTM AI Podcast: Unleashing IA+AI In Opportunity Sales Coaching with Brian Dietmeyer and Patrick Lowndes CLOSESTRONG.AI",
+  "model": "claude-haiku-4-5-20251001"
+}

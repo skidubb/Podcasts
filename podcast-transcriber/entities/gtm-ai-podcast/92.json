@@ -1,0 +1,62 @@
+{
+  "guest": "Dannielle Sakher",
+  "people": [
+    "Dannielle Sakher",
+    "Jonathan Moss",
+    "Coach K",
+    "Kirk",
+    "Alex",
+    "Dan",
+    "Dmitri",
+    "Alex Hood",
+    "Elon Musk",
+    "Tony Stark"
+  ],
+  "companies": [
+    "MindStudio",
+    "Asana",
+    "Shopify",
+    "Zapier",
+    "HubSpot",
+    "Salesforce",
+    "OpenAI",
+    "Google",
+    "Facebook",
+    "LinkedIn",
+    "TikTok",
+    "Marvel"
+  ],
+  "products": [
+    "MindStudio",
+    "ChatGPT",
+    "Claude",
+    "Zapier",
+    "HubSpot",
+    "Whisper Flow",
+    "Bordy",
+    "Jarvis",
+    "Neuralink",
+    "LinkedIn API",
+    "Google Search"
+  ],
+  "topics": [
+    "ai workflows",
+    "go-to-market strategy",
+    "sales automation",
+    "partnership development",
+    "outbound prospecting",
+    "linkedin outreach",
+    "contract analysis",
+    "business development",
+    "ai agents",
+    "no-code automation",
+    "customer research",
+    "launch planning",
+    "education bootcamps",
+    "prompt engineering",
+    "revenue generation"
+  ],
+  "episode_num": 92,
+  "title": "5 AI Workflows MindStudio's GTM Leader Runs Daily to 3x Pipeline",
+  "model": "claude-haiku-4-5-20251001"
+}

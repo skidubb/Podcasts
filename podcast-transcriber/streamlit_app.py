@@ -56,6 +56,7 @@ def search_pinecone(
     top_k: int = 10,
     guest_filter: str = None,
     episode_filter: int = None,
+    entity_filter: str = None,
 ) -> list[RetrievalResult]:
     """Search Pinecone and return results as RetrievalResult objects."""
     # Generate query embedding
@@ -63,12 +64,20 @@ def search_pinecone(
 
     # Build filter
     filter_dict = None
-    if guest_filter or episode_filter:
+    if guest_filter or episode_filter or entity_filter:
         filter_dict = {}
         if guest_filter:
             filter_dict["guest"] = {"$eq": guest_filter}
         if episode_filter:
             filter_dict["episode_num"] = {"$eq": episode_filter}
+        if entity_filter:
+            # Equality on a list field matches any element; topics are stored lowercase
+            filter_dict["$or"] = [
+                {"people": {"$eq": entity_filter}},
+                {"companies": {"$eq": entity_filter}},
+                {"products": {"$eq": entity_filter}},
+                {"topics": {"$eq": entity_filter.lower()}},
+            ]
 
     # Search Pinecone
     matches = indexer.search(
@@ -156,6 +165,12 @@ def main():
             help="Enter 0 for no filter",
         )
 
+        entity_filter = st.text_input(
+            "Filter by entity",
+            placeholder="e.g., HubSpot, pricing, Jane Doe",
+            help="Match a person, company, product/tool, or topic extracted from episodes",
+        )
+
         st.divider()
 
         # Model selection
@@ -207,6 +222,7 @@ def main():
         # Prepare filters
         guest = guest_filter if guest_filter else None
         episode = episode_filter if episode_filter > 0 else None
+        entity = entity_filter.strip() if entity_filter and entity_filter.strip() else None
 
         with st.spinner("Searching transcripts..."):
             try:
@@ -217,6 +233,7 @@ def main():
                     top_k=top_k,
                     guest_filter=guest,
                     episode_filter=episode,
+                    entity_filter=entity,
                 )
             except Exception as e:
                 st.error(f"Search failed: {str(e)}")
@@ -236,6 +253,14 @@ def main():
                         st.markdown(f"**{chunk.citation()}**")
                         if chunk.date:
                             st.caption(f"📅 {chunk.date[:10]}")
+                        chips = []
+                        if chunk.topics:
+                            chips.append("🏷️ " + " · ".join(chunk.topics[:6]))
+                        mentions = (chunk.companies or [])[:4] + (chunk.products or [])[:4]
+                        if mentions:
+                            chips.append("💼 " + " · ".join(mentions))
+                        if chips:
+                            st.caption("  |  ".join(chips))
                     with col2:
                         st.metric("Relevance", f"{result.score:.2f}")
 

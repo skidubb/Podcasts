@@ -1,0 +1,48 @@
+{
+  "guest": "John Long and Dane Oborn",
+  "people": [
+    "Jonathan Carfair",
+    "Coach K",
+    "John Long",
+    "Dane Oborn",
+    "Sam Altman"
+  ],
+  "companies": [
+    "Thynk.ai",
+    "Live View Technologies",
+    "Salesforce",
+    "HubSpot",
+    "Grammarly",
+    "Google",
+    "OpenAI",
+    "World Economic Forum",
+    "Microsoft"
+  ],
+  "products": [
+    "Thynk.ai",
+    "Agent Force",
+    "agent.ai",
+    "ChatGPT",
+    "Copilot",
+    "Eric"
+  ],
+  "topics": [
+    "ai agents",
+    "sales automation",
+    "sdr/bdr automation",
+    "go-to-market strategy",
+    "ai adoption",
+    "workforce transformation",
+    "agent orchestration",
+    "lead qualification",
+    "customer support automation",
+    "autonomous systems",
+    "ai implementation strategy",
+    "business growth",
+    "ai tools comparison",
+    "future of work"
+  ],
+  "episode_num": 52,
+  "title": "The Year of the AI Agent: How Thynk.ai is Revolutionizing Sales",
+  "model": "claude-haiku-4-5-20251001"
+}

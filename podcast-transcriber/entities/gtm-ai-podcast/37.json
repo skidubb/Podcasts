@@ -1,0 +1,60 @@
+{
+  "guest": "Ashley Gross",
+  "people": [
+    "Ashley Gross",
+    "Coach K",
+    "Jonathan Moss",
+    "Zach",
+    "Brian Halligan"
+  ],
+  "companies": [
+    "GTM AI Academy",
+    "AI Powered GTM",
+    "AI Workforce Alliance",
+    "Section.io",
+    "Retail AI Council",
+    "Chief AI Officer",
+    "HubSpot",
+    "Forbes",
+    "Fast Company",
+    "McKinsey",
+    "Deloitte",
+    "Boston Consulting Group",
+    "Harvard",
+    "Bryant University"
+  ],
+  "products": [
+    "Jasper",
+    "Clay",
+    "Claygent",
+    "Intercom",
+    "ChatGPT",
+    "Custom GPT",
+    "RBE2B",
+    "Make",
+    "Zapier",
+    "HubSpot",
+    "Agency AI",
+    "OpenAI Swarm"
+  ],
+  "topics": [
+    "ai strategy",
+    "marketing automation",
+    "content generation",
+    "ai agents",
+    "workflow automation",
+    "humanizing ai",
+    "ai implementation",
+    "change management",
+    "ai ethics",
+    "data governance",
+    "generative ai",
+    "go-to-market strategy",
+    "business impact",
+    "ai education",
+    "prompt engineering"
+  ],
+  "episode_num": 37,
+  "title": "AI Strategy Expert Ashley Gross on Humanizing Automation, Building Effective Agents, and Transforming Marketing Workflows",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,44 @@
+{
+  "guest": "Mark Stouse",
+  "people": [
+    "Mark Stouse",
+    "Coach K",
+    "Jonathan Moss",
+    "Mark Hurd",
+    "Bob Wayman",
+    "Bill Schmarza",
+    "Thorval"
+  ],
+  "companies": [
+    "Proof Analytics",
+    "GTM AI Academy",
+    "HP",
+    "Dell",
+    "Forbes",
+    "Valking Ventures"
+  ],
+  "products": [
+    "proofanalytics.ai",
+    "ChatGPT-4",
+    "Proof"
+  ],
+  "topics": [
+    "causal analytics",
+    "ai for business leaders",
+    "data-driven decision making",
+    "counterfactual modeling",
+    "go-to-market strategy",
+    "causal forecasting",
+    "business analytics",
+    "marketing attribution",
+    "ai as multiplier",
+    "revenue operations",
+    "data science",
+    "business intelligence",
+    "scenario planning",
+    "sales effectiveness"
+  ],
+  "episode_num": 41,
+  "title": "AI for Business Leaders: How Causal Analytics Drives 8X Growth",
+  "model": "claude-haiku-4-5-20251001"
+}

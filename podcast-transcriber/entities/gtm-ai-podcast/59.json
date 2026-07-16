@@ -1,0 +1,47 @@
+{
+  "guest": "Daniel Beecham",
+  "people": [
+    "Coach K",
+    "Jonathan Moss",
+    "Daniel Beecham"
+  ],
+  "companies": [
+    "Georgia Tech",
+    "CapGemini",
+    "Pegasystems",
+    "Microsoft",
+    "AWS",
+    "Google",
+    "Disney",
+    "GTM AI Academy",
+    "AI Business Network"
+  ],
+  "products": [
+    "GitHub",
+    "ChatGPT",
+    "Claude",
+    "Slack",
+    "RAG",
+    "Tonic"
+  ],
+  "topics": [
+    "ai strategy",
+    "ai adoption",
+    "generative ai",
+    "ai governance",
+    "data governance",
+    "proof of concept",
+    "change management",
+    "workforce displacement",
+    "ai training programs",
+    "agentic workflows",
+    "retrieval augmented generation",
+    "prompt engineering",
+    "ai maturity",
+    "business process optimization",
+    "ai hardware"
+  ],
+  "episode_num": 59,
+  "title": "AI Strategy and Adoption Unlocking AI's Potential in Business",
+  "model": "claude-haiku-4-5-20251001"
+}

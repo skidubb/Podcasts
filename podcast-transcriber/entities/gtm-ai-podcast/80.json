@@ -1,0 +1,51 @@
+{
+  "guest": "Russell Mikowski",
+  "people": [
+    "Russell Mikowski",
+    "Jonathan Kvarfordt",
+    "Coach K",
+    "Jonathan Moss"
+  ],
+  "companies": [
+    "SurePeople",
+    "GTM AI Academy",
+    "AI Business Network",
+    "Symphony Talents",
+    "Sapya AI",
+    "Pavilion",
+    "Hofstra University",
+    "Momentum"
+  ],
+  "products": [
+    "Prism",
+    "SureCoach",
+    "SureMeeting",
+    "Slack",
+    "Zoom",
+    "GPT-4",
+    "ChatGPT",
+    "LinkedIn",
+    "Meta",
+    "X"
+  ],
+  "topics": [
+    "psychometrics",
+    "personality assessment",
+    "team optimization",
+    "ai integration",
+    "leadership development",
+    "communication preferences",
+    "workplace culture",
+    "employee engagement",
+    "meeting efficiency",
+    "organizational development",
+    "people intelligence",
+    "performance management",
+    "ai-powered coaching",
+    "human-ai collaboration",
+    "talent management"
+  ],
+  "episode_num": 80,
+  "title": "AI-Powered Psychometrics and Team Optimization with Russell Mikowski",
+  "model": "claude-haiku-4-5-20251001"
+}
