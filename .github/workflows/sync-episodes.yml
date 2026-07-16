@@ -8,6 +8,20 @@ on:
   # Allow manual triggering
   workflow_dispatch:
     inputs:
+      podcast:
+        description: 'Which podcast to sync'
+        required: false
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - gtm-ai-podcast
+          - beauty-and-the-biz
+          - ratchet-wrench-radio
+      limit:
+        description: 'Max episodes to transcribe this run (empty = no limit)'
+        required: false
+        type: string
       rebuild_index:
         description: 'Fully rebuild Pinecone index (manual use only)'
         required: false
@@ -21,45 +35,109 @@ on:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    # Cloud transcription takes minutes per episode; a healthy weekly run
-    # finishes in well under an hour. Fail fast instead of burning 6 hours.
-    timeout-minutes: 120
+    # Weekly runs handle a couple of episodes and should fail fast.
+    # Dispatched backfills get a longer leash.
+    timeout-minutes: ${{ github.event_name == 'schedule' && 90 || 330 }}
+
+    strategy:
+      max-parallel: 1  # jobs push commits; run serially to avoid races
+      fail-fast: false
+      matrix:
+        include:
+          # GTM podcast keeps its original config from repo secrets
+          # (empty matrix values fall back to secrets below).
+          - slug: gtm-ai-podcast
+            rss: ''
+            name: ''
+            description: ''
+            index: ''
+          - slug: beauty-and-the-biz
+            rss: 'https://rss.libsyn.com/shows/182354/destinations/1247585.xml'
+            name: 'Beauty and the Biz'
+            description: 'A podcast for plastic surgeons, medspa owners, and aesthetic practice leaders on growing, marketing, and managing profitable cosmetic practices, hosted by Catherine Maley'
+            index: 'beauty-and-the-biz'
+          - slug: ratchet-wrench-radio
+            rss: 'https://feed.podbean.com/ratchetandwrenchradio/feed.xml'
+            name: 'Ratchet+Wrench Radio'
+            description: 'A podcast for auto repair shop owners and multi-shop operators covering shop management, growth strategy, leadership, and the business of automotive repair'
+            index: 'ratchet-wrench-radio'
+
+    env:
+      # A matrix job runs only on schedule, 'all', or when its slug is selected
+      SELECTED: ${{ github.event_name == 'schedule' || github.event.inputs.podcast == 'all' || github.event.inputs.podcast == matrix.slug }}
 
     steps:
       - name: Checkout repository
+        if: env.SELECTED == 'true'
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python
+        if: env.SELECTED == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Install Python dependencies
+        if: env.SELECTED == 'true'
         working-directory: ./podcast-transcriber
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements-sync.txt
 
+      - name: Preflight - verify OpenAI API key and connectivity
+        if: env.SELECTED == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          # Diagnose auth/connectivity without ever printing the key
+          python3 - <<'EOF'
+          import os, re
+          k = os.environ.get("OPENAI_API_KEY", "")
+          print(f"key length: {len(k)}")
+          print(f"contains whitespace/newline: {any(c.isspace() for c in k)}")
+          print(f"matches expected sk- format: {bool(re.match(r'^sk-[A-Za-z0-9_-]+$', k))}")
+          EOF
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 30 \
+            https://api.openai.com/v1/models \
+            -H "Authorization: Bearer ${OPENAI_API_KEY}") || STATUS="curl-failed"
+          echo "GET /v1/models HTTP status: $STATUS"
+          if [ "$STATUS" != "200" ]; then
+            echo "::error::OpenAI preflight failed (status $STATUS). Check the OPENAI_API_KEY secret (expired? trailing newline?)."
+            exit 1
+          fi
+
       - name: Run episode sync
+        if: env.SELECTED == 'true'
         working-directory: ./podcast-transcriber
         env:
           # API Keys
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           PINECONE_API_KEY: ${{ secrets.PINECONE_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          # Podcast Configuration
-          RSS_FEED_URL: ${{ secrets.RSS_FEED_URL }}
-          PODCAST_NAME: ${{ secrets.PODCAST_NAME }}
-          PODCAST_DESCRIPTION: ${{ secrets.PODCAST_DESCRIPTION }}
-          PINECONE_INDEX_NAME: ${{ secrets.PINECONE_INDEX_NAME }}
+          # Per-podcast configuration (matrix values; GTM falls back to secrets)
+          RSS_FEED_URL: ${{ matrix.rss || secrets.RSS_FEED_URL }}
+          PODCAST_NAME: ${{ matrix.name || secrets.PODCAST_NAME }}
+          PODCAST_DESCRIPTION: ${{ matrix.description || secrets.PODCAST_DESCRIPTION }}
+          PINECONE_INDEX_NAME: ${{ matrix.index || secrets.PINECONE_INDEX_NAME }}
+          TRANSCRIPTS_DIR: transcripts/${{ matrix.slug }}
           # Workflow inputs
           INPUT_REBUILD_INDEX: ${{ github.event.inputs.rebuild_index }}
           INPUT_FORCE_EPISODE: ${{ github.event.inputs.force_episode }}
+          INPUT_LIMIT: ${{ github.event_name == 'schedule' && '5' || github.event.inputs.limit }}
         run: |
           # Cloud transcription (OpenAI Whisper API) + incremental indexing
           CMD="python sync_episodes.py --cloud --index-new"
+
+          if [ -n "$INPUT_LIMIT" ]; then
+            if echo "$INPUT_LIMIT" | grep -qE '^[0-9]+$'; then
+              CMD="$CMD --limit $INPUT_LIMIT"
+            else
+              echo "Error: limit must be a number"
+              exit 1
+            fi
+          fi
 
           if [ "$INPUT_REBUILD_INDEX" = "true" ]; then
             CMD="$CMD --rebuild-index"
@@ -75,10 +153,11 @@ jobs:
             fi
           fi
 
-          echo "Running: $CMD"
+          echo "Running: $CMD  (podcast: ${{ matrix.slug }})"
           $CMD
 
       - name: Check for new transcripts
+        if: env.SELECTED == 'true'
         id: check_changes
         run: |
           git add podcast-transcriber/transcripts/
@@ -91,7 +170,7 @@ jobs:
           fi
 
       - name: Commit and push new transcripts
-        if: steps.check_changes.outputs.has_changes == 'true'
+        if: env.SELECTED == 'true' && steps.check_changes.outputs.has_changes == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
@@ -99,19 +178,21 @@ jobs:
           # Get count of new files
           NEW_COUNT=$(git diff --cached --name-only | grep -c '\.md$' || echo "0")
 
-          git commit -m "Add $NEW_COUNT new podcast transcript(s)
+          git commit -m "Add $NEW_COUNT new transcript(s) for ${{ matrix.slug }}
 
           Automated sync from RSS feed
 
           Co-Authored-By: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
 
+          git pull --rebase origin main
           git push
 
       - name: Summary
+        if: env.SELECTED == 'true'
         env:
           HAS_CHANGES: ${{ steps.check_changes.outputs.has_changes }}
         run: |
-          echo "## Sync Summary" >> $GITHUB_STEP_SUMMARY
+          echo "## Sync Summary: ${{ matrix.slug }}" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           if [ "$HAS_CHANGES" = "true" ]; then
             echo "New transcripts were added and committed." >> $GITHUB_STEP_SUMMARY
