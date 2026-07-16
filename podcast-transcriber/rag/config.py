@@ -13,16 +13,20 @@ load_dotenv()
 
 
 def get_secret(key: str, default: str = "") -> str:
-    """Get a secret from Streamlit secrets or environment variables."""
+    """Get a secret from Streamlit secrets or environment variables.
+
+    Values are stripped: a trailing newline in a stored secret produces an
+    illegal HTTP header that httpx/h11 rejects ("Connection error.").
+    """
     # Try Streamlit secrets first (for Streamlit Cloud deployment)
     try:
         import streamlit as st
         if hasattr(st, 'secrets') and key in st.secrets:
-            return st.secrets[key]
+            return str(st.secrets[key]).strip()
     except Exception:
         pass
     # Fall back to environment variables
-    return os.getenv(key, default)
+    return os.getenv(key, default).strip()
 
 
 def slugify_index_name(name: str) -> str:

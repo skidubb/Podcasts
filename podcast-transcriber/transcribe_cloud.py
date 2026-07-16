@@ -28,11 +28,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Config from env
-RSS_URL = os.getenv("RSS_FEED_URL")
-PODCAST_NAME = os.getenv("PODCAST_NAME", "Podcast")
-TRANSCRIPTS_DIR = Path(os.getenv("TRANSCRIPTS_DIR", "./transcripts"))
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+# Config from env (stripped — trailing whitespace in secrets breaks HTTP headers)
+RSS_URL = os.getenv("RSS_FEED_URL", "").strip() or None
+PODCAST_NAME = os.getenv("PODCAST_NAME", "Podcast").strip()
+TRANSCRIPTS_DIR = Path(os.getenv("TRANSCRIPTS_DIR", "./transcripts").strip())
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "").strip() or None
 
 OPENAI_MAX_FILE_SIZE = 24 * 1024 * 1024  # 24MB (API limit is 25MB)
 
