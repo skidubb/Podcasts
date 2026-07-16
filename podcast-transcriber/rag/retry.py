@@ -30,7 +30,9 @@ def retry_with_backoff(
                 raise
             if attempt < max_retries - 1:
                 delay = min(base_delay * (2 ** attempt), max_delay)
-                print(f"  {label} failed ({e}); retrying in {delay:.0f}s "
+                cause = getattr(e, "__cause__", None)
+                detail = f" [cause: {cause!r}]" if cause else ""
+                print(f"  {label} failed ({e}){detail}; retrying in {delay:.0f}s "
                       f"(attempt {attempt + 2}/{max_retries})...")
                 time.sleep(delay)
     raise last_error

@@ -107,6 +107,21 @@ jobs:
             echo "::error::OpenAI preflight failed (status $STATUS). Check the OPENAI_API_KEY secret (expired? trailing newline?)."
             exit 1
           fi
+          # Test the actual transcription endpoint with a 1-second silent MP3
+          # (distinguishes SDK-level failures from endpoint/network blocks)
+          pip install -q imageio-ffmpeg
+          FFMPEG=$(python3 -c "import imageio_ffmpeg; print(imageio_ffmpeg.get_ffmpeg_exe())")
+          "$FFMPEG" -f lavfi -i anullsrc=r=16000:cl=mono -t 1 -b:a 16k -y /tmp/preflight.mp3 2>/dev/null
+          UPLOAD=$(curl -s -o /tmp/preflight_resp.txt -w "%{http_code}" --max-time 120 \
+            https://api.openai.com/v1/audio/transcriptions \
+            -H "Authorization: Bearer ${OPENAI_API_KEY}" \
+            -F model=whisper-1 -F response_format=text -F file=@/tmp/preflight.mp3) || UPLOAD="curl-failed"
+          echo "POST /v1/audio/transcriptions HTTP status: $UPLOAD"
+          if [ "$UPLOAD" != "200" ]; then
+            echo "Transcription endpoint response:"
+            head -c 500 /tmp/preflight_resp.txt || true
+            echo "::warning::Transcription endpoint preflight returned $UPLOAD"
+          fi
 
       - name: Run episode sync
         if: env.SELECTED == 'true'
