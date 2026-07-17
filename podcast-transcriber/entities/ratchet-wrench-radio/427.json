@@ -1,0 +1,41 @@
+{
+  "guest": "Mike Bennett",
+  "people": [
+    "Mike Bennett",
+    "Chris Jones"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor B2B",
+    "Endeavor Business Media",
+    "Clarinna",
+    "PayPal",
+    "Affirm",
+    "Napa",
+    "Dominion"
+  ],
+  "products": [
+    "buy now pay later",
+    "QR code estimates"
+  ],
+  "topics": [
+    "auto repair industry trends",
+    "consumer confidence",
+    "tariffs and inflation",
+    "parts pricing",
+    "electricity costs",
+    "customer financing options",
+    "vehicle age demographics",
+    "shop management strategies",
+    "customer relationships",
+    "seasonal fluctuations",
+    "economic indicators",
+    "supply chain management",
+    "service advisor skills",
+    "loyalty programs",
+    "business coaching"
+  ],
+  "episode_num": 427,
+  "title": "Tale of Two Shops: The Great Turnaround of 2025",
+  "model": "claude-haiku-4-5-20251001"
+}

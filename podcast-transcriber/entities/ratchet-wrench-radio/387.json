@@ -1,0 +1,48 @@
+{
+  "guest": "Sunil Patel",
+  "people": [
+    "Sunil Patel",
+    "Ivan",
+    "Kieran",
+    "Caden",
+    "Bill Fromlet",
+    "Travis Thompson",
+    "Carolyn Colquitt",
+    "Seth Thorson"
+  ],
+  "companies": [
+    "Tekmetric",
+    "Shop Genie",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Earthling Auto",
+    "QuickBooks"
+  ],
+  "products": [
+    "Tekmetric",
+    "Shop Genie",
+    "Accounting Link",
+    "Tire Suite",
+    "Smart Jobs",
+    "Digital Inspections"
+  ],
+  "topics": [
+    "merger and acquisition",
+    "shop management software",
+    "crm platforms",
+    "business efficiency",
+    "technician burnout",
+    "technician shortage",
+    "electric vehicles",
+    "hybrid vehicles",
+    "customer communication",
+    "digital inspections",
+    "point of sale systems",
+    "business integration",
+    "product adoption",
+    "multi-shop operators"
+  ],
+  "episode_num": 387,
+  "title": "What Does the Tekmetric and Shopgenie Merger Mean to your Business",
+  "model": "claude-haiku-4-5-20251001"
+}

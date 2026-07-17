@@ -1,0 +1,36 @@
+{
+  "guest": "Nick Papakyrikos",
+  "people": [
+    "Nick Papakyrikos",
+    "Christine Schaffran",
+    "Christine Schaffrin"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B"
+  ],
+  "products": [
+    "Rocket Money",
+    "Quicken"
+  ],
+  "topics": [
+    "cash flow management",
+    "profit first system",
+    "business profitability",
+    "financial planning",
+    "bank account organization",
+    "owner compensation",
+    "tax planning",
+    "expense management",
+    "human nature in business",
+    "parkinson's law",
+    "revenue growth",
+    "independent auto repair",
+    "business systems",
+    "financial discipline"
+  ],
+  "episode_num": 475,
+  "title": "Why Busy Shops Often Feel Broke",
+  "model": "claude-haiku-4-5-20251001"
+}

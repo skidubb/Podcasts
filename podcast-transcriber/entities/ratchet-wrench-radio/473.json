@@ -1,0 +1,40 @@
+{
+  "guest": "Jay Goninen",
+  "people": [
+    "Jay Goninen",
+    "Carm Capriato",
+    "George Aarons",
+    "ASE"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "WrenchWay",
+    "AIC",
+    "ASC"
+  ],
+  "products": [
+    "ScannerDanner",
+    "Indeed"
+  ],
+  "topics": [
+    "technician shortage",
+    "career paths",
+    "compensation",
+    "benefits",
+    "schedule flexibility",
+    "retention",
+    "workplace culture",
+    "shop management",
+    "training",
+    "independent shops",
+    "dealership comparison",
+    "employee satisfaction",
+    "technician survey",
+    "hiring"
+  ],
+  "episode_num": 473,
+  "title": "Inside the Technician Mindset: What the 2026 Voice of Technician Survey Reveals",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,43 @@
+{
+  "guest": "Seth Thorsen",
+  "people": [
+    "Seth Thorsen",
+    "Daniel Gravely",
+    "Greg Munch",
+    "Sherry"
+  ],
+  "companies": [
+    "Eurotech Auto Service",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "NHTSA"
+  ],
+  "products": [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Perplexity",
+    "Copilot",
+    "Chrome Extensions",
+    "CARFAX"
+  ],
+  "topics": [
+    "ai in auto shops",
+    "custom ai agents",
+    "chatgpt",
+    "technician documentation",
+    "service writer assistance",
+    "hr automation",
+    "time multiplier",
+    "shop operations",
+    "ai implementation",
+    "practical ai tools",
+    "maintenance recommendations",
+    "technician training",
+    "data control",
+    "business automation"
+  ],
+  "episode_num": 470,
+  "title": "AI in the Bay: How Shop Owners Are Building Custom Bots That Actually Work",
+  "model": "claude-haiku-4-5-20251001"
+}

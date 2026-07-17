@@ -1,0 +1,36 @@
+{
+  "guest": "Dwayne Myers",
+  "people": [
+    "Dwayne Myers",
+    "Lee",
+    "Jose",
+    "Melee"
+  ],
+  "companies": [
+    "Dynamic Automotive",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "U.S. Chamber of Commerce",
+    "Capital Cadillac"
+  ],
+  "products": [],
+  "topics": [
+    "small business growth",
+    "employee development",
+    "company culture",
+    "customer service",
+    "team leadership",
+    "community involvement",
+    "automotive repair",
+    "business awards",
+    "scaling operations",
+    "mentorship",
+    "apprenticeship programs",
+    "franchise expansion",
+    "people-first management"
+  ],
+  "episode_num": 438,
+  "title": "The Dynamic Story of Dwayne Myers",
+  "model": "claude-haiku-4-5-20251001"
+}

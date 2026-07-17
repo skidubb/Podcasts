@@ -1,0 +1,41 @@
+{
+  "guest": "Natalie Dixon",
+  "people": [
+    "Natalie Dixon",
+    "Chris"
+  ],
+  "companies": [
+    "Chemours",
+    "Ratchet+Wrench Radio",
+    "EPA",
+    "SAE",
+    "OEM"
+  ],
+  "products": [
+    "Opteon",
+    "R-1234yf",
+    "R-134a",
+    "triple R machine",
+    "134A YF dual machines",
+    "UV dye leak detect"
+  ],
+  "topics": [
+    "r-1234yf refrigerant",
+    "ac servicing",
+    "epa regulations",
+    "snap approval",
+    "vehicle air conditioning",
+    "refrigerant transition",
+    "low gwp refrigerants",
+    "shop equipment investment",
+    "technician certification",
+    "oem vehicle production",
+    "fleet management",
+    "service efficiency",
+    "environmental compliance",
+    "refrigerant alternatives"
+  ],
+  "episode_num": 431,
+  "title": "Tech Talk: R-1234yf in Focus – Regulations, Innovations, and Industry Insights",
+  "model": "claude-haiku-4-5-20251001"
+}

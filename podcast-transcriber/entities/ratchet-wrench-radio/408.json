@@ -1,0 +1,50 @@
+{
+  "guest": "Kathleen Callahan",
+  "people": [
+    "Kathleen Callahan",
+    "Yvonne",
+    "Chris Jones",
+    "Chris Messer",
+    "Delaney",
+    "Shari Desant",
+    "Grumpy Bob",
+    "Rick Flair"
+  ],
+  "companies": [
+    "Exprotec Auto Repair",
+    "Ratchet and Wrench",
+    "Repair Shop of Tomorrow",
+    "Women in Auto Care",
+    "Endeavor business media",
+    "AAA",
+    "NAPA",
+    "Chick-fil-A",
+    "Ritz-Carlton",
+    "Disney"
+  ],
+  "products": [
+    "DISC",
+    "Driving Forces",
+    "CRM software",
+    "Digital Vehicle Inspection",
+    "Google AdWords"
+  ],
+  "topics": [
+    "tone and communication",
+    "customer service",
+    "body language",
+    "service advisor training",
+    "vendor relationships",
+    "pricing and labor rates",
+    "shop culture",
+    "active listening",
+    "customer experience",
+    "communication skills",
+    "positive language",
+    "business relationships",
+    "shop management"
+  ],
+  "episode_num": 408,
+  "title": "It's Not What You Say, It's How You Say It w/Kathleen Callahan",
+  "model": "claude-haiku-4-5-20251001"
+}

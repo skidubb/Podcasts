@@ -1,0 +1,37 @@
+{
+  "guest": "Alison Jones",
+  "people": [
+    "Alison Jones",
+    "Jeeper"
+  ],
+  "companies": [
+    "Stellantis",
+    "Mopar",
+    "Endeavor Business Media",
+    "Society of Motor Manufacturers and Traders",
+    "Ratchet and Wrench"
+  ],
+  "products": [
+    "Sustainera",
+    "BParts"
+  ],
+  "topics": [
+    "circular economy",
+    "remanufactured parts",
+    "sustainability",
+    "ev batteries",
+    "vehicle design",
+    "cost of ownership",
+    "parts availability",
+    "warranty and quality",
+    "hydrogen fuel cells",
+    "right to repair",
+    "carbon emissions",
+    "used parts",
+    "shop efficiency",
+    "technician training"
+  ],
+  "episode_num": 385,
+  "title": "Stellantis SVP for Global Circular Economy, Alison Jones, on Sustainability and Bottom Line",
+  "model": "claude-haiku-4-5-20251001"
+}

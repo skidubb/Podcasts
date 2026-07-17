@@ -1,0 +1,41 @@
+{
+  "guest": "Mike Mooney",
+  "people": [
+    "Mike Mooney",
+    "Christine Schaffrin",
+    "Sarah Welch",
+    "Junior Johnson",
+    "Mario Andretti",
+    "Kyle Busch"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Modern Tire Dealer",
+    "NASCAR",
+    "Roush Fenway",
+    "F1"
+  ],
+  "products": [],
+  "topics": [
+    "team motivation",
+    "leadership",
+    "goal alignment",
+    "personal goals",
+    "mission alignment",
+    "continuous improvement",
+    "pit crew analogy",
+    "commitment vs compliance",
+    "ownership culture",
+    "performance culture",
+    "accountability",
+    "process improvement",
+    "change management",
+    "employee engagement",
+    "high-performing teams"
+  ],
+  "episode_num": 469,
+  "title": "Motivation That Moves the Shop Forward",
+  "model": "claude-haiku-4-5-20251001"
+}

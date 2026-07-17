@@ -1,0 +1,39 @@
+{
+  "guest": "Lola Schmidt",
+  "people": [
+    "Lola Schmidt",
+    "Eric"
+  ],
+  "companies": [
+    "Schmidt Auto Care",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Mac Cosmetics",
+    "Estée Lauder",
+    "ASTA",
+    "Google",
+    "Ratchet+Wrench"
+  ],
+  "products": [
+    "Otter.ai"
+  ],
+  "topics": [
+    "brand storytelling",
+    "cutting through marketing noise",
+    "brand tone",
+    "community engagement",
+    "small business marketing",
+    "marketing budget",
+    "authentic branding",
+    "niche marketing",
+    "customer acquisition",
+    "digital marketing strategy",
+    "guerrilla marketing",
+    "long-term marketing",
+    "business legacy",
+    "marketing consistency"
+  ],
+  "episode_num": 433,
+  "title": "Long Live Your Story",
+  "model": "claude-haiku-4-5-20251001"
+}

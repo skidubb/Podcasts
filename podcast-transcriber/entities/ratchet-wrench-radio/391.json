@@ -1,0 +1,48 @@
+{
+  "guest": "Chris",
+  "people": [
+    "Chris",
+    "Stephen Covey",
+    "Sean Gilfillan",
+    "Ron",
+    "Bill",
+    "Joe Marconi"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor business media",
+    "Technician Find",
+    "Automotive Magic",
+    "Magic Lube and Rubber",
+    "Indeed",
+    "Better Business Bureau"
+  ],
+  "products": [
+    "ChatGPT",
+    "Claude",
+    "Google Jobs",
+    "Facebook",
+    "Instagram",
+    "TikTok",
+    "LinkedIn"
+  ],
+  "topics": [
+    "hiring technicians",
+    "job advertising",
+    "technician recruitment",
+    "shop hiring strategy",
+    "compensation and benefits",
+    "social media recruiting",
+    "candidate engagement",
+    "shop culture",
+    "retention",
+    "job boards",
+    "technician salary",
+    "shop leadership",
+    "employee development",
+    "competitive offers"
+  ],
+  "episode_num": 391,
+  "title": "Effective Strategies for Attracting Top Technicians",
+  "model": "claude-haiku-4-5-20251001"
+}

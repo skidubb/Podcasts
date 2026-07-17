@@ -1,0 +1,45 @@
+{
+  "guest": "Julie Larson",
+  "people": [
+    "Julie Larson",
+    "Theo",
+    "Victor Borowski",
+    "Tyler"
+  ],
+  "companies": [
+    "Scott's Automotive and Tire Centers",
+    "Scott's Auto",
+    "Newport Auto Center",
+    "Hart Auto Care",
+    "Endeavor business media",
+    "Ratchet and Wrench Radio",
+    "Jiffy Lube"
+  ],
+  "products": [
+    "Facebook",
+    "Instagram",
+    "YouTube",
+    "BNI",
+    "digital inspections"
+  ],
+  "topics": [
+    "branding",
+    "marketing strategy",
+    "brand consistency",
+    "logo design",
+    "customer trust",
+    "automotive reputation",
+    "employee recognition",
+    "reviews management",
+    "marketing budget",
+    "visual communications",
+    "customer education",
+    "digital marketing",
+    "community involvement",
+    "shop tours",
+    "brand messaging"
+  ],
+  "episode_num": 397,
+  "title": "How to Build an Automotive Repair Shop Brand",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,38 @@
+{
+  "guest": "Josh Wilber",
+  "people": [
+    "Josh Wilber",
+    "Christine",
+    "Grote Industries founder"
+  ],
+  "companies": [
+    "Grote Industries",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "John Deere",
+    "JCB"
+  ],
+  "products": [
+    "YouTube"
+  ],
+  "topics": [
+    "employee retention",
+    "hiring strategies",
+    "leadership development",
+    "succession planning",
+    "company culture",
+    "generational differences",
+    "technician shortage",
+    "talent management",
+    "core values",
+    "one-on-one meetings",
+    "career development",
+    "soft skills",
+    "family-owned business",
+    "workplace loyalty"
+  ],
+  "episode_num": 480,
+  "title": "125 Years of People-First Leadership: What Shops Can Learn from Grote Industries",
+  "model": "claude-haiku-4-5-20251001"
+}

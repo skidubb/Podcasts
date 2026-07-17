@@ -1,0 +1,45 @@
+{
+  "guest": "Carm Capriotto",
+  "people": [
+    "Carm Capriotto",
+    "Chris",
+    "Matt Fonslow",
+    "Dave Johnson",
+    "Tracy",
+    "Katie Carl",
+    "Victoria Carl",
+    "Johnny",
+    "Bobby"
+  ],
+  "companies": [
+    "Ratchet and Wrench Radio",
+    "Endeavor Business Media",
+    "Remarkable Results Radio",
+    "ASE",
+    "Ford Service Engineering Operation",
+    "Karm's Garage"
+  ],
+  "products": [
+    "The Bear"
+  ],
+  "topics": [
+    "language and vernacular",
+    "mechanical specialist",
+    "technology specialist",
+    "job titles and roles",
+    "workforce pride",
+    "career advancement",
+    "continuing education",
+    "skilled trades",
+    "technician terminology",
+    "shop culture",
+    "consumer perception",
+    "implementation strategy",
+    "industry standards",
+    "professional development",
+    "essential skilled trades"
+  ],
+  "episode_num": 390,
+  "title": "Carm Capriotto: Instilling a Culture of Pride in the Industry",
+  "model": "claude-haiku-4-5-20251001"
+}

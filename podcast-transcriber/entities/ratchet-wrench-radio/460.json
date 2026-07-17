@@ -1,0 +1,49 @@
+{
+  "guest": "James Baxter",
+  "people": [
+    "James Baxter",
+    "Hunter Barton",
+    "Chris Messer",
+    "Mike Jones",
+    "David Ayler",
+    "Randy O'Connor",
+    "Simon Sinek"
+  ],
+  "companies": [
+    "Neighborhood Tire Pros",
+    "Next Tire Commercial",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Discover Leadership",
+    "Firestone",
+    "Left Lane Auto",
+    "Northern Rock",
+    "Mr. Tire",
+    "Monro"
+  ],
+  "products": [
+    "vision board",
+    "mobile tire installation trucks",
+    "P&L statements"
+  ],
+  "topics": [
+    "business growth",
+    "leadership development",
+    "organizational scaling",
+    "financial management",
+    "staff retention",
+    "succession planning",
+    "strategic contraction",
+    "company culture",
+    "entrepreneurship",
+    "tire and auto service",
+    "fearless vs courageous",
+    "vision planning",
+    "cash flow management",
+    "employee training",
+    "operational efficiency"
+  ],
+  "episode_num": 460,
+  "title": "Fearless to Courageous",
+  "model": "claude-haiku-4-5-20251001"
+}

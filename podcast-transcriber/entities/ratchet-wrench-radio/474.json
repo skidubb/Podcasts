@@ -1,0 +1,55 @@
+{
+  "guest": "Ashley Jo Bloom",
+  "people": [
+    "Ashley Jo Bloom",
+    "Jeremy",
+    "Chris",
+    "Matt",
+    "Mark",
+    "Trevor",
+    "Andy",
+    "Lane",
+    "Fry",
+    "Amelia",
+    "Daenerys",
+    "Cecil",
+    "Kent"
+  ],
+  "companies": [
+    "PNW Automotive",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Frito-Lay",
+    "Intel",
+    "Hitachi High Technologies"
+  ],
+  "products": [
+    "AutoCAD",
+    "oscilloscopes",
+    "RF generators",
+    "microwave generators",
+    "turbomolecular pumps",
+    "Auto Academy"
+  ],
+  "topics": [
+    "shop ownership",
+    "women in automotive",
+    "technician training",
+    "apprenticeships",
+    "shop transparency",
+    "customer service",
+    "family business",
+    "husband-wife business partners",
+    "business procedures",
+    "technician compensation",
+    "diagnostic troubleshooting",
+    "shop culture",
+    "mentorship",
+    "business scaling",
+    "work-life balance"
+  ],
+  "episode_num": 474,
+  "title": "From Dream to Drive: How Ashley Jo Bloom Built PNW Automotive on Grit, Transparency, and Vision",
+  "model": "claude-haiku-4-5-20251001"
+}

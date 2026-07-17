@@ -1,0 +1,34 @@
+{
+  "guest": "Matt Kramer",
+  "people": [
+    "Matt Kramer",
+    "Christine"
+  ],
+  "companies": [
+    "Century Partners Real Estate",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Mavis"
+  ],
+  "products": [],
+  "topics": [
+    "real estate strategy",
+    "sale leaseback",
+    "shop financing",
+    "business growth",
+    "liquidity",
+    "equity unlocking",
+    "expansion capital",
+    "automotive service",
+    "portfolio analysis",
+    "business valuation",
+    "debt reduction",
+    "multi-unit scaling",
+    "triple-net assets",
+    "tenant credit",
+    "property valuation"
+  ],
+  "episode_num": 472,
+  "title": "Unlocking Hidden Equity: How Shop Owners Can Turn Real Estate into Growth Capital",
+  "model": "claude-haiku-4-5-20251001"
+}

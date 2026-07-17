@@ -1,0 +1,41 @@
+{
+  "guest": "Lisa Foshee",
+  "people": [
+    "Lisa Foshee",
+    "Chris",
+    "Marie Glusenkamp-Perez",
+    "Greg Dunn",
+    "Senator Lujan",
+    "Senator Howley",
+    "Tom Cotton",
+    "Bill Hanvey"
+  ],
+  "companies": [
+    "Auto Care Association",
+    "Endeavor Business Media",
+    "Volkswagen",
+    "First Circuit Court",
+    "District Court of Appeals"
+  ],
+  "products": [],
+  "topics": [
+    "right to repair",
+    "diagnostic data access",
+    "legislation",
+    "massachusetts",
+    "maine",
+    "federal bill",
+    "independent repair shops",
+    "automaker restrictions",
+    "vehicle authentication",
+    "battery replacement",
+    "consumer choice",
+    "repair affordability",
+    "fleet downtime",
+    "advocacy",
+    "legislative process"
+  ],
+  "episode_num": 417,
+  "title": "What's Next for Right to Repair Legislation?",
+  "model": "claude-haiku-4-5-20251001"
+}

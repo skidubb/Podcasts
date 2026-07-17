@@ -1,0 +1,40 @@
+{
+  "guest": "Aaron Charbonneau and Patrick Meissner",
+  "people": [
+    "Aaron Charbonneau",
+    "Patrick Meissner",
+    "Christine Schaffrin"
+  ],
+  "companies": [
+    "General Motors",
+    "GM",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "AC Delco"
+  ],
+  "products": [
+    "OnStar",
+    "electronic parts catalog",
+    "MPVI",
+    "Partner Perks"
+  ],
+  "topics": [
+    "vehicle maintenance",
+    "older vehicles",
+    "parts availability",
+    "technician training",
+    "adas technology",
+    "customer trust",
+    "predictive maintenance",
+    "telematics",
+    "warranty operations",
+    "service diagnostics",
+    "ev adoption",
+    "repair complexity",
+    "preventative maintenance",
+    "technician certification"
+  ],
+  "episode_num": 439,
+  "title": "The Art of Aging Gracefully: Servicing Older Vehicles",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,52 @@
+{
+  "guest": "Dave Johnson",
+  "people": [
+    "Dave Johnson",
+    "Chris Jones",
+    "Ryan",
+    "Richard May"
+  ],
+  "companies": [
+    "ASE",
+    "Automotive Service Excellence",
+    "Ford Motor Company",
+    "ASE Education Foundation",
+    "NATEF",
+    "Toyota",
+    "GM",
+    "Stellantis",
+    "Honda",
+    "Subaru",
+    "BMW",
+    "Tesla",
+    "Waymo",
+    "Standard",
+    "NADA",
+    "Endeavor Business Media"
+  ],
+  "products": [
+    "O2 sensors",
+    "humanoid robot",
+    "ADAS"
+  ],
+  "topics": [
+    "automotive education",
+    "ase certification",
+    "instructor training",
+    "technician shortage",
+    "automotive technology",
+    "adas",
+    "autonomous vehicles",
+    "ai in automotive",
+    "hands-on learning",
+    "professional development",
+    "industry credibility",
+    "workforce training",
+    "electrical electronics",
+    "stem education",
+    "technician retention"
+  ],
+  "episode_num": 421,
+  "title": "ASE's Dave Johnson: The Future of Automotive Education and Why Certification Still \"Means Something”",
+  "model": "claude-haiku-4-5-20251001"
+}

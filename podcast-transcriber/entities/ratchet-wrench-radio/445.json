@@ -1,0 +1,34 @@
+{
+  "guest": "Mike Jones",
+  "people": [
+    "Mike Jones",
+    "Chris Messer",
+    "Christine Schaffran"
+  ],
+  "companies": [
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Discover Leadership",
+    "SCRS"
+  ],
+  "products": [],
+  "topics": [
+    "mindset",
+    "leadership",
+    "business culture",
+    "team dynamics",
+    "growth mindset",
+    "personal development",
+    "environment creation",
+    "business success",
+    "change management",
+    "critical mass theory",
+    "owner mentality",
+    "industry adaptation",
+    "collision repair",
+    "organizational change"
+  ],
+  "episode_num": 445,
+  "title": "Mind Your Business",
+  "model": "claude-haiku-4-5-20251001"
+}

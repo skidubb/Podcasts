@@ -1,0 +1,46 @@
+{
+  "guest": "Louie Sharp",
+  "people": [
+    "Louie Sharp",
+    "Chris Messer",
+    "Mike Jones",
+    "Lisa Nichols",
+    "Jack Canfield",
+    "Phil Jackson",
+    "Babe Ruth",
+    "Socrates",
+    "Inspector Clouseau",
+    "Sherlock Holmes"
+  ],
+  "companies": [
+    "Sharp Auto Body",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Discover Leadership",
+    "Ratchet+Wrench Radio"
+  ],
+  "products": [
+    "The Body Keeps the Score",
+    "Eleven Rings",
+    "Sedona Method"
+  ],
+  "topics": [
+    "leadership",
+    "personal growth",
+    "letting go",
+    "shop management",
+    "employee development",
+    "emotional intelligence",
+    "business culture",
+    "conflict resolution",
+    "curiosity over confrontation",
+    "response vs reaction",
+    "trauma and recovery",
+    "team loyalty",
+    "decision making",
+    "self-awareness"
+  ],
+  "episode_num": 467,
+  "title": "Give Up What You Don’t Need",
+  "model": "claude-haiku-4-5-20251001"
+}

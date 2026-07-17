@@ -1,0 +1,38 @@
+{
+  "guest": "Mike Coley",
+  "people": [
+    "Mike Coley",
+    "Christine Schafrin",
+    "Chris Jones",
+    "George Aaron"
+  ],
+  "companies": [
+    "ASE Education Foundation",
+    "ASE",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Wrench Way"
+  ],
+  "products": [
+    "Wrench Way school assist system"
+  ],
+  "topics": [
+    "technician shortage",
+    "automotive education",
+    "ase accreditation",
+    "curriculum standards",
+    "apprenticeship programs",
+    "vocational training",
+    "employer partnerships",
+    "entry-level training",
+    "hands-on learning",
+    "career development",
+    "ev technology",
+    "student mentorship",
+    "educational standards",
+    "school advisory committees"
+  ],
+  "episode_num": 448,
+  "title": "Building the Next Generation: How ASE Foundation Standards Are Shaping Tomorrow's Technicians",
+  "model": "claude-haiku-4-5-20251001"
+}

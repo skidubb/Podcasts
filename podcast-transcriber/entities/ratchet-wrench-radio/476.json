@@ -1,0 +1,35 @@
+{
+  "guest": "Nick Papakyrikos",
+  "people": [
+    "Nick Papakyrikos",
+    "Christine Schaffrin",
+    "Bill Gates",
+    "Michael Dell"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "CalPERS",
+    "California Public Employees Retirement System"
+  ],
+  "products": [],
+  "topics": [
+    "private equity",
+    "shop valuations",
+    "ebitda",
+    "business profitability",
+    "platform companies",
+    "generational wealth",
+    "mergers and acquisitions",
+    "buy and build strategy",
+    "auto repair industry",
+    "business growth",
+    "independent auto shops",
+    "financial planning",
+    "business sale strategy"
+  ],
+  "episode_num": 476,
+  "title": "The Gold Mine Under Your Shop",
+  "model": "claude-haiku-4-5-20251001"
+}

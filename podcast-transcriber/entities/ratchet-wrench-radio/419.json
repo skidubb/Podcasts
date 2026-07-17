@@ -1,0 +1,46 @@
+{
+  "guest": "Charlie Zlatkos",
+  "people": [
+    "Charlie Zlatkos",
+    "Chris Jones",
+    "Todd Hayes",
+    "Bill Broussard",
+    "Perry Adams",
+    "Hendrix",
+    "Dimitri",
+    "Vula Zlatkos"
+  ],
+  "companies": [
+    "Pleasant Car Care",
+    "Auto Shop Answers",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Houston-Boston Partnership",
+    "Midas International",
+    "Valvoline"
+  ],
+  "products": [
+    "ChatGPT",
+    "Meta Glasses"
+  ],
+  "topics": [
+    "entrepreneurship",
+    "business ownership",
+    "technician to owner transition",
+    "customer service",
+    "employee culture",
+    "mentorship",
+    "work ethic",
+    "business scaling",
+    "automotive industry",
+    "team development",
+    "customer retention",
+    "key-to-key concept",
+    "immigration story",
+    "american dream",
+    "shop operations"
+  ],
+  "episode_num": 419,
+  "title": "From Matchbox Cars to a Million-Dollar Shop: Charlie Zlatkos' American Dream",
+  "model": "claude-haiku-4-5-20251001"
+}

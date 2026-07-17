@@ -1,0 +1,35 @@
+{
+  "guest": "Dave Brown",
+  "people": [
+    "Dave Brown",
+    "Chris Jones"
+  ],
+  "companies": [
+    "SDB Leadership",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Johns Hopkins"
+  ],
+  "products": [],
+  "topics": [
+    "public speaking",
+    "communication skills",
+    "leadership training",
+    "confidence building",
+    "imposter syndrome",
+    "executive presence",
+    "one-on-one meetings",
+    "keynote speaking",
+    "fear of rejection",
+    "mindset reframing",
+    "affirmations",
+    "body language",
+    "shop owner management",
+    "customer communication",
+    "voice training"
+  ],
+  "episode_num": 430,
+  "title": "Conquering Your Fear of Speaking: From One-on-Ones to Keynotes",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,57 @@
+{
+  "guest": "Mike Bennett",
+  "people": [
+    "Mike Bennett",
+    "Ivan",
+    "Mike"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor business media",
+    "Mike's Cars, Inc.",
+    "ATI",
+    "ITR Economics",
+    "Amazon",
+    "DoorDash",
+    "Uber",
+    "Apple",
+    "McDonald's",
+    "Ruth Chris Steakhouse",
+    "Recurrent",
+    "AutoCare",
+    "Porsche",
+    "Lucid"
+  ],
+  "products": [
+    "MacBook",
+    "HP",
+    "Dell",
+    "Porsche Taycan",
+    "Lucid Air"
+  ],
+  "topics": [
+    "industry forecast",
+    "economic uncertainty",
+    "tariffs impact",
+    "vehicle age trends",
+    "consumer confidence",
+    "counter-cyclic nature",
+    "new car sales",
+    "used car market",
+    "electric vehicles",
+    "customer experience",
+    "consumer expectations",
+    "business differentiation",
+    "pricing pressure",
+    "margin compression",
+    "shop efficiency",
+    "ev repair costs",
+    "foreign vehicle specialists",
+    "mobile services",
+    "buy now pay later",
+    "fleet growth"
+  ],
+  "episode_num": 406,
+  "title": "Forecast and State of the Industry w/Mike Bennett",
+  "model": "claude-haiku-4-5-20251001"
+}

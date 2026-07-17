@@ -1,0 +1,40 @@
+{
+  "guest": "Victor Brosky",
+  "people": [
+    "Victor Brosky",
+    "Ivan",
+    "Michael",
+    "Carm Capriotto"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Toastmasters International",
+    "Porsche"
+  ],
+  "products": [
+    "DVI",
+    "battery tester",
+    "scan tool"
+  ],
+  "topics": [
+    "selling techniques",
+    "upselling",
+    "overselling",
+    "customer trust",
+    "service advisory",
+    "sales manipulation",
+    "scare tactics",
+    "customer communication",
+    "presumptive close",
+    "delivery confidence",
+    "public speaking",
+    "shop management",
+    "customer relationships",
+    "brake service",
+    "maintenance recommendations"
+  ],
+  "episode_num": 404,
+  "title": "Selling, Upselling, and Overselling",
+  "model": "claude-haiku-4-5-20251001"
+}

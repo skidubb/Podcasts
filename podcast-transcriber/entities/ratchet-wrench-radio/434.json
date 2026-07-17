@@ -1,0 +1,34 @@
+{
+  "guest": "Robyn Reno",
+  "people": [
+    "Robyn Reno",
+    "Christine Schaffrin",
+    "Ben"
+  ],
+  "companies": [
+    "Rob the Blonde Mechanic, LLC",
+    "Georgia Auto Solutions",
+    "Endeavor Business Media",
+    "Endeavor B2B"
+  ],
+  "products": [],
+  "topics": [
+    "women in automotive",
+    "business ownership",
+    "representation",
+    "mobile mechanic services",
+    "subscription services",
+    "community education",
+    "electric vehicles",
+    "technician training",
+    "entrepreneurship",
+    "branding",
+    "authenticity",
+    "car maintenance",
+    "male-dominated industry",
+    "small business operations"
+  ],
+  "episode_num": 434,
+  "title": "Who is Rob the Blonde Mechanic?",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,51 @@
+{
+  "guest": "Tom Gattuso",
+  "people": [
+    "Tom Gattuso",
+    "Christine Schaffrin",
+    "Jay Leno",
+    "Tim Caniscus",
+    "Travis Pastrana",
+    "Brian Scotto"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Specialty Equipment Market Association",
+    "SEMA",
+    "OPTIMA",
+    "Nitro Circus",
+    "Hoonigan",
+    "FIA",
+    "Stellantis"
+  ],
+  "products": [
+    "Spark Slide",
+    "Ultimate Streetcar Challenge",
+    "OPTIMA Unleashed",
+    "SEMA Cruise",
+    "SEMA Fest",
+    "Road to SEMA"
+  ],
+  "topics": [
+    "automotive events",
+    "sema show 2025",
+    "aftermarket industry",
+    "car culture",
+    "motorsports activations",
+    "innovation showcase",
+    "experiential marketing",
+    "younger demographics",
+    "trade show management",
+    "vehicle builds",
+    "networking",
+    "new product launches",
+    "performance competitions",
+    "consumer engagement",
+    "event planning"
+  ],
+  "episode_num": 436,
+  "title": "Gearing Up for SEMA with Tom Gattuso",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,46 @@
+{
+  "guest": "David Askwith",
+  "people": [
+    "David Askwith",
+    "Doug",
+    "Rick",
+    "Ivan"
+  ],
+  "companies": [
+    "Autostream Car Care",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "RepairPal",
+    "Techmetric",
+    "Stellantis",
+    "Mr. Tire",
+    "Sunoco",
+    "Shell",
+    "Mobil",
+    "Goodyear"
+  ],
+  "products": [
+    "RepairPal",
+    "Techmetric",
+    "Today's Class"
+  ],
+  "topics": [
+    "multi-store expansion",
+    "business infrastructure",
+    "communication systems",
+    "financing and growth",
+    "rebranding strategy",
+    "parts supplier relationships",
+    "service advisor efficiency",
+    "customer relationship management",
+    "scheduling and technology",
+    "technician training",
+    "ev and hybrid service",
+    "right to repair",
+    "ase certification",
+    "pricing negotiation"
+  ],
+  "episode_num": 383,
+  "title": "The Keys to Expanding into the Multi-store Model",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,46 @@
+{
+  "guest": "Kevin Robinson",
+  "people": [
+    "Kevin Robinson",
+    "Ivan Rioja-Scott",
+    "Carolyn",
+    "Andrew"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "SHOP-WARE",
+    "Vivo",
+    "Auto Ops",
+    "Steer",
+    "Auto Shop Solutions",
+    "O'Hare International"
+  ],
+  "products": [
+    "SHOP-WARE",
+    "DVX",
+    "Online Service Scheduler",
+    "Digital Vehicle Inspection",
+    "Shopware shop management system",
+    "Google Maps",
+    "Facebook Business"
+  ],
+  "topics": [
+    "customer journey",
+    "online scheduling",
+    "digital vehicle inspection",
+    "shop management software",
+    "customer acquisition",
+    "mobile-first design",
+    "shop efficiency",
+    "appointment booking",
+    "consumer experience",
+    "software implementation",
+    "technician training",
+    "car counts",
+    "average repair orders",
+    "api integrations"
+  ],
+  "episode_num": 411,
+  "title": "The Road to Repair: Why the Customer Journey Starts Online",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,45 @@
+{
+  "guest": null,
+  "people": [
+    "Jason Rainey",
+    "Matt Crumpton",
+    "Roy Foster",
+    "Ivan",
+    "Pete McNeil",
+    "Jake Sorensen"
+  ],
+  "companies": [
+    "NAPA Auto Care",
+    "NAPA",
+    "Roy Foster's Automotive",
+    "Endeavor Business Media",
+    "McNeil's"
+  ],
+  "products": [
+    "NAPA Rewards",
+    "Digital Vehicle Inspection",
+    "NAPA Auto Tech Training",
+    "NextDrive EV Training",
+    "ADOS",
+    "LMS"
+  ],
+  "topics": [
+    "technician shortage",
+    "tool rebate program",
+    "apprenticeship program",
+    "barrier to entry",
+    "shop culture",
+    "recruitment and retention",
+    "technician training",
+    "ev diagnostics",
+    "digital vehicle inspection",
+    "tool cost",
+    "shop reputation",
+    "industry perception",
+    "technician equipment",
+    "napa auto care membership"
+  ],
+  "episode_num": 401,
+  "title": "Addressing the Technician Shortage and the NAPA Team Tool Rebate",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,57 @@
+{
+  "guest": "Jacki Lutz",
+  "people": [
+    "Jacki Lutz",
+    "Ivan",
+    "Victor Broski",
+    "Jeremy Clarkson",
+    "Lola Schmidt",
+    "Eric Schmidt",
+    "Chris Jones",
+    "Marianne Croce",
+    "Terrence Sode",
+    "Andrew Stetso",
+    "Zenaida Perez",
+    "Dutch Silverstein"
+  ],
+  "companies": [
+    "Auto Care Association",
+    "Endeavor Business Media",
+    "Newport Motorsports",
+    "Schmidt Auto Care",
+    "AutoTrader",
+    "Conceptual Minds"
+  ],
+  "products": [
+    "Instagram",
+    "TikTok",
+    "YouTube",
+    "LinkedIn",
+    "Facebook",
+    "Ratchet+Wrench Radio",
+    "Auto Care On Air",
+    "Carpool Conversations",
+    "Traction Control",
+    "Driver Seat"
+  ],
+  "topics": [
+    "social media strategy",
+    "digital presence",
+    "employee-generated content",
+    "trust building",
+    "transparency",
+    "technician visibility",
+    "content creation",
+    "authenticity",
+    "tech shortage",
+    "right to repair",
+    "marketing",
+    "reputation management",
+    "industry perception",
+    "professional development",
+    "podcasting"
+  ],
+  "episode_num": 402,
+  "title": "Make Social Media a Tool for Growth and Transparency w/Jacki Lutz",
+  "model": "claude-haiku-4-5-20251001"
+}

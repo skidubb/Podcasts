@@ -1,0 +1,41 @@
+{
+  "guest": "Steve Lockwood",
+  "people": [
+    "Steve Lockwood",
+    "Christine Schaffran"
+  ],
+  "companies": [
+    "Mountain State Fire Protection",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Compliance Engine"
+  ],
+  "products": [
+    "EV fire blankets",
+    "battery carts",
+    "temperature monitoring tools",
+    "heat detectors",
+    "inspection software"
+  ],
+  "topics": [
+    "fire safety",
+    "auto shop hazards",
+    "ev fires",
+    "thermal runaway",
+    "fire suppression systems",
+    "sprinkler systems",
+    "fire extinguishers",
+    "fire alarms",
+    "paint booth suppression",
+    "lithium batteries",
+    "electrical fires",
+    "flammable storage",
+    "employee training",
+    "fire protection compliance",
+    "facility inspection"
+  ],
+  "episode_num": 447,
+  "title": "Fire Safety 2.0: The Risks Your Shop Can’t Afford to Ignore",
+  "model": "claude-haiku-4-5-20251001"
+}

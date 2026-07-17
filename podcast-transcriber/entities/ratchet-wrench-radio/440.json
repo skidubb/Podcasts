@@ -1,0 +1,39 @@
+{
+  "guest": "Mike Jones, Randy O'Connor",
+  "people": [
+    "Mike Jones",
+    "Randy O'Connor",
+    "Chris Messer",
+    "Christine Schaffrin",
+    "Debbie",
+    "Jess"
+  ],
+  "companies": [
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Discover Leadership",
+    "D2D Development",
+    "Ratchet and Wrench Magazine"
+  ],
+  "products": [],
+  "topics": [
+    "focus on outcome",
+    "shared vision",
+    "commitment ownership",
+    "leadership",
+    "team accountability",
+    "self discipline",
+    "celebrating progress",
+    "kpis",
+    "personal responsibility",
+    "goal setting",
+    "positive reinforcement",
+    "business culture",
+    "auto care industry",
+    "daily goals",
+    "performance measurement"
+  ],
+  "episode_num": 440,
+  "title": "Focus on the Outcome",
+  "model": "claude-haiku-4-5-20251001"
+}

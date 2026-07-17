@@ -1,0 +1,39 @@
+{
+  "guest": "Keith Mait",
+  "people": [
+    "Keith Mait",
+    "Christine Schaffrin",
+    "Miss Riley"
+  ],
+  "companies": [
+    "Synchrony",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Epsilon",
+    "Amazon",
+    "alphonic.com"
+  ],
+  "products": [
+    "point of sale system",
+    "loyalty platforms"
+  ],
+  "topics": [
+    "customer loyalty",
+    "data-driven engagement",
+    "personalization",
+    "customer retention",
+    "relationship marketing",
+    "automotive aftermarket",
+    "customer communication",
+    "declined services tracking",
+    "timing and messaging",
+    "roi measurement",
+    "independent shops",
+    "customer expectations",
+    "loyalty programs",
+    "emotional connection"
+  ],
+  "episode_num": 468,
+  "title": "From Transactions to Trust",
+  "model": "claude-haiku-4-5-20251001"
+}

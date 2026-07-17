@@ -1,0 +1,39 @@
+{
+  "guest": "Mike Jones",
+  "people": [
+    "Mike Jones",
+    "Chris",
+    "Will Rogers",
+    "Susan"
+  ],
+  "companies": [
+    "Discover Leadership Training",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Coca-Cola",
+    "ExxonMobil",
+    "Continental Airlines",
+    "Houston Police Department",
+    "US Coast Guard"
+  ],
+  "products": [],
+  "topics": [
+    "leadership development",
+    "personal growth",
+    "communication skills",
+    "comfort zones",
+    "self-discipline",
+    "team building",
+    "motivation vs discipline",
+    "accountability",
+    "failure and risk",
+    "mindset shift",
+    "neuroplasticity",
+    "habit formation",
+    "professional development",
+    "feed forward"
+  ],
+  "episode_num": 416,
+  "title": "Growing as a Leader",
+  "model": "claude-haiku-4-5-20251001"
+}

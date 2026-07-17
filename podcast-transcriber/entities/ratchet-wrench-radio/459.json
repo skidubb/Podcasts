@@ -1,0 +1,45 @@
+{
+  "guest": "Sunil Patel",
+  "people": [
+    "Sunil Patel",
+    "Christine Schaffrin",
+    "Cody Sanchez",
+    "Mike Michalowicz",
+    "Sebastian Jimenez",
+    "Robert Keller",
+    "Aaron Stokes",
+    "Michael Rosenberger"
+  ],
+  "companies": [
+    "Tekmetric",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Ratchet & Wrench",
+    "World Pack Training Institute",
+    "Bosch"
+  ],
+  "products": [
+    "Tekmetric software"
+  ],
+  "topics": [
+    "conference",
+    "automotive repair",
+    "shop management",
+    "leadership",
+    "technician training",
+    "ev service",
+    "adas calibration",
+    "business systems",
+    "profitability",
+    "coaching",
+    "team development",
+    "industry trends",
+    "direct injection",
+    "refrigerants",
+    "business growth"
+  ],
+  "episode_num": 459,
+  "title": "Shifting the Industry: Inside Tektonic 2026 with Sunil Patel",
+  "model": "claude-haiku-4-5-20251001"
+}

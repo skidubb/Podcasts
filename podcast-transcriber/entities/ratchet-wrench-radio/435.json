@@ -1,0 +1,32 @@
+{
+  "guest": "Mike Jones",
+  "people": [
+    "Mike Jones",
+    "Chris Messer",
+    "Christine Schaffran"
+  ],
+  "companies": [
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Discover Leadership",
+    "Ratchet+Wrench Radio"
+  ],
+  "products": [],
+  "topics": [
+    "i will attitude",
+    "leadership mindset",
+    "powerless words",
+    "self-talk",
+    "intentional language",
+    "winning culture",
+    "personal development",
+    "team performance",
+    "goal setting",
+    "i photo framework",
+    "professional growth",
+    "organizational culture"
+  ],
+  "episode_num": 435,
+  "title": "The \"I Will\" Attitude",
+  "model": "claude-haiku-4-5-20251001"
+}

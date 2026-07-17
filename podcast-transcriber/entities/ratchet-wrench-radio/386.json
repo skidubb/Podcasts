@@ -1,0 +1,44 @@
+{
+  "guest": "Dylan Williamson",
+  "people": [
+    "Dylan Williamson",
+    "Ivan",
+    "Bridget"
+  ],
+  "companies": [
+    "Redline Business Advisors",
+    "Williamson Advisors",
+    "Endeavor Business Media",
+    "ADP",
+    "WorldPak",
+    "Mitchell",
+    "TechMetrics",
+    "Exxon"
+  ],
+  "products": [
+    "ADP",
+    "Mitchell",
+    "TechMetrics",
+    "Loom"
+  ],
+  "topics": [
+    "tax strategy",
+    "company structure",
+    "llc vs s-corp vs c-corp",
+    "business entity selection",
+    "tax planning",
+    "bookkeeping",
+    "self-employment tax",
+    "reasonable compensation",
+    "succession planning",
+    "business valuation",
+    "retirement planning",
+    "401k contributions",
+    "financial management",
+    "profitability analysis",
+    "cash flow management"
+  ],
+  "episode_num": 386,
+  "title": "Tax Strategy and Company Structure: Best Practices",
+  "model": "claude-haiku-4-5-20251001"
+}

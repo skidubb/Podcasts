@@ -1,0 +1,32 @@
+{
+  "guest": "Margaret Light",
+  "people": [
+    "Margaret Light",
+    "Tara Brach",
+    "Dan Siegel"
+  ],
+  "companies": [
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Ratchet+Wrench Radio"
+  ],
+  "products": [],
+  "topics": [
+    "mindfulness",
+    "meditation",
+    "mental health",
+    "shop owner leadership",
+    "stress management",
+    "burnout prevention",
+    "decision-making",
+    "employee management",
+    "customer interactions",
+    "business productivity",
+    "nervous system regulation",
+    "emotional awareness",
+    "habit formation"
+  ],
+  "episode_num": 471,
+  "title": "Mind Over Mayhem: How Shop Owners Can Stay Calm, Focused, and in Control",
+  "model": "claude-haiku-4-5-20251001"
+}

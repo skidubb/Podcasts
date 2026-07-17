@@ -1,0 +1,39 @@
+{
+  "guest": "Keith Crerar",
+  "people": [
+    "Christine Schaffran",
+    "Keith Crerar",
+    "Jim Farley"
+  ],
+  "companies": [
+    "Repairify",
+    "Ford",
+    "Endeavor Business Media",
+    "Endeavor B2B"
+  ],
+  "products": [
+    "connected calibration",
+    "diagnostic tools",
+    "calibration tools",
+    "OEM scan tools",
+    "dashboarding tools"
+  ],
+  "topics": [
+    "technician shortage",
+    "skills gap",
+    "adas complexity",
+    "diagnostics and calibration",
+    "ai in automotive",
+    "change management",
+    "technician training",
+    "collision repair",
+    "shop operations",
+    "vehicle safety",
+    "oem requirements",
+    "labor disruption",
+    "shop technology adoption"
+  ],
+  "episode_num": 446,
+  "title": "Bridging the Technician Gap: How Shops Can Adapt to the Industry’s Biggest Disruption",
+  "model": "claude-haiku-4-5-20251001"
+}

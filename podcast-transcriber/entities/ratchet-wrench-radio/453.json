@@ -1,0 +1,36 @@
+{
+  "guest": "Mike Jones",
+  "people": [
+    "Mike Jones",
+    "Chris Messer",
+    "Chris Jones",
+    "Christine Schaffrin"
+  ],
+  "companies": [
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Discover Leadership",
+    "Vehicle Service and Repair Group"
+  ],
+  "products": [],
+  "topics": [
+    "mindset and behavior",
+    "goal setting",
+    "leadership",
+    "personal growth",
+    "shop performance",
+    "kpi management",
+    "motivation and discipline",
+    "team building",
+    "organizational culture",
+    "outcomes vs goals",
+    "fighting forward",
+    "behavioral change",
+    "auto repair industry",
+    "employee retention",
+    "self-discipline"
+  ],
+  "episode_num": 453,
+  "title": "Fight Forward",
+  "model": "claude-haiku-4-5-20251001"
+}

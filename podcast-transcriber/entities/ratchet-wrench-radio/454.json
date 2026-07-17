@@ -1,0 +1,47 @@
+{
+  "guest": "Mike Chung",
+  "people": [
+    "Mike Chung",
+    "Chris Jones",
+    "Rod Piotrowski",
+    "Nathan Shipley",
+    "Toyota CEO"
+  ],
+  "companies": [
+    "Auto Care Association",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Hanover Research",
+    "S&P Global",
+    "MEMA",
+    "Arity",
+    "Cercana",
+    "American Tire Distributors",
+    "IMR",
+    "Endeavor Business Intelligence",
+    "Toyota"
+  ],
+  "products": [
+    "Joint Channel Forecast Model"
+  ],
+  "topics": [
+    "aftermarket trends",
+    "tariffs and inflation",
+    "supply chain",
+    "consumer behavior",
+    "ev adoption",
+    "hybrid vehicles",
+    "vehicle miles traveled",
+    "parts pricing",
+    "private label parts",
+    "tire trends",
+    "maintenance patterns",
+    "diy repair",
+    "trading down",
+    "market intelligence"
+  ],
+  "episode_num": 454,
+  "title": "What 2025 Taught Us About the Aftermarket—And What Comes Next",
+  "model": "claude-haiku-4-5-20251001"
+}

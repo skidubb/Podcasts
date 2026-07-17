@@ -1,0 +1,38 @@
+{
+  "guest": "Kendall Warnock",
+  "people": [
+    "Kendall Warnock",
+    "Christine Schaffrin",
+    "John Maxwell",
+    "Dale Carnegie",
+    "Muhammad Ali"
+  ],
+  "companies": [
+    "A1 Automotive",
+    "Ratchet+Wrench",
+    "Endeavor Business Media",
+    "Endeavor B2B"
+  ],
+  "products": [
+    "How to Win Friends and Influence People",
+    "The Purple Cow"
+  ],
+  "topics": [
+    "leadership development",
+    "small business ownership",
+    "business growth",
+    "company culture",
+    "financial management",
+    "p&l statements",
+    "team building",
+    "self-improvement",
+    "work ethic",
+    "customer service",
+    "overcoming adversity",
+    "mindset",
+    "competitive differentiation"
+  ],
+  "episode_num": 451,
+  "title": "From Food Stamps to Small Business of the Year: The Relentless Leadership of Kendall Warnock",
+  "model": "claude-haiku-4-5-20251001"
+}

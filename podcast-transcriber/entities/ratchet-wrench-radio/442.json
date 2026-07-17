@@ -1,0 +1,39 @@
+{
+  "guest": "Nick Papakryikos",
+  "people": [
+    "Nick Papakryikos",
+    "Christine Schaffran",
+    "Chevy Chase"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Panera Bread",
+    "Staples",
+    "Home Depot"
+  ],
+  "products": [
+    "Visa gift card",
+    "American Express gift card",
+    "gas cards"
+  ],
+  "topics": [
+    "employee appreciation",
+    "year-end bonuses",
+    "small business management",
+    "employee retention",
+    "budget-friendly gifts",
+    "paid time off",
+    "catered lunches",
+    "workplace morale",
+    "employee motivation",
+    "holiday season",
+    "employee recognition",
+    "workplace culture",
+    "gift card strategies"
+  ],
+  "episode_num": 442,
+  "title": "Big Thanks, Small Budget: Smart Ways to Show Employee Appreciation",
+  "model": "claude-haiku-4-5-20251001"
+}

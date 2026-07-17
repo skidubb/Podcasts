@@ -1,0 +1,35 @@
+{
+  "guest": "Margaret Light",
+  "people": [
+    "Margaret Light",
+    "Christine Schaffrin"
+  ],
+  "companies": [
+    "Equilibrium Therapy Services",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Ratchet+Wrench"
+  ],
+  "products": [
+    "Otter.ai"
+  ],
+  "topics": [
+    "work-life balance",
+    "leadership",
+    "mental health",
+    "business ownership",
+    "boundaries",
+    "self-care",
+    "stress management",
+    "delegation",
+    "perfectionism",
+    "identity",
+    "relationships",
+    "productivity",
+    "therapy",
+    "mentorship"
+  ],
+  "episode_num": 466,
+  "title": "Work-Life Balance Isn’t a Luxury—It’s a Leadership Skill",
+  "model": "claude-haiku-4-5-20251001"
+}

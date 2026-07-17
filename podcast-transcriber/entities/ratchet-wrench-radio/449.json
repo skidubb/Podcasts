@@ -1,0 +1,40 @@
+{
+  "guest": "Katie French",
+  "people": [
+    "Katie French",
+    "Christine Schaffran",
+    "Christine Schaffrin"
+  ],
+  "companies": [
+    "Ratchet+Wrench Magazine",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "New England Institute of Technology",
+    "AAPEX",
+    "Mopar",
+    "Ford"
+  ],
+  "products": [
+    "Power Wheels Jeep",
+    "Hot Wheels"
+  ],
+  "topics": [
+    "service advisors",
+    "women in automotive",
+    "shop culture",
+    "customer service",
+    "technician training",
+    "diversity and inclusion",
+    "retention",
+    "shop management",
+    "communication",
+    "mentorship",
+    "automotive industry",
+    "skilled trades",
+    "career development",
+    "active listening"
+  ],
+  "episode_num": 449,
+  "title": "Meet Ratchet+Wrench’s Newest Columnist, Katie French",
+  "model": "claude-haiku-4-5-20251001"
+}

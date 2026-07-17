@@ -1,0 +1,48 @@
+{
+  "guest": "Lisa Coyle and Dwayne Myers",
+  "people": [
+    "Lisa Coyle",
+    "Dwayne Myers",
+    "Ivan",
+    "Kathleen Callahan",
+    "Greg Bunch",
+    "Chris Messner"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Velo Sales",
+    "360 Payments",
+    "Promotive",
+    "Dynamic Automotive",
+    "Amazon",
+    "Indeed",
+    "ZipRecruiter",
+    "Visa",
+    "MasterCard"
+  ],
+  "products": [
+    "360 Payments",
+    "Promotive",
+    "Google Reviews"
+  ],
+  "topics": [
+    "vendor relations",
+    "supplier relationships",
+    "business partnerships",
+    "fair pricing",
+    "communication",
+    "feedback and growth",
+    "trust building",
+    "customer service",
+    "payment practices",
+    "social media impact",
+    "industry reputation",
+    "vendor selection",
+    "mutual respect",
+    "networking"
+  ],
+  "episode_num": 407,
+  "title": "Don't Treat Your Vendors That Way",
+  "model": "claude-haiku-4-5-20251001"
+}

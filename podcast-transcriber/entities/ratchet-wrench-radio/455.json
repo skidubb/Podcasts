@@ -1,0 +1,35 @@
+{
+  "guest": "Hunt Demarest",
+  "people": [
+    "Hunt Demarest",
+    "Christine Schaffran"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Parr-Mellison Associates",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Ratchet and Wrench Magazine"
+  ],
+  "products": [
+    "Beyond the Bays"
+  ],
+  "topics": [
+    "financial management",
+    "shop profitability",
+    "cash vs profit",
+    "accounts receivable",
+    "inventory management",
+    "financial blind spots",
+    "business numbers",
+    "tax planning",
+    "employee retention",
+    "shop valuation",
+    "accounting fundamentals",
+    "business growth",
+    "financial forecasting"
+  ],
+  "episode_num": 455,
+  "title": "Beyond the Bays: Why Shop Owners Must Understand Their Numbers to Protect Profits",
+  "model": "claude-haiku-4-5-20251001"
+}

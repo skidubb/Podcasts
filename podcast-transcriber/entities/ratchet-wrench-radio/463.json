@@ -1,0 +1,40 @@
+{
+  "guest": "Tonnika Haynes",
+  "people": [
+    "Tonnika Haynes",
+    "Christine Schaffrin",
+    "William Brown",
+    "Santana Haynes",
+    "Stuart"
+  ],
+  "companies": [
+    "Brown's Automotive",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Universal Technical Institute",
+    "Mercedes program Jacksonville"
+  ],
+  "products": [
+    "AI"
+  ],
+  "topics": [
+    "second generation ownership",
+    "leadership transition",
+    "family business",
+    "employee management",
+    "succession planning",
+    "automotive shop operations",
+    "customer service",
+    "letting go",
+    "business culture",
+    "father-daughter legacy",
+    "training and development",
+    "work-life balance",
+    "confidence building",
+    "generational knowledge transfer"
+  ],
+  "episode_num": 463,
+  "title": "Carrying the Torch: Tonnika Haynes on Leading Brown’s Automotive Into the Next Generation",
+  "model": "claude-haiku-4-5-20251001"
+}

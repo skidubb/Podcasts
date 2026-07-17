@@ -1,0 +1,29 @@
+{
+  "guest": "Mike Jones",
+  "people": [
+    "Mike Jones",
+    "Chris Messer",
+    "Chris Jones"
+  ],
+  "companies": [
+    "Discover Leadership Training",
+    "Endeavor Business Media",
+    "Ratchet and Wrench Radio"
+  ],
+  "products": [],
+  "topics": [
+    "follow-up and follow-through",
+    "leadership vs management",
+    "business culture",
+    "customer communication",
+    "automotive industry",
+    "collision shops",
+    "customer service",
+    "performance management",
+    "accountability",
+    "team leadership"
+  ],
+  "episode_num": 425,
+  "title": "Bonus: Follow Up, Follow Through",
+  "model": "claude-haiku-4-5-20251001"
+}

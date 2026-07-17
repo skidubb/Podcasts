@@ -1,0 +1,33 @@
+{
+  "guest": "Jackson Skey",
+  "people": [
+    "Jackson Skey",
+    "Ivan Rioja-Scott"
+  ],
+  "companies": [
+    "AMAROK",
+    "Ratchet+Wrench Radio"
+  ],
+  "products": [
+    "AMAROK electric fence system"
+  ],
+  "topics": [
+    "auto repair security",
+    "property crime prevention",
+    "perimeter security",
+    "employee safety",
+    "customer asset protection",
+    "catalytic converter theft",
+    "vehicle theft",
+    "tool theft",
+    "proactive security approach",
+    "electric fence technology",
+    "operational efficiency",
+    "business reputation",
+    "insurance partnerships",
+    "crime deterrence"
+  ],
+  "episode_num": 399,
+  "title": "Peace of Mind or Damage Control? The Case for Proactive Security in Auto Repair",
+  "model": "claude-haiku-4-5-20251001"
+}

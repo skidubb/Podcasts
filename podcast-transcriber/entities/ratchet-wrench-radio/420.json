@@ -1,0 +1,35 @@
+{
+  "guest": "Hunt Demarest",
+  "people": [
+    "Hunt Demarest",
+    "Chris",
+    "Penn State"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Paar Melis & Associates",
+    "Endeavor Business Media",
+    "Business by the Numbers"
+  ],
+  "products": [
+    "shop management system"
+  ],
+  "topics": [
+    "financial interpretation",
+    "shop profitability",
+    "productivity metrics",
+    "cashflow management",
+    "confirmation bias",
+    "labor rates",
+    "benchmarking",
+    "gross profit",
+    "net income",
+    "business growth",
+    "cost control",
+    "efficiency improvement",
+    "financial goals"
+  ],
+  "episode_num": 420,
+  "title": "What Your Numbers Are Trying to Tell You",
+  "model": "claude-haiku-4-5-20251001"
+}

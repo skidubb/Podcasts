@@ -1,0 +1,45 @@
+{
+  "guest": "Fernando Miranda",
+  "people": [
+    "Fernando Miranda",
+    "Greg Bunch",
+    "Ivan",
+    "David Asquith",
+    "Doug Rills",
+    "Rick",
+    "Seth Orson",
+    "Chris Salvo",
+    "Henry Ford"
+  ],
+  "companies": [
+    "Transformers Institute",
+    "Ratchet & Wrench",
+    "Endeavor Business Media",
+    "Quality Auto Glass Colorado",
+    "AutoStream",
+    "Eurotech",
+    "Electrified Garage"
+  ],
+  "products": [
+    "point of sale system"
+  ],
+  "topics": [
+    "business coaching",
+    "shop expansion",
+    "mindset and growth",
+    "delegation and letting go",
+    "business infrastructure",
+    "leadership and team building",
+    "systems and processes",
+    "succession planning",
+    "right to repair",
+    "electric vehicles",
+    "hiring and training",
+    "business ownership",
+    "communication strategies",
+    "defining success"
+  ],
+  "episode_num": 388,
+  "title": "AAPEX Live Series: Fernando Miranda on Choosing the Right Coach, Expanding Your Business and More",
+  "model": "claude-haiku-4-5-20251001"
+}

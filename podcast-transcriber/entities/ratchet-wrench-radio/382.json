@@ -1,0 +1,33 @@
+{
+  "guest": "Brian Moak",
+  "people": [
+    "Brian Moak",
+    "Ivan Rioscott",
+    "Apollo Creed"
+  ],
+  "companies": [
+    "Heart Certified Autocare",
+    "Duxler Tire",
+    "Ratchet+Wrench Radio",
+    "Endeavor business media"
+  ],
+  "products": [],
+  "topics": [
+    "business growth",
+    "personal development",
+    "leadership",
+    "shop management",
+    "financial recovery",
+    "employee culture",
+    "coaching",
+    "scaling operations",
+    "owner mindset",
+    "auto repair industry",
+    "organizational change",
+    "team building",
+    "strategic planning"
+  ],
+  "episode_num": 382,
+  "title": "From $7 Million to $14 Million: Personal Growth to Business Success",
+  "model": "claude-haiku-4-5-20251001"
+}

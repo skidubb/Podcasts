@@ -1,0 +1,42 @@
+{
+  "guest": "Adam Sutton",
+  "people": [
+    "Adam Sutton",
+    "Christine Schaffran",
+    "David",
+    "Michelle",
+    "Declare No More Foundation"
+  ],
+  "companies": [
+    "DX3 Brands",
+    "RNR Tire Express",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Red Cross"
+  ],
+  "products": [
+    "Microsoft Forms",
+    "ChatGPT",
+    "YouTube"
+  ],
+  "topics": [
+    "charitable giving",
+    "community involvement",
+    "business strategy",
+    "employee retention",
+    "customer loyalty",
+    "fundraising programs",
+    "nonprofit partnerships",
+    "company culture",
+    "structured giving",
+    "philanthropic marketing",
+    "franchise operations",
+    "team engagement",
+    "community impact",
+    "legacy building"
+  ],
+  "episode_num": 479,
+  "title": "From Giving Back to Getting Ahead: How Smart Shops Turn Community Impact Into Growth",
+  "model": "claude-haiku-4-5-20251001"
+}

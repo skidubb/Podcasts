@@ -1,0 +1,53 @@
+{
+  "guest": "Jimmy Jones",
+  "people": [
+    "Jimmy Jones",
+    "Ivan",
+    "Mike",
+    "Brian",
+    "Chrissy",
+    "Andrew Marcotte",
+    "Lucas Underwood",
+    "Victor Brodsky",
+    "Pat Lencioni"
+  ],
+  "companies": [
+    "Hiller Automotive",
+    "Kingdom Auto Care",
+    "Ratchet+Wrench",
+    "Endeavor Business Media",
+    "Peoria Chiefs",
+    "Peoria Rivermen",
+    "Goodyear Corporate",
+    "Newport Motorsports",
+    "American Pride Automotive",
+    "ShopFix Academy",
+    "Podium"
+  ],
+  "products": [
+    "The Board",
+    "Pit Crew",
+    "Techmetric",
+    "ShopMonkey",
+    "Podium"
+  ],
+  "topics": [
+    "customer loyalty",
+    "honesty in business",
+    "employee engagement",
+    "profit sharing",
+    "community involvement",
+    "google reviews",
+    "technician retention",
+    "hiring practices",
+    "technology adoption",
+    "customer service",
+    "multi-location operations",
+    "business culture",
+    "car counts",
+    "women in auto repair"
+  ],
+  "episode_num": 409,
+  "title": "How to Increase Customer Loyalty",
+  "model": "claude-haiku-4-5-20251001"
+}

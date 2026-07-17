@@ -1,0 +1,46 @@
+{
+  "guest": "Glenn Piccolo",
+  "people": [
+    "Glenn Piccolo",
+    "Chris Jones",
+    "Todd",
+    "Joe",
+    "Nico",
+    "Eddie Bravo",
+    "Monse",
+    "Perry",
+    "Patty"
+  ],
+  "companies": [
+    "Adams Automotive",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Rilla",
+    "AutoShop Callbacks",
+    "Radio Shack"
+  ],
+  "products": [
+    "Rilla",
+    "AutoShop Callbacks"
+  ],
+  "topics": [
+    "customer service",
+    "auto hospitality",
+    "seven-day service model",
+    "shop tours",
+    "virtual tours",
+    "phone scripts",
+    "customer retention",
+    "team culture",
+    "vehicle inspection",
+    "service advisors",
+    "warranty programs",
+    "follow-up process",
+    "preventive maintenance",
+    "customer experience",
+    "ai analytics"
+  ],
+  "episode_num": 424,
+  "title": "Taking Your Customer Service From Great to World Class",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,32 @@
+{
+  "guest": "Margaret Light",
+  "people": [
+    "Margaret Light",
+    "Chris Jones"
+  ],
+  "companies": [
+    "Equilibrium Therapy Services PLLC",
+    "Endeavor Business Media"
+  ],
+  "products": [],
+  "topics": [
+    "mental health",
+    "decision-making",
+    "business leadership",
+    "stress management",
+    "emotional regulation",
+    "anxiety",
+    "depression",
+    "risk assessment",
+    "optimism bias",
+    "pessimism",
+    "employee management",
+    "self-awareness",
+    "recovery from failure",
+    "business strategy",
+    "automotive industry"
+  ],
+  "episode_num": 412,
+  "title": "How Your Mental Health Affects Your Business Decisions",
+  "model": "claude-haiku-4-5-20251001"
+}

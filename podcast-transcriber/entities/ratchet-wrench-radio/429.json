@@ -1,0 +1,34 @@
+{
+  "guest": "Mike Jones",
+  "people": [
+    "Chris Messer",
+    "Mike Jones",
+    "Christine Schaffran",
+    "Simon Sinek"
+  ],
+  "companies": [
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Discover Leadership",
+    "Ratchet+Wrench"
+  ],
+  "products": [],
+  "topics": [
+    "frontline leadership",
+    "servant leadership",
+    "vision communication",
+    "team accountability",
+    "leading by example",
+    "managing up",
+    "individual contributors",
+    "organizational culture",
+    "employee retention",
+    "outcome-focused leadership",
+    "purpose-driven work",
+    "team synergy",
+    "performance management"
+  ],
+  "episode_num": 429,
+  "title": "Lead From the Frontlines",
+  "model": "claude-haiku-4-5-20251001"
+}

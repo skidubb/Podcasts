@@ -1,0 +1,50 @@
+{
+  "guest": "Becky Witt",
+  "people": [
+    "Becky Witt",
+    "Ivan",
+    "Bill Haas"
+  ],
+  "companies": [
+    "George Witt Service",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Honda",
+    "Oldsmobile",
+    "Chrysler",
+    "Ford",
+    "General Motors",
+    "Jiffy Lube",
+    "Pennzoil",
+    "Snap-on",
+    "Hertz",
+    "Nissan"
+  ],
+  "products": [
+    "Harley-Davidson motorcycle",
+    "Honda Goldwing",
+    "scope machine",
+    "battery charger",
+    "catalytic converter",
+    "CBCC cylinder head"
+  ],
+  "topics": [
+    "effective labor rate",
+    "cost per minute",
+    "shop efficiency",
+    "pricing strategy",
+    "gross profit per hour",
+    "technician hiring",
+    "customer service",
+    "shop management",
+    "work-life balance",
+    "electric vehicles",
+    "diagnostic testing",
+    "parts markup",
+    "wait time service",
+    "shop culture"
+  ],
+  "episode_num": 396,
+  "title": "Understanding Every Minute of Your Effective Labor Rate",
+  "model": "claude-haiku-4-5-20251001"
+}

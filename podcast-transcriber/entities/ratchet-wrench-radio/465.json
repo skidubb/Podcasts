@@ -1,0 +1,35 @@
+{
+  "guest": "Michelle Pippin",
+  "people": [
+    "Michelle Pippin",
+    "Kristine"
+  ],
+  "companies": [
+    "Empowering Leaders",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Women Automotive Network"
+  ],
+  "products": [],
+  "topics": [
+    "women in automotive",
+    "leadership development",
+    "mentorship",
+    "auto repair industry",
+    "female technicians",
+    "workplace culture",
+    "service advisors",
+    "customer service",
+    "women entrepreneurs",
+    "skilled trades",
+    "apprenticeships",
+    "career pathways",
+    "gender dynamics",
+    "business growth",
+    "professional development"
+  ],
+  "episode_num": 465,
+  "title": "From “Office Lady” to Industry Advocate: Michelle Pippin on Building Confident Women Leaders in Auto Repair",
+  "model": "claude-haiku-4-5-20251001"
+}

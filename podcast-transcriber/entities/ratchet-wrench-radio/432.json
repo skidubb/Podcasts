@@ -1,0 +1,36 @@
+{
+  "guest": "Michael Suttle",
+  "people": [
+    "Michael Suttle",
+    "Chris Jones"
+  ],
+  "companies": [
+    "Christian Brothers Automotive",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B"
+  ],
+  "products": [
+    "diagnostic tools",
+    "scan machines",
+    "scan tools"
+  ],
+  "topics": [
+    "technician training",
+    "automotive repair",
+    "vehicle technology",
+    "franchise development",
+    "talent retention",
+    "training center",
+    "technician education",
+    "best practices",
+    "support center",
+    "diagnostic skills",
+    "hands-on training",
+    "electric vehicles",
+    "staff development"
+  ],
+  "episode_num": 432,
+  "title": "Christian Brothers' $12M Investment in Training Excellence",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,34 @@
+{
+  "guest": "Margaret Light",
+  "people": [
+    "Margaret Light",
+    "Christine Schafrin"
+  ],
+  "companies": [
+    "Equilibrium Therapy Services",
+    "Endeavor Business Media",
+    "Endeavor B2B"
+  ],
+  "products": [
+    "Otter.ai"
+  ],
+  "topics": [
+    "mental health",
+    "support systems",
+    "automotive industry",
+    "stress management",
+    "burnout prevention",
+    "vulnerability",
+    "healthy relationships",
+    "resilience",
+    "therapy",
+    "communication",
+    "work-life balance",
+    "isolation prevention",
+    "male connection",
+    "emotional well-being"
+  ],
+  "episode_num": 444,
+  "title": "The Power of Support: Building Strong Connections for Mental Health in the Automotive Industry",
+  "model": "claude-haiku-4-5-20251001"
+}

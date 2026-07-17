@@ -1,0 +1,41 @@
+{
+  "guest": "Bill Hanvey",
+  "people": [
+    "Bill Hanvey",
+    "Christine",
+    "Lisa Foshay",
+    "President Trump"
+  ],
+  "companies": [
+    "Auto Care Association",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Energy and Commerce Committee",
+    "NADA",
+    "NASDF",
+    "Rules Committee",
+    "FTC",
+    "O'Reilly"
+  ],
+  "products": [
+    "OBD2 port"
+  ],
+  "topics": [
+    "right to repair",
+    "vehicle data access",
+    "telematics",
+    "independent repair shops",
+    "congressional legislation",
+    "consumer choice",
+    "data privacy",
+    "cybersecurity",
+    "dealership access",
+    "ftc enforcement",
+    "electric vehicles",
+    "highway reauthorization",
+    "parts manufacturers"
+  ],
+  "episode_num": 478,
+  "title": "Right to Repair's Next Chapter",
+  "model": "claude-haiku-4-5-20251001"
+}

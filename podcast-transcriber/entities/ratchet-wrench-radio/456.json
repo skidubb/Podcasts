@@ -1,0 +1,46 @@
+{
+  "guest": "Kent MacDonald",
+  "people": [
+    "Kent MacDonald",
+    "Chris Jones",
+    "Wayne Gretzky",
+    "Walter Gretzky",
+    "Bill Hanvey",
+    "Kubiak",
+    "Washbush",
+    "Gerlinger",
+    "Mary Ellen MacDonald"
+  ],
+  "companies": [
+    "Northwood University",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Ratchet+Wrench",
+    "University of the Aftermarket",
+    "Georgetown University",
+    "University of Pennsylvania",
+    "Dorman"
+  ],
+  "products": [
+    "generative AI",
+    "agentic AI"
+  ],
+  "topics": [
+    "automotive aftermarket",
+    "education and training",
+    "leadership",
+    "entrepreneurship",
+    "business curriculum",
+    "electrification",
+    "technology in automotive",
+    "supply chain management",
+    "scholarships",
+    "digital transformation",
+    "ai integration",
+    "workforce development",
+    "industry partnerships"
+  ],
+  "episode_num": 456,
+  "title": "Skating to Where the Puck Is Going: Why the Aftermarket’s Future Depends on Education and Leadership",
+  "model": "claude-haiku-4-5-20251001"
+}

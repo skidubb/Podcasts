@@ -1,0 +1,43 @@
+{
+  "guest": "Andrew Marcotte",
+  "people": [
+    "Andrew Marcotte",
+    "Ivan",
+    "Andrew's father",
+    "Andrew's grandfather",
+    "Andrew's grandmother"
+  ],
+  "companies": [
+    "American Pride Automotive",
+    "Ratchet & Wrench",
+    "Ratchet & Wrench Radio",
+    "Endeavor business media",
+    "Virginia Automotive Association",
+    "Firestone",
+    "Pep Boys",
+    "NTB"
+  ],
+  "products": [
+    "The Talent War"
+  ],
+  "topics": [
+    "shop culture",
+    "company values",
+    "employee retention",
+    "apprenticeship programs",
+    "leadership development",
+    "talent acquisition",
+    "business expansion",
+    "growth strategy",
+    "internal promotion",
+    "technician shortage",
+    "electric vehicles",
+    "right to repair",
+    "key performance indicators",
+    "labor hours",
+    "business mindset"
+  ],
+  "episode_num": 389,
+  "title": "How to Implement and Grow your Business Through Shop Culture",
+  "model": "claude-haiku-4-5-20251001"
+}

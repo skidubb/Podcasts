@@ -1,0 +1,47 @@
+{
+  "guest": "Ben Johnson",
+  "people": [
+    "Ivan Rioja-Scott",
+    "Ben Johnson"
+  ],
+  "companies": [
+    "Ratchet+Wrench",
+    "Repairify",
+    "General Motors",
+    "Allen Test Products",
+    "Society of Automotive Engineers",
+    "Launch",
+    "Autel",
+    "NAPA",
+    "O'Reilly Auto Parts",
+    "asTech Mechanical"
+  ],
+  "products": [
+    "asTech",
+    "Connect",
+    "OBD-II",
+    "J2534",
+    "Launch scan tools",
+    "Autel scan tools"
+  ],
+  "topics": [
+    "vehicle diagnostics",
+    "modern vehicle complexity",
+    "oe tools access",
+    "automotive repair",
+    "remote diagnostics",
+    "parts pairing",
+    "ecm reprogramming",
+    "adas calibration",
+    "hvac repair",
+    "shop efficiency",
+    "technician training",
+    "diagnostic pricing",
+    "emissions testing",
+    "collision repair",
+    "shop scheduling"
+  ],
+  "episode_num": 384,
+  "title": "Leveraging asTech Mechanical to Regain Control of Your Schedule",
+  "model": "claude-haiku-4-5-20251001"
+}

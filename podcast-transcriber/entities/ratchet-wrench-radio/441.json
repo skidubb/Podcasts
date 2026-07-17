@@ -1,0 +1,32 @@
+{
+  "guest": "Gary Hernandez",
+  "people": [
+    "Gary Hernandez",
+    "Christine Schaffrin"
+  ],
+  "companies": [
+    "Gary's Automotive Repair",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B"
+  ],
+  "products": [],
+  "topics": [
+    "customer education",
+    "building trust",
+    "transparency",
+    "customer service",
+    "shop management",
+    "customer retention",
+    "word of mouth marketing",
+    "vehicle maintenance",
+    "pricing strategy",
+    "staff training",
+    "customer communication",
+    "repair recommendations",
+    "automotive technology"
+  ],
+  "episode_num": 441,
+  "title": "Trust in the Bay: How Educating Customers Builds Lasting Loyalty",
+  "model": "claude-haiku-4-5-20251001"
+}

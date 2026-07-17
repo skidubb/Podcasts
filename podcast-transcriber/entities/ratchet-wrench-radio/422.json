@@ -1,0 +1,35 @@
+{
+  "guest": "Mike Jones",
+  "people": [
+    "Mike Jones",
+    "Chris Messer",
+    "Chris Jones",
+    "Real Rogers",
+    "Robert F. Kennedy"
+  ],
+  "companies": [
+    "Discover Leadership Training",
+    "Endeavor Business Media",
+    "Ratchet+Wrench",
+    "Ten Missions Media",
+    "Fixed Ops Business"
+  ],
+  "products": [],
+  "topics": [
+    "leadership development",
+    "failure management",
+    "personal growth",
+    "mindset reframing",
+    "feed forward",
+    "team culture",
+    "performance metrics",
+    "business strategy",
+    "resilience",
+    "continuous improvement",
+    "comfort zone",
+    "automotive aftermarket"
+  ],
+  "episode_num": 422,
+  "title": "Failure Isn't Fatal",
+  "model": "claude-haiku-4-5-20251001"
+}

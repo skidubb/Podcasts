@@ -1,0 +1,39 @@
+{
+  "guest": "Rob Pietrowski",
+  "people": [
+    "Rob Pietrowski",
+    "Chris Jones",
+    "Bill Thompson"
+  ],
+  "companies": [
+    "Ratchet+Wrench",
+    "Endeavor Business Intelligence",
+    "IMR",
+    "Endeavor B2B",
+    "Drive",
+    "Federal Mogul",
+    "Walmart",
+    "ASC"
+  ],
+  "products": [],
+  "topics": [
+    "tariffs",
+    "inflation",
+    "vehicle costs",
+    "maintenance spending",
+    "repair shops",
+    "consumer price index",
+    "pricing strategy",
+    "supply chain",
+    "ev and hybrids",
+    "adas technology",
+    "technician shortage",
+    "trades perception",
+    "student enrollment",
+    "automotive aftermarket",
+    "consumer surveys"
+  ],
+  "episode_num": 423,
+  "title": "Tariffs, Inflation, and the Changing Automotive Landscape",
+  "model": "claude-haiku-4-5-20251001"
+}

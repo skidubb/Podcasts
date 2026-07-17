@@ -1,0 +1,55 @@
+{
+  "guest": "Chris Jones",
+  "people": [
+    "Chris Jones",
+    "Ivan Rioja-Scott",
+    "Elon Musk",
+    "Mike Bennett",
+    "Kieran",
+    "Sunil",
+    "Trump",
+    "Sal Garcia",
+    "Todd Hayes"
+  ],
+  "companies": [
+    "Ratchet+Wrench",
+    "Endeavor Business Media",
+    "Vehicle Repair Group",
+    "S&P Global Mobility",
+    "Modern Tire Dealer",
+    "Shop Genie",
+    "Techmetric",
+    "Velo",
+    "Fremont Auto Center",
+    "Beachside Automotive",
+    "Tesla",
+    "Honda",
+    "NVIDIA"
+  ],
+  "products": [
+    "DeepSeek",
+    "Auto Ops",
+    "Shop Genie",
+    "Techmetric"
+  ],
+  "topics": [
+    "tariffs",
+    "supply chain",
+    "auto parts pricing",
+    "ai tools",
+    "appointment scheduling",
+    "digital vehicle inspections",
+    "service advisors",
+    "aro optimization",
+    "consumer trust",
+    "early adoption",
+    "electric vehicles",
+    "government efficiency",
+    "ratchet & wrench management conference",
+    "shop automation",
+    "estimate generation"
+  ],
+  "episode_num": 394,
+  "title": "Editor Ecclesia w/Chris Jones & Ivan Rioja-Scott: AI, Tariffs, RWMC, & More",
+  "model": "claude-haiku-4-5-20251001"
+}

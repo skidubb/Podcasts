@@ -1,0 +1,47 @@
+{
+  "guest": "Dutch Silverstein",
+  "people": [
+    "Dutch Silverstein",
+    "Brian Moak",
+    "Danica Brown",
+    "Arnold Palmer",
+    "Steve Brotherton",
+    "K. Roosevelt"
+  ],
+  "companies": [
+    "Ratchet+Wrench",
+    "Endeavor Business Media",
+    "Google",
+    "Better Business Bureau",
+    "Chef Boyardee",
+    "Mercedes-Benz",
+    "John Deere",
+    "Arnold Palmer Cadillac"
+  ],
+  "products": [
+    "ChatGPT",
+    "Google Reviews",
+    "YouTube",
+    "Accenture"
+  ],
+  "topics": [
+    "single shop model",
+    "franchise model",
+    "shop ownership",
+    "accountability",
+    "technician training",
+    "personnel shortage",
+    "quality vs growth",
+    "customer service",
+    "online reviews",
+    "market demographics",
+    "ev and hybrid repair",
+    "right to repair",
+    "specialization",
+    "business education",
+    "owner mindset"
+  ],
+  "episode_num": 392,
+  "title": "The Single Shop Model vs. The Franchise Model",
+  "model": "claude-haiku-4-5-20251001"
+}

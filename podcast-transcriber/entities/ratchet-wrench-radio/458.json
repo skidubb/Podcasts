@@ -1,0 +1,40 @@
+{
+  "guest": "Brian Bates",
+  "people": [
+    "Brian Bates",
+    "Christine",
+    "Adam Coffey",
+    "Dan Martell"
+  ],
+  "companies": [
+    "Straightaway Tire and Auto",
+    "Eagle Automotive Service",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B"
+  ],
+  "products": [
+    "The One Minute Manager Meets The Monkey",
+    "Buy Back Your Time"
+  ],
+  "topics": [
+    "scaling operations",
+    "company culture",
+    "leadership development",
+    "private equity",
+    "shop management",
+    "multi-location growth",
+    "delegation vs. abdication",
+    "founder-led platforms",
+    "capital financing",
+    "labor shortage",
+    "organizational structure",
+    "mentorship programs",
+    "operational standardization",
+    "business consolidation",
+    "financial risk management"
+  ],
+  "episode_num": 458,
+  "title": "From Shop Floor to Scale: Brian Bates on Leading Straightaway Tire Into Its Next Chapter",
+  "model": "claude-haiku-4-5-20251001"
+}

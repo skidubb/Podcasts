@@ -1,0 +1,38 @@
+{
+  "guest": "Josh Parnell",
+  "people": [
+    "Josh Parnell",
+    "Chris",
+    "Maya Angelou",
+    "Dale Carnegie",
+    "Stephen Covey"
+  ],
+  "companies": [
+    "Limitless Leadership",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media"
+  ],
+  "products": [
+    "Limitless Leadership Blueprint"
+  ],
+  "topics": [
+    "leadership",
+    "communication",
+    "emotional intelligence",
+    "team engagement",
+    "uncertainty management",
+    "one-on-one meetings",
+    "daily huddles",
+    "employee motivation",
+    "trust building",
+    "coaching",
+    "soft skills",
+    "automotive shop management",
+    "peer networking",
+    "professional development",
+    "feedback"
+  ],
+  "episode_num": 415,
+  "title": "Podcast: How to Be Leader in All Times",
+  "model": "claude-haiku-4-5-20251001"
+}

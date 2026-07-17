@@ -1,0 +1,40 @@
+{
+  "guest": "Victor Broski",
+  "people": [
+    "Victor Broski",
+    "Ivan",
+    "Dutch",
+    "Tom"
+  ],
+  "companies": [
+    "Ratchet & Wrench",
+    "Newport German Car Repair",
+    "Porsche shop",
+    "race shop",
+    "AAA"
+  ],
+  "products": [
+    "DVI",
+    "shop management systems",
+    "AI tools"
+  ],
+  "topics": [
+    "customer trust",
+    "service advisor communication",
+    "sales techniques",
+    "customer relationships",
+    "building approvals",
+    "transparency in repairs",
+    "repair recommendations",
+    "avoiding fear tactics",
+    "presumptive close",
+    "customer satisfaction",
+    "industry reputation",
+    "negotiating prices",
+    "service training",
+    "german car repair"
+  ],
+  "episode_num": 393,
+  "title": "Why Are We Trying to Get Approvals for Everything on The DVI?",
+  "model": "claude-haiku-4-5-20251001"
+}

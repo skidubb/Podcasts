@@ -1,0 +1,43 @@
+{
+  "guest": "Matt Wagg",
+  "people": [
+    "Matt Wagg",
+    "Chris",
+    "Sherry Stock",
+    "Bill Haas",
+    "Matt's father",
+    "Matt's wife"
+  ],
+  "companies": [
+    "Accelerated Diagnostic & Automotive",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Caterpillar",
+    "InMotion Auto Care",
+    "University of Nebraska at Omaha",
+    "Nebraska Business Development Center"
+  ],
+  "products": [
+    "Facebook",
+    "Vistaprint",
+    "Indeed"
+  ],
+  "topics": [
+    "business planning",
+    "financial forecasting",
+    "shop startup",
+    "hiring and recruitment",
+    "company culture",
+    "coaching and mentorship",
+    "marketing strategy",
+    "revenue growth",
+    "technician training",
+    "shop management",
+    "accountability",
+    "leadership development",
+    "independent auto repair"
+  ],
+  "episode_num": 381,
+  "title": "How a Detailed Business Plan Can Improve Your Chances of Early Success",
+  "model": "claude-haiku-4-5-20251001"
+}

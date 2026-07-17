@@ -1,0 +1,35 @@
+{
+  "guest": "Randy Motos",
+  "people": [
+    "Randy Motos",
+    "Christine Schaffrin"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "PayJunction"
+  ],
+  "products": [
+    "Smart Surcharge"
+  ],
+  "topics": [
+    "surcharging",
+    "payment processing",
+    "margin protection",
+    "tariffs",
+    "rising costs",
+    "inflation",
+    "credit card fees",
+    "debit vs credit",
+    "pricing strategy",
+    "customer retention",
+    "compliance",
+    "auto repair",
+    "shop operations",
+    "cost recovery"
+  ],
+  "episode_num": 457,
+  "title": "Margin Under Pressure: How Surcharging Helps Shops Fight Rising Costs",
+  "model": "claude-haiku-4-5-20251001"
+}

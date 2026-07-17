@@ -1,0 +1,32 @@
+{
+  "guest": null,
+  "people": [
+    "Chris Jones",
+    "Josh Dougherty",
+    "Tammy Tecklenburg"
+  ],
+  "companies": [
+    "Synergy Auto Care",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "DOT"
+  ],
+  "products": [],
+  "topics": [
+    "crisis management",
+    "customer service",
+    "cultural competency",
+    "staff training",
+    "social media policy",
+    "reputation management",
+    "workplace communication",
+    "diversity and inclusion",
+    "community relations",
+    "accountability",
+    "juneteenth",
+    "auto repair industry"
+  ],
+  "episode_num": 418,
+  "title": "Five Lessons from the Synergy Auto Juneteenth Crisis",
+  "model": "claude-haiku-4-5-20251001"
+}

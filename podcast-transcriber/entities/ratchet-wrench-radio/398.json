@@ -1,0 +1,38 @@
+{
+  "guest": "Jesse Jackson",
+  "people": [
+    "Jesse Jackson",
+    "Ivan",
+    "Chuck",
+    "David"
+  ],
+  "companies": [
+    "Mango Automotive",
+    "Ratchet+Wrench Radio",
+    "Endeavor business media",
+    "Dutch Bros"
+  ],
+  "products": [
+    "shop management system"
+  ],
+  "topics": [
+    "selling your shop",
+    "business valuation",
+    "seller discretionary earnings",
+    "shop acquisition",
+    "owner involvement",
+    "financial preparation",
+    "property ownership",
+    "business consolidation",
+    "private equity",
+    "customer retention",
+    "employee management",
+    "shop branding",
+    "financing strategies",
+    "multi-unit growth",
+    "customer experience"
+  ],
+  "episode_num": 398,
+  "title": "Thinking About Selling your Shop? Here's is how w/Jesse Jackson of Mango Automotive",
+  "model": "claude-haiku-4-5-20251001"
+}

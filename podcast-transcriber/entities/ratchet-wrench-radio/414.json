@@ -1,0 +1,40 @@
+{
+  "guest": "Shawn Dupuie",
+  "people": [
+    "Shawn Dupuie",
+    "Ivan Rioja-Scott",
+    "Sean Dupuy"
+  ],
+  "companies": [
+    "Bosch",
+    "Bosch Auto Service",
+    "Ratchet+Wrench Radio"
+  ],
+  "products": [
+    "CAN network",
+    "FOTA (Flashing Over the Air)",
+    "Ethernet",
+    "learning management system",
+    "competency assessment app"
+  ],
+  "topics": [
+    "shop culture",
+    "technician retention",
+    "key performance indicators",
+    "continuing education",
+    "pay plans",
+    "emerging technology",
+    "electric vehicles",
+    "autonomous vehicles",
+    "adas",
+    "hydrogen fuel cells",
+    "electrical systems",
+    "vehicle diagnostics",
+    "staff training",
+    "best practices",
+    "shop management"
+  ],
+  "episode_num": 414,
+  "title": "Time to Level Up: Real-World Best Practices That Actually Work",
+  "model": "claude-haiku-4-5-20251001"
+}

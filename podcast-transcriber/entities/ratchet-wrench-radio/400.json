@@ -1,0 +1,45 @@
+{
+  "guest": "Tonnika Haynes",
+  "people": [
+    "Tonnika Haynes",
+    "Rick White",
+    "Lucas Underwood",
+    "Dutch Silverstein",
+    "Brian Moak",
+    "Kitty (Tonnika's grandmother)"
+  ],
+  "companies": [
+    "Browns Automotive",
+    "Ratchet & Wrench Radio",
+    "Endeavor Business Media",
+    "ASTA",
+    "Techmetric",
+    "Carfax",
+    "The Institute"
+  ],
+  "products": [
+    "Techmetric",
+    "Carfax",
+    "Facebook Groups",
+    "TikTok"
+  ],
+  "topics": [
+    "coaching",
+    "customer selection",
+    "firing customers",
+    "shop culture",
+    "leadership",
+    "second-generation ownership",
+    "collision repair",
+    "mechanical services",
+    "pricing strategy",
+    "employee retention",
+    "business mindset",
+    "customer service",
+    "right to repair",
+    "ev transition"
+  ],
+  "episode_num": 400,
+  "title": "The Journey to Find the Right Coach w/Tonnika Haynes",
+  "model": "claude-haiku-4-5-20251001"
+}

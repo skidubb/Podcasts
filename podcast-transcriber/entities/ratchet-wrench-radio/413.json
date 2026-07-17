@@ -1,0 +1,45 @@
+{
+  "guest": "Steve Dawson",
+  "people": [
+    "Steve Dawson",
+    "Chris Jones"
+  ],
+  "companies": [
+    "Hunter Engineering",
+    "Endeavor Business Media",
+    "Ratchet+Wrench",
+    "I-CAR",
+    "Lincoln Tech",
+    "AutoCare",
+    "Ford",
+    "Volkswagen",
+    "IHS"
+  ],
+  "products": [
+    "Hunter University",
+    "scan tool",
+    "alignment machine",
+    "oscilloscope",
+    "tablet program"
+  ],
+  "topics": [
+    "adas calibration",
+    "shop infrastructure",
+    "technician training",
+    "liability and legal risk",
+    "customer education",
+    "diagnostic skills",
+    "equipment investment",
+    "oem procedures",
+    "dynamic calibration",
+    "static calibration",
+    "safety systems",
+    "documentation",
+    "profitability",
+    "subcontracting",
+    "federal mandate"
+  ],
+  "episode_num": 413,
+  "title": "ADAS Readiness in Today's Shop",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,38 @@
+{
+  "guest": "Kenja Dixon",
+  "people": [
+    "Kenja Dixon",
+    "Chris Jones",
+    "Brian Tracy",
+    "Eckhart Tolle"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor B2B",
+    "American Resort Development Association",
+    "Stevie Award Association",
+    "Google",
+    "FedEx",
+    "Amazon"
+  ],
+  "products": [],
+  "topics": [
+    "personal transformation",
+    "four pillars system",
+    "health and wellness",
+    "purpose and meaning",
+    "emotional intelligence",
+    "sales excellence",
+    "leadership",
+    "financial independence",
+    "team building",
+    "lifestyle change",
+    "early retirement",
+    "personal development",
+    "motivation",
+    "business success"
+  ],
+  "episode_num": 426,
+  "title": "The Four Pillars of Success",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,43 @@
+{
+  "guest": "Vince Edivan and Shannon Nordstrom",
+  "people": [
+    "Christine Schafrin",
+    "Vince Edivan",
+    "Shannon Nordstrom"
+  ],
+  "companies": [
+    "Automotive Recyclers Association",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Worcester Polytech Institute",
+    "Team PRP",
+    "United Recyclers Group",
+    "Hollander Interchange System"
+  ],
+  "products": [
+    "ARA University",
+    "Certified Auto Recycler Program",
+    "Gold Seal Quality Assurance Program",
+    "Carfax"
+  ],
+  "topics": [
+    "recycled oem parts",
+    "automotive recycling",
+    "cycle time",
+    "parts sourcing",
+    "quality assurance",
+    "cost savings",
+    "sustainability",
+    "carbon footprint",
+    "collision repair",
+    "inventory management",
+    "vehicle salvage",
+    "customer satisfaction",
+    "parts preparation",
+    "warranty",
+    "supply chain"
+  ],
+  "episode_num": 464,
+  "title": "Recycled, Reliable, Ready: Why Smart Shops Are Turning to Recycled OEM Parts",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,39 @@
+{
+  "guest": "Brian Moch",
+  "people": [
+    "Brian Moch",
+    "Ivan",
+    "Reed Mellis",
+    "Martha Stewart"
+  ],
+  "companies": [
+    "Hart Auto Care",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Par Mellis",
+    "Endeavor Business Intelligence"
+  ],
+  "products": [
+    "shop operating system",
+    "CRM"
+  ],
+  "topics": [
+    "business turnaround",
+    "financial management",
+    "team leadership",
+    "growth strategy",
+    "shop operations",
+    "compensation plans",
+    "data-driven decisions",
+    "multi-location expansion",
+    "customer retention",
+    "business evaluation",
+    "coaching and mentorship",
+    "market trends",
+    "car count decline",
+    "revenue optimization"
+  ],
+  "episode_num": 410,
+  "title": "Turning Around a Failing Shop and Executing a Plan for Growth",
+  "model": "claude-haiku-4-5-20251001"
+}

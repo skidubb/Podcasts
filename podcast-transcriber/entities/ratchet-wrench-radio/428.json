@@ -1,0 +1,45 @@
+{
+  "guest": "Jeff Cox and Andrew Carr",
+  "people": [
+    "Chris Jones",
+    "Jeff Cox",
+    "Andrew Carr"
+  ],
+  "companies": [
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Automotive Maintenance and Repair Association",
+    "AMRA",
+    "SSI USA",
+    "ShopMonkey",
+    "Velo",
+    "Autovitals"
+  ],
+  "products": [
+    "Digital Vehicle Inspections",
+    "DVI",
+    "Motorist Assurance Program",
+    "MAP",
+    "UICS",
+    "Uniform Inspection Communication Standard"
+  ],
+  "topics": [
+    "digital vehicle inspections",
+    "dvi standards",
+    "motorist assurance program",
+    "shop transparency",
+    "customer trust",
+    "repair recommendations",
+    "visual inspections",
+    "automotive software",
+    "shop management",
+    "technician efficiency",
+    "customer approval rates",
+    "liability reduction",
+    "industry standards"
+  ],
+  "episode_num": 428,
+  "title": "Digital Inspections: How DVI and MAP Standards Are Transforming Auto Shop Trust",
+  "model": "claude-haiku-4-5-20251001"
+}

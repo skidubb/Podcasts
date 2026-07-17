@@ -1,0 +1,40 @@
+{
+  "guest": "Stu McClintic",
+  "people": [
+    "Stu McClintic",
+    "Christine Schafrin",
+    "Bill"
+  ],
+  "companies": [
+    "HQ98.com",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Ratchet+Wrench Radio"
+  ],
+  "products": [
+    "two-way radios",
+    "walkie-talkies",
+    "Slack",
+    "shop management software"
+  ],
+  "topics": [
+    "two-way radios",
+    "push-to-talk communication",
+    "shop efficiency",
+    "workflow optimization",
+    "technician coordination",
+    "service advisors",
+    "bottleneck reduction",
+    "radio training",
+    "equipment durability",
+    "communication protocols",
+    "uhf radios",
+    "mil-spec equipment",
+    "radio etiquette",
+    "channel management",
+    "auto repair operations"
+  ],
+  "episode_num": 462,
+  "title": "Old School, New Speed: Why Two-Way Radios Still Belong in the Modern Auto Repair Shop",
+  "model": "claude-haiku-4-5-20251001"
+}

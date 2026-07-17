@@ -1,0 +1,41 @@
+{
+  "guest": "John Waters",
+  "people": [
+    "John Waters",
+    "Christine Schaffrin",
+    "Chris",
+    "Mike",
+    "Neen James"
+  ],
+  "companies": [
+    "Waters Business Consulting Group",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "Apple Computer",
+    "Keurig"
+  ],
+  "products": [
+    "ERP system",
+    "CRM"
+  ],
+  "topics": [
+    "customer retention",
+    "first-time customers",
+    "trust building",
+    "customer service",
+    "communication",
+    "lifetime value",
+    "follow-up strategies",
+    "service advisors",
+    "customer experience",
+    "setting expectations",
+    "shop management",
+    "customer metrics",
+    "exceptional service",
+    "repeat business"
+  ],
+  "episode_num": 461,
+  "title": "From First Visit to Forever Customer",
+  "model": "claude-haiku-4-5-20251001"
+}

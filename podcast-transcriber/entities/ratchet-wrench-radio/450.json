@@ -1,0 +1,38 @@
+{
+  "guest": "Mike Veenstra and Jason Veenstra",
+  "people": [
+    "Mike Veenstra",
+    "Jason Veenstra",
+    "Christine Schaffran",
+    "Gil Veenstra",
+    "John Veenstra"
+  ],
+  "companies": [
+    "Veenstra's Garage",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Endeavor B2B"
+  ],
+  "products": [
+    "shop management program"
+  ],
+  "topics": [
+    "generational succession",
+    "family business legacy",
+    "century milestone",
+    "multi-shop expansion",
+    "adas technology",
+    "electric vehicles",
+    "hybrid vehicles",
+    "leadership philosophy",
+    "team management",
+    "customer trust",
+    "business valuation",
+    "shop operations",
+    "automotive repair industry",
+    "transition planning"
+  ],
+  "episode_num": 450,
+  "title": "A Century in Motion: The Veenstra Legacy at 100 Years",
+  "model": "claude-haiku-4-5-20251001"
+}
