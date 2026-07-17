@@ -1,0 +1,40 @@
+{
+  "guest": null,
+  "people": [
+    "Catherine Maley",
+    "Katherine Maley"
+  ],
+  "companies": [
+    "Beauty and the Biz",
+    "Survey Monkey",
+    "Next Tech",
+    "Elsion",
+    "Kiss Rewards Club"
+  ],
+  "products": [
+    "Survey Monkey",
+    "Kiss Rewards Club",
+    "Allie",
+    "MKO melt"
+  ],
+  "topics": [
+    "practice differentiation",
+    "competitive advantage",
+    "patient experience",
+    "marketing strategy",
+    "cosmetic surgery business",
+    "patient acquisition",
+    "pricing strategies",
+    "patient retention",
+    "branding",
+    "niche marketing",
+    "pain management",
+    "financing options",
+    "practice positioning",
+    "staff training",
+    "patient satisfaction"
+  ],
+  "episode_num": 630,
+  "title": "Differentiate From Your Competitors — with Catherine Maley, MBA (Ep. 262)",
+  "model": "claude-haiku-4-5-20251001"
+}

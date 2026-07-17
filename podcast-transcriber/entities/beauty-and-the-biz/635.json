@@ -1,0 +1,49 @@
+{
+  "guest": "Sarah Saxon",
+  "people": [
+    "Sarah Saxon",
+    "Katherine Maile",
+    "Jeffrey Spiegel",
+    "Richard Holt",
+    "Adam Weinfeld",
+    "Johnny Franco",
+    "Wendy",
+    "Francie",
+    "Luna"
+  ],
+  "companies": [
+    "Beauty and the Biz",
+    "University of Texas Health Science Center in San Antonio",
+    "University of New Mexico",
+    "University of Texas Southwestern Medical Center",
+    "UT Southwestern",
+    "Dripping Springs City Lifestyle Magazine"
+  ],
+  "products": [
+    "Morpheus",
+    "Erbium YAG laser",
+    "WordPress",
+    "Instagram",
+    "YouTube",
+    "Pinterest",
+    "Reddit"
+  ],
+  "topics": [
+    "private practice startup",
+    "satellite office management",
+    "facial plastic surgery",
+    "facial feminization",
+    "staffing and hiring",
+    "office relocation",
+    "practice growth",
+    "marketing strategies",
+    "patient acquisition",
+    "cosmetic procedures",
+    "work-life balance",
+    "practice profitability",
+    "building ownership"
+  ],
+  "episode_num": 635,
+  "title": "Is Satellite Office Worth it? — with Sarah Saxon, MD (Ep. 267)",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,48 @@
+{
+  "guest": "George Sanders",
+  "people": [
+    "George Sanders",
+    "Katherine Maile",
+    "Janis Joplin",
+    "Jimmy Johnson",
+    "Steve Rosenthal",
+    "Shelly Rosenthal",
+    "Pam",
+    "Catherine"
+  ],
+  "companies": [
+    "Rice University",
+    "Harvard Medical School",
+    "UCLA",
+    "Cedars-Sinai",
+    "Children's Hospital",
+    "Instagram",
+    "Facebook"
+  ],
+  "products": [
+    "iPhone",
+    "Botox",
+    "Instagram",
+    "Facebook"
+  ],
+  "topics": [
+    "staff retention",
+    "practice longevity",
+    "cost-sharing arrangements",
+    "cosmetic surgery",
+    "patient acquisition",
+    "patient conversion",
+    "facelift techniques",
+    "medical spa integration",
+    "marketing strategy",
+    "patient education",
+    "work-life balance",
+    "business structure",
+    "video content",
+    "patient coordinators",
+    "surgical practice management"
+  ],
+  "episode_num": 638,
+  "title": "Same Staff for 38 Years — with George Sanders, MD (Ep. 270)",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,52 @@
+{
+  "guest": "Hani Sinno",
+  "people": [
+    "Hani Sinno",
+    "Katherine Maley",
+    "Andreas Nikolaus",
+    "Napoleon Hill",
+    "Dr. Nayak",
+    "Sheria Experimental"
+  ],
+  "companies": [
+    "Victoria Park",
+    "McGill University",
+    "Harvard University",
+    "RakeMDs",
+    "Ritz-Carlton",
+    "Four Seasons",
+    "Tiffany's",
+    "Chateau du Roi",
+    "Mont Blanc",
+    "Haut Renfrew",
+    "Collège des Métis"
+  ],
+  "products": [
+    "Instagram",
+    "Facebook",
+    "Google Maps",
+    "V-beam laser",
+    "hyperbaric oxygen",
+    "Arnica"
+  ],
+  "topics": [
+    "practice growth",
+    "med spa business",
+    "patient experience",
+    "cosmetic surgery",
+    "marketing strategy",
+    "social media",
+    "influencer partnerships",
+    "staff management",
+    "office design",
+    "canadian healthcare system",
+    "pricing strategy",
+    "patient retention",
+    "before and after photography",
+    "procedural trends",
+    "business partnerships"
+  ],
+  "episode_num": 631,
+  "title": "Med Spa to 50K Square Ft Mansion — with Hani Sinno, MD, CM, MEng, FRCSC, FACS (Ep. 263)",
+  "model": "claude-haiku-4-5-20251001"
+}

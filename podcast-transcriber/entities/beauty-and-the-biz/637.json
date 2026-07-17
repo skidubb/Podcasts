@@ -1,0 +1,40 @@
+{
+  "guest": null,
+  "people": [
+    "Catherine Maley",
+    "Katherine Maile"
+  ],
+  "companies": [
+    "Google",
+    "Instagram",
+    "Facebook",
+    "Yelp",
+    "RealSelf"
+  ],
+  "products": [
+    "Google Analytics",
+    "Google Ads",
+    "Social Media Insights",
+    "CRM system"
+  ],
+  "topics": [
+    "marketing mistakes",
+    "patient acquisition",
+    "website optimization",
+    "social media marketing",
+    "video content",
+    "seo",
+    "patient retention",
+    "loyalty programs",
+    "analytics and metrics",
+    "patient testimonials",
+    "before and after photos",
+    "online reviews",
+    "target audience",
+    "practice marketing",
+    "patient communication"
+  ],
+  "episode_num": 637,
+  "title": "Marketing Mistakes to Avoid — with Catherine Maley, MBA (Ep. 269)",
+  "model": "claude-haiku-4-5-20251001"
+}
