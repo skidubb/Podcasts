@@ -1,0 +1,44 @@
+{
+  "guest": "Kate O'Connor",
+  "people": [
+    "Kate O'Connor",
+    "Catherine Maley",
+    "Morgan Wallen",
+    "Nate"
+  ],
+  "companies": [
+    "Baylor College of Medicine",
+    "New York Center for Facial Plastic and Laser Surgery",
+    "Belmont University",
+    "Harmony Facial Plastic Surgery",
+    "Houston Astros",
+    "Nashville Predators"
+  ],
+  "products": [
+    "Botox",
+    "Instagram",
+    "Google",
+    "Zoom"
+  ],
+  "topics": [
+    "facelift surgery",
+    "facial plastic surgery",
+    "deep plane facelift",
+    "business recovery",
+    "disaster management",
+    "office relocation",
+    "rhinoplasty",
+    "non-surgical procedures",
+    "social media marketing",
+    "patient acquisition",
+    "staff hiring",
+    "surgical center building",
+    "practice branding",
+    "preservation techniques",
+    "patient consent",
+    "before and after photography"
+  ],
+  "episode_num": 295,
+  "title": "Regroup After Disaster — with Kate O'Connor, MD (Ep. 296)",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,47 @@
+{
+  "guest": "Clark Mackey",
+  "people": [
+    "Clark Mackey",
+    "Catherine Maley",
+    "Katherine Maley"
+  ],
+  "companies": [
+    "Cake Websites and More",
+    "Google",
+    "Adobe",
+    "Wikipedia",
+    "OpenAI",
+    "Open Evidence"
+  ],
+  "products": [
+    "ChatGPT",
+    "GPT-3",
+    "Zoom",
+    "Google Search Console",
+    "Google Analytics 4",
+    "QuickBooks",
+    "Cake Websites",
+    "LLM dashboard",
+    "HIPAA compliant meeting agents"
+  ],
+  "topics": [
+    "artificial intelligence",
+    "ai tools",
+    "marketing strategy",
+    "chatbots",
+    "online visibility",
+    "content creation",
+    "patient experience",
+    "practice efficiency",
+    "data privacy",
+    "hipaa compliance",
+    "phone management",
+    "lead generation",
+    "seo",
+    "email marketing",
+    "business automation"
+  ],
+  "episode_num": 304,
+  "title": "Can AI Help or Hurt Your Cosmetic Practice? — with Clark Mackey (Ep. 305)",
+  "model": "claude-haiku-4-5-20251001"
+}

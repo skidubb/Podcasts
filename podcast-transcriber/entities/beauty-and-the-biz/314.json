@@ -1,0 +1,38 @@
+{
+  "guest": null,
+  "people": [
+    "Catherine Maley"
+  ],
+  "companies": [
+    "Beauty and the Biz"
+  ],
+  "products": [
+    "CRM",
+    "YouTube",
+    "Instagram",
+    "Google",
+    "iPad",
+    "ConvertingAcademy.com",
+    "CosmeticPracticeVault.com"
+  ],
+  "topics": [
+    "consultation conversion",
+    "patient coordinator training",
+    "lead management",
+    "crm systems",
+    "pricing strategies",
+    "patient education",
+    "sales psychology",
+    "aesthetic practice marketing",
+    "before and after content",
+    "payment plans",
+    "social proof",
+    "video marketing",
+    "patient trust",
+    "negotiation tactics",
+    "staff compensation"
+  ],
+  "episode_num": 314,
+  "title": "Strategies to Convert More Consults — with Catherine Maley, MBA (Ep. 316)",
+  "model": "claude-haiku-4-5-20251001"
+}

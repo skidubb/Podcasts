@@ -1,0 +1,61 @@
+{
+  "guest": "Raymond Lee",
+  "people": [
+    "Raymond Lee",
+    "Katherine Maley",
+    "Cat",
+    "Rick Davis",
+    "Bob Simons",
+    "Bill Beason",
+    "Malcolm Paul",
+    "Fred",
+    "Vanessa",
+    "Tom",
+    "Jane"
+  ],
+  "companies": [
+    "Lifestyle Lift",
+    "Kaiser",
+    "AAFPRS",
+    "Northwestern University",
+    "University of Illinois College of Medicine",
+    "University of Miami Jackson Memorial Hospital",
+    "South Coast Plaza",
+    "Newport Beach Cosmetic Surgery",
+    "RealSelf",
+    "GoDaddy",
+    "Pieology",
+    "Pureology",
+    "Cox",
+    "Twilio",
+    "Faciology MD"
+  ],
+  "products": [
+    "RealSelf",
+    "EMR system",
+    "GoDaddy",
+    "Twilio",
+    "KISS Loyalty Club",
+    "Cosmetic Practice Vault"
+  ],
+  "topics": [
+    "facelift surgery",
+    "deep plane facelift",
+    "private practice startup",
+    "patient referrals",
+    "word of mouth marketing",
+    "social media strategy",
+    "practice branding",
+    "iv sedation",
+    "staff hiring and retention",
+    "orange county market",
+    "before and after photos",
+    "aesthetic surgery",
+    "facial plastic surgery",
+    "practice growth",
+    "business strategy"
+  ],
+  "episode_num": 337,
+  "title": "Carving Out a Referral Facelift Practice — with Raymond Lee, MD (Ep. 338)",
+  "model": "claude-haiku-4-5-20251001"
+}

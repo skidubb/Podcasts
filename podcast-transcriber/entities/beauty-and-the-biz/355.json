@@ -1,0 +1,53 @@
+{
+  "guest": "Michael Edwards",
+  "people": [
+    "Michael Edwards",
+    "Catherine Maly",
+    "Mark Jewell",
+    "Mary Jewell",
+    "Robertson",
+    "Pat Maxwell",
+    "Chad GPT"
+  ],
+  "companies": [
+    "Plastic Surgery Vegas",
+    "F. Edward Hebert School of Medicine",
+    "David Grant Medical Center",
+    "Wilford Hall Medical Center",
+    "Nellis Air Force Base",
+    "The Aesthetic Society",
+    "ASAPS",
+    "Uniformed Services University",
+    "University of Nevada",
+    "UNLV",
+    "Nevada Board of Medical Examiners"
+  ],
+  "products": [
+    "Instagram",
+    "Facebook",
+    "TikTok",
+    "Google Reviews",
+    "ChatGPT",
+    "patient imaging software"
+  ],
+  "topics": [
+    "military to private practice transition",
+    "solo practice",
+    "group practice partnership",
+    "hiring and staff management",
+    "patient retention",
+    "breast surgery",
+    "aesthetic surgery",
+    "practice marketing",
+    "social media strategy",
+    "private equity",
+    "retirement planning",
+    "patient reviews",
+    "before and after photography",
+    "work-life balance",
+    "practice profitability"
+  ],
+  "episode_num": 355,
+  "title": "From Air Force to Solo to Retirement — Michael Edwards, MD (Ep. 356)",
+  "model": "claude-haiku-4-5-20251001"
+}

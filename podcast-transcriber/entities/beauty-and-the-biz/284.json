@@ -1,0 +1,54 @@
+{
+  "guest": "Marcelo Antunes",
+  "people": [
+    "Marcelo Antunes",
+    "Katherine Maley",
+    "Osvaldo Carpes",
+    "Vito Cortella",
+    "Andrew Giacono",
+    "Guido Cotella",
+    "Scott Thompson",
+    "Manny Lopez",
+    "Cassie Pruneda",
+    "Edward Buckingham",
+    "Matt Toronto",
+    "Jonathan Sykes",
+    "Ugo Fish",
+    "Steve Jobs"
+  ],
+  "companies": [
+    "University of Pennsylvania School of Medicine",
+    "University of Rochester",
+    "HUGS",
+    "Face Austin",
+    "RealSelf",
+    "Indeed"
+  ],
+  "products": [
+    "Erbium laser",
+    "Cynosure Ikon laser",
+    "Halo",
+    "Google Ads",
+    "Instagram"
+  ],
+  "topics": [
+    "private practice startup",
+    "patient acquisition",
+    "word of mouth marketing",
+    "hiring and staffing",
+    "practice location selection",
+    "social media strategy",
+    "rhinoplasty",
+    "facial plastic surgery",
+    "online reviews",
+    "patient screening",
+    "non-surgical services",
+    "work-life balance",
+    "practice growth",
+    "before and after photography",
+    "business mentorship"
+  ],
+  "episode_num": 284,
+  "title": "Brazil to Thriving Austin Practice — with Marcelo Antunes, MD, FACS (Ep. 285)",
+  "model": "claude-haiku-4-5-20251001"
+}

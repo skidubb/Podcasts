@@ -1,0 +1,38 @@
+{
+  "guest": "Andreas Lindahl",
+  "people": [
+    "Andreas Lindahl",
+    "Katherine Maley",
+    "Per Hayden",
+    "Kris Jenner"
+  ],
+  "companies": [
+    "Art Clinic",
+    "Caraviva",
+    "Beauty and the Biz"
+  ],
+  "products": [
+    "Google",
+    "Instagram"
+  ],
+  "topics": [
+    "private practice",
+    "plastic surgery",
+    "aesthetic surgery",
+    "deep plane facelift",
+    "rhinoplasty",
+    "facial rejuvenation",
+    "marketing",
+    "patient acquisition",
+    "international practice",
+    "staff management",
+    "business growth",
+    "social media",
+    "seo",
+    "facelift techniques",
+    "cosmetic practice"
+  ],
+  "episode_num": 319,
+  "title": "Building a Private Practice in Sweden — with Andreas Lindahl, MD, PhD (Ep. 320)",
+  "model": "claude-haiku-4-5-20251001"
+}

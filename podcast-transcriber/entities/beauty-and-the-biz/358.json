@@ -1,0 +1,47 @@
+{
+  "guest": "Kristina Tansavatdi",
+  "people": [
+    "Kristina Tansavatdi",
+    "Katherine Maley",
+    "Devinder Mangat",
+    "Jeff Smart",
+    "Peter Adamson",
+    "Perkins"
+  ],
+  "companies": [
+    "Wake Forest University School of Medicine",
+    "University of Utah School of Medicine",
+    "American Academy of Facial Plastic and Reconstructive Surgery",
+    "AAFPRS",
+    "UCLA",
+    "Universal",
+    "Rotary Club",
+    "Meals on Wheels",
+    "Face to Face"
+  ],
+  "products": [
+    "Claude",
+    "ChatGPT",
+    "DISC",
+    "Indeed",
+    "LinkedIn"
+  ],
+  "topics": [
+    "opening private practice",
+    "surgical center buildout",
+    "hiring and staff management",
+    "patient consultations",
+    "social media marketing",
+    "video content creation",
+    "journey patients",
+    "non-surgical aesthetics",
+    "practice growth",
+    "delegation",
+    "core values",
+    "patient retention",
+    "cosmetic surgery"
+  ],
+  "episode_num": 358,
+  "title": "What it Really Takes to Open Your Own Practice — Kristina Tansavatdi, MD (Ep. 359)",
+  "model": "claude-haiku-4-5-20251001"
+}

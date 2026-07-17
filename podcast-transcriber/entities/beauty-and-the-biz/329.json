@@ -1,0 +1,42 @@
+{
+  "guest": "Scott R. Miller",
+  "people": [
+    "Scott R. Miller",
+    "Katherine Maley",
+    "Gertrude Stein",
+    "Ernest Hemingway"
+  ],
+  "companies": [
+    "Amazon",
+    "Barnes and Noble",
+    "TouchMD",
+    "KISS Loyalty Club",
+    "Miller Cosmetic Surgery"
+  ],
+  "products": [
+    "Kindle",
+    "Instagram",
+    "TikTok",
+    "ChatGPT"
+  ],
+  "topics": [
+    "book writing",
+    "patient education",
+    "consumer marketing",
+    "surgeon branding",
+    "patient expectations",
+    "cosmetic surgery",
+    "practice management",
+    "patient selection",
+    "board certification",
+    "natural results",
+    "authenticity",
+    "staff training",
+    "practice infrastructure",
+    "social proof",
+    "lead generation"
+  ],
+  "episode_num": 329,
+  "title": "Writing a Consumer Book for Patients — Scott R. Miller, MD (Ep. 330)",
+  "model": "claude-haiku-4-5-20251001"
+}

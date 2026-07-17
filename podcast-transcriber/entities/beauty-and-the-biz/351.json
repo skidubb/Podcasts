@@ -1,0 +1,43 @@
+{
+  "guest": "Francisco Gómez Bravo",
+  "people": [
+    "Francisco Gómez Bravo",
+    "Katherine Maley",
+    "Ivan Cotado"
+  ],
+  "companies": [
+    "Erasmus University Rotterdam",
+    "NYU Medical Center",
+    "Delta Oktober University Hospital",
+    "American Aesthetic Society",
+    "Spanish Society of Plastic Surgery",
+    "Institute of Reconstructive Plastic Surgery",
+    "Louis Vuitton",
+    "Tiffany's",
+    "Zara"
+  ],
+  "products": [
+    "KISS Loyalty Club",
+    "Cosmetic Practice Vault"
+  ],
+  "topics": [
+    "solo practice transition",
+    "academic vs private practice",
+    "brand building",
+    "patient results",
+    "staff management",
+    "surgical facility",
+    "specialization",
+    "aesthetic surgery",
+    "business marketing",
+    "reconstructive surgery",
+    "facelift techniques",
+    "international patients",
+    "non-surgical treatments",
+    "artistic approach to surgery",
+    "european vs us practice"
+  ],
+  "episode_num": 351,
+  "title": "Academia vs. Aesthetic Freedom — Dr. Francisco Gómez Bravo (Ep. 352)",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,40 @@
+{
+  "guest": "Catherine Maley",
+  "people": [
+    "Catherine Maley",
+    "Candice Crowe",
+    "Simon Sinek"
+  ],
+  "companies": [
+    "Four Seasons",
+    "Hilton",
+    "Nike",
+    "Coca-Cola",
+    "Fortune 100"
+  ],
+  "products": [
+    "YouTube",
+    "Facebook",
+    "Zoom",
+    "Google"
+  ],
+  "topics": [
+    "practice growth",
+    "patient acquisition",
+    "staff hiring",
+    "branding strategy",
+    "conversion training",
+    "business mindset",
+    "marketing fundamentals",
+    "cosmetic surgery business",
+    "vendor relationships",
+    "patient retention",
+    "community outreach",
+    "website optimization",
+    "niche specialization",
+    "team building"
+  ],
+  "episode_num": 321,
+  "title": "Business Insights for Growth — with Catherine Maley, MBA (Ep. 323)",
+  "model": "claude-haiku-4-5-20251001"
+}

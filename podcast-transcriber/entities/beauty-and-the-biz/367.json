@@ -1,0 +1,33 @@
+{
+  "guest": null,
+  "people": [
+    "Catherine Maley",
+    "Rob Rorick",
+    "Brock Ridenour",
+    "Raymond Lee",
+    "Mike Nayak",
+    "Jerry Chidester",
+    "Philip Solomon"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "private practice",
+    "practice growth",
+    "business strategy",
+    "patient acquisition",
+    "cosmetic surgery marketing",
+    "patient decision making",
+    "trust building",
+    "practice systems",
+    "staff management",
+    "practice specialization",
+    "patient experience",
+    "surgical practice operations",
+    "consultation process",
+    "practice autonomy"
+  ],
+  "episode_num": 367,
+  "title": "What 175 Plastic Surgeons Told Me About Success — Catherine Maley, MBA (Ep. 368)",
+  "model": "claude-haiku-4-5-20251001"
+}

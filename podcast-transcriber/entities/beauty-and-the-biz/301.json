@@ -1,0 +1,43 @@
+{
+  "guest": "Claire Melancon",
+  "people": [
+    "Catherine Maley",
+    "Claire Melancon",
+    "Russell Cridel",
+    "James Audubon"
+  ],
+  "companies": [
+    "Louisiana State University",
+    "Wake Forest Baptist Medical Center",
+    "Starbucks",
+    "Club Pilates",
+    "Audubon Facial Plastics",
+    "BirdEye"
+  ],
+  "products": [
+    "Google Ads",
+    "Instagram",
+    "BirdEye",
+    "USPS"
+  ],
+  "topics": [
+    "private practice startup",
+    "building design and buildout",
+    "location selection",
+    "staffing and hiring",
+    "non-surgical services",
+    "satellite office expansion",
+    "online scheduling",
+    "pricing transparency",
+    "social media marketing",
+    "patient reviews and testimonials",
+    "before and after photos",
+    "work-life balance",
+    "female surgeons in plastics",
+    "business vision and mission",
+    "practice growth strategy"
+  ],
+  "episode_num": 301,
+  "title": "Building From Scratch — with Claire Melancon, MD (Ep. 302)",
+  "model": "claude-haiku-4-5-20251001"
+}

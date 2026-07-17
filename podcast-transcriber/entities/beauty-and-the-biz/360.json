@@ -1,0 +1,39 @@
+{
+  "guest": "Suma Maddox",
+  "people": [
+    "Suma Maddox",
+    "Catherine Maley",
+    "Katherine Maley"
+  ],
+  "companies": [
+    "Ochsner Medical Center",
+    "Louisiana State University School of Medicine",
+    "Brown University",
+    "Louisiana State University",
+    "New Rivers Surgery Center"
+  ],
+  "products": [
+    "Instagram",
+    "Foley catheter"
+  ],
+  "topics": [
+    "private practice ownership",
+    "employed vs independent",
+    "breast reconstruction",
+    "surgical center operations",
+    "non-compete clauses",
+    "practice marketing",
+    "social media strategy",
+    "cosmetic surgery",
+    "patient conversion",
+    "consultation fees",
+    "practice autonomy",
+    "surgeon entrepreneurship",
+    "staff retention",
+    "gender diversity in surgery",
+    "work-life balance"
+  ],
+  "episode_num": 360,
+  "title": "The Difference Between Employed… and Free — Suma Maddox, MD (Ep. 362)",
+  "model": "claude-haiku-4-5-20251001"
+}

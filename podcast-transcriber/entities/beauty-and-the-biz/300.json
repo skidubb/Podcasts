@@ -1,0 +1,50 @@
+{
+  "guest": "Sinehan Bayrak",
+  "people": [
+    "Sinehan Bayrak",
+    "Catherine Maley",
+    "Edward Farrier",
+    "Ira Poppel"
+  ],
+  "companies": [
+    "University of Arkansas for Medical Science",
+    "University of Kansas Medical Center",
+    "University of South Florida",
+    "CHOP",
+    "Whole Foods",
+    "Hinge",
+    "Google",
+    "Instagram",
+    "Bayrack Plastic Surgery"
+  ],
+  "products": [
+    "AI assistant",
+    "scheduling platform",
+    "automation software",
+    "Google reviews",
+    "social media"
+  ],
+  "topics": [
+    "solo practice model",
+    "one-woman practice",
+    "automation and efficiency",
+    "patient acquisition",
+    "social media marketing",
+    "instagram strategy",
+    "tech-driven practice",
+    "no employees",
+    "pricing transparency",
+    "facial plastic surgery",
+    "patient experience",
+    "online scheduling",
+    "text-based communication",
+    "practice growth",
+    "scarcity and urgency",
+    "google reviews",
+    "before and afters",
+    "consultation process"
+  ],
+  "episode_num": 300,
+  "title": "One Room, One Woman, $1 Million Gross — with Sinehan Bayrak, MD (Ep. 301)",
+  "model": "claude-haiku-4-5-20251001"
+}

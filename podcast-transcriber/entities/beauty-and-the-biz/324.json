@@ -1,0 +1,58 @@
+{
+  "guest": "Rod J. Rohrich",
+  "people": [
+    "Rod J. Rohrich",
+    "Catherine Maly",
+    "Jack Gunter",
+    "Dan Baker",
+    "Steve Levine",
+    "Kris Jenner",
+    "Kim Kardashian",
+    "Michael Jackson",
+    "Mickey Rourke",
+    "Ronald Reagan"
+  ],
+  "companies": [
+    "Dallas Plastic Surgery Institute",
+    "Baylor College of Medicine",
+    "UT Southwestern",
+    "University of Michigan",
+    "Harvard University",
+    "University of Oxford",
+    "Dallas Day Surgery Center",
+    "Epicenter",
+    "American Society of Plastic Surgeons",
+    "Plastic and Reconstructive Surgery Journal"
+  ],
+  "products": [
+    "Instagram",
+    "YouTube",
+    "TikTok",
+    "Google",
+    "ChatGPT",
+    "KISS Loyalty Club"
+  ],
+  "topics": [
+    "practice business model",
+    "independent practice",
+    "partnership structure",
+    "surgical center ownership",
+    "rhinoplasty",
+    "facelift",
+    "cosmetic surgery specialization",
+    "patient marketing",
+    "social media strategy",
+    "staff retention",
+    "contract negotiation",
+    "medical education",
+    "training fellows",
+    "patient selection",
+    "competitive differentiation",
+    "podcast marketing",
+    "surgical excellence",
+    "practice leadership"
+  ],
+  "episode_num": 324,
+  "title": "Unique Practice Model — with Rod J. Rohrich, MD (Ep. 326)",
+  "model": "claude-haiku-4-5-20251001"
+}

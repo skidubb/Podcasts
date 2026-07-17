@@ -1,0 +1,46 @@
+{
+  "guest": "Adam Schaffner",
+  "people": [
+    "Adam Schaffner",
+    "Katherine Maile",
+    "Harry Middleman",
+    "Scott Spear",
+    "Ronald Reagan",
+    "Mikhail Gorbachev"
+  ],
+  "companies": [
+    "Plastic Surgery Institute of New York",
+    "WeWork",
+    "Castle Connelly",
+    "American Board of Facial Plastic and Reconstructive Surgery",
+    "American Board of Plastic Surgery",
+    "Georgetown University"
+  ],
+  "products": [
+    "J-Plasma Renuvion",
+    "Vaser",
+    "Accutite",
+    "Botox",
+    "Restylane"
+  ],
+  "topics": [
+    "practice management",
+    "shared surgical facility",
+    "independent contractor model",
+    "office buildout",
+    "staff culture",
+    "patient experience",
+    "cosmetic surgery trends",
+    "gender-affirming surgery",
+    "breast augmentation",
+    "injectables commoditization",
+    "operating room accreditation",
+    "new york city real estate",
+    "surgical marketing",
+    "employee retention",
+    "quality control"
+  ],
+  "episode_num": 276,
+  "title": "Finding Space to Operate — with Adam Schaffner, MD, FACS (Ep. 277)",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,36 @@
+{
+  "guest": null,
+  "people": [
+    "Catherine Maley",
+    "Warren Buffett",
+    "Charlie Munger"
+  ],
+  "companies": [
+    "Berkshire Hathaway"
+  ],
+  "products": [
+    "CRM",
+    "Converting Academy",
+    "Kiss Loyalty Club"
+  ],
+  "topics": [
+    "patient coordinator training",
+    "consultation conversion",
+    "hiring coordinators",
+    "patient acquisition",
+    "crm systems",
+    "sales incentives",
+    "consultation room design",
+    "objection handling",
+    "financing options",
+    "patient retention",
+    "practice revenue growth",
+    "cosmetic surgery marketing",
+    "performance metrics",
+    "patient psychology",
+    "coordinator compensation"
+  ],
+  "episode_num": 323,
+  "title": "PCC Tools to Convert More Consults — with Catherine Maley, MBA (Ep. 325)",
+  "model": "claude-haiku-4-5-20251001"
+}

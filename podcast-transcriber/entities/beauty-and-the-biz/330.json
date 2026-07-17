@@ -1,0 +1,51 @@
+{
+  "guest": "Brendan Alleyne",
+  "people": [
+    "Brendan Alleyne",
+    "Catherine Maly",
+    "Rod Roark",
+    "James Zins",
+    "Sarah",
+    "Laura"
+  ],
+  "companies": [
+    "Renaissance Plastic Surgery",
+    "Cleveland Clinic",
+    "Case Western Reserve University",
+    "University at Buffalo",
+    "Washington University in St. Louis",
+    "Erie Community College",
+    "UC Irvine",
+    "National Geographic",
+    "Studio 8",
+    "Physician Mentor LLC",
+    "KISS Loyalty Club"
+  ],
+  "products": [
+    "Instagram",
+    "TikTok",
+    "Botox",
+    "filler",
+    "lasers"
+  ],
+  "topics": [
+    "face transplants",
+    "rhinoplasty",
+    "facelift",
+    "practice partnership",
+    "multi-surgeon practice",
+    "business leadership",
+    "marketing strategy",
+    "social media",
+    "staff retention",
+    "work-life balance",
+    "patient consent",
+    "breast reconstruction",
+    "medical education",
+    "mentorship",
+    "practice growth"
+  ],
+  "episode_num": 330,
+  "title": "Face Transplants to Fellowship — with Brendan Alleyne, MD (Ep. 331)",
+  "model": "claude-haiku-4-5-20251001"
+}

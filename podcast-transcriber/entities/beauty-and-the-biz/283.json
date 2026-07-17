@@ -1,0 +1,47 @@
+{
+  "guest": "Gabriel Garza Martínez",
+  "people": [
+    "Catherine Maley",
+    "Gabriel Garza Martínez",
+    "Peter Rubin",
+    "Bruno"
+  ],
+  "companies": [
+    "Monterey University",
+    "Hadassah Medical Center",
+    "Hebrew University of Jerusalem",
+    "Massachusetts Eye and Ear Infirmary",
+    "Harvard University",
+    "Mexico Foundation",
+    "Mexican Council of Science and Technology",
+    "McGill University",
+    "Mass General Hospital",
+    "Symmetris"
+  ],
+  "products": [
+    "Instagram",
+    "Facebook",
+    "TikTok",
+    "YouTube",
+    "Google Ads",
+    "Reddit"
+  ],
+  "topics": [
+    "cash pay model",
+    "private practice",
+    "oculoplastic surgery",
+    "eyelid surgery",
+    "specialty positioning",
+    "patient marketing",
+    "social media strategy",
+    "money back guarantee",
+    "international medical graduates",
+    "patient satisfaction",
+    "cosmetic versus functional procedures",
+    "practice location strategy",
+    "referral relationships"
+  ],
+  "episode_num": 283,
+  "title": "Functional Cash Pay in Mexico — with Dr. Gabriel Garza Martínez (Ep. 284)",
+  "model": "claude-haiku-4-5-20251001"
+}

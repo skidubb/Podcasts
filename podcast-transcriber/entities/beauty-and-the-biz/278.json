@@ -1,0 +1,53 @@
+{
+  "guest": "Erez Dayan",
+  "people": [
+    "Erez Dayan",
+    "Katherine Maley",
+    "Michael Yeromchuk",
+    "Sherelle Astin",
+    "Dan Baker",
+    "Steve Bird",
+    "Jay Burns",
+    "Rod Roerich",
+    "Kami Parsa"
+  ],
+  "companies": [
+    "Avance Plastic Surgery Institute",
+    "Harvard Plastic Surgery Program",
+    "Dallas Plastic Surgery Institute",
+    "Manhattan Eye and Ear Infirmary",
+    "InMode",
+    "Axogen",
+    "CoreAesthetics",
+    "Emet Wellness",
+    "JetSuiteX",
+    "Walmart",
+    "Bloomingdale's",
+    "Tesla"
+  ],
+  "products": [
+    "CoreAesthetics.com",
+    "CRM",
+    "Instagram",
+    "LinkedIn"
+  ],
+  "topics": [
+    "private practice startup",
+    "office buildout",
+    "staff hiring and management",
+    "practice growth",
+    "cosmetic surgery",
+    "aesthetic medicine",
+    "social media marketing",
+    "patient experience",
+    "conversion rates",
+    "business financing",
+    "competitive differentiation",
+    "wellness center development",
+    "reconstruction surgery",
+    "practice valuation"
+  ],
+  "episode_num": 278,
+  "title": "Rented Office to 7K Sq. Ft. Facility — with Erez Dayan, MD (Ep. 279)",
+  "model": "claude-haiku-4-5-20251001"
+}

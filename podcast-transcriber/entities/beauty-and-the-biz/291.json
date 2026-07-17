@@ -1,0 +1,41 @@
+{
+  "guest": "Derek Ford",
+  "people": [
+    "Derek Ford",
+    "Catherine Maley",
+    "Oscar Ramirez",
+    "Rick Warren",
+    "Stephen Hanna",
+    "Derek Ford's wife",
+    "Derek Ford's father"
+  ],
+  "companies": [
+    "University of Toronto",
+    "University of Western Ontario",
+    "Manhattan Eye and Ear Hospital",
+    "Ford Plastic Surgery"
+  ],
+  "products": [
+    "Halo laser",
+    "CO2 laser"
+  ],
+  "topics": [
+    "practice growth",
+    "office location strategy",
+    "operating facility ownership",
+    "real estate investment",
+    "staff hiring and culture",
+    "multi-surgeon practices",
+    "patient consent for photos",
+    "business operations",
+    "marketing and advertising",
+    "social media strategy",
+    "pricing strategy",
+    "surgical specialization",
+    "patient experience",
+    "revenue optimization"
+  ],
+  "episode_num": 291,
+  "title": "How One Bold Move Doubled Revenues — with Derek Ford, MD, FRCSC (Ep. 292)",
+  "model": "claude-haiku-4-5-20251001"
+}

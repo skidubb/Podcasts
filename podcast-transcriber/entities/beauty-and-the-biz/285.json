@@ -1,0 +1,47 @@
+{
+  "guest": "Shabnam Ghazizadeh",
+  "people": [
+    "Catherine Maley",
+    "Shabnam Ghazizadeh",
+    "Corey Moss",
+    "David Kim",
+    "Dr. Lee",
+    "Ray",
+    "Dr. Yasnaj"
+  ],
+  "companies": [
+    "Oregon Health and Science University",
+    "UCLA",
+    "AAFPRS",
+    "Kaiser",
+    "Faceology",
+    "Orange County Dental Association",
+    "California Rhino Society"
+  ],
+  "products": [
+    "RHA filler",
+    "Instagram",
+    "Google",
+    "YouTube"
+  ],
+  "topics": [
+    "facial plastic surgery",
+    "private practice",
+    "business model",
+    "marketing strategy",
+    "social media",
+    "patient reviews",
+    "rhinoplasty",
+    "lip lift",
+    "facelift",
+    "iv sedation",
+    "non-surgical treatments",
+    "surgical fellowship",
+    "partnership structure",
+    "new practice launch",
+    "patient acquisition"
+  ],
+  "episode_num": 285,
+  "title": "From Academia to Independence — with Shabnam Ghazizadeh, MD (Ep. 286)",
+  "model": "claude-haiku-4-5-20251001"
+}

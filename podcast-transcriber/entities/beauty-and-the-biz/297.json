@@ -1,0 +1,53 @@
+{
+  "guest": "Kristopher Day",
+  "people": [
+    "Kristopher Day",
+    "Catherine Maley",
+    "Katherine Maley",
+    "Sophia",
+    "Eva",
+    "Luke",
+    "Cameron",
+    "Nick",
+    "Maya Angelou"
+  ],
+  "companies": [
+    "Pacific Sound Plastic Surgery",
+    "University of Iowa",
+    "Johns Hopkins",
+    "American Society of Plastic Surgery",
+    "Snoqualmie River Valley",
+    "LegalZoom",
+    "Indeed",
+    "ZipRecruiter",
+    "Nordstrom"
+  ],
+  "products": [
+    "QuickBooks",
+    "Google Ads",
+    "Instagram",
+    "TikTok",
+    "Botox",
+    "PRP"
+  ],
+  "topics": [
+    "reconstructive surgery",
+    "cosmetic surgery",
+    "private practice management",
+    "transitioning from academia",
+    "staff hiring and retention",
+    "patient acquisition",
+    "marketing strategy",
+    "google ads",
+    "work-life balance",
+    "gender affirmation surgery",
+    "craniofacial surgery",
+    "office-based surgical facility",
+    "vendor management",
+    "consulting vs vendors",
+    "aesthetic patient expectations"
+  ],
+  "episode_num": 297,
+  "title": "Juggling Recon and Cosmetic Patients — with Kristopher Day, MD (Ep. 298)",
+  "model": "claude-haiku-4-5-20251001"
+}

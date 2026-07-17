@@ -1,0 +1,42 @@
+{
+  "guest": "Ruslan Zhuravsky",
+  "people": [
+    "Ruslan Zhuravsky",
+    "Catherine",
+    "Catherine Maley",
+    "Wife"
+  ],
+  "companies": [
+    "Nova Southeastern University",
+    "Rowan UMDNJ",
+    "Z Plastic Surgery",
+    "Life 360"
+  ],
+  "products": [
+    "Instagram",
+    "TikTok",
+    "Google",
+    "Hyperbaric oxygen chamber"
+  ],
+  "topics": [
+    "practice management",
+    "surgical technique",
+    "rhinoplasty",
+    "facelift",
+    "aging face",
+    "private practice",
+    "patient marketing",
+    "social media",
+    "word of mouth",
+    "patient consultation",
+    "business operations",
+    "relocation",
+    "surgical facility",
+    "out-of-state patients",
+    "patient expectations",
+    "before and after photos"
+  ],
+  "episode_num": 365,
+  "title": "Building, Then Rebuilding a Practice — Ruslan Zhuravsky, DO (Ep. 366)",
+  "model": "claude-haiku-4-5-20251001"
+}

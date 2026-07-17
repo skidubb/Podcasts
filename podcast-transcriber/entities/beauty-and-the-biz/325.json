@@ -1,0 +1,46 @@
+{
+  "guest": "Gaurav Bharti",
+  "people": [
+    "Gaurav Bharti",
+    "Katherine Maile",
+    "Bill Corteses",
+    "Joe Hunstad",
+    "Katherine Maylee"
+  ],
+  "companies": [
+    "Health Knowledge Beauty",
+    "HKB Cosmetic Surgery",
+    "Wake Forest",
+    "Newsweek",
+    "RealSelf",
+    "Charlotte Top Doctor"
+  ],
+  "products": [
+    "Instagram",
+    "EMR",
+    "CRM",
+    "PRP",
+    "PDGF",
+    "micro-coring"
+  ],
+  "topics": [
+    "multi-location expansion",
+    "practice consolidation",
+    "surgeon partnership model",
+    "med spa integration",
+    "non-surgical aesthetics",
+    "staffing and recruitment",
+    "marketing strategy",
+    "organizational structure",
+    "leadership development",
+    "patient lifetime value",
+    "regenerative medicine",
+    "private equity alternatives",
+    "surgical outcomes",
+    "business operations",
+    "team culture"
+  ],
+  "episode_num": 325,
+  "title": "Blueprint for 11 Location Empire — with Gaurav Bharti, MD (Ep. 322)",
+  "model": "claude-haiku-4-5-20251001"
+}

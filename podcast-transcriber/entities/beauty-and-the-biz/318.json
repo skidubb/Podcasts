@@ -1,0 +1,52 @@
+{
+  "guest": "Catherine Maley",
+  "people": [
+    "Catherine Maley",
+    "J. Kim",
+    "Dee",
+    "Kathy Fields",
+    "Cash"
+  ],
+  "companies": [
+    "Beauty and the Biz",
+    "You Are Beautiful podcast",
+    "Instagram",
+    "Google",
+    "MedSpot",
+    "Proactive",
+    "Stanford",
+    "Turkey",
+    "Mexico"
+  ],
+  "products": [
+    "Botox",
+    "filler",
+    "collagen filler",
+    "IPL machines",
+    "chat GPT",
+    "AI",
+    "Gemini",
+    "microdermabrasion",
+    "laser"
+  ],
+  "topics": [
+    "patient psychology",
+    "cosmetic surgery marketing",
+    "social media strategy",
+    "patient consultation",
+    "rhinoplasty",
+    "non-surgical procedures",
+    "patient retention",
+    "aesthetic practice management",
+    "patient emotional journey",
+    "practice growth",
+    "digital presence",
+    "lead qualification",
+    "cosmetic patient behavior",
+    "ai impact on surgery",
+    "natural results"
+  ],
+  "episode_num": 318,
+  "title": "Cosmetic Patients: What They Want and Why — with Catherine Maley, MBA (Ep. 319)",
+  "model": "claude-haiku-4-5-20251001"
+}

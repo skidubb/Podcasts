@@ -1,0 +1,45 @@
+{
+  "guest": "Anna Frants",
+  "people": [
+    "Anna Frants",
+    "Katherine Maley",
+    "Paul Nassif",
+    "Babak Azizadeh",
+    "Grace Lee Pang",
+    "David Rosenberg",
+    "Moshkevich",
+    "Stein",
+    "Moskowitz",
+    "Kamalan"
+  ],
+  "companies": [
+    "Memorial Sloan Kettering Cancer Center",
+    "New York University School of Medicine",
+    "Specialty Aesthetic Surgery",
+    "E! Entertainment"
+  ],
+  "products": [
+    "YouTube",
+    "Instagram"
+  ],
+  "topics": [
+    "practice growth",
+    "private practice startup",
+    "facial plastic surgery",
+    "deep plane facelift",
+    "rhinoplasty",
+    "surgical fellowship",
+    "cosmetic marketing",
+    "social media strategy",
+    "patient acquisition",
+    "business management",
+    "surgical mentorship",
+    "before and after photography",
+    "facial reanimation",
+    "reconstructive surgery",
+    "work-life balance"
+  ],
+  "episode_num": 305,
+  "title": "How She Built a Thriving Practice on Park Avenue in 2 Years — with Anna Frants, MD (Ep. 306)",
+  "model": "claude-haiku-4-5-20251001"
+}

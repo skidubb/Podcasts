@@ -1,0 +1,49 @@
+{
+  "guest": null,
+  "people": [
+    "Catherine Maley"
+  ],
+  "companies": [
+    "Allergan",
+    "Instagram",
+    "Facebook",
+    "TikTok",
+    "Google",
+    "Meta",
+    "Apple",
+    "Amazon",
+    "Uber",
+    "DoorDash",
+    "YouTube"
+  ],
+  "products": [
+    "KISS Loyalty Club",
+    "iOS",
+    "Instagram Reels",
+    "YouTube Shorts",
+    "Google Maps",
+    "AI chat tools",
+    "AI-powered drip campaigns",
+    "simulation tools"
+  ],
+  "topics": [
+    "lead generation",
+    "ai marketing",
+    "ad costs",
+    "organic reach decline",
+    "lead fatigue",
+    "patient expectations",
+    "patient retention",
+    "cosmetic practice growth",
+    "digital marketing",
+    "social media strategy",
+    "seo",
+    "patient acquisition",
+    "practice efficiency",
+    "email marketing",
+    "referral programs"
+  ],
+  "episode_num": 322,
+  "title": "Why the Next 12 Months Will be Harder for Cosmetic Lead Gen — with Catherine Maley, MBA (Ep. 324)",
+  "model": "claude-haiku-4-5-20251001"
+}

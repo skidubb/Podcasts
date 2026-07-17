@@ -1,0 +1,60 @@
+{
+  "guest": "Richard J. Brown",
+  "people": [
+    "Richard J. Brown",
+    "Catherine Maley",
+    "Glenn Height",
+    "Erin",
+    "Sam",
+    "Nicole",
+    "Andy Fursella"
+  ],
+  "companies": [
+    "Brown Plastic Surgery",
+    "Northwestern University",
+    "University of Nebraska Medical Center",
+    "University of Georgia",
+    "Northern Arizona University",
+    "Chicago Medical School",
+    "Elite Body Sculpting",
+    "First Form Supplement Company"
+  ],
+  "products": [
+    "Photonics",
+    "CO2 laser",
+    "GLP-1",
+    "peptides",
+    "Osprey bladder",
+    "Camelback",
+    "Kindle",
+    "Audible",
+    "Meta",
+    "LinkedIn",
+    "Instagram",
+    "TikTok",
+    "RealSelf"
+  ],
+  "topics": [
+    "practice management",
+    "surgeon as bottleneck",
+    "delegation",
+    "hiring",
+    "scaling",
+    "office manager vs coo",
+    "social media marketing",
+    "patient education",
+    "awake procedures",
+    "wellness integration",
+    "glp-1 medications",
+    "book marketing",
+    "digital marketing",
+    "staff accountability",
+    "private practice",
+    "patient acquisition",
+    "authenticity",
+    "discipline"
+  ],
+  "episode_num": 364,
+  "title": "When the Surgeon Becomes the Bottleneck — Richard J. Brown, MD (Ep. 365)",
+  "model": "claude-haiku-4-5-20251001"
+}

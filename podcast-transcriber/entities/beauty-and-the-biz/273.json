@@ -1,0 +1,36 @@
+{
+  "guest": "Steve Look",
+  "people": [
+    "Steve Look",
+    "Catherine Maile",
+    "Katherine Maile"
+  ],
+  "companies": [
+    "Paradigm Surge Group",
+    "NAPR",
+    "ASPS",
+    "US Chamber of Commerce",
+    "Verta Dotto"
+  ],
+  "products": [],
+  "topics": [
+    "practice partnerships",
+    "succession planning",
+    "physician recruiting",
+    "practice valuation",
+    "associate agreements",
+    "practice buyouts",
+    "patient acquisition",
+    "staff retention",
+    "cultural fit",
+    "compensation models",
+    "social media ownership",
+    "restrictive covenants",
+    "private equity in aesthetic surgery",
+    "practice exits",
+    "plastic surgery business"
+  ],
+  "episode_num": 273,
+  "title": "Why do so Many Partnerships Fail? — with Steve Look, CEO (Ep. 274)",
+  "model": "claude-haiku-4-5-20251001"
+}

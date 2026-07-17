@@ -1,0 +1,37 @@
+{
+  "guest": "John Vartanian",
+  "people": [
+    "John Vartanian",
+    "Catherine Maley",
+    "Frank Kammer"
+  ],
+  "companies": [
+    "University of Illinois Chicago",
+    "UCLA",
+    "Entertainment Tonight",
+    "Insider"
+  ],
+  "products": [
+    "virtual reality model"
+  ],
+  "topics": [
+    "facial plastic surgery",
+    "rhinoplasty",
+    "aging face surgery",
+    "private practice",
+    "team building",
+    "hiring and retention",
+    "non-surgical revenue",
+    "marketing and patient acquisition",
+    "word of mouth referrals",
+    "social media",
+    "patient consent and photography",
+    "business growth",
+    "surgical center options",
+    "teaching and mentorship",
+    "cosmetic trends"
+  ],
+  "episode_num": 293,
+  "title": "Mastering Surgery AND Business Growth — with John Vartanian, MD, FACS (Ep. 294)",
+  "model": "claude-haiku-4-5-20251001"
+}

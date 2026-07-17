@@ -1,0 +1,53 @@
+{
+  "guest": "Heather Levites",
+  "people": [
+    "Heather Levites",
+    "Catherine Bailey",
+    "Taylor Levites",
+    "Jeff Marcus",
+    "Joe Hunstad",
+    "Rachel Heine",
+    "Despina",
+    "Haley",
+    "LeBron James"
+  ],
+  "companies": [
+    "Duke University",
+    "State University of New York at Stony Brook",
+    "MIT",
+    "Duke Raleigh Hospital",
+    "Wakeman Raleigh Hospital",
+    "Nike",
+    "Plastic Surgeons of America",
+    "NC State",
+    "Charlotte Hornets"
+  ],
+  "products": [
+    "LoopNet",
+    "Meta ads",
+    "Google ads",
+    "TikTok",
+    "Instagram",
+    "KISS Loyalty Club"
+  ],
+  "topics": [
+    "private practice startup",
+    "operating room construction",
+    "practice financing",
+    "marketing strategy",
+    "meta advertising",
+    "social media",
+    "patient acquisition",
+    "branding",
+    "hiring and staffing",
+    "practice layout",
+    "fellowship training",
+    "work-life balance",
+    "surgical swag bag",
+    "patient consent",
+    "practice growth"
+  ],
+  "episode_num": 336,
+  "title": "From Fellowship to Two OR Suites — with Heather Levites, MD (Ep. 337)",
+  "model": "claude-haiku-4-5-20251001"
+}

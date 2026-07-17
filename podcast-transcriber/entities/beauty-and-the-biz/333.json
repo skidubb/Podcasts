@@ -1,0 +1,53 @@
+{
+  "guest": "Tania Hassanzadeh",
+  "people": [
+    "Tania Hassanzadeh",
+    "Katherine Maley",
+    "Timothee Chalamet",
+    "Dr. Spiegel"
+  ],
+  "companies": [
+    "Duke University",
+    "University of Arizona College of Medicine",
+    "Tufts Medical Center",
+    "Boston Medical Center",
+    "Spiegel Center",
+    "InMode",
+    "LoopNet",
+    "Studio 3",
+    "Influx",
+    "KISS Loyalty Club",
+    "CapCut"
+  ],
+  "products": [
+    "FaceTight Morpheus 8",
+    "Instagram",
+    "TikTok",
+    "Facebook",
+    "YouTube",
+    "LinkedIn",
+    "WordPress",
+    "Google Analytics",
+    "Google Ads"
+  ],
+  "topics": [
+    "private practice ownership",
+    "leaving employment",
+    "fellowship selection",
+    "beverly hills practice",
+    "social media marketing",
+    "website and seo",
+    "patient acquisition",
+    "practice startup costs",
+    "staff hiring",
+    "business contracts",
+    "patient screening",
+    "body dysmorphia",
+    "rhinoplasty",
+    "facial plastic surgery",
+    "competitor analysis"
+  ],
+  "episode_num": 333,
+  "title": "Leaving Employment for Autonomy — with Tania Hassanzadeh, MD (Ep. 334)",
+  "model": "claude-haiku-4-5-20251001"
+}

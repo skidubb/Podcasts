@@ -1,0 +1,50 @@
+{
+  "guest": "Meredith Kugar",
+  "people": [
+    "Meredith Kugar",
+    "Catherine Maley",
+    "Holly Wall",
+    "Simeon Wall",
+    "Bruce Vanatta",
+    "Stephen Perkins",
+    "Luke Sturgill",
+    "Will",
+    "Karishma Reddy"
+  ],
+  "companies": [
+    "Meridian Plastic Surgeons",
+    "Wall Center for Plastic Surgery",
+    "Spa 170 West",
+    "Studio 7000",
+    "University of North Carolina",
+    "Indiana University",
+    "UT Southwestern"
+  ],
+  "products": [
+    "Vectra 3D",
+    "Motiva implants",
+    "Vaser",
+    "Renuvion",
+    "Google Reviews"
+  ],
+  "topics": [
+    "joining established practice",
+    "plastic surgery career",
+    "fellowship training",
+    "cosmetic vs reconstructive",
+    "practice marketing",
+    "social media branding",
+    "patient acquisition",
+    "staff management",
+    "business structure",
+    "emr implementation",
+    "safe liposuction",
+    "breast augmentation",
+    "practice succession planning",
+    "employee retention",
+    "google reviews"
+  ],
+  "episode_num": 310,
+  "title": "Pros and Cons of Joining Established Practice — with Meredith Kugar, MD (Ep. 311)",
+  "model": "claude-haiku-4-5-20251001"
+}

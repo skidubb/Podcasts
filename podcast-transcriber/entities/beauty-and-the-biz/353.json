@@ -1,0 +1,51 @@
+{
+  "guest": "Steven A. Hanna",
+  "people": [
+    "Steven A. Hanna",
+    "Katherine Maley",
+    "Derek Ford",
+    "Megan",
+    "Laura McGrath",
+    "Isabel Middleman",
+    "Carolyn Watson",
+    "Stephen Hanna"
+  ],
+  "companies": [
+    "Beauty and the Biz",
+    "Queen's University",
+    "University of Toronto",
+    "Manhattan Ear, Eye, and Throat Hospital",
+    "Lenox Hill",
+    "Ford Plastic Surgery",
+    "Toronto Star",
+    "Newsweek",
+    "Glam",
+    "Independent UK",
+    "Yorkville Post"
+  ],
+  "products": [
+    "Instagram",
+    "TikTok",
+    "LinkedIn"
+  ],
+  "topics": [
+    "fellowship training",
+    "rhinoplasty",
+    "deep plane facelift",
+    "practice partnership",
+    "private practice setup",
+    "social media marketing",
+    "patient education",
+    "staff management",
+    "non-surgical aesthetics",
+    "cosmetic surgery specialization",
+    "multi-physician practice",
+    "patient consultation",
+    "content creation",
+    "before and after photos",
+    "patient reviews"
+  ],
+  "episode_num": 353,
+  "title": "This Fellowship Was Priceless — Steven A. Hanna, MD (Ep. 354)",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,48 @@
+{
+  "guest": "Manuel A. Lopez",
+  "people": [
+    "Manuel A. Lopez",
+    "Catherine Maley",
+    "Tony Parker",
+    "Tim Duncan",
+    "Manu Ginóbili",
+    "Victor Wembanyama"
+  ],
+  "companies": [
+    "Advanced Aesthetics Lopez Plastic Surgery",
+    "El Spas",
+    "Wilford Hall Medical Center",
+    "Ballard Air Base",
+    "AFOS (Aesthetic Facial and Oculoplastic Surgeons)",
+    "Los Angeles Dodgers",
+    "San Antonio Spurs"
+  ],
+  "products": [
+    "PatientNow",
+    "HydraFacial",
+    "CoolSculpting",
+    "TriLift",
+    "Botox",
+    "dermal fillers"
+  ],
+  "topics": [
+    "team building",
+    "staff management",
+    "business operations",
+    "practice growth",
+    "multi-location management",
+    "financial controls",
+    "embezzlement prevention",
+    "patient experience",
+    "cosmetic surgery",
+    "leadership",
+    "marketing strategy",
+    "private equity",
+    "real estate investment",
+    "hiring practices",
+    "quality control"
+  ],
+  "episode_num": 294,
+  "title": "Building a World-Class Team — with Manuel A. Lopez, MD (Ep. 295)",
+  "model": "claude-haiku-4-5-20251001"
+}

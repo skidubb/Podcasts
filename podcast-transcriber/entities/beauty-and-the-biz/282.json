@@ -1,0 +1,45 @@
+{
+  "guest": "Reza Najafian",
+  "people": [
+    "Reza Najafian",
+    "Katherine Maile",
+    "Mark Jewell",
+    "Mary Jewell",
+    "Catherine"
+  ],
+  "companies": [
+    "Johns Hopkins Hospital",
+    "Oregon Health and Science University",
+    "The Aesthetic Society",
+    "Google",
+    "Yahoo",
+    "AOL"
+  ],
+  "products": [
+    "Instagram",
+    "TikTok",
+    "Botox",
+    "hyaluronic acid",
+    "AI"
+  ],
+  "topics": [
+    "private practice startup",
+    "cosmetic surgery",
+    "reconstructive surgery",
+    "business planning",
+    "hiring accountants and lawyers",
+    "website and seo",
+    "social media marketing",
+    "patient acquisition",
+    "insurance reimbursement",
+    "surgical techniques",
+    "natural results",
+    "medical tourism complications",
+    "anesthesia choices",
+    "practice management",
+    "photography"
+  ],
+  "episode_num": 282,
+  "title": "Journey From Iran to Oregon — with Reza Najafian, MD (Ep. 283)",
+  "model": "claude-haiku-4-5-20251001"
+}

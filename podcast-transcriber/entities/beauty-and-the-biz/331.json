@@ -1,0 +1,40 @@
+{
+  "guest": "Lisa Marie Wark",
+  "people": [
+    "Lisa Marie Wark",
+    "Katherine Maley",
+    "Suzanne Somers",
+    "Dr. Kotler"
+  ],
+  "companies": [
+    "Four Seasons",
+    "Ritz Carlton",
+    "KISS Loyalty Club"
+  ],
+  "products": [
+    "Amazon Kindle",
+    "QuickBooks",
+    "Instagram",
+    "YouTube"
+  ],
+  "topics": [
+    "practice culture",
+    "team building",
+    "staff turnover",
+    "embezzlement prevention",
+    "hiring practices",
+    "leadership development",
+    "employee retention",
+    "practice systems",
+    "customer service excellence",
+    "organizational psychology",
+    "staff training",
+    "brand ambassadors",
+    "financial controls",
+    "practice growth",
+    "office management"
+  ],
+  "episode_num": 331,
+  "title": "Is Your Practice Culture Holding You Back? — with Lisa Marie Wark, MBA, PhD(c) (Ep. 332)",
+  "model": "claude-haiku-4-5-20251001"
+}

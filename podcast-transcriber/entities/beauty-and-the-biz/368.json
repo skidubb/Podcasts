@@ -1,0 +1,48 @@
+{
+  "guest": "James Rough",
+  "people": [
+    "James Rough",
+    "Catherine Maley",
+    "Larry Hagman"
+  ],
+  "companies": [
+    "Temple University School of Medicine",
+    "University of Arizona",
+    "University of California",
+    "Northern Arizona University",
+    "Snowflake High School",
+    "VA",
+    "Sanobello",
+    "Facebook",
+    "WhatsApp",
+    "YouTube",
+    "Instagram"
+  ],
+  "products": [
+    "VASER",
+    "Chat GPT",
+    "AI",
+    "QR code",
+    "SEO"
+  ],
+  "topics": [
+    "private practice",
+    "solo practice",
+    "practice growth",
+    "patient acquisition",
+    "work-life balance",
+    "staff hiring",
+    "competitive marketing",
+    "social media",
+    "plastic surgery",
+    "breast reconstruction",
+    "cosmetic surgery",
+    "business mentorship",
+    "financial management",
+    "patient retention",
+    "billing and insurance"
+  ],
+  "episode_num": 368,
+  "title": "Private Practice Is Not a Straight Line — James Rough, MD (Ep. 369)",
+  "model": "claude-haiku-4-5-20251001"
+}

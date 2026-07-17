@@ -1,0 +1,54 @@
+{
+  "guest": "Joubin Gabbay",
+  "people": [
+    "Joubin Gabbay",
+    "Katherine Maley",
+    "Ash Kavami",
+    "Jay Calvert",
+    "Bob Azizadeh",
+    "Robby Yadegar",
+    "Ryan Seacrest",
+    "Tony Robbins",
+    "Sam Nazarian",
+    "Karan Deer",
+    "Joe Hadid"
+  ],
+  "companies": [
+    "Cedars-Sinai Medical Center",
+    "UCLA",
+    "Rancho Los Amigos National Rehab Center",
+    "Medical College of Virginia",
+    "Elite",
+    "AirSculpt",
+    "Yelp"
+  ],
+  "products": [
+    "Micro Air",
+    "Renuvion",
+    "Instagram",
+    "TikTok",
+    "YouTube",
+    "Google",
+    "CRM"
+  ],
+  "topics": [
+    "awake surgery",
+    "liposuction",
+    "office design",
+    "practice management",
+    "social media marketing",
+    "influencer partnerships",
+    "patient experience",
+    "differentiation",
+    "stem cells",
+    "cosmetic procedures",
+    "breast augmentation",
+    "body contouring",
+    "private practice",
+    "patient acquisition",
+    "authenticity branding"
+  ],
+  "episode_num": 280,
+  "title": "Differentiate with Awake Surgery — with Joubin Gabbay, MD (Ep. 281)",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,44 @@
+{
+  "guest": "Steven P. Davison",
+  "people": [
+    "Steven P. Davison",
+    "Katherine Maile",
+    "Scott Spear",
+    "Chris Attinger",
+    "Dr. Hurwitz",
+    "Stephen Grant"
+  ],
+  "companies": [
+    "Georgetown University",
+    "University of Pittsburgh",
+    "Mayo Clinic",
+    "University of Edinburgh",
+    "MD Anderson",
+    "University of Maryland",
+    "Westinghouse"
+  ],
+  "products": [
+    "Instagram",
+    "Telemundo"
+  ],
+  "topics": [
+    "surgery center build-out",
+    "certificate of need",
+    "regulatory barriers",
+    "private practice startup",
+    "hiring associates",
+    "cosmetic vs reconstructive",
+    "insurance reimbursement",
+    "med spa operations",
+    "staff management",
+    "practice growth",
+    "partnership dynamics",
+    "marketing strategy",
+    "carrying costs",
+    "equipment purchasing",
+    "patient retention"
+  ],
+  "episode_num": 326,
+  "title": "The Hidden Costs of Building Your Own Surgery Center — with Steven P. Davison, MD (Ep. 327)",
+  "model": "claude-haiku-4-5-20251001"
+}

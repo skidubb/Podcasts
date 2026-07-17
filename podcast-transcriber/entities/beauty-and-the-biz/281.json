@@ -1,0 +1,41 @@
+{
+  "guest": "Collier Pace",
+  "people": [
+    "Collier Pace",
+    "Catherine Maley",
+    "Julie",
+    "Taylor"
+  ],
+  "companies": [
+    "Virginia Commonwealth University",
+    "Southern Illinois University",
+    "American College of Surgeons",
+    "Indeed",
+    "Marketing group based out of LA"
+  ],
+  "products": [
+    "Instagram",
+    "Google"
+  ],
+  "topics": [
+    "private practice startup",
+    "solo practice",
+    "office location selection",
+    "staff hiring",
+    "marketing strategy",
+    "website and seo",
+    "social media",
+    "patient acquisition",
+    "cosmetic surgery",
+    "reconstructive surgery",
+    "mommy makeover",
+    "facial cosmetic procedures",
+    "local anesthesia",
+    "referral relationships",
+    "work-life balance",
+    "insurance credentialing"
+  ],
+  "episode_num": 281,
+  "title": "6 Months in Private Practice — with Collier Pace, MD, FACS (Ep. 282)",
+  "model": "claude-haiku-4-5-20251001"
+}

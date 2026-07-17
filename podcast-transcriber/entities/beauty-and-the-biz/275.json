@@ -1,0 +1,49 @@
+{
+  "guest": "Janice Pastorek",
+  "people": [
+    "Janice Pastorek",
+    "Katherine Maley",
+    "Norman Pastorek",
+    "Jesse Chaspe",
+    "Eric Westman",
+    "Jack Cruz",
+    "Kelly Pastorek"
+  ],
+  "companies": [
+    "Estée Lauder",
+    "Facial Plastic Academy",
+    "Cleveland Clinic",
+    "Duke University",
+    "Georgetown University",
+    "Yale Harvard",
+    "New York Hospital"
+  ],
+  "products": [
+    "Ozempic",
+    "Wegovy",
+    "Manjaro",
+    "Glucose Revolution",
+    "frequency-specific microcurrent",
+    "red light therapy",
+    "cryotherapy"
+  ],
+  "topics": [
+    "aesthetic nursing",
+    "skin rejuvenation",
+    "facelift surgery",
+    "practice management",
+    "patient retention",
+    "wellness counseling",
+    "neuromodulators",
+    "dermal fillers",
+    "threads",
+    "local anesthesia",
+    "word of mouth marketing",
+    "medical aesthetics",
+    "preventive skincare",
+    "functional medicine"
+  ],
+  "episode_num": 275,
+  "title": "The Ultimate Facial Surgery Practice — with Janice Pastorek, BSN, RN (Ep. 276)",
+  "model": "claude-haiku-4-5-20251001"
+}

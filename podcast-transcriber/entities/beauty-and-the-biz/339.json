@@ -1,0 +1,51 @@
+{
+  "guest": "Dominick Gadaleta",
+  "people": [
+    "Dominick Gadaleta",
+    "Catherine Maley",
+    "Timothy Orlip",
+    "Norman Pistorik",
+    "David Rosenberg",
+    "Tim Martin",
+    "Nyack"
+  ],
+  "companies": [
+    "OG Aesthetics",
+    "Boston University",
+    "Thomas Jefferson University",
+    "New York University",
+    "AAFPRS",
+    "AAO Head and Neck Surgery",
+    "Facebook",
+    "Google",
+    "Yelp",
+    "RealSelf"
+  ],
+  "products": [
+    "Google Business",
+    "Google Ads",
+    "Instagram",
+    "Botox",
+    "Filler"
+  ],
+  "topics": [
+    "practice startup",
+    "silicon valley",
+    "facial plastic surgery",
+    "cosmetic surgery",
+    "partnership",
+    "marketing",
+    "social media",
+    "patient acquisition",
+    "team building",
+    "hiring",
+    "surgical center",
+    "anesthesia",
+    "reconstructive surgery",
+    "patient selection",
+    "office operations"
+  ],
+  "episode_num": 339,
+  "title": "How 2 Young Surgeons Built Silicon Valley Practice — with Dominick Gadaleta, MD (Ep. 340)",
+  "model": "claude-haiku-4-5-20251001"
+}
