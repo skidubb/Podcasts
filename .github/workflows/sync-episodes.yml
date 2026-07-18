@@ -18,6 +18,8 @@ on:
           - gtm-ai-podcast
           - beauty-and-the-biz
           - ratchet-wrench-radio
+          - light-reading
+          - tower-talks
       limit:
         description: 'Max episodes to transcribe this run (empty = no limit)'
         required: false
@@ -64,6 +66,26 @@ jobs:
             name: 'Ratchet+Wrench Radio'
             description: 'A podcast for auto repair shop owners and multi-shop operators covering shop management, growth strategy, leadership, and the business of automotive repair'
             index: 'ratchet-wrench-radio'
+          # Telecom podcasts share the integrated-inference index
+          # 'telecom-podcasts' under the 'telecom' namespace. The since/
+          # skip_title filters are PERMANENT: without them the weekly run
+          # would slowly backfill pre-window episodes (Light Reading has
+          # ~850 of them) and Digital Divide episodes at 5/week.
+          - slug: light-reading
+            rss: 'https://feeds.acast.com/public/shows/6112c6ffaae63d001577f9d8'
+            name: 'Light Reading Podcasts'
+            description: 'A telecom industry podcast covering broadband, 5G, fiber, cable, cloud and network infrastructure news and analysis from Light Reading'
+            index: 'telecom-podcasts'
+            namespace: 'telecom'
+            since: '2025-01-18'
+            skip_title: '^The Divide'
+          - slug: tower-talks
+            rss: 'https://rss.buzzsprout.com/268781.rss'
+            name: 'Tower Talks with Inside Towers'
+            description: 'A podcast on wireless infrastructure, cell towers, fiber, data centers and the digital infrastructure ecosystem from Inside Towers'
+            index: 'telecom-podcasts'
+            namespace: 'telecom'
+            since: '2025-07-18'
 
     env:
       # A matrix job runs only on schedule, 'all', or when its slug is selected
@@ -139,18 +161,32 @@ jobs:
           PODCAST_NAME: ${{ matrix.name || secrets.PODCAST_NAME }}
           PODCAST_DESCRIPTION: ${{ matrix.description || secrets.PODCAST_DESCRIPTION }}
           PINECONE_INDEX_NAME: ${{ matrix.index || secrets.PINECONE_INDEX_NAME }}
+          PINECONE_NAMESPACE: ${{ matrix.namespace }}
           TRANSCRIPTS_DIR: transcripts/${{ matrix.slug }}
+          # Per-podcast episode filters (permanent for namespace podcasts)
+          FILTER_SINCE: ${{ matrix.since }}
+          FILTER_SKIP_TITLE: ${{ matrix.skip_title }}
           # Workflow inputs
           INPUT_REBUILD_INDEX: ${{ github.event.inputs.rebuild_index }}
           INPUT_FORCE_EPISODE: ${{ github.event.inputs.force_episode }}
           INPUT_LIMIT: ${{ github.event_name == 'schedule' && '5' || github.event.inputs.limit }}
         run: |
-          # Cloud transcription (OpenAI Whisper API) + incremental indexing
-          CMD="python sync_episodes.py --cloud --index-new"
+          # Cloud transcription (OpenAI Whisper API) + incremental indexing.
+          # Built as a bash array so filter values with spaces (e.g. the
+          # skip-title regex '^The Divide') survive word splitting.
+          CMD=(python sync_episodes.py --cloud --index-new)
+
+          if [ -n "$FILTER_SINCE" ]; then
+            CMD+=(--since "$FILTER_SINCE")
+          fi
+
+          if [ -n "$FILTER_SKIP_TITLE" ]; then
+            CMD+=(--skip-title "$FILTER_SKIP_TITLE")
+          fi
 
           if [ -n "$INPUT_LIMIT" ]; then
             if echo "$INPUT_LIMIT" | grep -qE '^[0-9]+$'; then
-              CMD="$CMD --limit $INPUT_LIMIT"
+              CMD+=(--limit "$INPUT_LIMIT")
             else
               echo "Error: limit must be a number"
               exit 1
@@ -158,21 +194,21 @@ jobs:
           fi
 
           if [ "$INPUT_REBUILD_INDEX" = "true" ]; then
-            CMD="$CMD --rebuild-index"
+            CMD+=(--rebuild-index)
           fi
 
           if [ -n "$INPUT_FORCE_EPISODE" ]; then
             # Validate input is numeric only
             if echo "$INPUT_FORCE_EPISODE" | grep -qE '^[0-9]+$'; then
-              CMD="$CMD --force-episode $INPUT_FORCE_EPISODE"
+              CMD+=(--force-episode "$INPUT_FORCE_EPISODE")
             else
               echo "Error: force_episode must be a number"
               exit 1
             fi
           fi
 
-          echo "Running: $CMD  (podcast: ${{ matrix.slug }})"
-          $CMD
+          echo "Running: ${CMD[*]}  (podcast: ${{ matrix.slug }})"
+          "${CMD[@]}"
 
       - name: Check for new transcripts
         if: env.SELECTED == 'true'

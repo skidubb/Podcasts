@@ -70,6 +70,10 @@ class Config:
     # Pinecone settings (for cloud vector storage)
     pinecone_api_key: str = field(default_factory=lambda: get_secret("PINECONE_API_KEY"))
     pinecone_index_name: str = field(default=None)
+    # When set, episodes are indexed into this namespace of an
+    # integrated-inference index (upsert_records) instead of a dedicated
+    # per-podcast index with OpenAI embeddings.
+    pinecone_namespace: str = field(default_factory=lambda: get_secret("PINECONE_NAMESPACE"))
     pinecone_region: str = "us-east-1"
 
     # Whisper settings

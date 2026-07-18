@@ -318,19 +318,31 @@ def get_output_filename(episode: dict, episode_num: int) -> str:
     return f"{episode_num:03d}_{slug}.md"
 
 
-def index_new_episode(episode_num: int) -> bool:
+def index_new_episode(episode_num: int, config=None) -> bool:
     """Incrementally index a single episode into Pinecone (no full rebuild)."""
-    add_script = SCRIPT_DIR / "add_episode.py"
-    if not add_script.exists():
-        print(f"Error: add_episode.py not found at {add_script}")
+    if config is not None and config.pinecone_namespace:
+        # Integrated-inference index + namespace: no OpenAI embeddings and
+        # no entity-extraction layer on this path.
+        script = SCRIPT_DIR / "index_namespace_episodes.py"
+        cmd = [
+            sys.executable, str(script),
+            "--transcripts-dir", str(config.transcripts_dir),
+            "--index", config.pinecone_index_name,
+            "--namespace", config.pinecone_namespace,
+            "--podcast-name", config.podcast_name,
+            "--id-prefix", config.transcripts_dir.name,
+            "--episode", str(episode_num),
+        ]
+    else:
+        script = SCRIPT_DIR / "add_episode.py"
+        cmd = [sys.executable, str(script), str(episode_num)]
+
+    if not script.exists():
+        print(f"Error: {script.name} not found at {script}")
         return False
 
     try:
-        result = subprocess.run(
-            [sys.executable, str(add_script), str(episode_num)],
-            cwd=str(SCRIPT_DIR),
-            capture_output=False
-        )
+        result = subprocess.run(cmd, cwd=str(SCRIPT_DIR), capture_output=False)
         return result.returncode == 0
     except Exception as e:
         print(f"Error indexing episode {episode_num}: {e}")
@@ -368,6 +380,8 @@ def sync_episodes(
     whisper_model: str = None,
     limit: Optional[int] = None,
     cloud: bool = False,
+    since: Optional[datetime] = None,
+    skip_title: Optional[str] = None,
 ):
     """Main sync function."""
     print("=" * 60)
@@ -377,6 +391,14 @@ def sync_episodes(
 
     # Load configuration
     config = get_config()
+
+    # --rebuild-index drives build_pinecone_index.py (OpenAI embeddings,
+    # whole-index rebuild) which is incompatible with namespace-mode
+    # integrated-inference indexes.
+    if rebuild_index and config.pinecone_namespace:
+        print("Warning: --rebuild-index is not supported when PINECONE_NAMESPACE "
+              "is set; use index_namespace_episodes.py instead. Ignoring.")
+        rebuild_index = False
 
     # Get whisper model from config or argument
     if whisper_model is None:
@@ -391,6 +413,27 @@ def sync_episodes(
     rss_episodes, podcast_title = fetch_rss_episodes(config.rss_feed_url)
     if not rss_episodes:
         print("No episodes found in RSS feed. Exiting.")
+        return
+
+    # Date-window filter. Episodes with no parseable date are excluded too:
+    # fail closed so a feed date-format change can't trigger a mass backfill.
+    if since:
+        undated = sum(1 for e in rss_episodes if not e['parsed_date'])
+        kept = [e for e in rss_episodes if e['parsed_date'] and e['parsed_date'] >= since]
+        if undated:
+            print(f"Warning: {undated} episodes have no parseable date; excluded by --since")
+        print(f"--since {since.date()}: keeping {len(kept)} of {len(rss_episodes)} episodes")
+        rss_episodes = kept
+
+    # Title-pattern filter (e.g. skip a sub-series within the feed)
+    if skip_title:
+        pattern = re.compile(skip_title, re.IGNORECASE)
+        kept = [e for e in rss_episodes if not pattern.search(e['title'])]
+        print(f"--skip-title {skip_title!r}: skipping {len(rss_episodes) - len(kept)} episodes")
+        rss_episodes = kept
+
+    if not rss_episodes:
+        print("No episodes remain after filtering. Exiting.")
         return
 
     # Get existing transcripts
@@ -502,7 +545,7 @@ def sync_episodes(
             # Incrementally index the new episode (no full rebuild)
             if index_new:
                 print(f"  -> Indexing episode {episode_num} into Pinecone...")
-                if index_new_episode(episode_num):
+                if index_new_episode(episode_num, config):
                     indexed += 1
                 else:
                     print(f"  -> Warning: indexing failed for episode {episode_num}")
@@ -581,6 +624,19 @@ def main():
         default=None,
         help="Whisper model (default: from config or 'base')"
     )
+    parser.add_argument(
+        "--since",
+        type=lambda s: datetime.strptime(s, "%Y-%m-%d"),
+        default=None,
+        metavar="YYYY-MM-DD",
+        help="Only consider episodes published on or after this date"
+    )
+    parser.add_argument(
+        "--skip-title",
+        default=None,
+        metavar="REGEX",
+        help="Skip episodes whose title matches this regex (case-insensitive)"
+    )
 
     args = parser.parse_args()
 
@@ -592,6 +648,8 @@ def main():
         whisper_model=args.model,
         limit=args.limit,
         cloud=args.cloud,
+        since=args.since,
+        skip_title=args.skip_title,
     )
 
 
