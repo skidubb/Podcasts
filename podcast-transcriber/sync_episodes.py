@@ -215,9 +215,19 @@ def find_missing_episodes(rss_episodes: list, existing: dict, known_guids: set) 
     return missing
 
 
+# Some CDNs (e.g. Acast) return 403 to the default python-requests
+# user agent; a browser UA is accepted.
+DOWNLOAD_HEADERS = {
+    "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                   "AppleWebKit/537.36 (KHTML, like Gecko) "
+                   "Chrome/126.0 Safari/537.36"),
+}
+
+
 def _download_mp3_once(url: str, dest_path: Path) -> None:
     """Download MP3 file with optional progress bar (single attempt)."""
-    response = requests.get(url, stream=True, timeout=REQUEST_TIMEOUT)
+    response = requests.get(url, stream=True, timeout=REQUEST_TIMEOUT,
+                            headers=DOWNLOAD_HEADERS)
     response.raise_for_status()
 
     total_size = int(response.headers.get('content-length', 0))
