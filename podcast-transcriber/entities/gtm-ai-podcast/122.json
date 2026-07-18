@@ -1,0 +1,52 @@
+{
+  "guest": "Marchelle Rooney",
+  "people": [
+    "Marchelle Rooney",
+    "Jonathan Moss",
+    "Coach K",
+    "Marissa",
+    "Noah",
+    "Daniel",
+    "Jordan Crawford",
+    "Kyle"
+  ],
+  "companies": [
+    "Mangomint",
+    "Bluxom Salon",
+    "Easy Hair Pro",
+    "Customer Momentum",
+    "Sastra",
+    "Altos"
+  ],
+  "products": [
+    "Claude Code",
+    "Claude",
+    "Notion",
+    "Notion MCP",
+    "Momentum",
+    "Avara",
+    "Nooks",
+    "Slack",
+    "Gusto",
+    "Salesforce"
+  ],
+  "topics": [
+    "ai workflow automation",
+    "sales training",
+    "custom ai tools",
+    "non-technical building",
+    "win rate improvement",
+    "golden scripts",
+    "product onboarding",
+    "call transcription analysis",
+    "battle cards",
+    "bdr outbound",
+    "sales velocity",
+    "data extraction",
+    "lms development",
+    "sales enablement"
+  ],
+  "episode_num": 122,
+  "title": "VP of Sales Built Custom AI Tools With Claude Code that Lifted Win Rate by 8%",
+  "model": "claude-haiku-4-5-20251001"
+}

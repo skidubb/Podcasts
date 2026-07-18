@@ -1,0 +1,56 @@
+{
+  "guest": "John Williams",
+  "people": [
+    "John Williams",
+    "Jonathan Moss",
+    "Coach K",
+    "Nathan Spear",
+    "Jaren",
+    "Bonnie"
+  ],
+  "companies": [
+    "GTM AI Podcast",
+    "Anthropic",
+    "OpenAI",
+    "Trifall",
+    "Pavilion",
+    "b-fractional"
+  ],
+  "products": [
+    "Claude",
+    "ChatGPT",
+    "Grok",
+    "Gemini",
+    "Chat Archive",
+    "GitHub",
+    "VS Code",
+    "Ollama",
+    "Gemma",
+    "Mistral",
+    "Llama",
+    "HuggingFace",
+    "OpenClaw",
+    "Perplexity",
+    "WhisperFlow",
+    "Gorilla"
+  ],
+  "topics": [
+    "local ai inference",
+    "data privacy",
+    "chat archiving",
+    "ai agents",
+    "token economics",
+    "offline models",
+    "data portability",
+    "acceptable use policy",
+    "agent commerce",
+    "open source ai",
+    "gtm operations",
+    "ai security",
+    "model switching",
+    "knowledge management"
+  ],
+  "episode_num": 131,
+  "title": "Why and how You should run AI with NO Internet",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,48 @@
+{
+  "guest": "Julia MacDonald",
+  "people": [
+    "Julia MacDonald",
+    "Jonathan Moss",
+    "Coach K",
+    "Jonathan Carpenter",
+    "Albert",
+    "Jennifer Doudna"
+  ],
+  "companies": [
+    "Haize Labs",
+    "GTM AI Podcast",
+    "GTM AI Academy",
+    "AI Circle",
+    "OpenAI",
+    "Anthropic",
+    "Consumer Financial Protection Agency"
+  ],
+  "products": [
+    "GPT",
+    "Clay",
+    "Dripify",
+    "LinkedIn",
+    "Notion",
+    "Lossless Rack"
+  ],
+  "topics": [
+    "ai agents reliability",
+    "enterprise ai sales",
+    "regulated industries",
+    "red teaming",
+    "ai go-to-market",
+    "use case filtering",
+    "claims adjustment automation",
+    "fraud detection",
+    "anti-money laundering",
+    "hallucination-free retrieval",
+    "prospecting automation",
+    "gtm team workflows",
+    "banking and insurance",
+    "healthcare ai",
+    "legal tech"
+  ],
+  "episode_num": 128,
+  "title": "The 99% Reliable AI Agent: How Haize Labs Sells Enterprise AI to Banks, Insurers & Healthcare",
+  "model": "claude-haiku-4-5-20251001"
+}

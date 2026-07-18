@@ -1,0 +1,52 @@
+{
+  "guest": "David Walker",
+  "people": [
+    "David Walker",
+    "Jonathan Moss",
+    "Coach K",
+    "John",
+    "Lauren",
+    "Varun",
+    "Everett"
+  ],
+  "companies": [
+    "Spara",
+    "Outreach",
+    "Clay",
+    "N8n",
+    "OpenAI",
+    "ChatGPT",
+    "Perplexity",
+    "Agency",
+    "Kayak"
+  ],
+  "products": [
+    "Spara",
+    "Clay",
+    "N8n",
+    "ChatGPT",
+    "Salesforce",
+    "Perplexity",
+    "Agency"
+  ],
+  "topics": [
+    "ai agents",
+    "conversational ai",
+    "sales automation",
+    "gtm strategy",
+    "lead qualification",
+    "sales workflows",
+    "web form follow-up",
+    "email agents",
+    "voice ai",
+    "chat agents",
+    "prospect engagement",
+    "sales team productivity",
+    "conversion optimization",
+    "autonomous agents",
+    "sales assist"
+  ],
+  "episode_num": 123,
+  "title": "How to 10X Your Sales Team Without Hiring, Interview with David CEO of Spara.com",
+  "model": "claude-haiku-4-5-20251001"
+}

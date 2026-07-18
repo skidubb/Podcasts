@@ -1,0 +1,61 @@
+{
+  "guest": "Kris Rudeegraap, Austin Sandmeyer, Egan Callahan",
+  "people": [
+    "Kris Rudeegraap",
+    "Austin Sandmeyer",
+    "Egan Callahan",
+    "Coach K",
+    "Jonathan Moss",
+    "Abhi",
+    "Alex",
+    "Mark",
+    "Anthony Smith",
+    "Josh",
+    "Kevin",
+    "Johnny",
+    "Mariano"
+  ],
+  "companies": [
+    "Sendoso",
+    "Liveview Technologies",
+    "Shopify",
+    "Anthropic",
+    "CloudFlare",
+    "Momentum"
+  ],
+  "products": [
+    "N8N",
+    "Clay",
+    "Qualified",
+    "Piper",
+    "User Gems",
+    "Salesforce",
+    "Snowflake",
+    "Google Sheets",
+    "DocuSign",
+    "Slack",
+    "Zapier",
+    "Claude",
+    "Opus 4",
+    "Oramet"
+  ],
+  "topics": [
+    "ai agents",
+    "bdr automation",
+    "email automation",
+    "outbound sales",
+    "pipeline generation",
+    "contract scraping",
+    "proposal generation",
+    "internal data",
+    "vector databases",
+    "go-to-market",
+    "sales automation",
+    "account expansion",
+    "workflow automation",
+    "human-ai collaboration"
+  ],
+  "episode_num": 116,
+  "title": "Forget Hiring More BDRs. Sendoso Built 3 AI Agents Instead. (Here's What Happened)",
+  "model": "claude-haiku-4-5-20251001"
+}

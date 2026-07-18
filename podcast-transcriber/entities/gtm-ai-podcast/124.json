@@ -1,0 +1,48 @@
+{
+  "guest": "Arup Chakravarti",
+  "people": [
+    "Arup Chakravarti",
+    "Jonathan Moss",
+    "Coach K",
+    "Jonathan Carford",
+    "Gary Dickerson",
+    "Rafal Gag"
+  ],
+  "companies": [
+    "Clay",
+    "Institute of Sales Professionals",
+    "ZoomInfo",
+    "Cognizant",
+    "LinkedIn",
+    "Salesforce",
+    "Google Maps",
+    "Revenue Enablement Society",
+    "Sales Enabled Collective"
+  ],
+  "products": [
+    "Clay",
+    "ZoomInfo",
+    "Sales Navigator",
+    "Momentum",
+    "Zapier",
+    "Google Maps API"
+  ],
+  "topics": [
+    "b2b prospecting",
+    "outbound sales",
+    "psychographic targeting",
+    "sales enablement",
+    "revops",
+    "ai-powered research",
+    "lead generation",
+    "buyer psychology",
+    "gtm strategy",
+    "data enrichment",
+    "sales team development",
+    "professional development",
+    "personalized outreach"
+  ],
+  "episode_num": 124,
+  "title": "Clay Tutorial: How to Find B2B Buyers Who Actually Care",
+  "model": "claude-haiku-4-5-20251001"
+}

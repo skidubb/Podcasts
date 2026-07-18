@@ -1,0 +1,56 @@
+{
+  "guest": "Dan Baird",
+  "people": [
+    "Dan Baird",
+    "Jonathan Moss",
+    "Coach K",
+    "Jonathan Carford",
+    "Steve Jobs",
+    "Steve Wozniak",
+    "Jan LeCun",
+    "Oprah",
+    "Gordon Ramsay",
+    "The Rock"
+  ],
+  "companies": [
+    "Wrench.ai",
+    "Lovesac",
+    "ConAgra",
+    "OpenAI",
+    "Meta",
+    "Clay",
+    "Natural History Museum"
+  ],
+  "products": [
+    "Wrench",
+    "OpenClaw",
+    "ChatGPT",
+    "Claude",
+    "Lovesac",
+    "Orville Redenbacher",
+    "Marie Callender's",
+    "LinkedIn",
+    "Minecraft",
+    "DanBot",
+    "Raspberry Pi",
+    "3D printers"
+  ],
+  "topics": [
+    "ai personalization",
+    "lead scoring",
+    "machine learning vs llm",
+    "data-driven personas",
+    "early adopters",
+    "message personalization",
+    "sales prospecting",
+    "personality analysis",
+    "marketing automation",
+    "customer segmentation",
+    "conversion optimization",
+    "ai agents",
+    "go-to-market strategy"
+  ],
+  "episode_num": 127,
+  "title": "Most Personas Are BS. Here's the AI Data-Driven Fix",
+  "model": "claude-haiku-4-5-20251001"
+}

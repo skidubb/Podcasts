@@ -1,0 +1,55 @@
+{
+  "guest": "Justin Driesse",
+  "people": [
+    "Justin Driesse",
+    "Jonathan Carford",
+    "Coach K",
+    "Pat",
+    "Max",
+    "Bradford Jording",
+    "Mark Cosgrove",
+    "Maria",
+    "OpenAI",
+    "Anthropic"
+  ],
+  "companies": [
+    "Legora",
+    "Amazon",
+    "Twitch",
+    "Slack",
+    "Writer",
+    "GTM AI Podcast"
+  ],
+  "products": [
+    "Notion AI",
+    "Notion",
+    "Claude",
+    "ChatGPT",
+    "Gemini",
+    "Gong",
+    "Slack Canvas",
+    "Custom GPTs",
+    "OpenAI plugins",
+    "Anthropic plugins"
+  ],
+  "topics": [
+    "account planning",
+    "ai agents",
+    "sales enablement",
+    "prompt engineering",
+    "retrieval augmented generation",
+    "change management",
+    "sales training",
+    "go-to-market strategy",
+    "workflow automation",
+    "knowledge base management",
+    "agentic workflows",
+    "sales operations",
+    "team certification",
+    "content vs process",
+    "competitive intelligence"
+  ],
+  "episode_num": 121,
+  "title": "This AI Agent Builds Account Plans in 90 Seconds (Here's How)",
+  "model": "claude-haiku-4-5-20251001"
+}

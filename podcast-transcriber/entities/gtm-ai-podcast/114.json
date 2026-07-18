@@ -1,0 +1,53 @@
+{
+  "guest": "Steve Cunningham",
+  "people": [
+    "Steve Cunningham",
+    "Jonathan Moss",
+    "Coach K",
+    "Jeff Bezos",
+    "Steve Jobs",
+    "OpenAI"
+  ],
+  "companies": [
+    "GTM AI Podcast",
+    "GTM AI Academy",
+    "AI Business Network",
+    "Humans Plus Agents",
+    "Simple Academy",
+    "ReadItForMe",
+    "AI Career Institute",
+    "Anthropic"
+  ],
+  "products": [
+    "Claude Cowork",
+    "Claude Code",
+    "ChatGPT",
+    "GPT-3.5",
+    "Whisper",
+    "Google Analytics",
+    "Microsoft Office",
+    "Markdown",
+    "HTML",
+    "WordPress",
+    "PowerPoint"
+  ],
+  "topics": [
+    "ai agents",
+    "claude cowork setup",
+    "workflow automation",
+    "business efficiency",
+    "agency cost reduction",
+    "prompt engineering",
+    "html file format",
+    "ai productivity tools",
+    "humans plus agents economy",
+    "custom proposals",
+    "business systems",
+    "ai adoption",
+    "continuous improvement",
+    "gtm strategy"
+  ],
+  "episode_num": 114,
+  "title": "Claude Cowork Setup: How One Founder Replaced $14K of Agency Work in 30 Minutes",
+  "model": "claude-haiku-4-5-20251001"
+}

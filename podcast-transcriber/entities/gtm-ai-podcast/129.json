@@ -1,0 +1,53 @@
+{
+  "guest": "Nate and John",
+  "people": [
+    "Nate",
+    "John",
+    "Coach K",
+    "Jonathan Moss",
+    "Travis",
+    "Rachel",
+    "Cora",
+    "Erin",
+    "Scott Boatwright",
+    "Adam",
+    "Marcus",
+    "Sarah"
+  ],
+  "companies": [
+    "Fluint",
+    "Chipotle",
+    "Shake Shack",
+    "GTM AI Podcast"
+  ],
+  "products": [
+    "Ollie",
+    "ChatGPT",
+    "Claude",
+    "Slack",
+    "Cloud",
+    "CRM",
+    "Outlook",
+    "Teams"
+  ],
+  "topics": [
+    "sales enablement",
+    "tacit knowledge",
+    "ai agents",
+    "machine learning",
+    "enterprise sales",
+    "deal acceleration",
+    "sales rep performance",
+    "pipeline management",
+    "win rate optimization",
+    "sales cycle compression",
+    "omni-agent architecture",
+    "event-driven systems",
+    "time series data",
+    "pattern recognition",
+    "revenue intelligence"
+  ],
+  "episode_num": 129,
+  "title": "Your Top Rep Just Quit. Their $30M Brain Walks Out. AI Saves the Day",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,52 @@
+{
+  "guest": "Ryan Staley",
+  "people": [
+    "Ryan Staley",
+    "Coach K",
+    "Jonathan Moss",
+    "Dario Amadei",
+    "Tim Ferriss",
+    "Tony Robbins",
+    "Lieberman"
+  ],
+  "companies": [
+    "Wellboss",
+    "Anthropic",
+    "Pavilion",
+    "Superhuman Revenue"
+  ],
+  "products": [
+    "Claude",
+    "ChatGPT",
+    "Gemini",
+    "Claude Code",
+    "Cursor",
+    "Obsidian",
+    "HubSpot",
+    "Fathom",
+    "GitHub",
+    "Google Docs",
+    "OpenAI",
+    "Codex",
+    "Claude Connectors"
+  ],
+  "topics": [
+    "ai operating system",
+    "agentic workflow",
+    "c-suite automation",
+    "go-to-market ai",
+    "agi preparation",
+    "ai agents",
+    "content intelligence",
+    "pipeline management",
+    "decision making framework",
+    "customer insights",
+    "ai native company",
+    "prompt engineering",
+    "memory systems",
+    "business automation"
+  ],
+  "episode_num": 125,
+  "title": "How to Build the C Suite And GTM Leader AI Operating System",
+  "model": "claude-haiku-4-5-20251001"
+}

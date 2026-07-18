@@ -1,0 +1,56 @@
+{
+  "guest": "Nate Follen",
+  "people": [
+    "Nate Follen",
+    "Coach K",
+    "Jonathan Moss",
+    "Jack from Block",
+    "Nathan Fallon"
+  ],
+  "companies": [
+    "Perplexity",
+    "Ramp",
+    "Momentum",
+    "Block",
+    "Anthropic",
+    "Humanex",
+    "Google Cloud Platform",
+    "Polytomic",
+    "High Touch"
+  ],
+  "products": [
+    "Perplexity Computer",
+    "Perplexity Max",
+    "Perplexity for Enterprise",
+    "ChatGPT",
+    "Claude",
+    "Cloud Code",
+    "Salesforce",
+    "Snowflake",
+    "Apollo",
+    "Linear",
+    "Slack",
+    "Momentum",
+    "Polytomic",
+    "High Touch"
+  ],
+  "topics": [
+    "revops automation",
+    "ai skills",
+    "hiring strategy",
+    "voice of customer",
+    "call transcript analysis",
+    "workflow automation",
+    "data cleanup",
+    "salesforce administration",
+    "go-to-market systems",
+    "agentic workflows",
+    "sales enablement",
+    "enterprise operations",
+    "ai integration",
+    "pre-call prep"
+  ],
+  "episode_num": 130,
+  "title": "Inside Perplexity's Revops, 3 AI Skills Replacing Admins",
+  "model": "claude-haiku-4-5-20251001"
+}

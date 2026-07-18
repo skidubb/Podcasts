@@ -1,0 +1,57 @@
+{
+  "guest": "Roman Czerny",
+  "people": [
+    "Roman Czerny",
+    "Jonathan Carford",
+    "Coach K",
+    "Jonathan Marsden",
+    "Claude"
+  ],
+  "companies": [
+    "Goji Berry AI",
+    "RealGear",
+    "Coco AI",
+    "Hayreach",
+    "Lemlist",
+    "Twalaxy",
+    "ZoomInfo",
+    "Warmly",
+    "Instantly",
+    "Momentum"
+  ],
+  "products": [
+    "Goji Berry",
+    "Claude",
+    "ChatGPT",
+    "Gemini",
+    "Cloud Code",
+    "Claude Cowork",
+    "Sales Navigator",
+    "N8n",
+    "Chrome extension",
+    "Whisper AI",
+    "Nano Banana Pro",
+    "OpenAI o1",
+    "MCP"
+  ],
+  "topics": [
+    "lead generation",
+    "linkedin outreach",
+    "ai personalization",
+    "high-intent leads",
+    "cold email",
+    "saas marketing",
+    "multi-channel marketing",
+    "content strategy",
+    "conversion optimization",
+    "demo booking",
+    "lead magnets",
+    "intent signals",
+    "competitor reviews",
+    "youtube seo",
+    "ai agents"
+  ],
+  "episode_num": 120,
+  "title": "How to Use AI to Find and Convert High-Intent Leads on LinkedIn",
+  "model": "claude-haiku-4-5-20251001"
+}
