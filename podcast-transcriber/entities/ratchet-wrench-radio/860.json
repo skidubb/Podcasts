@@ -1,0 +1,48 @@
+{
+  "guest": "Uwe Kleinschmidt, Frank Scandura",
+  "people": [
+    "Uwe Kleinschmidt",
+    "Frank Scandura",
+    "Bruce Nations",
+    "John Bridgewater",
+    "Brittany Schindler",
+    "Chris"
+  ],
+  "companies": [
+    "AutoTech IQ",
+    "Autovitals",
+    "Frank's European Service",
+    "Nextpart",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "SEMA",
+    "Apex"
+  ],
+  "products": [
+    "JobView IQ",
+    "Nextpart Multiseller",
+    "AutotechIQ.com",
+    "Digital Vehicle Inspection",
+    "DVI"
+  ],
+  "topics": [
+    "digital vehicle inspections",
+    "customer communication",
+    "service advisor training",
+    "approval rates",
+    "declined jobs",
+    "transparency",
+    "sales process",
+    "consultative selling",
+    "shop culture",
+    "customer education",
+    "trust building",
+    "deferred maintenance",
+    "repair recommendations",
+    "shop meetings",
+    "data analytics"
+  ],
+  "episode_num": 860,
+  "title": "Why Customers Defer Jobs (and How to Fix It)",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,44 @@
+{
+  "guest": "Lauralee Schmidt",
+  "people": [
+    "Lauralee Schmidt",
+    "Eric Schmidt",
+    "Savannah",
+    "host"
+  ],
+  "companies": [
+    "Schmidt Auto Care",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Nexpart",
+    "Bolt On",
+    "Small Business Alliance Association",
+    "Kroger"
+  ],
+  "products": [
+    "Nexpart Multiseller",
+    "shop management systems",
+    "customer app",
+    "DVI (Digital Vehicle Inspection)"
+  ],
+  "topics": [
+    "customer appreciation marketing",
+    "customer loyalty",
+    "personal touch",
+    "branding",
+    "marketing budget",
+    "roi tracking",
+    "community involvement",
+    "customer gifts",
+    "word of mouth marketing",
+    "customer feedback",
+    "team accountability",
+    "customer retention",
+    "small business marketing",
+    "events and promotions",
+    "digital marketing"
+  ],
+  "episode_num": 856,
+  "title": "Keeping Customers Loyal Through Appreciation Marketing",
+  "model": "claude-haiku-4-5-20251001"
+}

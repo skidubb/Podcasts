@@ -1,0 +1,36 @@
+{
+  "guest": "Margaret Light",
+  "people": [
+    "Margaret Light",
+    "Host"
+  ],
+  "companies": [
+    "Equilibrium Therapy Services P.L.L.C.",
+    "Nextpart Multiseller",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media"
+  ],
+  "products": [
+    "Nextpart Multiseller"
+  ],
+  "topics": [
+    "mental health",
+    "shop owner stress",
+    "burnout",
+    "chronic stress",
+    "depression",
+    "anxiety",
+    "therapy",
+    "business ownership",
+    "employee management",
+    "work-life balance",
+    "coping strategies",
+    "resilience",
+    "isolation",
+    "male mental health",
+    "spousal support"
+  ],
+  "episode_num": 859,
+  "title": "The Mental Health Toll of Shop Ownership",
+  "model": "claude-haiku-4-5-20251001"
+}

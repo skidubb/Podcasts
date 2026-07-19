@@ -1,0 +1,42 @@
+{
+  "guest": "Bill Snow",
+  "people": [
+    "Bill Snow",
+    "Chris",
+    "Harvey McKay",
+    "Josh"
+  ],
+  "companies": [
+    "Rad Air Complete Car Care",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "Nextpart Multiseller",
+    "Dairy Queen",
+    "Chick-fil-A",
+    "Texas Roadhouse",
+    "Chamber of Commerce",
+    "McKay Envelope Company"
+  ],
+  "products": [
+    "Nextpart Multiseller",
+    "shop management systems"
+  ],
+  "topics": [
+    "employee appreciation",
+    "team culture",
+    "leadership",
+    "recognition programs",
+    "employee retention",
+    "team morale",
+    "small business management",
+    "community engagement",
+    "social media marketing",
+    "career development",
+    "workplace celebrations",
+    "people management",
+    "shop operations"
+  ],
+  "episode_num": 857,
+  "title": "Keeping People Interested: How Small Gestures Lead to Big Results",
+  "model": "claude-haiku-4-5-20251001"
+}

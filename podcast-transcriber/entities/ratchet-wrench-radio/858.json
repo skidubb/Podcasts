@@ -1,0 +1,60 @@
+{
+  "guest": "Ryan Burton",
+  "people": [
+    "Ryan Burton",
+    "Chris",
+    "Marshall Terrell",
+    "Steve McQueen",
+    "Greg Laurie",
+    "Justin Allen",
+    "Jim Brown",
+    "Tony Robbins",
+    "Danilo McGarry",
+    "Carrie Beckwith",
+    "Debbie Fitzgerald",
+    "Steve Jones",
+    "Carrie Lynn Roddenberg",
+    "Aaron Stokes",
+    "Sunil",
+    "Kieran O'Brien",
+    "Stephen Faithful"
+  ],
+  "companies": [
+    "Leads Near Me",
+    "Nextpart",
+    "Ratchet+Wrench Radio",
+    "Endeavor Business Media",
+    "SEMA",
+    "Apex",
+    "Stingray Media",
+    "iHeart Media",
+    "Cox Media",
+    "Shop Genie",
+    "Auto Ops",
+    "Hilton Atlanta Airport"
+  ],
+  "products": [
+    "Nextpart Multiseller",
+    "High Gear: Marketing Strategies for Auto Repair Shops",
+    "Brand Like a Rockstar"
+  ],
+  "topics": [
+    "marketing fundamentals",
+    "customer relationships",
+    "business branding",
+    "customer acquisition",
+    "goal setting",
+    "shop marketing",
+    "personal branding",
+    "public relations",
+    "artificial intelligence",
+    "social media",
+    "community involvement",
+    "customer retention",
+    "business growth",
+    "auto repair marketing"
+  ],
+  "episode_num": 858,
+  "title": "Get Your Marketing into High Gear",
+  "model": "claude-haiku-4-5-20251001"
+}
