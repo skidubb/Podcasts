@@ -1,0 +1,39 @@
+{
+  "guest": "Vinaya Rednam",
+  "people": [
+    "Vinaya Rednam",
+    "Catherine Maley",
+    "Katherine Maley"
+  ],
+  "companies": [
+    "My Houston Surgeons",
+    "University of Missouri Columbia School of Medicine",
+    "University of Kentucky",
+    "University of Florida"
+  ],
+  "products": [
+    "The Confidence Stock",
+    "Beauty and the Biz Practice Growth Playbook",
+    "Apple Podcasts",
+    "Spotify"
+  ],
+  "topics": [
+    "private equity in plastic surgery",
+    "multi-surgeon practice management",
+    "post-massive weight loss surgery",
+    "practice financing and partnerships",
+    "reconstructive surgery",
+    "cosmetic surgery",
+    "social media marketing",
+    "patient experience",
+    "staff management",
+    "niche specialization",
+    "personal branding",
+    "podcast strategy",
+    "practice growth",
+    "patient financing"
+  ],
+  "episode_num": 1176,
+  "title": "Can Private Equity Actually Work for Plastic Surgeons? — Vinaya Rednam, MD (Ep. 372)",
+  "model": "claude-haiku-4-5-20251001"
+}
