@@ -1,0 +1,47 @@
+{
+  "guest": "Brandon Jones and Josh Parnell",
+  "people": [
+    "Brandon Jones",
+    "Josh Parnell",
+    "Chris",
+    "Steve Harvey",
+    "Nick Saban",
+    "John F. Kennedy",
+    "Steven Spielberg"
+  ],
+  "companies": [
+    "Limitless Leadership",
+    "Christian Brothers Automotive",
+    "Nexpart Multiseller",
+    "Endeavor Business Media",
+    "Auto Care Association",
+    "Northwood University",
+    "Ratchet+Wrench Radio",
+    "NASA",
+    "Ratchet & Wrench Management Conference"
+  ],
+  "products": [
+    "Nexpart",
+    "ASE Certification"
+  ],
+  "topics": [
+    "leadership coaching",
+    "performance management",
+    "team retention",
+    "communication skills",
+    "onboarding processes",
+    "employee engagement",
+    "shop management",
+    "servant leadership",
+    "sales metrics",
+    "labor rates",
+    "gross profit margin",
+    "training and coaching",
+    "delegation",
+    "self-leadership",
+    "workflow optimization"
+  ],
+  "episode_num": 1234,
+  "title": "How Leaders Become Limitless",
+  "model": "claude-haiku-4-5-20251001"
+}

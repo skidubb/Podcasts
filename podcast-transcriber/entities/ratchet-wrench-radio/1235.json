@@ -1,0 +1,44 @@
+{
+  "guest": "Nicole Bennecoff",
+  "people": [
+    "Nicole Bennecoff",
+    "Host",
+    "Nichole Bennecoff's father",
+    "Nichole Bennecoff's brother"
+  ],
+  "companies": [
+    "Empower Automotive",
+    "The Subie Guys",
+    "Nexpart",
+    "Endeavor Business Media",
+    "SEMA",
+    "Apex"
+  ],
+  "products": [
+    "Nexpart Multiseller",
+    "Shop management software",
+    "Subaru scan tool",
+    "Subaru programming tool",
+    "Point of sale system",
+    "Customer retention software"
+  ],
+  "topics": [
+    "niche specialization",
+    "market saturation",
+    "service expansion",
+    "japanese automotive repair",
+    "customer demographics",
+    "driver profiles",
+    "maintenance culture",
+    "parts inventory",
+    "shop leadership",
+    "customer loyalty",
+    "targeted marketing",
+    "technician training",
+    "business growth",
+    "vehicle specialization"
+  ],
+  "episode_num": 1235,
+  "title": "How Niche Shops Can Expand Services",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,45 @@
+{
+  "guest": "Alex Noll",
+  "people": [
+    "Alex Noll",
+    "Chris",
+    "Chuck Brault",
+    "Aaron Stokes"
+  ],
+  "companies": [
+    "ABR Houston",
+    "BMW",
+    "Ratchet+Wrench Radio",
+    "Nexpart",
+    "UTI",
+    "Toyota",
+    "Mercedes",
+    "Ford",
+    "Chevrolet"
+  ],
+  "products": [
+    "Techmetric",
+    "ABI On Demand",
+    "Audible"
+  ],
+  "topics": [
+    "shop ownership",
+    "technician to entrepreneur transition",
+    "european specialty repair",
+    "bmw repair",
+    "hiring and recruitment",
+    "employee management",
+    "shop culture",
+    "professional development",
+    "business coaching",
+    "multi-location growth",
+    "leadership",
+    "shop efficiency",
+    "goal setting",
+    "asc certification",
+    "acquisitions and mergers"
+  ],
+  "episode_num": 1233,
+  "title": "Talking Shop: Alex Noll of ABR Houston",
+  "model": "claude-haiku-4-5-20251001"
+}

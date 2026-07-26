@@ -1,0 +1,53 @@
+{
+  "guest": "Steven Fafel",
+  "people": [
+    "Steven Fafel",
+    "Chris",
+    "Dutch",
+    "Stephen Faithful"
+  ],
+  "companies": [
+    "AutoOps",
+    "Nexpart",
+    "Endeavor Business Media",
+    "Techmetric",
+    "Shopware",
+    "Protractor",
+    "ShopBoss",
+    "Tech Report",
+    "Pit Crew Marketing",
+    "Bay IQ",
+    "Google",
+    "CallRail",
+    "Amazon"
+  ],
+  "products": [
+    "Nexpart Multiseller",
+    "AutoOps Voice",
+    "Google Business Profile",
+    "Google Analytics",
+    "Google Tag Manager",
+    "Reserve with Google",
+    "Shop management systems"
+  ],
+  "topics": [
+    "online scheduling",
+    "customer acquisition",
+    "appointment conversion",
+    "after-hours scheduling",
+    "service advisor efficiency",
+    "customer retention",
+    "no-show reduction",
+    "google integration",
+    "auto repair technology",
+    "customer experience",
+    "scheduling automation",
+    "ai-powered answering",
+    "new customer capture",
+    "multi-location shops",
+    "appointment reminders"
+  ],
+  "episode_num": 1232,
+  "title": "Podcast: Can Online Scheduling Increase Car Count?",
+  "model": "claude-haiku-4-5-20251001"
+}

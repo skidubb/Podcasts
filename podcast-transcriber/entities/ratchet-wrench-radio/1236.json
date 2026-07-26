@@ -1,0 +1,37 @@
+{
+  "guest": "Dan Autey",
+  "people": [
+    "Dan Autey"
+  ],
+  "companies": [
+    "Stryten Energy",
+    "Nexpart",
+    "Endeavor Business Media",
+    "Endeavor B2B",
+    "SEMA",
+    "Apex"
+  ],
+  "products": [
+    "Nexpart Multiseller",
+    "AGM batteries",
+    "EFB batteries",
+    "lead acid batteries"
+  ],
+  "topics": [
+    "fleet vehicle maintenance",
+    "battery technology",
+    "electrical systems",
+    "start-stop technology",
+    "vehicle uptime",
+    "technician training",
+    "preventive maintenance",
+    "ev transition",
+    "fleet partnerships",
+    "diagnostic services",
+    "vehicle complexity",
+    "shop profitability"
+  ],
+  "episode_num": 1236,
+  "title": "Keeping Fleets Moving: What Battery Technology Means for Shop Success",
+  "model": "claude-haiku-4-5-20251001"
+}
