@@ -1,0 +1,37 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban",
+    "Maria",
+    "Tex Bex",
+    "T Majors",
+    "Kay Favodian",
+    "Rebecca 6809",
+    "Hallie Dari",
+    "Nadine MCX",
+    "Mona Calic"
+  ],
+  "companies": [],
+  "products": [
+    "Modo Casino"
+  ],
+  "topics": [
+    "facelift procedures",
+    "eve lift",
+    "fat grafting",
+    "eyebrow lift",
+    "jawline definition",
+    "hernia repair",
+    "tummy tuck",
+    "abdominoplasty",
+    "diastasis recti",
+    "body lift",
+    "liposuction",
+    "facial rejuvenation",
+    "flank skin tightening",
+    "cosmetic surgery q&a"
+  ],
+  "episode_num": 3,
+  "title": "YOUR Questions Answered On Trending Procedures",
+  "model": "claude-haiku-4-5-20251001"
+}

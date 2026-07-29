@@ -1,0 +1,30 @@
+{
+  "guest": "Paula",
+  "people": [
+    "Rady Rahban",
+    "Roddy Ruban",
+    "Paula"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "operating room safety",
+    "surgical ethics",
+    "patient safety",
+    "untrained staff",
+    "anesthesiologist conduct",
+    "surgical complications",
+    "pneumothorax",
+    "medication errors",
+    "liposuction",
+    "breast augmentation",
+    "discharge protocols",
+    "beverly hills surgery",
+    "surgical standards",
+    "tech performing surgery",
+    "surgeon accountability"
+  ],
+  "episode_num": 41,
+  "title": "OR Nightmares (Part 2): Untrained Nurses, Vaping Anesthesiologists & Techs Performing Liposuction",
+  "model": "claude-haiku-4-5-20251001"
+}

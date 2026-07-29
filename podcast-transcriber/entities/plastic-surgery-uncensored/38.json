@@ -1,0 +1,45 @@
+{
+  "guest": "Katie",
+  "people": [
+    "Rodney Ruban",
+    "Katie",
+    "John Daly"
+  ],
+  "companies": [
+    "Moto Casino",
+    "Take 5",
+    "Home Depot",
+    "Lowe's",
+    "Floor and Decor",
+    "James Hardy",
+    "Spreaker"
+  ],
+  "products": [
+    "Ozempic",
+    "Mounjaro",
+    "Wegovy",
+    "ZepBound",
+    "Peloton",
+    "Fiber Cement Party Backer Board"
+  ],
+  "topics": [
+    "weight loss medications",
+    "obesity treatment",
+    "circumferential body lift",
+    "massive weight loss",
+    "loose skin after weight loss",
+    "umbilical hernia repair",
+    "body contouring surgery",
+    "glp-1 agonists",
+    "weight loss journey",
+    "surgical recovery",
+    "food addiction",
+    "metabolic predisposition",
+    "body image",
+    "abdominal wall reconstruction",
+    "post-weight-loss cosmetic surgery"
+  ],
+  "episode_num": 38,
+  "title": "The Unfiltered Truth Behind Weightloss Medication, Obesity, and the Aftermath",
+  "model": "claude-haiku-4-5-20251001"
+}

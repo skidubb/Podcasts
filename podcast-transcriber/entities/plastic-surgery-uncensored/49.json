@@ -1,0 +1,32 @@
+{
+  "guest": "Raina",
+  "people": [
+    "Raina",
+    "Roderick Bond",
+    "Rady Rahban",
+    "David",
+    "Raina's husband",
+    "Raina's son"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "breast explantation",
+    "breast implants",
+    "capsular contracture",
+    "animation deformity",
+    "breast lift",
+    "breast reconstruction",
+    "breast implant illness",
+    "fat transfer",
+    "cosmetic surgery",
+    "patient expectations",
+    "surgical decision making",
+    "body image",
+    "implant removal",
+    "asymmetry correction"
+  ],
+  "episode_num": 49,
+  "title": "The Explant Dilemma: The Decision Towards Explantation",
+  "model": "claude-haiku-4-5-20251001"
+}

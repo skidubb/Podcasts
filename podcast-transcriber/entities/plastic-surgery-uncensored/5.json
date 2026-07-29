@@ -1,0 +1,31 @@
+{
+  "guest": "Samira",
+  "people": [
+    "Rady Rahban",
+    "Samira",
+    "Sophia"
+  ],
+  "companies": [
+    "Moto Casino"
+  ],
+  "products": [],
+  "topics": [
+    "inverted nipples",
+    "plastic surgery",
+    "body image",
+    "self-confidence",
+    "surgical correction",
+    "patient experience",
+    "intimacy and sexuality",
+    "medical procedure",
+    "recovery",
+    "sensory function",
+    "breastfeeding",
+    "surgical risks",
+    "personal empowerment",
+    "stigma and shame"
+  ],
+  "episode_num": 5,
+  "title": "The Hidden Struggles of Inverted Nipples: From Insecurity to Empowerment",
+  "model": "claude-haiku-4-5-20251001"
+}

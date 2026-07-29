@@ -1,0 +1,46 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban",
+    "Maria",
+    "Barbara Riddle",
+    "Carfrode",
+    "Laura Lakova",
+    "Rosalie",
+    "My Realtor H",
+    "LaBaby13",
+    "Artyom Aram",
+    "Martha O",
+    "Nurturing 884069",
+    "Little89",
+    "John Daly",
+    "Kanye West"
+  ],
+  "companies": [
+    "Moto Casino"
+  ],
+  "products": [
+    "Moto Casino app"
+  ],
+  "topics": [
+    "facial asymmetry",
+    "filler injections",
+    "eyebrow transplants",
+    "hair transplants",
+    "chin implants",
+    "tummy tuck",
+    "muscle repair",
+    "six-pack etching",
+    "breast lift",
+    "breast implants",
+    "inverted nipple surgery",
+    "blood clots",
+    "explantation",
+    "breast implant illness",
+    "en bloc capsulectomy",
+    "post-operative care"
+  ],
+  "episode_num": 59,
+  "title": "Dr Rahban Answers YOUR Questions",
+  "model": "claude-haiku-4-5-20251001"
+}

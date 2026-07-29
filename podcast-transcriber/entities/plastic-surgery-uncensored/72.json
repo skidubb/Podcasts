@@ -1,0 +1,46 @@
+{
+  "guest": null,
+  "people": [
+    "Roddy Ruban",
+    "Rady Rahban"
+  ],
+  "companies": [
+    "Allergan",
+    "Mentor",
+    "Cientra",
+    "Motiva",
+    "FDA"
+  ],
+  "products": [
+    "Botox",
+    "Morpheus 8",
+    "Ozempic",
+    "Mounjaro",
+    "PRP",
+    "PRF",
+    "exosomes",
+    "Alakle",
+    "Renuvion",
+    "hyaluronic acid fillers"
+  ],
+  "topics": [
+    "facial aesthetics",
+    "breast augmentation",
+    "facelift trends",
+    "regenerative medicine",
+    "body contouring",
+    "weight loss surgery",
+    "glp-1 medications",
+    "breast implants",
+    "revision surgery",
+    "radiofrequency microneedling",
+    "patient education",
+    "social media influence",
+    "counterfeit products",
+    "capsular contracture",
+    "minimally invasive procedures"
+  ],
+  "episode_num": 72,
+  "title": "A Lens Into 2026: What to Look For and What to Avoid",
+  "model": "claude-haiku-4-5-20251001"
+}

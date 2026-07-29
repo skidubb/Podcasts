@@ -1,0 +1,34 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban",
+    "Roderick Rabanne"
+  ],
+  "companies": [
+    "Celtique"
+  ],
+  "products": [
+    "CoolSculpting",
+    "Ultherapy"
+  ],
+  "topics": [
+    "non-surgical fat removal",
+    "skin tightening",
+    "coolsculpting",
+    "ultherapy",
+    "cryolipolysis",
+    "ultrasound therapy",
+    "candidate selection",
+    "facial rejuvenation",
+    "body contouring",
+    "cosmetic procedures",
+    "treatment risks",
+    "paradoxical adipose hyperplasia",
+    "skin quality",
+    "recovery",
+    "alternatives to surgery"
+  ],
+  "episode_num": 15,
+  "title": "The Skinny on Ultherapy and Coolsculpting",
+  "model": "claude-haiku-4-5-20251001"
+}

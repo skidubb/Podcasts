@@ -1,0 +1,33 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban",
+    "Rodney Roman"
+  ],
+  "companies": [
+    "SpinQuest",
+    "Monday.com"
+  ],
+  "products": [
+    "SpinQuest.com"
+  ],
+  "topics": [
+    "scar formation",
+    "scar appearance",
+    "plastic surgery techniques",
+    "surgical closure methods",
+    "wound healing",
+    "genetics and scars",
+    "tummy tuck",
+    "breast lift",
+    "tissue handling",
+    "suture techniques",
+    "surgical aftercare",
+    "body contouring",
+    "scar revision",
+    "surgeon standards"
+  ],
+  "episode_num": 52,
+  "title": "The Truth About Scars",
+  "model": "claude-haiku-4-5-20251001"
+}

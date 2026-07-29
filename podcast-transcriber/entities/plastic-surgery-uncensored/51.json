@@ -1,0 +1,46 @@
+{
+  "guest": "Michael Houston",
+  "people": [
+    "Rady Rahban",
+    "Michael Houston",
+    "Joan Rivers",
+    "Maria"
+  ],
+  "companies": [
+    "American Society of Anesthesiology"
+  ],
+  "products": [
+    "Ozempic",
+    "Wegovy",
+    "Mounjaro",
+    "Zofran",
+    "Reglan",
+    "Decadron",
+    "Pepcid",
+    "Propofol",
+    "Demerol",
+    "Dilaudid",
+    "Fentanyl",
+    "Lidocaine",
+    "Scopolamine patch"
+  ],
+  "topics": [
+    "general anesthesia",
+    "conscious sedation",
+    "twilight anesthesia",
+    "local anesthesia",
+    "anesthesia safety",
+    "post-operative nausea",
+    "anesthesiologist qualifications",
+    "anesthesia side effects",
+    "intraoperative awareness",
+    "epidural anesthesia",
+    "spinal anesthesia",
+    "patient fears",
+    "surgical preparation",
+    "anesthesia complications"
+  ],
+  "episode_num": 51,
+  "title": "Anesthesia Demystified: Everything You Need to Know Before Undergoing Surgery",
+  "model": "claude-haiku-4-5-20251001"
+}

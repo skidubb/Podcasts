@@ -1,0 +1,32 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban",
+    "Bubba Wallace"
+  ],
+  "companies": [
+    "Chumba Casino",
+    "2311 Racing",
+    "VGW Group",
+    "Spreaker"
+  ],
+  "products": [],
+  "topics": [
+    "buccal fat removal",
+    "cheek aesthetics",
+    "facial contouring",
+    "plastic surgery",
+    "cosmetic procedures",
+    "aging and facial volume",
+    "social media trends",
+    "surgical risks",
+    "overcorrection",
+    "candidate selection",
+    "facial nerve anatomy",
+    "recovery timeline",
+    "minimally invasive surgery"
+  ],
+  "episode_num": 57,
+  "title": "Is Buccal Fat Removal Youthenizing or Aging?",
+  "model": "claude-haiku-4-5-20251001"
+}

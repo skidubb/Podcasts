@@ -1,0 +1,46 @@
+{
+  "guest": "Alexis",
+  "people": [
+    "Rodney Rabban",
+    "Alexis",
+    "Cheesecake Factory",
+    "Five Guys",
+    "Angelina Jolie",
+    "Margot Robbie",
+    "Brad Pitt",
+    "Jay Leno",
+    "Warren Buffett"
+  ],
+  "companies": [
+    "Plastic Surgery Uncensored",
+    "American Express",
+    "Spreaker",
+    "Cheesecake Factory",
+    "Five Guys"
+  ],
+  "products": [
+    "Amex Gold Card",
+    "Botox",
+    "filler"
+  ],
+  "topics": [
+    "mommy makeover",
+    "abdominoplasty",
+    "breast lift and implant",
+    "facelift",
+    "brow lift",
+    "chin implant",
+    "lower eyelid surgery",
+    "body image",
+    "self-empowerment",
+    "plastic surgery psychology",
+    "multiple procedures",
+    "patient-surgeon relationship",
+    "facial rejuvenation",
+    "cosmetic surgery stigma",
+    "aging and aesthetics"
+  ],
+  "episode_num": 10,
+  "title": "Psychological Impacts of Plastic Surgery – A Journey to Self-Empowerment",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,39 @@
+{
+  "guest": "Anthony Barcello",
+  "people": [
+    "Anthony Barcello",
+    "Rady Rahban",
+    "Laura",
+    "Ryan Seacrest",
+    "Bella Hadid"
+  ],
+  "companies": [
+    "Chumba Casino",
+    "LA Times",
+    "Amazon"
+  ],
+  "products": [
+    "Photoshop",
+    "photomorph"
+  ],
+  "topics": [
+    "male rhinoplasty",
+    "thick skin",
+    "oily skin",
+    "deviated septum",
+    "breathing issues",
+    "nasal hump",
+    "cosmetic surgery",
+    "surgical recovery",
+    "confidence",
+    "facial aesthetics",
+    "gender differences in surgery",
+    "turbinate reduction",
+    "sepoplasty",
+    "post-operative swelling",
+    "patient consultation"
+  ],
+  "episode_num": 69,
+  "title": "Why Male Rhinoplasty Is Different — Thick Skin, Breathing, and Identity",
+  "model": "claude-haiku-4-5-20251001"
+}

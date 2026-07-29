@@ -1,0 +1,30 @@
+{
+  "guest": "Terry",
+  "people": [
+    "Terry",
+    "Rady Rahban",
+    "Roddy Rippon"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "breast health",
+    "breast cancer screening",
+    "mammography",
+    "self-breast exams",
+    "breast surgery preparation",
+    "breast lift",
+    "breast reduction",
+    "breast augmentation",
+    "breast cancer diagnosis",
+    "pathology",
+    "birad ratings",
+    "breast biopsy",
+    "cancer prevention",
+    "early detection",
+    "surgical protocols"
+  ],
+  "episode_num": 8,
+  "title": "The Essential Guide to Breast Health and Breast Surgery Protocols",
+  "model": "claude-haiku-4-5-20251001"
+}

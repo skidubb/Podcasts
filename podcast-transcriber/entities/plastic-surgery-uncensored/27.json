@@ -1,0 +1,50 @@
+{
+  "guest": "Michael Houston",
+  "people": [
+    "Michael Houston",
+    "Rady Rahban",
+    "Ronnie Ruban",
+    "Joan Rivers",
+    "Maria"
+  ],
+  "companies": [
+    "American Society of Anesthesiology",
+    "Moto Casino"
+  ],
+  "products": [
+    "Ozempic",
+    "Wegovy",
+    "Mounjaro",
+    "Zofran",
+    "Reglan",
+    "Decadron",
+    "Pepcid",
+    "Propofol",
+    "Dilaudid",
+    "Demerol",
+    "Fentanyl",
+    "Lidocaine",
+    "Scopolamine patch"
+  ],
+  "topics": [
+    "anesthesia safety",
+    "general anesthesia",
+    "conscious sedation",
+    "twilight sedation",
+    "local anesthesia",
+    "post-operative nausea",
+    "anesthesiologist credentials",
+    "awareness during surgery",
+    "sleep apnea",
+    "epidural anesthesia",
+    "spinal anesthesia",
+    "nerve blocks",
+    "ozempic interactions",
+    "tummy tuck anesthesia",
+    "eyelid surgery",
+    "anesthesia side effects"
+  ],
+  "episode_num": 27,
+  "title": "The TRUTH About Anesthesia and Plastic Surgery: Myths & Facts EXPOSED",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,56 @@
+{
+  "guest": "Michael Houston",
+  "people": [
+    "Michael Houston",
+    "Rady Rahban",
+    "Joan Rivers",
+    "Maria",
+    "Juliana Velez",
+    "Tamiya 5",
+    "Pilly Mom",
+    "PDX-5",
+    "MAMO 5",
+    "La Roombera",
+    "Manhattan Beach Fitness",
+    "Mother of Wolves X"
+  ],
+  "companies": [
+    "Menards",
+    "Patriot Lighting",
+    "American Society of Anesthesiology"
+  ],
+  "products": [
+    "Ozempic",
+    "Wegovy",
+    "Mounjaro",
+    "Zofran",
+    "Reglan",
+    "Decadron",
+    "Scopolamine patch",
+    "Lidocaine",
+    "Propofol"
+  ],
+  "topics": [
+    "anesthesia safety",
+    "general anesthesia",
+    "conscious sedation",
+    "twilight sedation",
+    "local anesthesia",
+    "anesthesia side effects",
+    "post-operative nausea",
+    "anesthesia awareness",
+    "board certified anesthesiologist",
+    "spinal anesthesia",
+    "epidural anesthesia",
+    "plastic surgery procedures",
+    "tummy tuck",
+    "eyelid surgery",
+    "sleep apnea",
+    "ozempic surgery considerations",
+    "anesthesia provider credentials",
+    "surgical team coordination"
+  ],
+  "episode_num": 74,
+  "title": "The A to Z of Anesthesia: Is It Safe?",
+  "model": "claude-haiku-4-5-20251001"
+}

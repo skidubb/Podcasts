@@ -1,0 +1,30 @@
+{
+  "guest": "Amber",
+  "people": [
+    "Amber",
+    "Roddy Robbin",
+    "Joel",
+    "Sally"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "diastasis recti",
+    "plastic surgery",
+    "shame and guilt",
+    "conservative background",
+    "body image",
+    "motherhood",
+    "self-acceptance",
+    "surgical recovery",
+    "cosmetic surgery stigma",
+    "core function",
+    "non-surgical alternatives",
+    "intimacy and relationships"
+  ],
+  "episode_num": 16,
+  "title": "Overcoming the Shame and Guilt of Undergoing Plastic Surgery",
+  "model": "claude-haiku-4-5-20251001"
+}

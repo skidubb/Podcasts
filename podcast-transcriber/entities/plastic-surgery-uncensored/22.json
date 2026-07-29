@@ -1,0 +1,33 @@
+{
+  "guest": null,
+  "people": [
+    "Roderick Rahban",
+    "Ryan Seacrest",
+    "Bubba Wallace"
+  ],
+  "companies": [
+    "Chumba Casino",
+    "American Board of Plastic Surgery",
+    "Cedars-Sinai Medical Center",
+    "VGW Group",
+    "2311 Racing"
+  ],
+  "products": [],
+  "topics": [
+    "plastic surgeons vs cosmetic surgeons",
+    "board certification",
+    "aesthetic surgery training",
+    "surgical privileges",
+    "patient safety",
+    "medical credentialing",
+    "misleading marketing",
+    "facial plastic surgery",
+    "oculoplastic surgery",
+    "informed consent",
+    "surgical complications",
+    "private surgery centers"
+  ],
+  "episode_num": 22,
+  "title": "Critical Distinctions Between Plastic Surgeons vs Cosmetic Surgeons",
+  "model": "claude-haiku-4-5-20251001"
+}

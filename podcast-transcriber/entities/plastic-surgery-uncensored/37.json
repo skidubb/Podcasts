@@ -1,0 +1,33 @@
+{
+  "guest": "Deena",
+  "people": [
+    "Deena",
+    "Roddy Rahban",
+    "Sally",
+    "Javier"
+  ],
+  "companies": [
+    "MotoCasino",
+    "Modo Casino"
+  ],
+  "products": [
+    "MotoCasino app",
+    "Modo Casino app"
+  ],
+  "topics": [
+    "breast reduction",
+    "body image",
+    "identity and femininity",
+    "surgical decision-making",
+    "patient psychology",
+    "motherhood and vanity",
+    "anesthesia fears",
+    "surgical consultation",
+    "confidence and self-esteem",
+    "physical transformation",
+    "pre-operative anxiety"
+  ],
+  "episode_num": 37,
+  "title": "From Fear to Triumph: An Emotional Breast Reduction Journey",
+  "model": "claude-haiku-4-5-20251001"
+}

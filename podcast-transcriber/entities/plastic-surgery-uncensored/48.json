@@ -1,0 +1,33 @@
+{
+  "guest": "Jessica",
+  "people": [
+    "Jessica",
+    "Radhi Rabat",
+    "Dr. Rady Rahban",
+    "Tom Cruise"
+  ],
+  "companies": [
+    "Spreaker"
+  ],
+  "products": [],
+  "topics": [
+    "weight loss surgery",
+    "skin removal surgery",
+    "body contouring",
+    "brachioplasty",
+    "abdominoplasty",
+    "breast lift",
+    "post-operative healing",
+    "social media influencing",
+    "body image",
+    "online criticism",
+    "surgical scars",
+    "patient expectations",
+    "cosmetic surgery",
+    "transparency",
+    "confidence"
+  ],
+  "episode_num": 48,
+  "title": "The Real Aftermath of Losing 100 Pounds - Part 3 of Jessica's Journey",
+  "model": "claude-haiku-4-5-20251001"
+}

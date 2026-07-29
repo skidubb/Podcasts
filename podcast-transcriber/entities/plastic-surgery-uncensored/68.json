@@ -1,0 +1,35 @@
+{
+  "guest": null,
+  "people": [
+    "Rodney Ruban",
+    "Ryan Seacrest"
+  ],
+  "companies": [
+    "Chumba Casino",
+    "VGW Group"
+  ],
+  "products": [
+    "Wegovy",
+    "Manjaro",
+    "Ozempic"
+  ],
+  "topics": [
+    "massive weight loss",
+    "body contouring surgery",
+    "excess skin",
+    "plastic surgery",
+    "post-weight loss reconstruction",
+    "bariatric surgery aftermath",
+    "surgical planning",
+    "body lift",
+    "brachioplasty",
+    "thigh lift",
+    "scar management",
+    "patient recovery",
+    "surgical complications",
+    "nutrition and wound healing"
+  ],
+  "episode_num": 68,
+  "title": "Planning For Success After Massive Weightloss",
+  "model": "claude-haiku-4-5-20251001"
+}

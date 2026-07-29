@@ -1,0 +1,52 @@
+{
+  "guest": "Roselyn Sanchez",
+  "people": [
+    "Roselyn Sanchez",
+    "Rodney Rabanne",
+    "Ryan Seacrest",
+    "Eric",
+    "Sabella",
+    "Dylan",
+    "Meryl Streep",
+    "Madonna",
+    "Michael Jackson",
+    "Denzel Washington",
+    "Robert De Niro",
+    "Tyler Reddick",
+    "Jay Uso",
+    "Bubba Wallace"
+  ],
+  "companies": [
+    "Chumbot Casino",
+    "Take 5",
+    "Carfax",
+    "Spreaker",
+    "Kelley Blue Book",
+    "WWE",
+    "Honda"
+  ],
+  "products": [
+    "Instagram",
+    "ChumbaCasino.com",
+    "Ryan Seacrest 10K Ways"
+  ],
+  "topics": [
+    "breast lift surgery",
+    "cosmetic procedures",
+    "aging in entertainment",
+    "celebrity and authenticity",
+    "latina actresses",
+    "pressure in hollywood",
+    "body image",
+    "surgical ethics",
+    "motherhood and identity",
+    "social media influence",
+    "realistic expectations",
+    "scar management",
+    "confidence and self-perception",
+    "generational differences"
+  ],
+  "episode_num": 1,
+  "title": "Celebrity Roselyn Sanchez Speaks Out About Her Breast Lift Surgery",
+  "model": "claude-haiku-4-5-20251001"
+}

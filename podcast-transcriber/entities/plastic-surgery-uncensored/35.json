@@ -1,0 +1,41 @@
+{
+  "guest": "Charlene",
+  "people": [
+    "Rady Rahban",
+    "Charlene",
+    "Laura Rahban",
+    "John Daly",
+    "Dr. Houston"
+  ],
+  "companies": [
+    "Restored by Rahban MD",
+    "Moto Casino"
+  ],
+  "products": [
+    "microneedling pen",
+    "PRP",
+    "PRF",
+    "hyaluronic acid",
+    "salmon sperm",
+    "exosomes"
+  ],
+  "topics": [
+    "microneedling",
+    "skin rejuvenation",
+    "collagen production",
+    "non-surgical treatments",
+    "skincare",
+    "skin boosters",
+    "dermatology",
+    "aesthetic procedures",
+    "skin texture",
+    "post-treatment care",
+    "device quality",
+    "skin purging",
+    "darker skin types",
+    "downtime"
+  ],
+  "episode_num": 35,
+  "title": "Skincare Game Changer: Dr Rahbans Take on Microneedling",
+  "model": "claude-haiku-4-5-20251001"
+}

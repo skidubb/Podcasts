@@ -1,0 +1,35 @@
+{
+  "guest": "Paula",
+  "people": [
+    "Roddy Ruban",
+    "Paula",
+    "Houston"
+  ],
+  "companies": [
+    "NASA",
+    "Spreaker"
+  ],
+  "products": [
+    "Ozempic",
+    "Monjaro"
+  ],
+  "topics": [
+    "perioperative experience",
+    "pre-operative preparation",
+    "surgical best practices",
+    "patient education",
+    "anesthesia",
+    "post-operative care",
+    "medication management",
+    "surgical complications",
+    "smoking and surgery",
+    "glp-1 drugs",
+    "discharge procedures",
+    "npo fasting",
+    "surgical consent",
+    "recovery room protocol"
+  ],
+  "episode_num": 42,
+  "title": "Behind The Scenes in the OR: Best Practices Every Patient Should Know",
+  "model": "claude-haiku-4-5-20251001"
+}

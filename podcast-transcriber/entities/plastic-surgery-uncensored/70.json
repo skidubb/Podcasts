@@ -1,0 +1,32 @@
+{
+  "guest": "Amber",
+  "people": [
+    "Rady Rahban",
+    "Amber",
+    "Joel",
+    "Sally"
+  ],
+  "companies": [
+    "Modo Casino"
+  ],
+  "products": [
+    "Modo Casino app"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "diastasis recti",
+    "motherhood",
+    "body image",
+    "guilt and shame",
+    "self-care",
+    "conservative values",
+    "plastic surgery stigma",
+    "postpartum recovery",
+    "marital support",
+    "functional health",
+    "cosmetic surgery decision-making"
+  ],
+  "episode_num": 70,
+  "title": "Motherhood, Guilt, and the Courage to Choose Self Care",
+  "model": "claude-haiku-4-5-20251001"
+}

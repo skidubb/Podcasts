@@ -1,0 +1,34 @@
+{
+  "guest": "Brittany",
+  "people": [
+    "Brittany",
+    "Rodney Rabanne",
+    "Sally",
+    "Elon Musk"
+  ],
+  "companies": [
+    "Spinquest"
+  ],
+  "products": [
+    "Spinquest.com"
+  ],
+  "topics": [
+    "botched liposuction",
+    "revision surgery",
+    "diastasis recti",
+    "hernia repair",
+    "abdominoplasty",
+    "fat transfer",
+    "surgical complications",
+    "necrosis risk",
+    "patient psychology",
+    "body confidence",
+    "scarring and fibrosis",
+    "surgical outcomes",
+    "patient selection",
+    "multi-stage procedures"
+  ],
+  "episode_num": 25,
+  "title": "Mutilated From Botched Lipo Followed By Severe Diastasis - Would She Ever Be Normal Again?: Part 2",
+  "model": "claude-haiku-4-5-20251001"
+}

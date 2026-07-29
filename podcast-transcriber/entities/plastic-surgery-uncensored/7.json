@@ -1,0 +1,47 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban",
+    "Maria",
+    "Cassie Prather",
+    "JennaMiami__78",
+    "Ballyview92",
+    "JW Chica TX",
+    "Julia",
+    "Elizabeth Groschel",
+    "Clovia",
+    "Tex Bex",
+    "T Majors",
+    "K. Favodian",
+    "Rebecca",
+    "Nadine MCX",
+    "Mona Calic",
+    "Hallie Dari",
+    "Dr. Tofi"
+  ],
+  "companies": [],
+  "products": [
+    "da Vinci"
+  ],
+  "topics": [
+    "fupa treatment",
+    "labiaplasty sensation",
+    "tummy tuck",
+    "facelift techniques",
+    "diastasis recti repair",
+    "breast lift",
+    "thigh lift",
+    "body lift",
+    "fat grafting",
+    "hernia repair",
+    "liposuction risks",
+    "brow lift",
+    "umbilical float",
+    "necrosis prevention",
+    "menopause and surgery",
+    "jawline definition"
+  ],
+  "episode_num": 7,
+  "title": "Listeners Questions Answered: From FUPA and Labiaplasties to Facelifts",
+  "model": "claude-haiku-4-5-20251001"
+}

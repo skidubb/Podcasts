@@ -1,0 +1,32 @@
+{
+  "guest": "Brooklyn",
+  "people": [
+    "Rady Rahban",
+    "Brooklyn",
+    "Maria",
+    "Pamela Anderson"
+  ],
+  "companies": [
+    "Modo Casino"
+  ],
+  "products": [
+    "Modo Casino app"
+  ],
+  "topics": [
+    "breast implant removal",
+    "explantation surgery",
+    "breast augmentation",
+    "capsular contracture",
+    "breast implant illness",
+    "surgical recovery",
+    "aesthetic outcomes",
+    "patient education",
+    "breast lift",
+    "informed consent",
+    "surgical complications",
+    "body image"
+  ],
+  "episode_num": 60,
+  "title": "From Augmentation to Explantation: A Patient Journey",
+  "model": "claude-haiku-4-5-20251001"
+}

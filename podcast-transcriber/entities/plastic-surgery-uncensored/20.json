@@ -1,0 +1,40 @@
+{
+  "guest": "Tony Horton",
+  "people": [
+    "Tony Horton",
+    "Rodney Rabban",
+    "Shawna",
+    "Jeremy Yost"
+  ],
+  "companies": [
+    "American Express",
+    "National Lewis University",
+    "Tonal",
+    "Foundation IV"
+  ],
+  "products": [
+    "P90X",
+    "Tonal",
+    "iPhone"
+  ],
+  "topics": [
+    "fitness",
+    "exercise",
+    "nutrition",
+    "diet",
+    "weight loss",
+    "plastic surgery",
+    "discipline",
+    "accountability",
+    "motivation",
+    "healthy lifestyle",
+    "supplements",
+    "meal planning",
+    "cardio",
+    "strength training",
+    "recovery"
+  ],
+  "episode_num": 20,
+  "title": "Get Motivated in 2025: Fitness Icon Tony Horton’s Secrets to Fitness Before Plastic Surgery",
+  "model": "claude-haiku-4-5-20251001"
+}

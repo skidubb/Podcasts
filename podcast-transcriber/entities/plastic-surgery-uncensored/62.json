@@ -1,0 +1,42 @@
+{
+  "guest": "Roselyn Sánchez",
+  "people": [
+    "Roselyn Sánchez",
+    "Rady Rahban",
+    "Eric Sánchez",
+    "Sabella",
+    "Dylan",
+    "John Daly",
+    "Michael Jackson",
+    "Meryl Streep",
+    "Madonna",
+    "Denzel Washington",
+    "Robert De Niro"
+  ],
+  "companies": [
+    "Moto Casino",
+    "Spreaker"
+  ],
+  "products": [
+    "Moto Casino app"
+  ],
+  "topics": [
+    "breast lift and reduction",
+    "aging in hollywood",
+    "latina actresses",
+    "plastic surgery recovery",
+    "celebrity self-image",
+    "pressure to look younger",
+    "scar management",
+    "cosmetic surgery ethics",
+    "parenting and body image",
+    "motherhood and appearance",
+    "facelift timing",
+    "transparency about procedures",
+    "women over 50",
+    "career longevity"
+  ],
+  "episode_num": 62,
+  "title": "Inside Celebrity Plastic Surgery: Roselyn Sanchez Exclusive",
+  "model": "claude-haiku-4-5-20251001"
+}

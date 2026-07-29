@@ -1,0 +1,41 @@
+{
+  "guest": "Jessica",
+  "people": [
+    "Rody Rahban",
+    "Rodney Rabanne",
+    "Jessica",
+    "Reese",
+    "Johnny",
+    "Olivia",
+    "Ryan",
+    "Taylor Swift"
+  ],
+  "companies": [
+    "Plastic Surgery Uncensored",
+    "monday.com",
+    "Chumba Casino",
+    "Spreaker"
+  ],
+  "products": [
+    "Manjaro",
+    "Krav Maga"
+  ],
+  "topics": [
+    "weight loss journey",
+    "body positivity",
+    "plastic surgery",
+    "diet and exercise",
+    "social media influence",
+    "body image",
+    "brachioplasty",
+    "abdominoplasty",
+    "breast lift",
+    "loose skin",
+    "young adults",
+    "lifestyle content creation",
+    "authenticity"
+  ],
+  "episode_num": 21,
+  "title": "Weight Loss, Body Positivity, and Preparing for Plastic Surgery: Jessica's Inspirational Story",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,37 @@
+{
+  "guest": "Chloe",
+  "people": [
+    "Rady Rahban",
+    "Roddy Ruban",
+    "Chloe"
+  ],
+  "companies": [
+    "American Express",
+    "Cheesecake Factory",
+    "Five Guys"
+  ],
+  "products": [
+    "Amex Gold Card",
+    "American Express Platinum Card",
+    "Photoshop",
+    "Morph"
+  ],
+  "topics": [
+    "revision rhinoplasty",
+    "rhinoplasty outcomes",
+    "patient communication",
+    "surgical complications",
+    "managing expectations",
+    "scar tissue",
+    "healing timeline",
+    "surgeon selection",
+    "patient-surgeon relationship",
+    "aesthetic refinement",
+    "nose surgery revision rate",
+    "realistic expectations",
+    "cartilage changes"
+  ],
+  "episode_num": 9,
+  "title": "Rhinoplasty Gone Wrong? Key Considerations For Revision Rhinoplasty",
+  "model": "claude-haiku-4-5-20251001"
+}

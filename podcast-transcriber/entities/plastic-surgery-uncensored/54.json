@@ -1,0 +1,31 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban",
+    "Roddy Robban"
+  ],
+  "companies": [
+    "Spin Quest"
+  ],
+  "products": [
+    "Spin Quest"
+  ],
+  "topics": [
+    "lip lift surgery",
+    "cosmetic procedures",
+    "lip filler alternatives",
+    "facial rejuvenation",
+    "surgical scarring",
+    "aging and facial aesthetics",
+    "social media trends",
+    "patient candidacy",
+    "surgical outcomes",
+    "lip enhancement",
+    "facelift procedures",
+    "cosmetic surgery risks",
+    "recovery and healing"
+  ],
+  "episode_num": 54,
+  "title": "Lip Lifts: Youthful Fix or Risky Trend?",
+  "model": "claude-haiku-4-5-20251001"
+}

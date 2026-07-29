@@ -1,0 +1,33 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban",
+    "Roddy Ruban"
+  ],
+  "companies": [],
+  "products": [
+    "Wegovy",
+    "Manjaro",
+    "Ozempic"
+  ],
+  "topics": [
+    "massive weight loss",
+    "body contouring surgery",
+    "excess skin removal",
+    "post-weight loss body",
+    "plastic surgery recovery",
+    "bariatric surgery aftermath",
+    "surgical planning",
+    "weight loss expectations",
+    "skin elasticity",
+    "body lift procedures",
+    "brachioplasty",
+    "thigh lift",
+    "neck lift",
+    "surgical scarring",
+    "wound healing"
+  ],
+  "episode_num": 44,
+  "title": "What to Expect After Extreme Weightloss",
+  "model": "claude-haiku-4-5-20251001"
+}

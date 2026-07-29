@@ -1,0 +1,38 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban",
+    "Roddy Ruban"
+  ],
+  "companies": [
+    "Moto Casino",
+    "American Express",
+    "Spreaker"
+  ],
+  "products": [
+    "Botox",
+    "Viagra",
+    "Ozempic",
+    "Photoshop",
+    "Photomorph"
+  ],
+  "topics": [
+    "plastic surgery myths",
+    "non-surgical skin tightening",
+    "scar removal",
+    "cellulite treatment",
+    "stretch marks",
+    "cosmetic procedures",
+    "medical misinformation",
+    "snake oil marketing",
+    "patient education",
+    "facelift alternatives",
+    "body contouring",
+    "aesthetic devices",
+    "laser treatments",
+    "consumer transparency"
+  ],
+  "episode_num": 56,
+  "title": "Snake Oil in Plastic Surgery: The 4 Biggest Plastic Surgery Myths Exposed",
+  "model": "claude-haiku-4-5-20251001"
+}

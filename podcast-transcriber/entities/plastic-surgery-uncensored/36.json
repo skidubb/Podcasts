@@ -1,0 +1,56 @@
+{
+  "guest": "Charlene",
+  "people": [
+    "Roderick Rabban",
+    "Charlene",
+    "Laura Rabban",
+    "Dr. Smith",
+    "Dr. Johnson",
+    "Dr. Urban",
+    "Dr. Schmitz"
+  ],
+  "companies": [
+    "Restore by Rabban MD",
+    "Modo Casino",
+    "Xeo",
+    "Skin Better",
+    "Neiman Marcus",
+    "La Mer",
+    "Restylane",
+    "Dysport"
+  ],
+  "products": [
+    "Cynosure Cyton",
+    "Halo laser",
+    "BBL",
+    "Accutane",
+    "hydroquinone",
+    "retinol",
+    "retin-A",
+    "vitamin C serum",
+    "alpha-hydroxy acid",
+    "beta-hydroxy acid",
+    "tretinoin",
+    "PRP",
+    "PRF"
+  ],
+  "topics": [
+    "skincare routine",
+    "medical-grade products",
+    "retinol benefits",
+    "sun protection",
+    "melasma treatment",
+    "acne management",
+    "rosacea",
+    "skin discoloration",
+    "active ingredients",
+    "consistency and patience",
+    "laser treatments",
+    "microneedling",
+    "moisturizers",
+    "exfoliation"
+  ],
+  "episode_num": 36,
+  "title": "Are Your Skincare Products Doing Anything? What Works and What to Toss!",
+  "model": "claude-haiku-4-5-20251001"
+}

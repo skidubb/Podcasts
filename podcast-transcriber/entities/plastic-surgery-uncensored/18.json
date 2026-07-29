@@ -1,0 +1,34 @@
+{
+  "guest": "Maria",
+  "people": [
+    "Maria",
+    "Rodney Ruban",
+    "Rady Rahban",
+    "Jackie O",
+    "Kanye West",
+    "Joan Rivers",
+    "Tony Horton"
+  ],
+  "companies": [],
+  "products": [
+    "Plastic Surgery Uncensored"
+  ],
+  "topics": [
+    "breast reduction",
+    "breast augmentation",
+    "implant removal",
+    "surgical anxiety",
+    "patient fears",
+    "body dysmorphia",
+    "aging and surgery",
+    "recovery timeline",
+    "surgeon selection",
+    "body proportions",
+    "quality of life",
+    "intimacy and self-image",
+    "cosmetic surgery decision-making"
+  ],
+  "episode_num": 18,
+  "title": "From Producer to Patient: The Breast Surgery She Feared For 20 Years!",
+  "model": "claude-haiku-4-5-20251001"
+}

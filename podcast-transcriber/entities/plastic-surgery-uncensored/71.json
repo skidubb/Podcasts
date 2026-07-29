@@ -1,0 +1,42 @@
+{
+  "guest": "Angela",
+  "people": [
+    "Angela",
+    "Rady Rahban",
+    "Roddy Ruban",
+    "Sally",
+    "Angela's husband",
+    "Angela's friend (58-year-old bodybuilder)",
+    "Angela's coach"
+  ],
+  "companies": [
+    "Moto Casino",
+    "Spreaker",
+    "RealSelf"
+  ],
+  "products": [
+    "CoolSculpting",
+    "Tonal",
+    "Pilates"
+  ],
+  "topics": [
+    "diastasis recti",
+    "abdominoplasty",
+    "mommy makeover",
+    "breast lift and augmentation",
+    "muscle repair",
+    "body contouring surgery",
+    "postpartum body changes",
+    "elite athletes",
+    "pregnancy recovery",
+    "fitness and surgery",
+    "patient confidence",
+    "surgical consultation",
+    "body image",
+    "intimate relationships",
+    "diet and exercise"
+  ],
+  "episode_num": 71,
+  "title": "Diastasis Doesn’t Discriminate: An Elite Athlete’s Journey",
+  "model": "claude-haiku-4-5-20251001"
+}

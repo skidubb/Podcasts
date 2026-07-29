@@ -1,0 +1,41 @@
+{
+  "guest": "Charlene",
+  "people": [
+    "Rady Rahban",
+    "Charlene",
+    "Gail"
+  ],
+  "companies": [
+    "Restore by Rabban MD",
+    "SpinQuest"
+  ],
+  "products": [
+    "Botox",
+    "Dysport",
+    "Xeomin",
+    "Juvederm",
+    "Daxxify"
+  ],
+  "topics": [
+    "neurotoxins",
+    "neuromodulators",
+    "botox",
+    "injectable treatments",
+    "facial aesthetics",
+    "wrinkle reduction",
+    "brow lift",
+    "crow's feet",
+    "forehead lines",
+    "frown lines",
+    "masseter injection",
+    "neck bands",
+    "gummy smile",
+    "less is more philosophy",
+    "natural results",
+    "preventative aging",
+    "recovery and complications"
+  ],
+  "episode_num": 32,
+  "title": "Everything You Need to Know About Neurotoxins",
+  "model": "claude-haiku-4-5-20251001"
+}

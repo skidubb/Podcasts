@@ -1,0 +1,29 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban"
+  ],
+  "companies": [
+    "Spreaker"
+  ],
+  "products": [],
+  "topics": [
+    "lip lift surgery",
+    "lip fillers",
+    "facial anatomy",
+    "cosmetic procedures",
+    "surgical scars",
+    "aging and lips",
+    "social media trends",
+    "facelift",
+    "patient candidacy",
+    "lip aesthetics",
+    "surgical complications",
+    "corner lip lifts",
+    "bullhorn incision",
+    "recovery and results"
+  ],
+  "episode_num": 12,
+  "title": "Lip Lifts Unfiltered: The Truth Behind the Trend",
+  "model": "claude-haiku-4-5-20251001"
+}

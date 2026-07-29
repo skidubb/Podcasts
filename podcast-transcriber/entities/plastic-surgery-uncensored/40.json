@@ -1,0 +1,42 @@
+{
+  "guest": "Paula",
+  "people": [
+    "Rady Rahban",
+    "Roddy Ruban",
+    "Paula",
+    "Josh"
+  ],
+  "companies": [
+    "Ruban family office",
+    "Ethicon",
+    "Spreaker"
+  ],
+  "products": [
+    "crash cart",
+    "SCD machine",
+    "bovee",
+    "LMA",
+    "ventilator",
+    "anesthesia machine"
+  ],
+  "topics": [
+    "operating room safety",
+    "plastic surgery ethics",
+    "surgeon accountability",
+    "tech closing procedures",
+    "anesthesia risks",
+    "cosmetic surgery concerns",
+    "patient consent",
+    "medical equipment standards",
+    "conscious sedation",
+    "surgical corners cutting",
+    "beverly hills surgery centers",
+    "airway protection",
+    "blood clot prevention",
+    "suture reuse",
+    "surgeon-anesthesiologist dynamics"
+  ],
+  "episode_num": 40,
+  "title": "Operating Room Nightmares: What You Need to Know Behind Closed Doors",
+  "model": "claude-haiku-4-5-20251001"
+}

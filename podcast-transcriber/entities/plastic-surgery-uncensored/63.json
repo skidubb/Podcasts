@@ -1,0 +1,31 @@
+{
+  "guest": "Lori",
+  "people": [
+    "Rady Rahban",
+    "Lori",
+    "Dr. Smith"
+  ],
+  "companies": [
+    "SpinQuest"
+  ],
+  "products": [],
+  "topics": [
+    "plastic surgery",
+    "pulmonary embolism",
+    "blood clots",
+    "deep venous thrombosis",
+    "abdominoplasty",
+    "tummy tuck",
+    "blood thinners",
+    "surgery safety",
+    "medical clearance",
+    "hematology",
+    "hypercoagulable condition",
+    "cosmetic surgery risks",
+    "patient outcomes",
+    "multidisciplinary care"
+  ],
+  "episode_num": 63,
+  "title": "Plastic Surgery After a Pulmonary Embolism: Is it Safe?",
+  "model": "claude-haiku-4-5-20251001"
+}

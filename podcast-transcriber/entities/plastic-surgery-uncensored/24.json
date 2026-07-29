@@ -1,0 +1,39 @@
+{
+  "guest": "Brittany",
+  "people": [
+    "Brittany",
+    "Rodney Rahban",
+    "Roderick Vaughn"
+  ],
+  "companies": [
+    "SpinQuest",
+    "RealSelf",
+    "Tennessee Medical Board"
+  ],
+  "products": [
+    "Smart Lipo",
+    "Slim Lipo",
+    "Vaser Lipo",
+    "Laser Lipo"
+  ],
+  "topics": [
+    "liposuction complications",
+    "botched cosmetic surgery",
+    "scar tissue",
+    "skin necrosis",
+    "diastasis recti",
+    "hernia repair",
+    "revision surgery",
+    "cosmetic surgeon credentials",
+    "medical board certification",
+    "patient research",
+    "surgical trauma",
+    "tummy tuck",
+    "abdominal wall reconstruction",
+    "informed consent",
+    "doctor selection"
+  ],
+  "episode_num": 24,
+  "title": "Liposuction Catastrophe That Led To a Decade of Trauma - Part 1",
+  "model": "claude-haiku-4-5-20251001"
+}

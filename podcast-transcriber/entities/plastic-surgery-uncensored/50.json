@@ -1,0 +1,32 @@
+{
+  "guest": "Leeor",
+  "people": [
+    "Rady Rahban",
+    "Leeor",
+    "Bella Hadid",
+    "Michael Jackson",
+    "Sally"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "rhinoplasty recovery",
+    "surgical outcomes",
+    "patient expectations",
+    "post-operative swelling",
+    "nose job regrets",
+    "reconstructive rhinoplasty",
+    "septoplasty",
+    "surgical transparency",
+    "patient psychology",
+    "support system",
+    "surgical technique",
+    "breathing improvement",
+    "cast removal",
+    "long-term nose changes",
+    "revision surgery"
+  ],
+  "episode_num": 50,
+  "title": "Rhinoplasty Regrets (At First): The Truth About Rhinoplasty Recovery",
+  "model": "claude-haiku-4-5-20251001"
+}

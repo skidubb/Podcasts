@@ -1,0 +1,38 @@
+{
+  "guest": "Chloe",
+  "people": [
+    "Rady Rahban",
+    "Ryan Seacrest",
+    "Chloe",
+    "Sally Chacon"
+  ],
+  "companies": [
+    "Chumba Casino",
+    "VGW Group",
+    "Spreaker"
+  ],
+  "products": [
+    "Ryan Seacrest 10K Ways",
+    "Medpor",
+    "Valium"
+  ],
+  "topics": [
+    "revision rhinoplasty",
+    "botched surgery",
+    "surgical complications",
+    "patient consent",
+    "surgical outcomes",
+    "nose reconstruction",
+    "cartilage grafting",
+    "asymmetrical nostrils",
+    "over-rotation",
+    "surgeon selection",
+    "medical ethics",
+    "patient research",
+    "emotional recovery",
+    "cosmetic surgery risks"
+  ],
+  "episode_num": 23,
+  "title": "From Botched to Beautiful: The Emotional Journey of Revision Rhinoplasty",
+  "model": "claude-haiku-4-5-20251001"
+}

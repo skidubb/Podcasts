@@ -1,0 +1,38 @@
+{
+  "guest": "Amy",
+  "people": [
+    "Rady Rahban",
+    "Amy",
+    "Nick",
+    "Garth",
+    "Ashley",
+    "Brad Pitt"
+  ],
+  "companies": [
+    "Spreaker",
+    "Victoria Secret",
+    "La Perla",
+    "Bloomingdale",
+    "Chick-fil-A"
+  ],
+  "products": [],
+  "topics": [
+    "breast augmentation",
+    "body image",
+    "vanity",
+    "confidence",
+    "post-op care",
+    "nipple reduction",
+    "implant sizing",
+    "intimacy",
+    "self-worth",
+    "aging gracefully",
+    "diastasis recti",
+    "facelift",
+    "aesthetic surgery",
+    "patient consultation"
+  ],
+  "episode_num": 43,
+  "title": "Owning Your Vanity: A Real Talk on Breast Augmentation, Body Image & Confidence After Kids",
+  "model": "claude-haiku-4-5-20251001"
+}

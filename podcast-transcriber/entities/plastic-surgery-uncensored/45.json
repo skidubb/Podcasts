@@ -1,0 +1,30 @@
+{
+  "guest": "Brooklyn",
+  "people": [
+    "Rady Rahban",
+    "Brooklyn",
+    "Maria",
+    "Halle Berry",
+    "Pamela Anderson"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "breast implant explantation",
+    "breast implant removal",
+    "breast implant illness",
+    "capsular contracture",
+    "breast augmentation",
+    "breast lift",
+    "surgical recovery",
+    "patient decision-making",
+    "aesthetic outcomes",
+    "body image",
+    "surgical complications",
+    "fat transfer",
+    "plastic surgery trends"
+  ],
+  "episode_num": 45,
+  "title": "Is An Explant Right For You? A Patient Speaks Out",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,35 @@
+{
+  "guest": "Katy",
+  "people": [
+    "Rady Rahban",
+    "Katy",
+    "John",
+    "Lindsay Lohan",
+    "Sally"
+  ],
+  "companies": [
+    "Moto Casino",
+    "American Express",
+    "Spreaker"
+  ],
+  "products": [],
+  "topics": [
+    "breast implant removal",
+    "breast downsizing",
+    "explantation",
+    "fat transfer",
+    "breast augmentation",
+    "breast lift",
+    "implant revision",
+    "breast implant illness",
+    "liposuction",
+    "cosmetic surgery consultation",
+    "body contouring",
+    "patient expectations",
+    "aesthetic preferences",
+    "surgical recovery"
+  ],
+  "episode_num": 29,
+  "title": "Explant, Downsizing, or Fat Transfer? The Truth About Changing Your Breast Implants",
+  "model": "claude-haiku-4-5-20251001"
+}

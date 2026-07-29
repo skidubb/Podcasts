@@ -1,0 +1,30 @@
+{
+  "guest": null,
+  "people": [
+    "Rodney Rabban",
+    "Rady Rahban",
+    "Bella Hadid"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "eye rejuvenation",
+    "upper eyelid surgery",
+    "blepharoplasty",
+    "brow lift",
+    "eyebrow anatomy",
+    "aging signs",
+    "facial surgery",
+    "surgical recovery",
+    "natural results",
+    "lateral brow lift",
+    "endoscopic brow lift",
+    "surgical risks",
+    "facial aesthetics",
+    "hooding",
+    "cat eye effect"
+  ],
+  "episode_num": 39,
+  "title": "Eye Rejuvenation Explained: A Balanced Approach for Natural Results",
+  "model": "claude-haiku-4-5-20251001"
+}

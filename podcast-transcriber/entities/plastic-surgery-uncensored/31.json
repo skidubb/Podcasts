@@ -1,0 +1,37 @@
+{
+  "guest": "Angela",
+  "people": [
+    "Angela",
+    "Rady Rahban",
+    "Angela's husband",
+    "John Daly"
+  ],
+  "companies": [
+    "Modo Casino",
+    "RealSelf",
+    "Spreaker"
+  ],
+  "products": [
+    "CoolSculpting"
+  ],
+  "topics": [
+    "mommy makeover",
+    "abdominoplasty",
+    "breast augmentation",
+    "breast lift",
+    "diastasis recti",
+    "pregnancy recovery",
+    "body contouring",
+    "fitness and surgery",
+    "patient confidence",
+    "surgical outcomes",
+    "muscle repair",
+    "loose skin",
+    "competitive bodybuilding",
+    "post-operative recovery",
+    "cosmetic surgery decision-making"
+  ],
+  "episode_num": 31,
+  "title": "Beyond Fitness: Angela’s Inspiring Mommy Makeover Transformation",
+  "model": "claude-haiku-4-5-20251001"
+}

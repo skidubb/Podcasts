@@ -1,0 +1,37 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban",
+    "Roderick Rebond",
+    "Cindy Crawford",
+    "Kris Jenner",
+    "Marc Jacobs"
+  ],
+  "companies": [],
+  "products": [
+    "Botox",
+    "Instagram",
+    "TikTok",
+    "Spreaker"
+  ],
+  "topics": [
+    "aging biology",
+    "collagen and elastin",
+    "sun damage prevention",
+    "skin tightening",
+    "volume restoration",
+    "filler",
+    "botox",
+    "surgical intervention",
+    "facelift",
+    "medical aesthetics",
+    "retinol",
+    "marketing hype",
+    "genetics",
+    "non-surgical treatments",
+    "lifestyle factors"
+  ],
+  "episode_num": 77,
+  "title": "Aging 101: Navigating Hype vs Science",
+  "model": "claude-haiku-4-5-20251001"
+}

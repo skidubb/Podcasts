@@ -1,0 +1,28 @@
+{
+  "guest": "Maria",
+  "people": [
+    "Maria",
+    "Rodney Rabanne",
+    "Sally"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "breast explant surgery",
+    "breast reduction",
+    "breast implant removal",
+    "surgical reconstruction",
+    "breast lift",
+    "fat transfer",
+    "breast augmentation",
+    "patient expectations",
+    "breast implant illness",
+    "surgical outcomes",
+    "aesthetic surgery",
+    "capsulectomy",
+    "patient-doctor communication"
+  ],
+  "episode_num": 19,
+  "title": "Marias Breast Reduction & Explant Journey (Part 2): The Aftermath",
+  "model": "claude-haiku-4-5-20251001"
+}

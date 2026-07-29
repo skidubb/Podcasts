@@ -1,0 +1,30 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban"
+  ],
+  "companies": [
+    "National Lewis University"
+  ],
+  "products": [],
+  "topics": [
+    "plastic surgery subspecialties",
+    "facial plastic surgery",
+    "general plastic surgery",
+    "oculoplastic surgery",
+    "cosmetic surgery",
+    "surgeon specialization",
+    "patient selection",
+    "surgical outcomes",
+    "marketing in cosmetics",
+    "facelift",
+    "rhinoplasty",
+    "breast augmentation",
+    "body contouring",
+    "eyelid surgery",
+    "practice diversity"
+  ],
+  "episode_num": 17,
+  "title": "Plastic Surgery Subspecialties Explained: What Every Patient Needs to Know",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,35 @@
+{
+  "guest": null,
+  "people": [
+    "Roddy Robbin",
+    "Lindsay Lohan",
+    "Brad Pitt",
+    "Demi Moore",
+    "Christina Aguilera",
+    "Adele",
+    "Joan Rivers"
+  ],
+  "companies": [
+    "Moto Casino"
+  ],
+  "products": [],
+  "topics": [
+    "celebrity plastic surgery",
+    "facelifts",
+    "facelift trends",
+    "laser resurfacing",
+    "botox and fillers",
+    "weight loss effects",
+    "facial aesthetics",
+    "blepharoplasty",
+    "skin care",
+    "aging",
+    "mini facelifts",
+    "early facelifts",
+    "glp-1 drugs",
+    "celebrity transformations"
+  ],
+  "episode_num": 30,
+  "title": "2025 Celebrity Plastic Surgery: Hollywoods Hottest Procedure",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,30 @@
+{
+  "guest": "Lori",
+  "people": [
+    "Rady Rahban",
+    "Lori",
+    "Dr. Smith"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "blood clots",
+    "plastic surgery",
+    "deep venous thrombosis",
+    "pulmonary embolism",
+    "blood thinners",
+    "abdominoplasty",
+    "tummy tuck",
+    "hematology",
+    "surgical risk management",
+    "hypercoagulable condition",
+    "patient safety",
+    "medical coordination",
+    "cosmetic surgery risks",
+    "post-operative care",
+    "quality of life"
+  ],
+  "episode_num": 6,
+  "title": "Plastic Surgery and Blood Clots: What You NEED to Know",
+  "model": "claude-haiku-4-5-20251001"
+}

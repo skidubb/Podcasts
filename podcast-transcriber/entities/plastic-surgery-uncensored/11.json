@@ -1,0 +1,31 @@
+{
+  "guest": null,
+  "people": [
+    "Rodney Ruban",
+    "Rady Rahban"
+  ],
+  "companies": [],
+  "products": [
+    "Ozempic",
+    "Wegovy",
+    "Mounjaro"
+  ],
+  "topics": [
+    "brachioplasty",
+    "arm lift surgery",
+    "excess skin removal",
+    "bat wings",
+    "weight loss surgery",
+    "scar placement",
+    "surgical technique",
+    "recovery timeline",
+    "surgical risks",
+    "skin closure methods",
+    "ltap procedure",
+    "body contouring",
+    "patient outcomes"
+  ],
+  "episode_num": 11,
+  "title": "The A to Z of Arm Lifts: Brachioplasty Explained",
+  "model": "claude-haiku-4-5-20251001"
+}

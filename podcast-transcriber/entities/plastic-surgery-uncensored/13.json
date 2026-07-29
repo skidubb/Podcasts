@@ -1,0 +1,35 @@
+{
+  "guest": "Katie",
+  "people": [
+    "Rady Rahban",
+    "Katie",
+    "Sally"
+  ],
+  "companies": [
+    "The Edit",
+    "Spreaker"
+  ],
+  "products": [
+    "3D Vector monitor",
+    "Otter.ai"
+  ],
+  "topics": [
+    "breast augmentation",
+    "surgeon selection",
+    "consultation process",
+    "red flags",
+    "social media marketing",
+    "sizing methodology",
+    "implant placement",
+    "breast lift",
+    "patient accountability",
+    "authenticity",
+    "transparency",
+    "volumetric displacement",
+    "capsular contracture",
+    "patient-centric care"
+  ],
+  "episode_num": 13,
+  "title": "Hidden Red Flags to be Aware of When Selecting YOUR Breast Surgeon",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,45 @@
+{
+  "guest": "Charlene",
+  "people": [
+    "Rady Rahban",
+    "Charlene"
+  ],
+  "companies": [
+    "Restore by RubanMD",
+    "Juvederm",
+    "Restylane",
+    "Sculptra",
+    "Radiesse",
+    "Moto Casino"
+  ],
+  "products": [
+    "Hyaluronic acid fillers",
+    "Hyaluronidase",
+    "Vitrase",
+    "PMMA",
+    "Silicone fillers",
+    "RHA fillers",
+    "Voluma",
+    "Verobella"
+  ],
+  "topics": [
+    "dermal fillers",
+    "facial volumization",
+    "injection techniques",
+    "cannula vs needle",
+    "cheek enhancement",
+    "lip fillers",
+    "under-eye treatment",
+    "filler complications",
+    "blindness risk",
+    "tissue necrosis",
+    "filler reversibility",
+    "overfilling dangers",
+    "non-surgical facelift",
+    "injection safety",
+    "medical aesthetics"
+  ],
+  "episode_num": 33,
+  "title": "The Truth About Fillers: What No One Tells You",
+  "model": "claude-haiku-4-5-20251001"
+}

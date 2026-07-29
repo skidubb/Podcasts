@@ -1,0 +1,43 @@
+{
+  "guest": null,
+  "people": [
+    "Roddy Rahban",
+    "Maria",
+    "Megan",
+    "Jeff",
+    "Patty Grease",
+    "Vanny",
+    "Mariposa",
+    "Megan Mitchell",
+    "Rachel Schultz",
+    "Dan Lissimian",
+    "Elizabeth Groschel",
+    "Lush Key"
+  ],
+  "companies": [
+    "SpinQuest"
+  ],
+  "products": [],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "swelling management",
+    "lymphatic massage",
+    "liposuction",
+    "muscle repair",
+    "belly button reconstruction",
+    "blood clots",
+    "dvt prevention",
+    "visceral fat",
+    "subcutaneous fat",
+    "loose skin",
+    "non-surgical skin tightening",
+    "hernia repair",
+    "bmi requirements",
+    "post-operative recovery",
+    "diastasis recti"
+  ],
+  "episode_num": 53,
+  "title": "All Things Tummy Tucks",
+  "model": "claude-haiku-4-5-20251001"
+}

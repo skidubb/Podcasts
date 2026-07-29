@@ -1,0 +1,38 @@
+{
+  "guest": "Myriam Masihi",
+  "people": [
+    "Rady Rahban",
+    "Myriam Masihi",
+    "Heather Meadows",
+    "Dan Krauth"
+  ],
+  "companies": [
+    "NBC6",
+    "Telemundo 51",
+    "Aesthetic Surgery Education Research Foundation",
+    "Florida Board of Medicine",
+    "UPS Store",
+    "Modo Casino"
+  ],
+  "products": [
+    "ultrasound machines"
+  ],
+  "topics": [
+    "brazilian butt lift",
+    "fat embolism",
+    "surgical deaths",
+    "patient safety",
+    "investigative reporting",
+    "medical regulation",
+    "board certification",
+    "cosmetic surgery standards",
+    "informed consent",
+    "targeting vulnerable communities",
+    "medical examiner reports",
+    "surgical complications",
+    "plastic surgery ethics"
+  ],
+  "episode_num": 4,
+  "title": "Investigative Report on BBLs - The Deadliest Plastic Surgery Procedure",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,39 @@
+{
+  "guest": "Sam Smith and Lance Smith",
+  "people": [
+    "Rania Rabban",
+    "Sam Smith",
+    "Lance Smith",
+    "Joan Rivers"
+  ],
+  "companies": [
+    "Moto Casino",
+    "JSX"
+  ],
+  "products": [],
+  "topics": [
+    "facelift surgery",
+    "facial rejuvenation",
+    "cosmetic surgery",
+    "recovery timeline",
+    "surgical complications",
+    "aging signs",
+    "marionette lines",
+    "jowls",
+    "neck lift",
+    "deep plane facelift",
+    "weight loss surgery",
+    "bariatric surgery",
+    "brow lift",
+    "eyelid surgery",
+    "rhinoplasty",
+    "scar management",
+    "surgical risks",
+    "hematoma",
+    "nerve damage",
+    "intimacy and attractiveness"
+  ],
+  "episode_num": 26,
+  "title": "Reinventing Romance: A Couple Who Underwent Face Lifts Together",
+  "model": "claude-haiku-4-5-20251001"
+}

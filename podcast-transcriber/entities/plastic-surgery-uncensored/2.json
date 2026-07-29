@@ -1,0 +1,38 @@
+{
+  "guest": "Asaf",
+  "people": [
+    "Asaf",
+    "Roddy Rahban",
+    "Chrissy",
+    "Dr. Smith"
+  ],
+  "companies": [
+    "Cedars-Sinai Medical Center",
+    "USC",
+    "SpinQuest",
+    "National Lewis University",
+    "Honda",
+    "Kelley Blue Book"
+  ],
+  "products": [
+    "SpinQuest.com",
+    "finquest.com"
+  ],
+  "topics": [
+    "nasal trauma",
+    "rhinoplasty",
+    "emergency surgery",
+    "nasal fractures",
+    "facial trauma",
+    "nose reconstruction",
+    "revision rhinoplasty",
+    "dermal fillers",
+    "cosmetic surgery",
+    "patient recovery",
+    "emergency medicine",
+    "plastic surgery"
+  ],
+  "episode_num": 2,
+  "title": "Emergency Rhinoplasty: Navigating SEVERE Nose Trauma",
+  "model": "claude-haiku-4-5-20251001"
+}

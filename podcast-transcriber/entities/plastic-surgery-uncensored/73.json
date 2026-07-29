@@ -1,0 +1,44 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban",
+    "Roddy Ruban",
+    "Bella Hadid",
+    "Angelina Jolie",
+    "Megan Fox"
+  ],
+  "companies": [
+    "Spreaker",
+    "TikTok",
+    "Instagram",
+    "Cosmo",
+    "YouTube",
+    "Hermes",
+    "Bentley",
+    "RealSelf"
+  ],
+  "products": [
+    "ChatGPT",
+    "AI",
+    "Instagram filters"
+  ],
+  "topics": [
+    "plastic surgery principles",
+    "surgeon selection",
+    "rhinoplasty",
+    "breast augmentation",
+    "social media influence",
+    "patient education",
+    "surgical complications",
+    "form and function",
+    "realistic expectations",
+    "recovery planning",
+    "emotional decision-making",
+    "trends vs anatomy",
+    "surgeon credentials",
+    "cosmetic procedures"
+  ],
+  "episode_num": 73,
+  "title": "The Principles Behind Successful Plastic Surgery",
+  "model": "claude-haiku-4-5-20251001"
+}

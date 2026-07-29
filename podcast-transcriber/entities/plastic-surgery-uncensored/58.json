@@ -1,0 +1,32 @@
+{
+  "guest": "Lucy",
+  "people": [
+    "Rady Rahban",
+    "Lucy",
+    "Jeremy Fine"
+  ],
+  "companies": [
+    "Chumba Casino",
+    "VGW Group"
+  ],
+  "products": [],
+  "topics": [
+    "liver transplant",
+    "scar revision",
+    "hernia repair",
+    "abdominal wall reconstruction",
+    "autoimmune hepatitis",
+    "primary sclerosing cholangitis",
+    "revisional surgery",
+    "abdominoplasty",
+    "reconstructive surgery",
+    "surgical consultation",
+    "patient outcomes",
+    "surgical complications",
+    "cosmetic reconstruction",
+    "core function"
+  ],
+  "episode_num": 58,
+  "title": "From Transplant to Triumph: Scar Revision, Hernia Repair & Abdominal Wall Reconstruction",
+  "model": "claude-haiku-4-5-20251001"
+}

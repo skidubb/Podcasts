@@ -1,0 +1,37 @@
+{
+  "guest": "Sandeep",
+  "people": [
+    "Ronny Rahban",
+    "Sandeep",
+    "Sally",
+    "Erica",
+    "Tyler Redeker"
+  ],
+  "companies": [
+    "Plastic Surgery Uncensored",
+    "Chumba Casino",
+    "2311 Racing",
+    "BTW Group",
+    "Spreaker"
+  ],
+  "products": [],
+  "topics": [
+    "abdominoplasty",
+    "diastasis recti",
+    "post-pregnancy body",
+    "holistic lifestyle",
+    "body image",
+    "feminism",
+    "core strength",
+    "fitness recovery",
+    "cultural attitudes toward surgery",
+    "mind-body-spirit",
+    "patient education",
+    "surgical outcomes",
+    "motherhood",
+    "spirituality and wellness"
+  ],
+  "episode_num": 67,
+  "title": "Mind, Body, Soul... and Surgery! A Mother's Candid Healing Journey",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,36 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban",
+    "Rodney Rabban",
+    "Ryan",
+    "Sally",
+    "Tyler Reddick"
+  ],
+  "companies": [
+    "Chumba Casino",
+    "2311 Racing",
+    "VGW",
+    "VTW Group"
+  ],
+  "products": [],
+  "topics": [
+    "cosmetic surgery subspecialties",
+    "plastic surgeon marketing",
+    "facelift techniques",
+    "surgical outcomes",
+    "general vs specialist practice",
+    "facial aesthetics",
+    "body contouring",
+    "patient selection",
+    "surgical results evaluation",
+    "oculoplastic surgery",
+    "facial plastic surgery",
+    "breast augmentation",
+    "rhinoplasty",
+    "beverly hills cosmetic surgery"
+  ],
+  "episode_num": 66,
+  "title": "Navigating Subspecialities in The World of Cosmetic Surgery",
+  "model": "claude-haiku-4-5-20251001"
+}

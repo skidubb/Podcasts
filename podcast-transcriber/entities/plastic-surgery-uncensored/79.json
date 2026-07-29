@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "Rady Rahban",
+    "Roddy Ruban"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "scar formation",
+    "scar revision",
+    "surgical technique",
+    "incision closure",
+    "wound healing",
+    "genetics and scarring",
+    "post-operative care",
+    "plastic surgery",
+    "cosmetic surgery",
+    "scar treatment myths",
+    "tension management",
+    "body contouring",
+    "surgical outcomes",
+    "patient expectations"
+  ],
+  "episode_num": 79,
+  "title": "Why Scars Matter",
+  "model": "claude-haiku-4-5-20251001"
+}

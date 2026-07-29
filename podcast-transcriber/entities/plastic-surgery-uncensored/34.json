@@ -1,0 +1,52 @@
+{
+  "guest": "Charlene",
+  "people": [
+    "Rady Rahban",
+    "Charlene",
+    "Ryan",
+    "Dr. Fitzpatrick"
+  ],
+  "companies": [
+    "Chumba Casino",
+    "Cynosure",
+    "Fraxel",
+    "PicoSure"
+  ],
+  "products": [
+    "BBL (Broadband Light)",
+    "IPL (Intense Pulsed Light)",
+    "TRL (Erbium Resurfacing Laser)",
+    "Halo Laser",
+    "CO2 Laser",
+    "Erbium Laser",
+    "Fraxel",
+    "PicoSure",
+    "Morpheus",
+    "Retin-A",
+    "Accutane",
+    "Valtrex"
+  ],
+  "topics": [
+    "laser treatments",
+    "skin resurfacing",
+    "pigment correction",
+    "non-surgical aesthetics",
+    "med spa",
+    "wavelengths",
+    "fitzpatrick scale",
+    "skin types",
+    "downtime",
+    "pre-treatment skincare",
+    "post-treatment care",
+    "sun damage",
+    "melasma",
+    "laser safety",
+    "bbl technology",
+    "hybrid lasers",
+    "burn risk",
+    "hyperpigmentation"
+  ],
+  "episode_num": 34,
+  "title": "The Laser Lowdown: What Works, What’s Worthless & What Can Go Wrong",
+  "model": "claude-haiku-4-5-20251001"
+}

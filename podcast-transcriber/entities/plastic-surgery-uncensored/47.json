@@ -1,0 +1,46 @@
+{
+  "guest": "Marlena",
+  "people": [
+    "Marlena",
+    "Rady Rahban",
+    "Sally",
+    "Marcy",
+    "Mike",
+    "granddaughter",
+    "daughter",
+    "son",
+    "husband",
+    "sister",
+    "wife",
+    "Brad Pitt",
+    "Angelina Jolie"
+  ],
+  "companies": [
+    "Posse",
+    "Spreaker"
+  ],
+  "products": [
+    "Instagram",
+    "podcast"
+  ],
+  "topics": [
+    "facelift surgery",
+    "deep plane facelift",
+    "brow lift",
+    "chin augmentation",
+    "fat transfer",
+    "surgical recovery",
+    "patient candidacy",
+    "surgical risks",
+    "aging gracefully",
+    "cosmetic surgery pricing",
+    "neck lift",
+    "surgeon consultation",
+    "post-operative care",
+    "patient satisfaction",
+    "surgical complications"
+  ],
+  "episode_num": 47,
+  "title": "A Powerful Facelift Journey: The Moment of Rediscovery",
+  "model": "claude-haiku-4-5-20251001"
+}

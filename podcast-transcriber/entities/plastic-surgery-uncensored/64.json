@@ -1,0 +1,34 @@
+{
+  "guest": "Alexis",
+  "people": [
+    "Alexis",
+    "Roddy Robban",
+    "Laura"
+  ],
+  "companies": [
+    "Moto Casino",
+    "Modo Casino",
+    "Spreaker"
+  ],
+  "products": [],
+  "topics": [
+    "plastic surgery",
+    "mommy makeover",
+    "abdominoplasty",
+    "breast lift",
+    "breast implants",
+    "facelift",
+    "chin implant",
+    "lower blepharoplasty",
+    "brow lift",
+    "psychological aspects",
+    "body dysmorphia",
+    "cosmetic procedures",
+    "patient psychology",
+    "surgical outcomes",
+    "self-esteem"
+  ],
+  "episode_num": 64,
+  "title": "The Unspoken Psychology Behind Plastic Surgery",
+  "model": "claude-haiku-4-5-20251001"
+}

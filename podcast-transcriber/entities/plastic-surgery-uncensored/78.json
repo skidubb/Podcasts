@@ -1,0 +1,33 @@
+{
+  "guest": "Lisa",
+  "people": [
+    "Rady Rahban",
+    "Roderick Bond",
+    "Roddy Robban",
+    "Charlene"
+  ],
+  "companies": [],
+  "products": [
+    "Hyaluronidase"
+  ],
+  "topics": [
+    "ethnic rhinoplasty",
+    "revision rhinoplasty",
+    "surgical complications",
+    "tissue necrosis",
+    "thick skin rhinoplasty",
+    "surgical technique",
+    "patient safety",
+    "informed consent",
+    "surgeon selection",
+    "rib graft",
+    "hyperbaric oxygen therapy",
+    "cosmetic surgery pricing",
+    "postoperative care",
+    "surgical error",
+    "patient outcomes"
+  ],
+  "episode_num": 78,
+  "title": "She Almost Lost Her Nose: An Ethinic Rhinoplasty Gone Wrong",
+  "model": "claude-haiku-4-5-20251001"
+}
