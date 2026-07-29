@@ -70,10 +70,18 @@ class Config:
     # Pinecone settings (for cloud vector storage)
     pinecone_api_key: str = field(default_factory=lambda: get_secret("PINECONE_API_KEY"))
     pinecone_index_name: str = field(default=None)
-    # When set, episodes are indexed into this namespace of an
-    # integrated-inference index (upsert_records) instead of a dedicated
-    # per-podcast index with OpenAI embeddings.
+    # Optional namespace to partition a shared index. Two flavors:
+    #   - integrated index (PINECONE_INTEGRATED_EMBEDDING=true): Pinecone
+    #     embeds server-side via upsert_records; no OpenAI, no entity layer.
+    #   - dense index (default): normal OpenAI-embedding path, entity layer
+    #     included, vectors just land in this namespace instead of "".
+    # The serverless-index cap (10 per project) makes namespaces the only
+    # way to add podcasts once the project is full.
     pinecone_namespace: str = field(default_factory=lambda: get_secret("PINECONE_NAMESPACE"))
+    pinecone_integrated_embedding: bool = field(
+        default_factory=lambda: get_secret("PINECONE_INTEGRATED_EMBEDDING", "").lower()
+        in ("1", "true", "yes")
+    )
     pinecone_region: str = "us-east-1"
 
     # Whisper settings

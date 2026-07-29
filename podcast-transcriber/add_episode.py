@@ -71,6 +71,8 @@ def main():
 
     print(f"Transcripts directory: {config.transcripts_dir}")
     print(f"Pinecone index: {config.pinecone_index_name}")
+    if config.pinecone_namespace:
+        print(f"Pinecone namespace: {config.pinecone_namespace}")
     print(f"Episode to add: {args.episode_num}")
     print()
 
@@ -147,8 +149,11 @@ def main():
 
     # Convert embeddings to list format
     embeddings_list = embeddings.tolist() if hasattr(embeddings, 'tolist') else list(embeddings)
-    total_upserted = pinecone_indexer.upsert_chunks(chunks, embeddings_list)
-    print(f"  Uploaded {total_upserted} vectors")
+    total_upserted = pinecone_indexer.upsert_chunks(
+        chunks, embeddings_list, namespace=config.pinecone_namespace
+    )
+    print(f"  Uploaded {total_upserted} vectors"
+          f"{f' to namespace {config.pinecone_namespace}' if config.pinecone_namespace else ''}")
     print()
 
     # Get stats

@@ -330,7 +330,7 @@ def get_output_filename(episode: dict, episode_num: int) -> str:
 
 def index_new_episode(episode_num: int, config=None) -> bool:
     """Incrementally index a single episode into Pinecone (no full rebuild)."""
-    if config is not None and config.pinecone_namespace:
+    if config is not None and config.pinecone_namespace and config.pinecone_integrated_embedding:
         # Integrated-inference index + namespace: no OpenAI embeddings and
         # no entity-extraction layer on this path.
         script = SCRIPT_DIR / "index_namespace_episodes.py"

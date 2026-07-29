@@ -62,11 +62,17 @@ jobs:
             name: 'Beauty and the Biz'
             description: 'A podcast for plastic surgeons, medspa owners, and aesthetic practice leaders on growing, marketing, and managing profitable cosmetic practices, hosted by Catherine Maley'
             index: 'beauty-and-the-biz'
+          # Shares the (dense, OpenAI-embedding) beauty-and-the-biz index under
+          # its own namespace: the Pinecone project is at the 10 serverless
+          # index cap, so a dedicated 'the-face-podcast' index cannot be
+          # created. Namespace isolation gives the same query separation —
+          # Beauty and the Biz lives in the default namespace and is unaffected.
           - slug: the-face-podcast
             rss: 'https://www.omnycontent.com/d/playlist/d3d56d8d-11c9-411a-aade-af8f001be4a7/141907a0-cc93-41f1-bade-b0a401876f09/011cf5bd-2c72-48e1-861f-b0a40188bd32/podcast.rss'
             name: 'The Face Podcast with Alex Pike'
             description: 'A podcast featuring interviews with the world''s leading plastic surgeons on facelifts, rhinoplasty, breast and body contouring, non-invasive treatments and skincare, hosted by Alex Pike'
-            index: 'the-face-podcast'
+            index: 'beauty-and-the-biz'
+            namespace: 'the-face-podcast'
           - slug: ratchet-wrench-radio
             rss: 'https://feed.podbean.com/ratchetandwrenchradio/feed.xml'
             name: 'Ratchet+Wrench Radio'
@@ -83,6 +89,7 @@ jobs:
             description: 'A telecom industry podcast covering broadband, 5G, fiber, cable, cloud and network infrastructure news and analysis from Light Reading'
             index: 'telecom-podcasts'
             namespace: 'telecom'
+            integrated: 'true'
             since: '2025-01-18'
             skip_title: '^The Divide'
           - slug: tower-talks
@@ -91,6 +98,7 @@ jobs:
             description: 'A podcast on wireless infrastructure, cell towers, fiber, data centers and the digital infrastructure ecosystem from Inside Towers'
             index: 'telecom-podcasts'
             namespace: 'telecom'
+            integrated: 'true'
             since: '2025-07-18'
 
     env:
@@ -168,6 +176,9 @@ jobs:
           PODCAST_DESCRIPTION: ${{ matrix.description || secrets.PODCAST_DESCRIPTION }}
           PINECONE_INDEX_NAME: ${{ matrix.index || secrets.PINECONE_INDEX_NAME }}
           PINECONE_NAMESPACE: ${{ matrix.namespace }}
+          # true = Pinecone embeds server-side (telecom index); unset = dense
+          # index via OpenAI embeddings, which also carries the entity layer
+          PINECONE_INTEGRATED_EMBEDDING: ${{ matrix.integrated }}
           TRANSCRIPTS_DIR: transcripts/${{ matrix.slug }}
           # Per-podcast episode filters (permanent for namespace podcasts)
           FILTER_SINCE: ${{ matrix.since }}
