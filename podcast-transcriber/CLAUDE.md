@@ -26,6 +26,7 @@ User Question → OpenAI Embed → Pinecone Search → Top K Chunks → Claude �
 | `rag/embedder.py` | OpenAI embedding generation |
 | `rag/pinecone_indexer.py` | Pinecone vector operations |
 | `rag/retriever.py` | Search logic |
+| `rag/entity_vocab.py` | Entity vocabulary + variant expansion for filters |
 | `rag/generator.py` | Claude answer generation |
 
 ## Configuration
@@ -74,3 +75,29 @@ streamlit run streamlit_app.py
 - Top K: 10 (configurable in UI)
 - Similarity threshold: 0.1
 - MMR lambda: 0.7 (balance relevance vs diversity)
+
+## Entity Filters
+
+Every chunk carries `people`, `companies`, `products`, and `topics` metadata
+(see `rag/entity_extractor.py`). `Retriever.search()` and
+`PineconeRetriever.search()` accept them as filters, plus `any_entity` to match
+one value across all four:
+
+```python
+retriever.search(q, topics="patient acquisition", companies=["RealSelf"])
+retriever.search(q, any_entity="Instagram")
+```
+
+Separate arguments are AND'd; multiple values in one argument are OR'd.
+
+Extraction runs per episode with no shared vocabulary, so the same entity has
+several surface forms ("ChatGPT" / "Chat GPT"). Filter values are therefore
+expanded through `EntityVocabulary`, built from the committed
+`entities/<slug>/*.json` caches, so case and punctuation don't matter. The
+vocabulary is keyed on the **transcripts directory name**, not the slugified
+podcast name.
+
+Expansion only merges forms that are identical once case and punctuation are
+stripped. It does NOT collapse transcription variants of one name
+("Catherine Maley" / "Katherine Maley") — that needs a reviewed alias map,
+since fuzzy matching would also merge distinct entities.

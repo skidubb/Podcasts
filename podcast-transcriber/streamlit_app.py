@@ -21,7 +21,8 @@ from rag.config import Config
 from rag.embedder import Embedder
 from rag.pinecone_indexer import PineconeIndexer
 from rag.chunker import Chunk
-from rag.retriever import RetrievalResult
+from rag.entity_vocab import ENTITY_FIELDS
+from rag.retriever import RetrievalResult, PineconeRetriever
 from rag.generator import Generator
 
 
@@ -49,62 +50,27 @@ def get_generator(_config):
     return Generator(_config)
 
 
-def search_pinecone(
-    query: str,
-    embedder: Embedder,
-    indexer: PineconeIndexer,
-    top_k: int = 10,
-    guest_filter: str = None,
-    episode_filter: int = None,
-    entity_filter: str = None,
-) -> list[RetrievalResult]:
-    """Search Pinecone and return results as RetrievalResult objects."""
-    # Generate query embedding
-    query_embedding = embedder.embed_query(query)
+@st.cache_resource
+def get_retriever(_config, _embedder, _indexer):
+    """Initialize the Pinecone retriever (cached).
 
-    # Build filter
-    filter_dict = None
-    if guest_filter or episode_filter or entity_filter:
-        filter_dict = {}
-        if guest_filter:
-            filter_dict["guest"] = {"$eq": guest_filter}
-        if episode_filter:
-            filter_dict["episode_num"] = {"$eq": episode_filter}
-        if entity_filter:
-            # Equality on a list field matches any element; topics are stored lowercase
-            filter_dict["$or"] = [
-                {"people": {"$eq": entity_filter}},
-                {"companies": {"$eq": entity_filter}},
-                {"products": {"$eq": entity_filter}},
-                {"topics": {"$eq": entity_filter.lower()}},
-            ]
-
-    # Search Pinecone
-    matches = indexer.search(
-        query_embedding=query_embedding,
-        top_k=top_k,
-        filter_dict=filter_dict,
-    )
-
-    # Convert to RetrievalResult
-    results = []
-    for i, match in enumerate(matches):
-        chunk = indexer.chunk_from_match(match)
-        result = RetrievalResult(
-            chunk=chunk,
-            score=match.score,
-            rank=i + 1,
-        )
-        results.append(result)
-
-    return results
+    Going through PineconeRetriever rather than querying the index
+    directly keeps the app on the same filter logic as the CLI: entity
+    values expand to their known surface variants, and the query is
+    scoped to PINECONE_NAMESPACE (podcasts that share an index return
+    nothing without it).
+    """
+    return PineconeRetriever(_config, _embedder, _indexer)
 
 
-def get_unique_guests(indexer: PineconeIndexer) -> list[str]:
-    """Get list of unique guests from the index metadata."""
-    # Note: For a production app, you'd want to store this separately
-    # For now, we'll hardcode known guests or skip this feature
-    return []
+@st.cache_data(show_spinner=False)
+def get_entity_options(_retriever, podcast_name: str) -> dict:
+    """Filterable entity values, most-mentioned first.
+
+    Keyed on podcast_name so switching podcasts busts the cache.
+    """
+    filters = _retriever.get_available_filters()
+    return {field: filters.get(field, []) for field in ENTITY_FIELDS}
 
 
 def main():
@@ -131,6 +97,7 @@ def main():
     try:
         embedder = get_embedder(config)
         indexer = get_pinecone_indexer(config)
+        retriever = get_retriever(config, embedder, indexer)
         generator = get_generator(config)
     except Exception as e:
         st.error(f"Failed to initialize: {str(e)}")
@@ -165,10 +132,33 @@ def main():
             help="Enter 0 for no filter",
         )
 
+        entity_options = get_entity_options(retriever, podcast_name)
+        entity_selections = {}
+
+        if any(entity_options.values()):
+            st.caption("Entity filters — combined with AND across boxes")
+            labels = {
+                "topics": ("Topics", "🏷️"),
+                "companies": ("Companies", "🏢"),
+                "products": ("Products & tools", "🛠️"),
+                "people": ("People", "👤"),
+            }
+            for field in ("topics", "companies", "products", "people"):
+                options = entity_options.get(field, [])
+                if not options:
+                    continue
+                label, icon = labels[field]
+                entity_selections[field] = st.multiselect(
+                    f"{icon} {label}",
+                    options=options,
+                    help=f"Ranked by how often each appears. Selecting several matches any of them.",
+                )
+
         entity_filter = st.text_input(
-            "Filter by entity",
+            "Filter by entity (free text)",
             placeholder="e.g., HubSpot, pricing, Jane Doe",
-            help="Match a person, company, product/tool, or topic extracted from episodes",
+            help="Match any person, company, product/tool, or topic. "
+                 "Case and punctuation are ignored.",
         )
 
         st.divider()
@@ -226,21 +216,29 @@ def main():
 
         with st.spinner("Searching transcripts..."):
             try:
-                results = search_pinecone(
+                results = retriever.search(
                     query=query,
-                    embedder=embedder,
-                    indexer=indexer,
                     top_k=top_k,
-                    guest_filter=guest,
-                    episode_filter=episode,
-                    entity_filter=entity,
+                    guest=guest,
+                    episode_num=episode,
+                    any_entity=entity,
+                    **{
+                        field: values
+                        for field, values in entity_selections.items()
+                        if values
+                    },
                 )
             except Exception as e:
                 st.error(f"Search failed: {str(e)}")
                 return
 
         if not results:
+            active = [f"{f}={v}" for f, v in entity_selections.items() if v]
+            if entity:
+                active.append(f"entity={entity}")
             st.warning("No relevant excerpts found. Try a different query or remove filters.")
+            if active:
+                st.caption("Active entity filters: " + ", ".join(active))
             return
 
         # Display sources in expander first

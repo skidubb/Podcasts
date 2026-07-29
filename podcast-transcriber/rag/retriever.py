@@ -2,7 +2,7 @@
 
 from dataclasses import dataclass
 from datetime import datetime
-from typing import Optional, TYPE_CHECKING
+from typing import Optional, Sequence, Union, TYPE_CHECKING
 
 import numpy as np
 
@@ -10,9 +10,22 @@ from .config import Config
 from .chunker import Chunk
 from .embedder import Embedder
 from .indexer import FAISSIndexer
+from .entity_vocab import ENTITY_FIELDS, EntityVocabulary, normalize
 
 if TYPE_CHECKING:
     from .pinecone_indexer import PineconeIndexer
+
+# An entity filter accepts one value or several; several are OR'd together.
+EntityFilter = Optional[Union[str, Sequence[str]]]
+
+
+def _as_list(value: EntityFilter) -> list[str]:
+    """Coerce a str-or-sequence filter argument to a clean list of strings."""
+    if not value:
+        return []
+    if isinstance(value, str):
+        value = [value]
+    return [item.strip() for item in value if item and item.strip()]
 
 
 @dataclass
@@ -59,6 +72,12 @@ class Retriever:
         guest: Optional[str] = None,
         date_from: Optional[str] = None,  # ISO format
         date_to: Optional[str] = None,
+        # Entity filters
+        people: EntityFilter = None,
+        companies: EntityFilter = None,
+        products: EntityFilter = None,
+        topics: EntityFilter = None,
+        any_entity: EntityFilter = None,
         # Diversity
         use_mmr: bool = True,
         mmr_lambda: Optional[float] = None,
@@ -75,8 +94,16 @@ class Retriever:
             guest: Filter by guest name (partial match)
             date_from: Filter by start date (ISO format)
             date_to: Filter by end date (ISO format)
+            people: Restrict to chunks mentioning any of these people
+            companies: Restrict to chunks mentioning any of these companies
+            products: Restrict to chunks mentioning any of these products/tools
+            topics: Restrict to chunks tagged with any of these topics
+            any_entity: Match a value against any entity field
             use_mmr: Whether to apply MMR for diversity
             mmr_lambda: MMR lambda (0=max diversity, 1=max relevance)
+
+        Entity matching ignores case and punctuation, mirroring the
+        variant-tolerant behaviour of the Pinecone path.
         """
         top_k = top_k or self.config.top_k
         min_score = min_score or self.config.similarity_threshold
@@ -97,6 +124,11 @@ class Retriever:
             guest=guest,
             date_from=date_from,
             date_to=date_to,
+            people=people,
+            companies=companies,
+            products=products,
+            topics=topics,
+            any_entity=any_entity,
             min_score=min_score,
         )
 
@@ -127,10 +159,27 @@ class Retriever:
         guest: Optional[str] = None,
         date_from: Optional[str] = None,
         date_to: Optional[str] = None,
+        people: EntityFilter = None,
+        companies: EntityFilter = None,
+        products: EntityFilter = None,
+        topics: EntityFilter = None,
+        any_entity: EntityFilter = None,
         min_score: float = 0.0,
     ) -> list[tuple[Chunk, float]]:
         """Apply metadata filters to results."""
         filtered = []
+
+        # Pre-normalize once rather than per candidate chunk.
+        entity_wanted = {
+            field: {normalize(v) for v in _as_list(selected)}
+            for field, selected in (
+                ("people", people),
+                ("companies", companies),
+                ("products", products),
+                ("topics", topics),
+            )
+        }
+        any_wanted = {normalize(v) for v in _as_list(any_entity)}
 
         for chunk, score in results:
             # Score threshold
@@ -157,6 +206,22 @@ class Retriever:
                     continue
                 if date_to and chunk_date > date_to:
                     continue
+
+            # Entity filters: each field AND'd, values within a field OR'd.
+            chunk_entities = {
+                field: {normalize(v) for v in (getattr(chunk, field, None) or [])}
+                for field in ENTITY_FIELDS
+            }
+            if any(
+                wanted and not (wanted & chunk_entities[field])
+                for field, wanted in entity_wanted.items()
+            ):
+                continue
+
+            if any_wanted and not any(
+                any_wanted & values for values in chunk_entities.values()
+            ):
+                continue
 
             filtered.append((chunk, score))
 
@@ -228,6 +293,10 @@ class Retriever:
         guests = set()
         episodes = set()
         dates = []
+        # normalized key -> (chunk count, most common surface form)
+        entities: dict[str, dict[str, tuple[int, str]]] = {
+            field: {} for field in ENTITY_FIELDS
+        }
 
         for chunk in self.indexer.chunks:
             podcasts.add(chunk.podcast_name)
@@ -237,6 +306,11 @@ class Retriever:
                 episodes.add(chunk.episode_num)
             if chunk.date:
                 dates.append(chunk.date[:10])
+            for field in ENTITY_FIELDS:
+                for value in getattr(chunk, field, None) or []:
+                    key = normalize(value)
+                    count, best = entities[field].get(key, (0, value))
+                    entities[field][key] = (count + 1, best)
 
         return {
             'podcasts': sorted(podcasts),
@@ -245,6 +319,16 @@ class Retriever:
             'date_range': {
                 'min': min(dates) if dates else None,
                 'max': max(dates) if dates else None,
+            },
+            **{
+                field: [
+                    value
+                    for _, value in sorted(
+                        entities[field].values(),
+                        key=lambda pair: (-pair[0], pair[1].lower()),
+                    )
+                ]
+                for field in ENTITY_FIELDS
             },
         }
 
@@ -261,6 +345,18 @@ class PineconeRetriever:
         self.config = config
         self.embedder = embedder
         self.indexer = indexer
+        self._vocab: Optional[EntityVocabulary] = None
+
+    @property
+    def vocab(self) -> EntityVocabulary:
+        """Entity vocabulary from the committed caches (loaded on first use)."""
+        if self._vocab is None:
+            self._vocab = EntityVocabulary.for_config(self.config)
+        return self._vocab
+
+    def _expand(self, field: str, selected: EntityFilter) -> list[str]:
+        """Widen selected values to every stored surface variant."""
+        return self.vocab.expand_all(field, _as_list(selected))
 
     def search(
         self,
@@ -273,6 +369,12 @@ class PineconeRetriever:
         guest: Optional[str] = None,
         date_from: Optional[str] = None,
         date_to: Optional[str] = None,
+        # Entity filters
+        people: EntityFilter = None,
+        companies: EntityFilter = None,
+        products: EntityFilter = None,
+        topics: EntityFilter = None,
+        any_entity: EntityFilter = None,
         # Diversity (not implemented for Pinecone yet)
         use_mmr: bool = False,
         mmr_lambda: Optional[float] = None,
@@ -289,8 +391,17 @@ class PineconeRetriever:
             guest: Filter by guest name (exact match in Pinecone)
             date_from: Filter by start date (ISO format)
             date_to: Filter by end date (ISO format)
+            people: Restrict to chunks mentioning any of these people
+            companies: Restrict to chunks mentioning any of these companies
+            products: Restrict to chunks mentioning any of these products/tools
+            topics: Restrict to chunks tagged with any of these topics
+            any_entity: Match a value against any entity field
             use_mmr: Not implemented for Pinecone
             mmr_lambda: Not implemented for Pinecone
+
+        Entity values are matched against every known surface variant, so
+        "Chat GPT" and "ChatGPT" behave identically. Separate entity
+        arguments are AND'd; multiple values within one argument are OR'd.
         """
         top_k = top_k or self.config.top_k
         min_score = min_score or self.config.similarity_threshold
@@ -305,6 +416,11 @@ class PineconeRetriever:
             guest=guest,
             date_from=date_from,
             date_to=date_to,
+            people=people,
+            companies=companies,
+            products=products,
+            topics=topics,
+            any_entity=any_entity,
         )
 
         # Search Pinecone. Podcasts that share an index (see
@@ -343,6 +459,11 @@ class PineconeRetriever:
         guest: Optional[str] = None,
         date_from: Optional[str] = None,
         date_to: Optional[str] = None,
+        people: EntityFilter = None,
+        companies: EntityFilter = None,
+        products: EntityFilter = None,
+        topics: EntityFilter = None,
+        any_entity: EntityFilter = None,
     ) -> Optional[dict]:
         """Build Pinecone filter dictionary."""
         conditions = []
@@ -356,6 +477,31 @@ class PineconeRetriever:
         if guest:
             # Pinecone doesn't support partial match, use exact match
             conditions.append({"guest": {"$eq": guest}})
+
+        # Entity fields hold lists; $in matches when any element overlaps.
+        # Values are expanded through the vocabulary first so a filter on
+        # "ChatGPT" also catches chunks tagged "Chat GPT".
+        for field, selected in (
+            ("people", people),
+            ("companies", companies),
+            ("products", products),
+            ("topics", topics),
+        ):
+            values = self._expand(field, selected)
+            if values:
+                conditions.append({field: {"$in": values}})
+
+        # Cross-field match: one value, any entity field.
+        if any_entity:
+            alternatives = [
+                {field: {"$in": values}}
+                for field in ENTITY_FIELDS
+                if (values := self._expand(field, any_entity))
+            ]
+            if len(alternatives) == 1:
+                conditions.append(alternatives[0])
+            elif alternatives:
+                conditions.append({"$or": alternatives})
 
         if date_from:
             conditions.append({"date": {"$gte": date_from}})
@@ -371,13 +517,15 @@ class PineconeRetriever:
 
         return {"$and": conditions}
 
-    def get_available_filters(self) -> dict:
+    def get_available_filters(self, entity_limit: Optional[int] = 250) -> dict:
         """
         Get available filter values.
 
-        Note: With Pinecone, we don't have local access to all chunks,
-        so this returns empty/minimal values. The Insights tab should
-        be disabled when using Pinecone.
+        Pinecone gives no way to enumerate metadata values, but the entity
+        caches under `entities/<slug>/` are the same source the index was
+        written from, so the entity vocabulary is exact rather than
+        sampled. Podcast/guest/episode lists stay empty — those live only
+        in the index.
         """
         return {
             'podcasts': [],
@@ -386,5 +534,9 @@ class PineconeRetriever:
             'date_range': {
                 'min': None,
                 'max': None,
+            },
+            **{
+                field: self.vocab.values(field, limit=entity_limit)
+                for field in ENTITY_FIELDS
             },
         }
