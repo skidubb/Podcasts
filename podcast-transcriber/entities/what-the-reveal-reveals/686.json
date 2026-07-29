@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "R. Brannon Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "Ideal Implants",
+    "Silicone Implants",
+    "Saline Implants"
+  ],
+  "topics": [
+    "breast implants",
+    "ideal implants",
+    "saline vs silicone",
+    "implant removal",
+    "patient experience",
+    "cosmetic surgery",
+    "breast surgery",
+    "implant feel",
+    "surgical outcomes",
+    "recovery"
+  ],
+  "episode_num": 686,
+  "title": "From Silicon to Saline: 36-Year-Old Shares Her Experience with Ideal Implants",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,26 @@
+{
+  "guest": null,
+  "people": [
+    "R. Brann",
+    "Doreen Chaffee",
+    "Jenny"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "breast implant removal",
+    "breast lift surgery",
+    "local anesthesia",
+    "surgical results",
+    "scar management",
+    "patient testimonial",
+    "cosmetic surgery",
+    "implant downsizing",
+    "surgical recovery"
+  ],
+  "episode_num": 685,
+  "title": "71-Year-Old Implant Removal and Breast Lift Patient \"Looks and Feels Great\" After Surgery",
+  "model": "claude-haiku-4-5-20251001"
+}

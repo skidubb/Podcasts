@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "Emily"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "drainless surgery",
+    "post-operative results",
+    "patient testimonial",
+    "body confidence",
+    "plastic surgery",
+    "surgical recovery",
+    "patient satisfaction",
+    "cosmetic procedure",
+    "body image",
+    "intimacy",
+    "self-esteem"
+  ],
+  "episode_num": 609,
+  "title": "36-Year-Old Female Patient is 14 Months Post Op from Drainless Tummy Tuck",
+  "model": "claude-haiku-4-5-20251001"
+}

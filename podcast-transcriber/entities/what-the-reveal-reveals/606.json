@@ -1,0 +1,26 @@
+{
+  "guest": null,
+  "people": [
+    "Kleder"
+  ],
+  "companies": [
+    "AAAA Surgical Facility",
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "facelift surgery",
+    "neck lift",
+    "deep plane facelift",
+    "post-op recovery",
+    "tumescent local anesthesia",
+    "cosmetic surgery",
+    "surgical outcomes",
+    "patient testimonial",
+    "age 70",
+    "same-day discharge"
+  ],
+  "episode_num": 606,
+  "title": "Deep Face and Neck Lift at 70: Just ONE Day Later! | Post-Op Recovery Update",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "breast asymmetry",
+    "breast implants",
+    "breast lift",
+    "plastic surgery",
+    "symmetry surgery",
+    "patient journey",
+    "surgical outcomes",
+    "natural results",
+    "body confidence",
+    "post-operative recovery"
+  ],
+  "episode_num": 675,
+  "title": "This 30-Year-Old Patient Shares Her Journey to Achieve Symmetrical Breasts",
+  "model": "claude-haiku-4-5-20251001"
+}

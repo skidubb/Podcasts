@@ -1,0 +1,21 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "arm lift",
+    "brachioplasty",
+    "plastic surgery",
+    "local anesthesia",
+    "tumescent anesthesia",
+    "surgical recovery",
+    "patient experience",
+    "cosmetic procedure",
+    "surgical scars",
+    "patient testimonial"
+  ],
+  "episode_num": 648,
+  "title": "38-Year-Old Arm Lift Patient, \"It Was Fantastic!\"",
+  "model": "claude-haiku-4-5-20251001"
+}

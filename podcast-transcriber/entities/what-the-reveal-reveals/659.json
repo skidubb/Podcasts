@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Julie"
+  ],
+  "companies": [],
+  "products": [
+    "Google",
+    "Facebook",
+    "Buzzsprout"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "hernia repair",
+    "rectus diastasis",
+    "umbilical hernia",
+    "plastic surgery",
+    "belly button reconstruction",
+    "postpartum body",
+    "muscle separation",
+    "surgical recovery"
+  ],
+  "episode_num": 659,
+  "title": "Tummy Tuck and Hernia Repair Changed This 36-Year-Old Mother's Life",
+  "model": "claude-haiku-4-5-20251001"
+}

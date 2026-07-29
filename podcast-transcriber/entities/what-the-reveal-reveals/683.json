@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "host"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "Lovenox"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "back pain relief",
+    "cosmetic surgery recovery",
+    "post-operative experience",
+    "surgical drains",
+    "patient testimonial",
+    "motherhood and surgery",
+    "body confidence",
+    "recovery timeline"
+  ],
+  "episode_num": 683,
+  "title": "42-Year-Old Mother \"Cannot Believe She Waited So Long\" To Get Tummy Tuck",
+  "model": "claude-haiku-4-5-20251001"
+}

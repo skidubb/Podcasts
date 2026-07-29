@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [
+    "Kleser"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "rhinoplasty",
+    "septoplasty",
+    "deviated septum",
+    "nose surgery",
+    "ethnic rhinoplasty",
+    "post-op recovery",
+    "surgical results",
+    "patient experience",
+    "cosmetic surgery",
+    "nose tip reduction"
+  ],
+  "episode_num": 655,
+  "title": "27-Year-Old is 6 Months Post Op from Rhinoplasty, \"It Went Very Well\"",
+  "model": "claude-haiku-4-5-20251001"
+}

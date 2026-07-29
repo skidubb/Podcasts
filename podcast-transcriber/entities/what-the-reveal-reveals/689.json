@@ -1,0 +1,29 @@
+{
+  "guest": null,
+  "people": [
+    "R. Brannon Claytor"
+  ],
+  "companies": [
+    "Ideal Implant"
+  ],
+  "products": [
+    "Ideal Implant",
+    "saline implants",
+    "silicone implants"
+  ],
+  "topics": [
+    "breast augmentation",
+    "implant types",
+    "patient safety",
+    "surgical outcomes",
+    "implant rippling",
+    "saline vs silicone",
+    "autoimmune concerns",
+    "patient journey",
+    "cosmetic surgery",
+    "implant sizing"
+  ],
+  "episode_num": 689,
+  "title": "41-Year-Old Breast Augmentation Patient Shares Her Implant Journey",
+  "model": "claude-haiku-4-5-20251001"
+}

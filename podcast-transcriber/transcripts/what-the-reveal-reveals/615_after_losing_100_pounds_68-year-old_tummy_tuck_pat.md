@@ -1,0 +1,21 @@
+# After Losing 100 Pounds, 68-Year-Old Tummy Tuck Patient is "Doing Amazing, Feel Amazing, and Look Amazing!"
+
+**Podcast:** Plastic Surgery: What the reveal reveals.
+**Episode:** 615
+**Date:** Jul 15, 2025
+**Duration:** 3 min
+**GUID:** Buzzsprout-17509641
+**MP3:** [After Losing 100 Pounds, 68-Year-Old Tummy Tuck Patient is "Doing Amazing, Feel Amazing, and Look Amazing!"](https://www.buzzsprout.com/2246935/episodes/17509641-after-losing-100-pounds-68-year-old-tummy-tuck-patient-is-doing-amazing-feel-amazing-and-look-amazing.mp3)
+
+---
+
+## Description
+
+This 68-year-old patient lost 100 pounds from gastric bypass before coming to Claytor Noone to get a Tummy Tuck. "At 7 months out, I am doing amazing, feel amazing, and look amazing!" "I'm super comfortable, super confident, and this experience has been amazing." Patient was worried about the pain and recovery, but says it went smoothly and she was moving freely after a few days. She says that being drainless was "absolutely, positively amazing!"  She was nervous about getting surgery at...
+
+---
+
+## Transcript
+
+Our lovely patient who's 68 years old is seven months out from her abdominoplasty and she had previously lost a Hundred pounds from gastric bypass and has kept the weight off and she comes in today She's very kindly agreed to share some of her thoughts and feelings about how she's doing so far At seven months out. I am doing amazing feel amazing and I actually think I look pretty amazing I am super comfortable super confident and this is experience has just been amazing to my life Wow, wow Unbelievable share with everybody. What was an apprehension? I know it's seven months things we start to forget things that were concerning us But what was the one thing that was concerning you the most moving into the operation? I just think surgery because I'm not really a Medicine kind of person but I also was a little bit afraid of the pain in the recovery But it actually went so smoothly after two or three days I was up and about and going and doing you know, and what was it like not having any drains? Oh My gosh, that was just amazing because you can move around and go and do and there's no concerns at all. Yeah Do you feel that this positively or negatively impacted your results? Absolutely Negatively amazing Just just getting up and going from surgery after two or three days and just moving around and doing whatever you'd like without having to Worry about the drains and coming back to the doctor or having them checked or infection or anything like that It was just great and I have a very comprehensive prophylaxis program to avoid blood clots What was that experience like for you? It was super simple just having you know doing your shots and having the compressions on your legs It was not a big deal at all. And it was very comfortable. And yeah, you didn't even think about it You didn't even know. I love it. I love it I don't think anyone would know how old you are if they met you in person because you're so vibrant and you look fantastic But share with us share with all of our listeners What is your belief or opinion about surgery at 68 On your tummy and then share with everybody What you thought other people would think about it Going into surgery at 68 years old you are nervous because there's always risks of all kinds of problems happening I was a little bit nervous I am a single mom And so I didn't really have somebody with me although my daughter came and supported me 24 7 but But once I had the surgery I was awesome and Anybody who's thinking about doing this should do it I mean, I'm just up and about and exercising and going and living my life. It's fabulous. You're fantastic Well I'm happy that things turned out so well for you And I'm so happy that you're loving your results and thank you for sharing your story. I Love this team. I love dr Claytor Emily is the absolute best and always makes me feel so comfortable and so confident when she's taking my pictures and this office has just been so supportive and just Wonderful, I would recommend this practice to every single person who is interested in some kind of surgery You're so wonderful. Well, thanks so much my pleasure Isn't that fun?
+

@@ -1,0 +1,26 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor Noone",
+    "Emily"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "gastric bypass",
+    "weight loss surgery",
+    "plastic surgery",
+    "drainless surgery",
+    "recovery",
+    "patient results",
+    "surgical pain management",
+    "age and surgery",
+    "blood clot prevention",
+    "patient testimonial"
+  ],
+  "episode_num": 615,
+  "title": "After Losing 100 Pounds, 68-Year-Old Tummy Tuck Patient is \"Doing Amazing, Feel Amazing, and Look Amazing!\"",
+  "model": "claude-haiku-4-5-20251001"
+}

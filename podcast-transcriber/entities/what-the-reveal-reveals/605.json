@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [
+    "AAAA Surgical Facility"
+  ],
+  "products": [
+    "Zoom",
+    "Teams"
+  ],
+  "topics": [
+    "neck lift surgery",
+    "deep neck lift",
+    "tumescent local anesthesia",
+    "post-op recovery",
+    "plastic surgery for men",
+    "cosmetic surgery results",
+    "minimally invasive procedures",
+    "patient testimonial",
+    "surgical outcomes",
+    "in-office procedures"
+  ],
+  "episode_num": 605,
+  "title": "59-Year-Old Male’s Deep Neck Lift: 1-Month Post-Op Recovery & Results",
+  "model": "claude-haiku-4-5-20251001"
+}

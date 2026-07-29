@@ -1,0 +1,29 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Julie"
+  ],
+  "companies": [],
+  "products": [
+    "Lovenox"
+  ],
+  "topics": [
+    "belt lipectomy",
+    "tummy tuck",
+    "drainless surgery",
+    "360-degree surgery",
+    "hernia repair",
+    "post-op recovery",
+    "self-confidence",
+    "body contouring",
+    "vte prophylaxis",
+    "compression therapy",
+    "liposuction",
+    "surgical results",
+    "patient testimonial"
+  ],
+  "episode_num": 616,
+  "title": "Drainless Tummy Tuck: 54-Year-Old 7-Days Post Op \"Absolutely Recommends for Self-Confidence\"",
+  "model": "claude-haiku-4-5-20251001"
+}

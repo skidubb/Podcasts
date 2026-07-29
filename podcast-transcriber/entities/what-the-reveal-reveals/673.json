@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "Host"
+  ],
+  "companies": [],
+  "products": [
+    "TouchMD",
+    "Lovenox"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "hernia repair",
+    "body contouring",
+    "post-operative recovery",
+    "core strength",
+    "diastasis recti",
+    "cosmetic surgery",
+    "functional improvement",
+    "patient testimonials",
+    "surgeon selection",
+    "drainless surgery"
+  ],
+  "episode_num": 673,
+  "title": "\"We Had Very Similar Issues\": These Best Friends Got Tummy Tucks Together",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [
+    "R"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "facelift surgery",
+    "neck lift",
+    "tumescent local anesthesia",
+    "deep plane facelift",
+    "cosmetic surgery recovery",
+    "patient satisfaction",
+    "surgical results",
+    "aging gracefully",
+    "post-operative care",
+    "plastic surgery consultation"
+  ],
+  "episode_num": 694,
+  "title": "63-Year-Old Facelift Patient Feels Rejuvenated 6 Months After Surgery",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,34 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Sarah",
+    "Corinne",
+    "Debbie",
+    "Julie",
+    "Danny",
+    "Olivia",
+    "Emily",
+    "Deb"
+  ],
+  "companies": [],
+  "products": [
+    "Marina body garment",
+    "Elastin"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "drainless surgery",
+    "recovery",
+    "post-op care",
+    "scar management",
+    "plastic surgery",
+    "patient testimonial",
+    "surgical technique",
+    "deep vein thrombosis prevention"
+  ],
+  "episode_num": 632,
+  "title": "66-Year-Old Tummy Tuck Patient Feels \"Absolutely Wonderful\" Two Weeks Post Op",
+  "model": "claude-haiku-4-5-20251001"
+}

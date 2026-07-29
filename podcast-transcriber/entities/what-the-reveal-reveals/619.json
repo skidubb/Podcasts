@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "husband"
+  ],
+  "companies": [],
+  "products": [
+    "Lovenox",
+    "Faha"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "post-operative recovery",
+    "patient experience",
+    "cosmetic surgery",
+    "body confidence",
+    "surgical consultation",
+    "blood clot prophylaxis",
+    "drainless surgery",
+    "two weeks post-op"
+  ],
+  "episode_num": 619,
+  "title": "43-Year-Old Tummy Tuck Patient 2-Weeks Post Op Shares her Experience",
+  "model": "claude-haiku-4-5-20251001"
+}

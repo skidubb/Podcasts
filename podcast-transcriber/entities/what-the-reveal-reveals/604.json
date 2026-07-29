@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "facelift surgery",
+    "neck lift",
+    "deep plane facelift",
+    "post-op recovery",
+    "tumescent local anesthesia",
+    "patient testimonial",
+    "surgical facility",
+    "cosmetic surgery",
+    "patient apprehensions",
+    "recovery timeline",
+    "swallowing concerns",
+    "surgical results"
+  ],
+  "episode_num": 604,
+  "title": "70-Year-Old's Face and Neck Lift: 8-Day Post-Op Recovery Update & Insights",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "facelift",
+    "deep plane facelift",
+    "neck lift",
+    "plastic surgery",
+    "local anesthesia",
+    "tumescent anesthesia",
+    "post-operative recovery",
+    "patient satisfaction",
+    "facial rejuvenation",
+    "surgical results"
+  ],
+  "episode_num": 641,
+  "title": "75-Year-Old Patient is Very Happy with His Facelift",
+  "model": "claude-haiku-4-5-20251001"
+}

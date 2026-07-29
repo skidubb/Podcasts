@@ -1,0 +1,29 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "CO2 laser",
+    "microneedling",
+    "nanofat",
+    "scar cream"
+  ],
+  "topics": [
+    "eyelid surgery",
+    "blepharoplasty",
+    "upper eyelid",
+    "lower eyelid",
+    "canthopexy",
+    "local anesthesia",
+    "patient satisfaction",
+    "vision improvement",
+    "scar treatment",
+    "cosmetic surgery results",
+    "surgical aftercare"
+  ],
+  "episode_num": 630,
+  "title": "2 Months Later: 46-Year-Old Eyelid Surgery Patient, \"My Only Regret is Not Doing it Sooner!\"",
+  "model": "claude-haiku-4-5-20251001"
+}

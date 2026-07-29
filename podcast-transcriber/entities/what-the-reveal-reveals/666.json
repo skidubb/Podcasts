@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor Noon"
+  ],
+  "companies": [
+    "Claytor Noon",
+    "Bryn Mawr Hospital",
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "facelift",
+    "plastic surgery",
+    "neck lift",
+    "fat grafting",
+    "tumescent local anesthesia",
+    "cosmetic procedures",
+    "aging",
+    "patient results",
+    "surgical facility",
+    "face rejuvenation"
+  ],
+  "episode_num": 666,
+  "title": "70-Year-Old Patient Gives Her Facelift a 12/10!",
+  "model": "claude-haiku-4-5-20251001"
+}

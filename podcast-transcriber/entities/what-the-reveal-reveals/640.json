@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "Faha"
+  ],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "liposuction",
+    "plastic surgery",
+    "weight loss surgery",
+    "gastric sleeve",
+    "post-operative recovery",
+    "patient experience",
+    "cosmetic surgery",
+    "body contouring"
+  ],
+  "episode_num": 640,
+  "title": "67-Year-Old Patient Shares her Fabulous Tummy Tuck Experience",
+  "model": "claude-haiku-4-5-20251001"
+}

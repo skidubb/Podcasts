@@ -1,0 +1,26 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Emily"
+  ],
+  "companies": [],
+  "products": [
+    "Silicone implant"
+  ],
+  "topics": [
+    "breast augmentation",
+    "silicone implants",
+    "patient recovery",
+    "surgical results",
+    "post-operative swelling",
+    "implant placement",
+    "scar treatment",
+    "patient satisfaction",
+    "cosmetic surgery",
+    "surgical consultation"
+  ],
+  "episode_num": 649,
+  "title": "After 3 Weeks, 35-Year-Old Breast Augmentation Patient \"Got Exactly What She Wanted\"",
+  "model": "claude-haiku-4-5-20251001"
+}

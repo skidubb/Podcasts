@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Andre Arswald"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "deep-plane facelift",
+    "local anesthesia",
+    "tumescent anesthesia",
+    "plastic surgery",
+    "surgical recovery",
+    "or nursing",
+    "post-operative care",
+    "blood pressure management",
+    "surgical sutures",
+    "patient communication",
+    "bruising prevention",
+    "nausea management",
+    "facial rejuvenation"
+  ],
+  "episode_num": 628,
+  "title": "\"It's Mind Blowing!\": Sister of 69-Year-Old Deep-Plane Facelift Patient is an OR Nurse",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,21 @@
+# 67-Year-Old is Very Happy 4 Months Post Op From Deep Plane Facelift
+
+**Podcast:** Plastic Surgery: What the reveal reveals.
+**Episode:** 644
+**Date:** Jul 23, 2025
+**Duration:** 3 min
+**GUID:** Buzzsprout-17551257
+**MP3:** [67-Year-Old is Very Happy 4 Months Post Op From Deep Plane Facelift](https://www.buzzsprout.com/2246935/episodes/17551257-67-year-old-is-very-happy-4-months-post-op-from-deep-plane-facelift.mp3)
+
+---
+
+## Description
+
+This patient decided to undergo a deep plane facelift because she was not confident in her appearance.  "It's not as painful looking in the mirror. I'm very happy!" She would recommend this surgery to a friend, but advises them to take the time to prepare themselves beforehand. Thank you for tuning in to Plastic Surgery: What the reveal reveals! If you enjoyed this episode, please subscribe, rate, and leave a review wherever you listen to podcasts. For more information about Dr. R. Brann...
+
+---
+
+## Transcript
+
+Our lovely patient who's 67 years old is about four months out from her deep plane facelift as well as her eyelid surgery in our Quad ASF Surgical Facility. And she comes in today and she's very graciously agreed to share some of her thoughts and feelings about how she feels about her results at this point and her entire experience. Well, I can't say enough about the experience. Starting with you, Dr. Claytor, awesome. I've did a lot of research to get to this point. You were the obvious one for me and the staff is unbelievable. Every person I meet is better than the one before. So I can't say enough about them either. You're so kind. Yeah, well, it's the truth. It's the truth. These girls are all so kind. What was your inspiration for considering this operation? Oh, just to look in the mirror. You know, I saw the sags in the back, you know, in my neck and the double, triple neck and I wasn't happy with it. And I just, I knew it wasn't gonna get better unless I got somebody else to intervene. There you go. What other considerations did you contemplate before moving forward with your deep plane facelift? I have to be honest, nothing really serious. I felt like I was beyond something. I needed to get to the root of the problem. So yeah, I really didn't have a lot of other things that I considered. Many patients come in, share your similar sentiment about the positive change that it's made. The last patient that we asked about this, she said, everybody notices, but no one knows. Oh, yeah, yeah. Do you feel the same way? No one's actually said it, but I've gotten a second, you know, a couple looks, but nobody's actually said it. Of course, everyone in my family and my closest friends do know. I didn't keep that a secret from anybody that way, but just, you know, people that I used to work with and that I've had lunch with since, and they make me kind of look that, what's going on? But nobody has said it, so. Do you feel that it's had any impact on your daily experience? I do, I do. I, you know, looking, as I said, looking in the mirror, it's now I see the difference in, you know, what I've been through and, you know, it's not as painful to look in the mirror, I'd say. Yeah, so yeah, I'm very happy. Like I said, I know I'm still healing. I still have a couple things here that I want to get taken care of, but once we get through that, I'm going to be very happy with all of it. I love it, I love it. Many patients ask, is this something that you would recommend to a friend? I'm going to be honest again, I absolutely would, but I feel that maybe there was, I wasn't quite prepared for what I was in for. I really didn't think it would take, because I still have some numbness, and I just, I'm glad I did it, but I did not expect this. So I would give them, you know, some more guidance beforehand, and maybe I heard what I wanted to hear, you know, and. A little more preparation. Yeah, yeah. Well, that's good advice for us. No, definitely. That we tell patients. There were things that I didn't expect, like to eat, you know, I mean, I, you know, they said soft food, but I mean, I had problems with that. Like I didn't expect that to that degree, different things like that, but overall, I'm happy with the experience, certainly. You look fantastic. Thank you. Well, that's your handiwork. Thank you so very much.
+

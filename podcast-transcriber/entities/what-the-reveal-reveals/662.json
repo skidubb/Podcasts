@@ -1,0 +1,32 @@
+{
+  "guest": null,
+  "people": [
+    "Host"
+  ],
+  "companies": [],
+  "products": [
+    "Vitamin E Oil",
+    "Shea Butter",
+    "Scar Cream"
+  ],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "scar healing",
+    "scar revision",
+    "hernia repair",
+    "cosmetic surgery",
+    "post-operative care",
+    "home treatment",
+    "anesthesia",
+    "body confidence",
+    "fitzpatrick skin type",
+    "keloid scars",
+    "massage therapy",
+    "surgical outcomes",
+    "patient recovery"
+  ],
+  "episode_num": 662,
+  "title": "One Year Later: 54-Year-Old Tummy Tuck Patient Shares Her Scar Healing Secrets",
+  "model": "claude-haiku-4-5-20251001"
+}

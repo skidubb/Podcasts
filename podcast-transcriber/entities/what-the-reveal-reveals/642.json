@@ -1,0 +1,29 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Dr. Claytor"
+  ],
+  "companies": [
+    "Bryn Mawr Hospital",
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "breast augmentation",
+    "tummy tuck",
+    "abdominoplasty",
+    "umbilical hernia repair",
+    "postpartum body restoration",
+    "plastic surgery",
+    "cosmetic surgery",
+    "post-operative recovery",
+    "patient experience",
+    "surgical skill",
+    "women's health",
+    "body confidence"
+  ],
+  "episode_num": 642,
+  "title": "37-Year-Old is \"Extremely Amazed\" 11 Days Post Op From Breast Augmentation and Tummy Tuck",
+  "model": "claude-haiku-4-5-20251001"
+}

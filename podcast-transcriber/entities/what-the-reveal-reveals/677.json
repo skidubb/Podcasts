@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "R. Brannon Claytor",
+    "Charlotte"
+  ],
+  "companies": [
+    "Noon-Claytor",
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "breast augmentation",
+    "breast implant replacement",
+    "revision surgery",
+    "capsuloraphy",
+    "mastopexy",
+    "patient satisfaction",
+    "surgical recovery",
+    "cosmetic surgery",
+    "patient testimonial",
+    "implant sizing"
+  ],
+  "episode_num": 677,
+  "title": "76-Year-Old Patient is Very Pleased with Her Replacement Implants",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Julie",
+    "Debbie"
+  ],
+  "companies": [
+    "Bryn Mawr Hospital",
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "breast lift",
+    "tummy tuck",
+    "breast augmentation",
+    "post-operative recovery",
+    "patient testimonial",
+    "surgical drains",
+    "pain management",
+    "cosmetic surgery",
+    "patient satisfaction",
+    "abdominoplasty"
+  ],
+  "episode_num": 634,
+  "title": "\"It Has Been Incredible!\": 44-Year-Old Breast Lift and Tummy Tuck Patient is One Week Post Op",
+  "model": "claude-haiku-4-5-20251001"
+}

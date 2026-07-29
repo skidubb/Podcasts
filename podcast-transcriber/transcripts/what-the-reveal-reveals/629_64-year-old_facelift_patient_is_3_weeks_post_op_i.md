@@ -1,0 +1,21 @@
+# 64-Year-Old Facelift Patient is 3 Weeks Post Op, "I Feel Young Again!"
+
+**Podcast:** Plastic Surgery: What the reveal reveals.
+**Episode:** 629
+**Date:** Jul 16, 2025
+**Duration:** 3 min
+**GUID:** Buzzsprout-17516400
+**MP3:** [64-Year-Old Facelift Patient is 3 Weeks Post Op, "I Feel Young Again!"](https://www.buzzsprout.com/2246935/episodes/17516400-64-year-old-facelift-patient-is-3-weeks-post-op-i-feel-young-again.mp3)
+
+---
+
+## Description
+
+"I had a great experience, I had no pain, I enjoyed the whole experience, and I feel like I look so much better. My neck looks beautiful!" This patient underwent eyelid surgery a week after her facelift, so her eyes are still slightly swollen.  She is very active and works out every day, so she decided that surgery was her best option to get her neck back to looking the way she wanted. "I feel like a 30-year-old. I just feel great. I feel like I do inside and look it on the outside!" Fri...
+
+---
+
+## Transcript
+
+Our lovely patient who's 64 years old is about three weeks out from her facelift and she comes in today and she's very graciously agreed to share some of her thoughts and feelings about how she feels at this moment and what things she was hoping to achieve with her surgery. I had a great experience. I had no pain. I enjoyed the whole experience and I feel that I look so much better. My neck looks beautiful. Eyes still a little swollen but I expect they're gonna go down and I just look forward to looking young again. That's so great. Yes and we did your eyes about a week and a half after your face. We staged that part so your eyes are about a week and a half behind where your face is and I've given you the green light to go ahead and do any kind of physical activity you want today but share with everybody what were some of the frustrations you had? What led you to think about addressing your neck and your face as a surgical option? Well I work out every day and I use good creams on my face but with age apparently gravity always takes its toll so my neck bothered me and now I feel like it's back to like a 30 year old. Really? Yes. We turned the clock back 30 years? I feel like you did. Well it's fantastic. Yes and I just feel great. I feel like I do inside. Now I look like it on the outside. I love that. Many people say geez I just didn't think that I looked on the outside the way I felt on the inside. Well that's how I feel now. So great. You know tired of you know keeping my neck up hopefully that you know now I don't have to. And are people noticing? I know it's very early. It is early. They have said that my neck looks fantastic. Fabulous. So you know they can see even like where the jawline is more distinct. So they beautiful jawline. So it looks beautiful. I'm very pleased. Now we did the operation under what we call tumescent local anesthesia which is another term for doing it awake. Share with everyone what that experience was like for you. I didn't feel anything after three hours though. I started to feel a little bit and then you gave me a little bit more of something in there and it did go away. So it was okay. I was nervous because I was I wanted to be knocked out but I figured out let me try it. It's actually better for you at the older you get. Well and you went straight home after that and the recovery here is very minimal because you're awake when we finish. Right. So there's no sort of having to wake up from surgery. Share with everybody what your perception is about the recovery. Has it been as fast as you thought or has it been slower than you thought? What what's the recovery so far been like? I think the recovery was faster than I thought. Yeah. I actually thought it was gonna be a lot longer. Yeah. I actually felt really good the next actually that night I did sleep a lot and then the following day I felt pretty much like myself. Wow. So quick return. Yes. Very quick return. Yes. Great. Last question I always like to ask everybody is this something that you would recommend to a friend? I would recommend it. I would recommend it to anybody and everybody that wants to feel as good as they feel inside and look as well because definitely age takes a toll on you unfortunately no matter what you do. Thank you for sharing your story. Well thank you for doing this.
+

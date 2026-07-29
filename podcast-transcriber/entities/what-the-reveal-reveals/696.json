@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [
+    "host"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "patient satisfaction",
+    "body confidence",
+    "cosmetic surgery results",
+    "one year follow-up",
+    "lifestyle changes",
+    "exercise and fitness",
+    "wardrobe transformation",
+    "patient testimonial"
+  ],
+  "episode_num": 696,
+  "title": "One Year Later: Tummy Tuck Patient Shares That \"People Tell Me All The Time How Good I Look!\"",
+  "model": "claude-haiku-4-5-20251001"
+}

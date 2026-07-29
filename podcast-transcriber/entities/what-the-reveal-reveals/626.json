@@ -1,0 +1,31 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Emily",
+    "Debbie",
+    "Danny",
+    "Olivia",
+    "Melody",
+    "Shannon"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "facelift surgery",
+    "upper eyelid blepharoplasty",
+    "local anesthesia",
+    "surgical recovery",
+    "patient experience",
+    "cosmetic surgery",
+    "aging",
+    "minimal downtime",
+    "surgical technique",
+    "post-operative care"
+  ],
+  "episode_num": 626,
+  "title": "Facelift and Upper Eyelid Surgery: 70-Year-Old Patient Shares her Experience",
+  "model": "claude-haiku-4-5-20251001"
+}

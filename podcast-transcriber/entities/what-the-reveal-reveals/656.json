@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "CO2 laser",
+    "BLT treatment"
+  ],
+  "topics": [
+    "facelift",
+    "cosmetic surgery",
+    "patient testimonial",
+    "co2 laser treatment",
+    "fine lines and wrinkles",
+    "skin rejuvenation",
+    "recovery experience",
+    "confidence and self-esteem",
+    "surgical results",
+    "blt treatment"
+  ],
+  "episode_num": 656,
+  "title": "2 Years Later: 58-Year-Old Facelift and BLT Patient, \"I Feel More Confident!\"",
+  "model": "claude-haiku-4-5-20251001"
+}

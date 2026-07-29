@@ -1,0 +1,21 @@
+# 54-Year-Old Patient is 3 Months Post Op From a Breast Lift, "I Highly Recommend!"
+
+**Podcast:** Plastic Surgery: What the reveal reveals.
+**Episode:** 635
+**Date:** Jul 22, 2025
+**Duration:** 3 min
+**GUID:** Buzzsprout-17546509
+**MP3:** [54-Year-Old Patient is 3 Months Post Op From a Breast Lift, "I Highly Recommend!"](https://www.buzzsprout.com/2246935/episodes/17546509-54-year-old-patient-is-3-months-post-op-from-a-breast-lift-i-highly-recommend.mp3)
+
+---
+
+## Description
+
+"This was the best surgery I ever could have gotten for myself!" This patient found recovery very easy once getting past the first three days. She decided to get a breast lift after noticing her self-esteem decline over the years. "Everything just fits so much better!" She was back to light exercise a week after surgery! She feels that she looks more proportionate now. Thank you for tuning in to Plastic Surgery: What the reveal reveals! If you enjoyed this episode, please subscribe, rate, and...
+
+---
+
+## Transcript
+
+Our lovely patient is 54 years old is three months out from her breast lift which is also known as a mastopexy and she comes in today and she's very graciously agreed to share some of her thoughts and feelings about how she's doing so far. This was the best surgery I could have ever done for myself. I feel like I have a whole new lease with my boobs. I feel like my boobs have now gone back to like my 20s. It's given me a lot of a lot better self-confidence, more self-confidence. I like the way I look again in shirts and in bathing suits. Overall just highly recommend and the recovery was very easy. First three days were a little rough but once I got past the third day it was an easy recovery. Highly recommend. That's so kind. What were some of the things that you were thinking about before you contemplated surgery that took you down this pathway? I had been, I had not been liking my self-image for a long time. My breasts kept getting larger and they were sagging and I just didn't like how I looked in clothing and my appearance so it was a really big motivation to do for the breast lift slash reduction. What size did you feel that you were before and what size do you feel that you are now? I felt like I was like a triple G but I think realistically I was a double D and now I am a solid C. So it depends on the brand of the bra but I just love the way I look. Perfect and do you feel that you have to wear a bra all the time? I do not. I am not used to not wearing a bra because I've worn a bra my entire life. I did try it at the beach to go with a top and bra but it's fine. I mean everything just fits so much better and I just look much better in clothing. That's awesome. Does it impact you at all as you exercise? No, not at all. In fact, I was on the treadmill the first week walking lightly but I'm now back to running on the treadmill. I don't have an issue. Fabulous and in terms of your shape and your volume when you're going to look for outfits and clothing, has that been a change for you? Oh yeah, I mean just obviously a smaller size but I just look much more proportionate. I'm short on the shorter side so just everything looks proportionate. Fantastic and we had talked earlier about the scar cream and massaging the scars which I like to ask have people do for upwards of a year to really maximize your scar recovery but your scars look great. Share with people who may be listening in about your nipple sensation. Was there any change? No, there's been no change. Post-surgery I was a little nervous to wash and touch my breasts but now everything is fine but there's been no loss of sensation in the nipple area. Perfect. That's something that comes up sometimes and then as you remember that was one of the things that I shared with you might have been a situation but even if there's a small change I tend to find that it gets back to baseline within a couple of months. It sounds like that's been the case for you. I always like to ask my final question is this something that you would recommend to a friend? Absolutely yeah I would recommend this to anybody who is unhappy with their their image their their breasts if you feel like they're large or sagging this was an easy surgery and easy recovery highly recommend. Awesome well thank you so much for sharing. You're welcome. Thank you.
+

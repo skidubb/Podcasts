@@ -1,0 +1,32 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Patient"
+  ],
+  "companies": [
+    "Philly Style Magazine",
+    "Buzzsprout"
+  ],
+  "products": [
+    "MyEllevate"
+  ],
+  "topics": [
+    "neck lift",
+    "jawline contouring",
+    "myellevate procedure",
+    "liposuction vs combination therapy",
+    "laser skin tightening",
+    "absorbable sutures",
+    "microneedling",
+    "post-operative care",
+    "lymphatic massage",
+    "cosmetic surgery results",
+    "patient testimonial",
+    "non-invasive procedures",
+    "wedding preparation"
+  ],
+  "episode_num": 633,
+  "title": "31-Year-Old MyEllevate Patient is One Month Post Op \"I Was Nervous, but it was Worth It\"",
+  "model": "claude-haiku-4-5-20251001"
+}

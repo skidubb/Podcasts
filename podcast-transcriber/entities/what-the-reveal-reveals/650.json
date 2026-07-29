@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "R. Brannon Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "facelift",
+    "cosmetic surgery",
+    "lamina treatment",
+    "co2 laser",
+    "microneedling",
+    "nanofat injection",
+    "upper lip lines",
+    "jowls",
+    "wrinkles",
+    "fine lines",
+    "patient results",
+    "before and after"
+  ],
+  "episode_num": 650,
+  "title": "66-Year-Old LaMiNa and Facelift Patient \"Would Do This Again in a Heartbeat\"",
+  "model": "claude-haiku-4-5-20251001"
+}

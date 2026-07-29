@@ -1,0 +1,29 @@
+{
+  "guest": "Debbie",
+  "people": [
+    "Debbie",
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "Lovenox",
+    "sequential compression devices"
+  ],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "breast augmentation",
+    "fat grafting",
+    "hernia repair",
+    "diastasis recti",
+    "post-operative recovery",
+    "drainless surgery",
+    "body confidence",
+    "cosmetic surgery results",
+    "patient testimonial",
+    "surgical technique"
+  ],
+  "episode_num": 645,
+  "title": "38-Year-Old is One Month Post Op From Tummy Tuck and Fat Grafted Breast Augmentation",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,30 @@
+{
+  "guest": "Brenda",
+  "people": [
+    "Brenda",
+    "Claytor",
+    "husband",
+    "grandson",
+    "nurse"
+  ],
+  "companies": [
+    "LifeFit",
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "plastic surgery",
+    "urinary incontinence",
+    "core strengthening",
+    "rectus diastasis",
+    "post-operative recovery",
+    "patient confidence",
+    "body image",
+    "surgical results"
+  ],
+  "episode_num": 621,
+  "title": "55-Year-Old Feels Great 6 Weeks after Tummy Tuck",
+  "model": "claude-haiku-4-5-20251001"
+}

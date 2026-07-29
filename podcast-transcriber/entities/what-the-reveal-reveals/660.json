@@ -1,0 +1,32 @@
+{
+  "guest": null,
+  "people": [
+    "Patient (37-year-old)",
+    "Host/Surgeon"
+  ],
+  "companies": [
+    "Target",
+    "Buzzsprout",
+    "TouchMD"
+  ],
+  "products": [
+    "TouchMD"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "breast lift",
+    "hernia repair",
+    "plastic surgery",
+    "recovery",
+    "drainless surgery",
+    "body contouring",
+    "postoperative care",
+    "lymphatic massage",
+    "compression therapy",
+    "cosmetic surgery outcomes"
+  ],
+  "episode_num": 660,
+  "title": "Tummy Tuck, Hernia Repair, AND Breast Lift: 37-Year-Old Patient's Experience",
+  "model": "claude-haiku-4-5-20251001"
+}

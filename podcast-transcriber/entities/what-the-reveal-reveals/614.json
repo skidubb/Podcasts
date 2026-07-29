@@ -1,0 +1,26 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Joe"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "deep-plane facelift",
+    "cosmetic surgery",
+    "awake anesthesia",
+    "post-operative recovery",
+    "facial rejuvenation",
+    "patient testimonial",
+    "surgical results",
+    "neck and chin contouring",
+    "patient satisfaction",
+    "surgical consultation"
+  ],
+  "episode_num": 614,
+  "title": "71-Year-Old Patient is One Month Post Op from her Deep-Plane Facelift \"It Was Very Validating!\"",
+  "model": "claude-haiku-4-5-20251001"
+}

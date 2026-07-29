@@ -1,0 +1,26 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Claytor Plastic Surgery",
+    "Buzzsprout"
+  ],
+  "products": [
+    "imaging system"
+  ],
+  "topics": [
+    "breast augmentation",
+    "silicone implants",
+    "post-operative recovery",
+    "patient satisfaction",
+    "cup size selection",
+    "body confidence",
+    "surgical imaging",
+    "implant types",
+    "post-op pain management",
+    "body image after childbirth"
+  ],
+  "episode_num": 693,
+  "title": "From A to C Cup: 31-Year-Old Patient is 3 Days Post Op from Breast Augmentation",
+  "model": "claude-haiku-4-5-20251001"
+}

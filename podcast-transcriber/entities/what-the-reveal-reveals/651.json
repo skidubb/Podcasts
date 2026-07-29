@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [
+    "Mainline Bryn Mawr",
+    "Buzzsprout"
+  ],
+  "products": [
+    "ChrisLix imaging system"
+  ],
+  "topics": [
+    "breast augmentation",
+    "natural results",
+    "patient recovery",
+    "surgical outcomes",
+    "patient satisfaction",
+    "cosmetic surgery consultation",
+    "body confidence",
+    "surgical technique",
+    "post-operative experience"
+  ],
+  "episode_num": 651,
+  "title": "\"My Experience Has Been Nothing Short of Perfect\": 46-Year-Old is 2 Weeks Post Breast Augmentation",
+  "model": "claude-haiku-4-5-20251001"
+}

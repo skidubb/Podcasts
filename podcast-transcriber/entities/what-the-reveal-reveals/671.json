@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Kleder"
+  ],
+  "companies": [],
+  "products": [
+    "Morpheus8",
+    "CO2 laser microneedling"
+  ],
+  "topics": [
+    "skin laxity treatment",
+    "radiofrequency microneedling",
+    "non-surgical body contouring",
+    "abdominal skin tightening",
+    "local anesthesia procedures",
+    "nanofat treatment",
+    "patient experience",
+    "recovery timeline",
+    "cosmetic confidence",
+    "minimally invasive procedures"
+  ],
+  "episode_num": 671,
+  "title": "38-Year-Old Morpheus8 and BLT Treatment Patient Has Already Recommended To Friends",
+  "model": "claude-haiku-4-5-20251001"
+}

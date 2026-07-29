@@ -1,0 +1,26 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "plastic surgery",
+    "tummy tuck",
+    "abdominoplasty",
+    "breast lift",
+    "breast augmentation",
+    "patient recovery",
+    "body image",
+    "surgical results",
+    "post-operative care",
+    "cosmetic procedures",
+    "patient testimonial",
+    "surgical scarring",
+    "confidence boost"
+  ],
+  "episode_num": 637,
+  "title": "One Year Later: 49-Year-Old Tummy Tuck and Breast Lift Patient is \"Doing Fabulous!\"",
+  "model": "claude-haiku-4-5-20251001"
+}

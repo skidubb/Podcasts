@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [
+    "Julie"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "breast lift",
+    "post-operative recovery",
+    "pain management",
+    "patient testimonial",
+    "first week recovery",
+    "surgical results",
+    "patient expectations",
+    "downtime concerns"
+  ],
+  "episode_num": 624,
+  "title": "58-Year-Old Tummy Tuck and Breast Lift Patient Shares Her First Week of Recovery",
+  "model": "claude-haiku-4-5-20251001"
+}

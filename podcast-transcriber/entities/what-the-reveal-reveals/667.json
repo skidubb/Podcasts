@@ -1,0 +1,30 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "abdominal binder",
+    "sequential compression devices",
+    "wedge pillow",
+    "toilet riser"
+  ],
+  "topics": [
+    "tummy tuck",
+    "belt lipectomy",
+    "drainless surgery",
+    "body contouring",
+    "surgical recovery",
+    "blood clot prevention",
+    "patient satisfaction",
+    "cosmetic surgery",
+    "post-operative care",
+    "surgical complications"
+  ],
+  "episode_num": 667,
+  "title": "54-Year-Old Tummy Tuck Patient Can't Wait To Wear a Bikini For the First Time in 30 Years",
+  "model": "claude-haiku-4-5-20251001"
+}

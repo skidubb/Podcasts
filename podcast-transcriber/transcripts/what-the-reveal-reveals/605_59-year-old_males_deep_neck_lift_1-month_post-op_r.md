@@ -1,0 +1,21 @@
+# 59-Year-Old Male’s Deep Neck Lift: 1-Month Post-Op Recovery & Results
+
+**Podcast:** Plastic Surgery: What the reveal reveals.
+**Episode:** 605
+**Date:** Jan 31, 2025
+**Duration:** 4 min
+**GUID:** Buzzsprout-16466278
+**MP3:** [59-Year-Old Male’s Deep Neck Lift: 1-Month Post-Op Recovery & Results](https://www.buzzsprout.com/2246935/episodes/16466278-59-year-old-male-s-deep-neck-lift-1-month-post-op-recovery-results.mp3)
+
+---
+
+## Description
+
+"It has been an INCREDIBLE experience and Dr. Claytor exceeded my expectations." This amazing 59-year-old gentleman is 1 month post op from a Deep Necklift. He underwent the surgery in our AAAA Surgical Facility under Tumescent Local Anesthesia and felt no pain during surgery and was in a relaxed state throughout the entire procedure. He is thrilled with his results and was comfortable being on Zoom calls 2 weeks after surgery.  He looks forward to sharing his experience with anyone who ...
+
+---
+
+## Transcript
+
+Our lovely gentleman who's 59 years old is a month out from his neck lift, which we did under tumescent local anesthesia, and he comes in today looking great, getting ready for an international trip, and he's very graciously agreed to share some of his thoughts and feelings and apprehensions about what he went through, and he's willing to share his story with everyone out there. Well, hi. For probably a good year, maybe a little more, I was really contemplating having a neck lift and started to do some research, tried to understand kind of the different technologies that were available and, you know, the experienced plastic surgeons that could really do an effective procedure, particularly for men, and I had lost some weight and I had, you know, a fair amount of tissue underneath my neck and really wanted to get it addressed before I got a little older and maybe more difficult to recover from. I did a fair amount of research locally here, very impressed with Dr. Claytor's explanation about the different technologies and his experience, and I have to say it's been an incredible experience. I wasn't sure exactly what the recovery was going to be like. There wasn't a whole lot of information, to be honest, out on the website with men, as far as pictures and things, but there was some, and Dr. Claytor shared, you know, obviously patients that he cared for, and it's exceeded my expectations. So my recovery, literally within two weeks, I'd say even less, I was on calls, on Teams calls, on video calls, without anyone commenting that I had a procedure, and now I'm four weeks out and I'm able to travel. So it's been, again, incredible experience. It's an incredible team here. Dr. Claytor's been so gracious with his time, follow-ups consistently, just tracking progress, and I'm just greatly, you know, appreciative. That is so wonderful, that is so wonderful. Share with everyone your understanding and maybe apprehension of the way I do this operation under tumescent local anesthesia. Yes, you know, again, I did a bit of research on that as well. I saw it was recommended, I think, by NIH or AHA, as far as an effective in-office procedure versus local, or general rather, and so, again, I appreciated the option and the fact of not having to go under in that whole recovery process, and that's just something I would have preferred not to do, which, I can tell you, was fairly painless during the procedure. A little bit of pricking at the initial onset, which was like having a shot, so it wasn't pain, you know, a little bit of discomfort, but not much. But through the whole procedure, I didn't feel anything. I mean, I was literally, I was in a kind of a relaxed state, and after, I don't know how many hours, I think it was probably four hours, I was, you know, fully capable of going home. Yeah, within 15 minutes of us finishing. Yep, yeah, exactly. Well thank you so much for sharing your journey. The last question I always like to ask is, is this something that you would recommend to a friend? Absolutely, absolutely, without a doubt, and be happy to be a reference or be able to help anyone that's thinking about it to learn more. You're wonderful. Well thank you so very much. You bet. Thank you, thank you.
+

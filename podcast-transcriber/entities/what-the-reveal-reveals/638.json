@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Danny",
+    "Morgan",
+    "Melody"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "neck lift",
+    "facelift",
+    "revision surgery",
+    "local anesthesia",
+    "tumescent anesthesia",
+    "deep plane facelift",
+    "smos",
+    "patient testimonial",
+    "surgical outcomes",
+    "patient experience",
+    "recovery",
+    "cosmetic surgery"
+  ],
+  "episode_num": 638,
+  "title": "60-Year-Old Neck Lift Patient \"Could Not Be More Happy!\"",
+  "model": "claude-haiku-4-5-20251001"
+}

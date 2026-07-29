@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Victoria's Secret"
+  ],
+  "products": [
+    "3D Imaging"
+  ],
+  "topics": [
+    "breast augmentation",
+    "saline implants",
+    "cosmetic surgery results",
+    "patient satisfaction",
+    "surgical outcomes",
+    "body image",
+    "post-pregnancy body",
+    "implant placement",
+    "3d imaging simulation",
+    "natural looking results"
+  ],
+  "episode_num": 643,
+  "title": "One Year Later: 39-Year-Old Breast Augmentation Patient Shares Her Story",
+  "model": "claude-haiku-4-5-20251001"
+}
