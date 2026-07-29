@@ -307,11 +307,14 @@ class PineconeRetriever:
             date_to=date_to,
         )
 
-        # Search Pinecone
+        # Search Pinecone. Podcasts that share an index (see
+        # PINECONE_NAMESPACE) live outside the default namespace, so the
+        # query has to be scoped or it silently returns nothing for them.
         matches = self.indexer.search(
             query_embedding=query_embedding,
             top_k=top_k * 2,  # Fetch extra for score filtering
             filter_dict=filter_dict if filter_dict else None,
+            namespace=self.config.pinecone_namespace,
         )
 
         # Convert to RetrievalResult
