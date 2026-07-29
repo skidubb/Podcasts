@@ -1,0 +1,33 @@
+{
+  "guest": null,
+  "people": [
+    "Patient (37-year-old mother)",
+    "Host",
+    "Debbie",
+    "Patient's mother",
+    "Avery Ann",
+    "Jackson"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "hernia repair",
+    "mastopexy",
+    "breast lift",
+    "mommy makeover",
+    "muscle separation",
+    "diastasis recti",
+    "core strength",
+    "back pain",
+    "body confidence",
+    "post-operative results",
+    "patient testimonial"
+  ],
+  "episode_num": 495,
+  "title": "This 37-Year-Old Mother of 4 Feels Strong Enough To Play With Her Children After Tummy Tuck and Hernia Repair",
+  "model": "claude-haiku-4-5-20251001"
+}

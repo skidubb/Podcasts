@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "neck lift",
+    "minimally invasive surgery",
+    "mims procedure",
+    "double chin",
+    "facelift",
+    "cosmetic surgery",
+    "patient recovery",
+    "surgical results",
+    "liposuction",
+    "mastoid sling",
+    "skin tightening",
+    "microneedling"
+  ],
+  "episode_num": 512,
+  "title": "MIMS Neck Lift: Patient Shares Why The Results Are Worth It",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "R. Brannon Claytor"
+  ],
+  "companies": [
+    "Carolina Plastic Surgery"
+  ],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "mastopexy",
+    "breast lift",
+    "breast surgery",
+    "patient testimonial",
+    "surgical results",
+    "recovery",
+    "cosmetic surgery",
+    "tumescent anesthesia",
+    "post-operative experience",
+    "patient satisfaction"
+  ],
+  "episode_num": 500,
+  "title": "\"They Feel Like They Fit\": 60-Year-Old Patient Shares her Mastopexy Experience",
+  "model": "claude-haiku-4-5-20251001"
+}

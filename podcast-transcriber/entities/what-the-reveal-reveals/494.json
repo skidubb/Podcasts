@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "CO2 laser",
+    "microneedling",
+    "nanofat"
+  ],
+  "topics": [
+    "facelift",
+    "cosmetic surgery",
+    "facial rejuvenation",
+    "patient results",
+    "blt treatment",
+    "skin care",
+    "anti-aging",
+    "self-confidence",
+    "laser treatment",
+    "patient testimonial"
+  ],
+  "episode_num": 494,
+  "title": "Two Years Later: 59-Year-Old Facelift Patient Looks As Young As She Feels",
+  "model": "claude-haiku-4-5-20251001"
+}

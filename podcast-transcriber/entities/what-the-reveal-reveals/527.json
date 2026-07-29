@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Ma"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "hernia repair",
+    "fat grafting",
+    "breast augmentation",
+    "surgical recovery",
+    "patient testimonial",
+    "body confidence",
+    "surgical safety",
+    "drain-free surgery",
+    "post-operative care",
+    "emotional experience"
+  ],
+  "episode_num": 527,
+  "title": "An Emotional Experience: This 37-Year-Old Patient is Just 2 Weeks Out From Her Tummy Tuck",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "Zoom"
+  ],
+  "topics": [
+    "neck lift surgery",
+    "minimally invasive procedure",
+    "awake anesthesia",
+    "liposuction",
+    "facelift",
+    "jawline enhancement",
+    "sagging skin",
+    "patient results",
+    "cosmetic surgery",
+    "surgical outcomes",
+    "patient satisfaction",
+    "local anesthesia"
+  ],
+  "episode_num": 546,
+  "title": "47-Year-Old Minimally Invasive Neck Lift Patient Can't Stop Looking in the Mirror",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,32 @@
+{
+  "guest": null,
+  "people": [
+    "Deb",
+    "Mary",
+    "Deb's husband",
+    "Deb's son",
+    "Deb's daughter-in-law",
+    "Host"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "drainless surgery",
+    "body contouring",
+    "patient satisfaction",
+    "post-operative results",
+    "surgical consultation",
+    "confidence and self-esteem",
+    "incision healing",
+    "liposuction",
+    "torso tuck",
+    "breast reduction"
+  ],
+  "episode_num": 498,
+  "title": "\"I Feel More Attractive at 67 Than I Have My ENTIRE Adult Life\": Tummy Tuck Patient is Feeling Fantastic 4 Months Later",
+  "model": "claude-haiku-4-5-20251001"
+}

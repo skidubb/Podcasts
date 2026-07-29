@@ -1,0 +1,24 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "breast augmentation",
+    "cosmetic surgery",
+    "patient satisfaction",
+    "body confidence",
+    "implants",
+    "natural results",
+    "weight loss",
+    "mammogram considerations",
+    "cup size",
+    "patient testimonial",
+    "surgical outcomes"
+  ],
+  "episode_num": 555,
+  "title": "3 YEARS LATER: Breast Augmentation Patient's Confidence Has Been Restored",
+  "model": "claude-haiku-4-5-20251001"
+}

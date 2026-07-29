@@ -1,0 +1,31 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "Miralax",
+    "Colace",
+    "Lovenox"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "breast implant removal and replacement",
+    "mastopexy",
+    "breast lift",
+    "umbilicoplasty",
+    "neo-umbilicus",
+    "drainless surgery",
+    "recovery",
+    "pain management",
+    "blood clot prophylaxis",
+    "vte prevention",
+    "abdominal wall reconstruction",
+    "cosmetic surgery"
+  ],
+  "episode_num": 553,
+  "title": "NEO-UMBILICUS Tummy Tuck: 48-Year-Old Patient Has a Brand New Belly Button",
+  "model": "claude-haiku-4-5-20251001"
+}

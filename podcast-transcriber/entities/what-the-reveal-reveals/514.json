@@ -1,0 +1,31 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "patient"
+  ],
+  "companies": [
+    "American Eagle",
+    "Aerie",
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "body lift surgery",
+    "belt lipectomy",
+    "plastic surgery",
+    "gastric bypass",
+    "excess skin removal",
+    "patient experience",
+    "surgical recovery",
+    "body confidence",
+    "weight loss journey",
+    "drainless surgery",
+    "cosmetic outcomes",
+    "quality of life",
+    "surgical consultation"
+  ],
+  "episode_num": 514,
+  "title": "\"I'm Having Fun With My Body\": 51-Year-Old Body Lift Patient Shares Life-Changing Experience",
+  "model": "claude-haiku-4-5-20251001"
+}

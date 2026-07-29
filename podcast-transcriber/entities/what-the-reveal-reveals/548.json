@@ -1,0 +1,30 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Deb",
+    "Michael Jackson"
+  ],
+  "companies": [],
+  "products": [
+    "Botox",
+    "filler"
+  ],
+  "topics": [
+    "facelift",
+    "deep plane facelift",
+    "neck lift",
+    "local anesthesia",
+    "tumescent local anesthesia",
+    "plastic surgery",
+    "cosmetic surgery recovery",
+    "facial rejuvenation",
+    "patient testimonial",
+    "surgical results",
+    "aging",
+    "scar management"
+  ],
+  "episode_num": 548,
+  "title": "This 67-Year-Old's Facelift Results are \"Even Better Than I Ever, EVER Hoped For!\"",
+  "model": "claude-haiku-4-5-20251001"
+}

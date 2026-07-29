@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [
+    "Host"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "facelift",
+    "plastic surgery",
+    "jawline",
+    "double chin",
+    "patient results",
+    "cosmetic procedure",
+    "natural results",
+    "post-operative recovery",
+    "facial rejuvenation",
+    "patient satisfaction"
+  ],
+  "episode_num": 496,
+  "title": "\"My Face Matches My Personality\": 44-Year-Old Facelift Patient is Six Months Post Op",
+  "model": "claude-haiku-4-5-20251001"
+}

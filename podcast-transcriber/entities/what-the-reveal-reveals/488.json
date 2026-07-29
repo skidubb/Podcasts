@@ -1,0 +1,30 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Kleder",
+    "Deb",
+    "Julie",
+    "Marianne",
+    "Emily"
+  ],
+  "companies": [
+    "Claytor Noone"
+  ],
+  "products": [],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "plastic surgery",
+    "postpartum body",
+    "drainless surgery",
+    "patient recovery",
+    "self-confidence",
+    "dvt protocol",
+    "surgical results",
+    "patient experience"
+  ],
+  "episode_num": 488,
+  "title": "\"I'm Amazed At How I Look Now\": 32-Year-Old Patient Got a Tummy Tuck After Having A Baby",
+  "model": "claude-haiku-4-5-20251001"
+}

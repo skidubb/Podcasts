@@ -1,0 +1,21 @@
+# 59-Year-Old Facelift Patient Feels "Refreshed and Younger" 8 Weeks After Her Procedure
+
+**Podcast:** Plastic Surgery: What the reveal reveals.
+**Episode:** 538
+**Date:** Sep 24, 2025
+**Duration:** 4 min
+**GUID:** Buzzsprout-17899555
+**MP3:** [59-Year-Old Facelift Patient Feels "Refreshed and Younger" 8 Weeks After Her Procedure](https://www.buzzsprout.com/2246935/episodes/17899555-59-year-old-facelift-patient-feels-refreshed-and-younger-8-weeks-after-her-procedure.mp3)
+
+---
+
+## Description
+
+"I'm very pleased with the procedure, and I feel refreshed and younger!" This patient is 100% back to her normal routine. She was hoping for a natural result, and is very happy that Dr. Claytor achieved this! Prior to surgery, she was experiencing drooping of the neck and jaw. She now feels that she looks 10-15 years younger! Thank you for tuning in to Plastic Surgery: What the reveal reveals! If you enjoyed this episode, please subscribe, rate, and leave a review wherever you listen to podca...
+
+---
+
+## Transcript
+
+We're here with our lovely patient who's 59 years old and she's eight weeks out from her facelift and we're sitting here looking at pictures together of how she looks now and our swirl we call it but it's actually the OVO 360 degree photographs and it's giving us a chance to evaluate where we started and where we are and so share some of your thoughts. I'm very pleased with the procedure and I feel like refreshed and younger feeling and looking so I'm very pleased. And you're quite active so you've been able to get back to most of your regular activities since surgery. Have you noticed any restrictions? No not at all the last I would say the last three weeks I've been pretty much back to a normal activity 100%. A little tightness sometimes in the lower jaw but nothing that hurts nothing that keeps me from doing what I love to do so no I'm very very grateful I'm back in the swing of his things I'd say after about a month I was back to normal. And that's generally what we share with people as we move into this and people ask about the recovery. Share with us as we look at your pictures from before what your thoughts were about what you were hoping to achieve as you moved into this process. I wanted something that was fairly natural looking didn't change my my natural line my natural jawline my natural expression and something that softened everything and just made me feel like 10 to 15 years younger and I'm happy with that I don't don't look in the mirror and say who is this I feel like it's like oh that's what I used to feel like 10 years ago. Have any individuals in your close circle noticed your your transformation? It's not I mean of course I haven't seen a lot of my close friends the ones like my neighbor she she noticed but she didn't she's like it's very subtle it's very natural looking and she was pleased with it so I'm happy that it wasn't a shock you know I was wondering to see what they would think and she said it was it was just perfect. Yeah and as we're sitting here and talking and I'm seeing you smile and animate your face and we have maintained your natural response your natural smile we wrinkle a little bit when we smile around the eyes and in your face but that's a normal thing and if you're not doing that at 59 you probably look a little unnatural. Exactly and and I figure if you don't want to see anything there's other things you can do but I I I don't mind a few smile wrinkles that shows your expression. Yeah so yeah I'm happy with the procedure and and the naturalness of it. Share with us as we're looking at pictures of your neck share with us what what you were seeing and what you are seeing. Definitely saw more drooping more sagging of the skin around my neck and under my jaw so it's tightened up it's made me look like I said 10-15 years younger than I am nice and smooth just that kind of side view that I remember myself looking like so yeah it's it's definitely a drastic improvement. The last question I always like to ask is this something that you would recommend to a friend? Yes definitely you have to be prepared for the first week or two to be you know at home and just you know recovering but other than that I would definitely recommend it. You're so wonderful well thank you for sharing your story. Thank you.
+

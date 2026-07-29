@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Patient (71-year-old)"
+  ],
+  "companies": [
+    "Costco"
+  ],
+  "products": [
+    "CO2 laser"
+  ],
+  "topics": [
+    "blt procedure",
+    "co2 laser treatment",
+    "non-invasive cosmetic procedure",
+    "facial rejuvenation",
+    "post-procedure recovery",
+    "natural results",
+    "skin healing",
+    "lip enhancement",
+    "one week follow-up",
+    "patient satisfaction"
+  ],
+  "episode_num": 529,
+  "title": "1 Week Post BLT, This 71-Year-Old Patient Feels That \"My Face Is Fuller, Everything is So Natural\"",
+  "model": "claude-haiku-4-5-20251001"
+}

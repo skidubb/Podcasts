@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [
+    "R. Brannon Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "rhinoplasty",
+    "plastic surgery",
+    "patient confidence",
+    "body image",
+    "insecurity",
+    "cosmetic surgery outcomes",
+    "self-perception",
+    "psychological impact of surgery"
+  ],
+  "episode_num": 536,
+  "title": "One Year Later: Rhinoplasty Patient Has a New Outlook On Life",
+  "model": "claude-haiku-4-5-20251001"
+}

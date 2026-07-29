@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [
+    "Patient"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "liposuction",
+    "plastic surgery",
+    "body contouring",
+    "patient testimonial",
+    "cosmetic surgery results",
+    "body confidence",
+    "post-operative follow-up",
+    "surgical outcomes"
+  ],
+  "episode_num": 501,
+  "title": "1 Year Later: Patient Speaks About Her Life-Changing Tummy Tuck",
+  "model": "claude-haiku-4-5-20251001"
+}

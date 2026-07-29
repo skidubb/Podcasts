@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "facelift",
+    "plastic surgery",
+    "patient satisfaction",
+    "aging",
+    "cosmetic procedures",
+    "patient communication",
+    "social perception",
+    "surgical recovery",
+    "doctor-patient relationship",
+    "talk-esthesia"
+  ],
+  "episode_num": 467,
+  "title": "This 55-Year-Old Teacher Is Treated With More Respect After Getting a Facelift",
+  "model": "claude-haiku-4-5-20251001"
+}

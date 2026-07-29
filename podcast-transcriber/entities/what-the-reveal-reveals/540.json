@@ -1,0 +1,29 @@
+{
+  "guest": null,
+  "people": [
+    "Patient"
+  ],
+  "companies": [
+    "Galderma",
+    "Buzzsprout"
+  ],
+  "products": [
+    "Reform and Repair",
+    "tumescent anesthesia"
+  ],
+  "topics": [
+    "thigh liposuction",
+    "medial thigh reduction",
+    "natural results",
+    "cellulite improvement",
+    "thigh gap",
+    "post-operative care",
+    "patient satisfaction",
+    "elastin products",
+    "bruising reduction",
+    "body proportions"
+  ],
+  "episode_num": 540,
+  "title": "Thigh Liposuction Patient Loves Her Natural Results After 3 Months",
+  "model": "claude-haiku-4-5-20251001"
+}

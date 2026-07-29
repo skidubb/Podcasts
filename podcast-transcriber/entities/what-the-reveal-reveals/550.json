@@ -1,0 +1,29 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [
+    "TouchMD"
+  ],
+  "products": [
+    "YouTube",
+    "Google Reviews",
+    "TouchMD"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "drainless surgery",
+    "recovery experience",
+    "patient satisfaction",
+    "rectus diastasis",
+    "body contouring",
+    "cosmetic surgery",
+    "post-operative care",
+    "patient testimonial"
+  ],
+  "episode_num": 550,
+  "title": "43-Year-Old Tummy Tuck Patient Says Going Drainless is the SUPURB Choice!",
+  "model": "claude-haiku-4-5-20251001"
+}

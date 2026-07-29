@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "body lift",
+    "belt lipectomy",
+    "breast augmentation",
+    "plastic surgery",
+    "weight loss",
+    "body transformation",
+    "patient consultation",
+    "surgical results",
+    "confidence",
+    "nutrition and fitness",
+    "recovery",
+    "cosmetic surgery outcomes"
+  ],
+  "episode_num": 533,
+  "title": "This 35-Year-Old Patient Underwent a Huge Transformation After Getting a Body Lift and Breast Augmentation",
+  "model": "claude-haiku-4-5-20251001"
+}

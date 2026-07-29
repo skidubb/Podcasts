@@ -1,0 +1,24 @@
+{
+  "guest": null,
+  "people": [
+    "R. Brannon Claytor"
+  ],
+  "companies": [
+    "Carolina Plastic Surgery"
+  ],
+  "products": [
+    "MyEllevate"
+  ],
+  "topics": [
+    "myellevate procedure",
+    "jawline contouring",
+    "neck liposuction",
+    "patient results",
+    "two week recovery",
+    "facial definition",
+    "cosmetic surgery outcomes"
+  ],
+  "episode_num": 489,
+  "title": "MyEllevate Patient Can \"Cut Paper With Her Jawline\"",
+  "model": "claude-haiku-4-5-20251001"
+}

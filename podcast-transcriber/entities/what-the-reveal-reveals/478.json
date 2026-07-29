@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Morgan",
+    "Julia"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "arm lift",
+    "brachioplasty",
+    "plastic surgery",
+    "local anesthesia",
+    "surgical recovery",
+    "scar treatment",
+    "liposuction alternative",
+    "cosmetic procedure",
+    "post-operative care",
+    "weight loss surgery",
+    "excess skin removal"
+  ],
+  "episode_num": 478,
+  "title": "Finally Getting An Arm Lift After a Decade! This 40-Year-Old Patient Decided To Take The Plunge",
+  "model": "claude-haiku-4-5-20251001"
+}

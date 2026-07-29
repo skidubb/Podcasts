@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "R. Brannon Claytor"
+  ],
+  "companies": [
+    "Bryn Mawr Hospital"
+  ],
+  "products": [
+    "Ideal Implants"
+  ],
+  "topics": [
+    "breast implants",
+    "implant exchange",
+    "saline implants",
+    "deflated implant",
+    "capsuloraphy",
+    "breast surgery",
+    "surgical experience",
+    "patient recovery",
+    "follow-up care",
+    "implant rupture"
+  ],
+  "episode_num": 472,
+  "title": "\"I Love It!\": 41-Year-Old Implant Exchange Patient Shares Her Experience",
+  "model": "claude-haiku-4-5-20251001"
+}

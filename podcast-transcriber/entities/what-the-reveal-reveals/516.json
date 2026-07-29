@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "CoolSculpting"
+  ],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "liposuction",
+    "body contouring",
+    "plastic surgery",
+    "patient testimonial",
+    "recovery",
+    "confidence",
+    "non-surgical treatments",
+    "cosmetic surgery results"
+  ],
+  "episode_num": 516,
+  "title": "\"It's Strengthened Me Mentally\": 50-Year-Old Tummy Tuck Patient Feels Stronger Emotionally and Physically",
+  "model": "claude-haiku-4-5-20251001"
+}

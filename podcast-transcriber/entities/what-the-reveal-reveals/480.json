@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [
+    "R. Brannon Claytor",
+    "Debbie",
+    "Julie"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "eyelid surgery",
+    "blepharoplasty",
+    "plastic surgery",
+    "patient experience",
+    "post-op recovery",
+    "cosmetic surgery results",
+    "patient satisfaction",
+    "surgical consultation"
+  ],
+  "episode_num": 480,
+  "title": "47-Year-Old Eyelid Patient Cannot Believe She Waited So Long To Get Surgery",
+  "model": "claude-haiku-4-5-20251001"
+}

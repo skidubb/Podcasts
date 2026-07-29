@@ -1,0 +1,31 @@
+{
+  "guest": null,
+  "people": [
+    "Sophie",
+    "Doug",
+    "Emily",
+    "Debbie",
+    "Danny",
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "IPL",
+    "Buzzsprout"
+  ],
+  "topics": [
+    "deep plane facelift",
+    "facial surgery results",
+    "cancer recovery",
+    "facelift scarring",
+    "natural-looking results",
+    "patient testimonial",
+    "cosmetic surgery",
+    "facelift one year follow-up",
+    "aging reversal",
+    "life after surgery"
+  ],
+  "episode_num": 510,
+  "title": "1 Year Later: Deep Plane Facelift Patient Gets Personal, \"I Beat Cancer and Made It Look Better\"",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,26 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "3D imaging system",
+    "digital imaging system"
+  ],
+  "topics": [
+    "breast implant removal",
+    "breast lift",
+    "mastopexy",
+    "local anesthesia",
+    "tumescent anesthesia",
+    "surgical facility",
+    "patient recovery",
+    "post-operative results",
+    "patient satisfaction",
+    "cosmetic surgery"
+  ],
+  "episode_num": 475,
+  "title": "53-Year-Old Breast Implant Removal Patient Calls Breast Lift \"The Best Decision She Ever Made\"",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [
+    "Mainline",
+    "Bryn Mawr"
+  ],
+  "products": [
+    "ChrisLix imaging system"
+  ],
+  "topics": [
+    "breast augmentation",
+    "natural results",
+    "silicon implants",
+    "recovery experience",
+    "patient satisfaction",
+    "surgical consultation",
+    "body confidence",
+    "imaging technology",
+    "sensation changes",
+    "physician selection"
+  ],
+  "episode_num": 545,
+  "title": "\"My Experience Has Been Nothing Short of Perfect!\", Shares 46-Year-Old Breast Augmentation Patient",
+  "model": "claude-haiku-4-5-20251001"
+}
