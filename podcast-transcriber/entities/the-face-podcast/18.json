@@ -1,0 +1,47 @@
+{
+  "guest": "Andrew Greensmith",
+  "people": [
+    "Alex Pike",
+    "Andrew Greensmith",
+    "Brian Mendelsohn",
+    "Peter Palsali",
+    "Peter Callen",
+    "Jonathan Sykes",
+    "Arthur Kane",
+    "Rod Roderick",
+    "Jocelyn Wilderstein"
+  ],
+  "companies": [
+    "Allergan",
+    "The Face Podcast"
+  ],
+  "products": [
+    "Facetune",
+    "Instagram",
+    "Facebook",
+    "Vector system",
+    "The Face Project",
+    "Hyaluronidase",
+    "Alloclase"
+  ],
+  "topics": [
+    "plastic surgery",
+    "rhinoplasty",
+    "facelift",
+    "fine art and surgery",
+    "preservation surgery",
+    "brow lift",
+    "eyelid surgery",
+    "body dysmorphic disorder",
+    "medical tourism",
+    "non-surgical aesthetics",
+    "aesthetic consultation",
+    "surgical outcomes",
+    "beauty standards",
+    "patient psychology",
+    "weight loss drugs"
+  ],
+  "episode_num": 18,
+  "title": "When Fine Art Meets Plastic Surgery",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,50 @@
+{
+  "guest": "Ben Talei",
+  "people": [
+    "Alex Pike",
+    "Ben Talei",
+    "Andrew Giacono",
+    "Steven Perlman",
+    "Denise Richards",
+    "Sam Hamra",
+    "Robert Cohen",
+    "Mendelsohn",
+    "Leonard Minelli",
+    "Dana Elise",
+    "Ruth Suise",
+    "Bradley Cooper",
+    "Renee Zellweger",
+    "Dominic Bray",
+    "Clavicular"
+  ],
+  "companies": [
+    "Columbia University",
+    "Wall Street Journal"
+  ],
+  "products": [
+    "Botox",
+    "Instagram",
+    "Facebook",
+    "Google AdWords",
+    "GLP"
+  ],
+  "topics": [
+    "facelift surgery",
+    "deep plane facelift",
+    "auralyft",
+    "brow lift",
+    "muscle modulation",
+    "fat grafting",
+    "facial rejuvenation",
+    "plastic surgery education",
+    "surgical innovation",
+    "male facelift",
+    "eyelid surgery",
+    "facial anatomy",
+    "surgical technique",
+    "patient results"
+  ],
+  "episode_num": 20,
+  "title": "Part 2 with Beverly Hills Plastic Surgeon Dr Ben Talei",
+  "model": "claude-haiku-4-5-20251001"
+}

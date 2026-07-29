@@ -1,0 +1,51 @@
+{
+  "guest": "Mark Ashton",
+  "people": [
+    "Mark Ashton",
+    "Alex Pike",
+    "Mark Butler",
+    "Angelina Jolie",
+    "Madonna",
+    "Daniel Lance",
+    "Gavin Chan"
+  ],
+  "companies": [
+    "University of Melbourne",
+    "Epworth Freemasons Hospital",
+    "Royal Melbourne Hospital",
+    "Royal Women's Hospital",
+    "Australian Society of Plastic Surgeons",
+    "Cosmedic Institute",
+    "Allergan",
+    "TCI",
+    "Royal Australasian College of Surgeons",
+    "Australian Medical Council",
+    "Australian Health Practitioner Registry Agency",
+    "Safer Care Victoria",
+    "Cabrini Hospital"
+  ],
+  "products": [
+    "Botox",
+    "hyaluronic acid filler",
+    "breast implants",
+    "tissue expanders"
+  ],
+  "topics": [
+    "plastic surgery training",
+    "cosmetic surgery regulation",
+    "patient safety",
+    "surgical qualifications",
+    "breast augmentation",
+    "breast reconstruction",
+    "cosmetic injectables",
+    "liposuction safety",
+    "medical ethics",
+    "non-surgical procedures",
+    "filler complications",
+    "informed consent",
+    "complication management"
+  ],
+  "episode_num": 8,
+  "title": "The Guardian Surgeon: Ensuring Safety in Aesthetic Transformations with Professor Mark Ashton",
+  "model": "claude-haiku-4-5-20251001"
+}

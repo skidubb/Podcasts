@@ -1,0 +1,57 @@
+{
+  "guest": "Bryan Mendelson",
+  "people": [
+    "Alex Pike",
+    "Bryan Mendelson",
+    "Benjamin Rank",
+    "Graeme Scofield",
+    "Tord Skoog",
+    "McAndoo",
+    "John Williams",
+    "Tom Reese",
+    "Donald Woodsmith",
+    "Converse",
+    "Sofia Loren",
+    "Raquel Welch",
+    "Angelina Jolie",
+    "John Boyd",
+    "Steve Bird",
+    "Madame Noël",
+    "Freud",
+    "Levant Effie"
+  ],
+  "companies": [
+    "Mayo Clinic",
+    "Royal Melbourne Hospital",
+    "Manhattan Eye and Throat Hospital",
+    "New York University",
+    "Monash University",
+    "University of Melbourne",
+    "The Alfred",
+    "TikTok"
+  ],
+  "products": [
+    "MRI",
+    "Radiesse"
+  ],
+  "topics": [
+    "facial anatomy",
+    "facelift surgery",
+    "deep plane facelift",
+    "aesthetic surgery",
+    "facial aging",
+    "bone structure",
+    "hydroxyapatite implants",
+    "surgical technique",
+    "patient psychology",
+    "beauty standards",
+    "surgical education",
+    "non-surgical treatments",
+    "facial proportions",
+    "cosmetic procedures",
+    "surgical outcomes"
+  ],
+  "episode_num": 7,
+  "title": "Beyond Skin Deep: World Renowned Plastic Surgeon Dr. Bryan Mendelson’s Anatomical Odyssey in Shaping Aesthetic Frontiers",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,41 @@
+{
+  "guest": "Garth Fisher",
+  "people": [
+    "Alex Pike",
+    "Garth Fisher",
+    "Hugh Hefner",
+    "Bruce Connell",
+    "Howard Schultz",
+    "Michael Jackson",
+    "Lisa Gibbons"
+  ],
+  "companies": [
+    "ABC",
+    "Spago"
+  ],
+  "products": [
+    "LASIK",
+    "Botox",
+    "Instagram"
+  ],
+  "topics": [
+    "plastic surgery",
+    "cosmetic enhancement",
+    "facelifts",
+    "breast augmentation",
+    "celebrity clientele",
+    "realistic expectations",
+    "non-surgical treatments",
+    "injectables and fillers",
+    "patient communication",
+    "surgical outcomes",
+    "beauty standards",
+    "social media impact",
+    "medical ethics",
+    "practice management",
+    "lip lift procedure"
+  ],
+  "episode_num": 10,
+  "title": "Sculpting Dreams: A Conversation with Renowned Beverly Hills Plastic Surgeon Dr. Garth Fisher",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,42 @@
+{
+  "guest": "Jonathan Sykes",
+  "people": [
+    "Alex Pike",
+    "Jonathan Sykes",
+    "Johnny Depp",
+    "Jack Anderson"
+  ],
+  "companies": [
+    "The Face Podcast",
+    "Aesthetic Next",
+    "European Academy of Facial Plastic Surgery"
+  ],
+  "products": [
+    "Instagram",
+    "TikTok",
+    "Facebook",
+    "iPhone",
+    "Ozempic",
+    "Tirzepatide"
+  ],
+  "topics": [
+    "rhinoplasty",
+    "facial rejuvenation",
+    "facelift",
+    "blepharoplasty",
+    "injection rhinoplasty",
+    "gender-affirming surgery",
+    "masculinization surgery",
+    "jawline enhancement",
+    "chin surgery",
+    "social media influence",
+    "patient expectations",
+    "body dysmorphic disorder",
+    "non-surgical treatments",
+    "facial aesthetics",
+    "surgical technique"
+  ],
+  "episode_num": 14,
+  "title": "The Art of Transformation: A Conversation with Dr. Jonathan Sykes",
+  "model": "claude-haiku-4-5-20251001"
+}

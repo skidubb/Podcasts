@@ -1,0 +1,49 @@
+{
+  "guest": "Faryan Jalalabadi",
+  "people": [
+    "Alex Pike",
+    "Faryan Jalalabadi",
+    "Jay Calvert",
+    "Ritu Chopra",
+    "Ben Talei",
+    "Guy Massry",
+    "Kami Parsa",
+    "Grant Stevens",
+    "Ashkan Ghavami",
+    "Jubin Gabay",
+    "Richard Zumall",
+    "Brian Mendelson",
+    "Eyal Kramer"
+  ],
+  "companies": [
+    "USC",
+    "Aesthetic Fellowship of Los Angeles",
+    "Chick-fil-A"
+  ],
+  "products": [
+    "Whoop",
+    "Epicutis lipid serum",
+    "BPC-157",
+    "Sculptra",
+    "Calcium hydroxyapatite"
+  ],
+  "topics": [
+    "plastic surgery",
+    "deep plane facelift",
+    "anti-filler philosophy",
+    "fat transfer",
+    "facial aesthetics",
+    "volume loss",
+    "skin aging",
+    "periorbital hollowing",
+    "tear trough filler",
+    "microneedling",
+    "sleep optimization",
+    "glp-1 weight loss",
+    "natural rejuvenation",
+    "surgical mentorship"
+  ],
+  "episode_num": 23,
+  "title": "The New Face of Plastic Surgery : Dr Faryan Jalalabadi",
+  "model": "claude-haiku-4-5-20251001"
+}

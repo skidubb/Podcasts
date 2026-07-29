@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [
+    "Alex Pike"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "plastic surgery",
+    "facelifts",
+    "rhinoplasty",
+    "non-invasive treatments",
+    "skincare",
+    "body contouring",
+    "surgical techniques",
+    "aesthetic industry",
+    "cosmetic trends",
+    "medical procedures"
+  ],
+  "episode_num": 1,
+  "title": "The Face Podcast with Alex Pike trailer",
+  "model": "claude-haiku-4-5-20251001"
+}

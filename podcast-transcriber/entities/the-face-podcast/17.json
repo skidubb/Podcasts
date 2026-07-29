@@ -1,0 +1,58 @@
+{
+  "guest": "Ben Talei",
+  "people": [
+    "Alex Pike",
+    "Ben Talei",
+    "Angela",
+    "David Hopp",
+    "Veronica",
+    "Dr. Sherman",
+    "Dr. Shucknick",
+    "Dan Baker",
+    "David Rosenberg",
+    "Miroshnik",
+    "Kylie Jenner",
+    "Kris Jenner",
+    "Lindsay Lohan",
+    "Christina Aguilera",
+    "Kendall Jenner"
+  ],
+  "companies": [
+    "UCLA",
+    "USC",
+    "UC San Diego",
+    "Columbia",
+    "Cornell",
+    "Beverly Hills",
+    "Stanford Hospital",
+    "Children's Hospital",
+    "Guess",
+    "Beverly Center",
+    "NYU"
+  ],
+  "products": [
+    "CUPID LIFT",
+    "Cupid algorithm",
+    "Instagram Live",
+    "MRI"
+  ],
+  "topics": [
+    "facelift technique",
+    "plastic surgery training",
+    "rhinoplasty",
+    "lip lift",
+    "facial anatomy",
+    "injectables",
+    "fillers",
+    "patient expectations",
+    "surgical innovation",
+    "cosmetic surgery business",
+    "medical education",
+    "entrepreneurship",
+    "aesthetic results",
+    "cadaver labs"
+  ],
+  "episode_num": 17,
+  "title": "Cupid’s Lips & Beyond: Dr. Ben Talei’s Journey to the Pinnacle of Plastic Surgery",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,43 @@
+{
+  "guest": "Michael Kane",
+  "people": [
+    "Michael Kane",
+    "Alex Pike",
+    "Richard Listman",
+    "Alistair Carruthers",
+    "Jeannie Carruthers",
+    "Alan Scott"
+  ],
+  "companies": [
+    "Allergan",
+    "Clostridium botulinum",
+    "The Face Podcast"
+  ],
+  "products": [
+    "Botox",
+    "Oculinum",
+    "Daxify",
+    "collagen",
+    "methylene blue"
+  ],
+  "topics": [
+    "botox injection technique",
+    "neuromodulators",
+    "cosmetic dermatology",
+    "facial aesthetics",
+    "plastic surgery",
+    "patient consultation",
+    "injectable fillers",
+    "facial aging",
+    "facelift alternatives",
+    "practitioner training",
+    "product differentiation",
+    "neck aging",
+    "brow lifting",
+    "jaw contouring",
+    "adverse events"
+  ],
+  "episode_num": 6,
+  "title": "The Wrinkle Whisperer: Dr. Michael Kane’s Royal Decree on Timeless Beauty",
+  "model": "claude-haiku-4-5-20251001"
+}

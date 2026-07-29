@@ -1,0 +1,36 @@
+{
+  "guest": "Michael Miroshnik",
+  "people": [
+    "Alex Pike",
+    "Michael Miroshnik",
+    "Peer Hayden",
+    "Robert Cohen"
+  ],
+  "companies": [
+    "The Face Podcast",
+    "InBody"
+  ],
+  "products": [
+    "InBody 770"
+  ],
+  "topics": [
+    "breast augmentation",
+    "breast lift",
+    "torso preservation",
+    "body contouring",
+    "abdominoplasty",
+    "fat grafting",
+    "internal bra technique",
+    "cleavage aesthetics",
+    "post-pregnancy surgery",
+    "braless look",
+    "implant placement",
+    "body composition",
+    "surgical recovery",
+    "aesthetic surgery innovation",
+    "patient consultation"
+  ],
+  "episode_num": 16,
+  "title": "Beyond Size: Creating Beautiful Breasts with Dr. Michael Miroshnik",
+  "model": "claude-haiku-4-5-20251001"
+}

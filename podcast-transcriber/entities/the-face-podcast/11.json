@@ -1,0 +1,41 @@
+{
+  "guest": "David Matlock",
+  "people": [
+    "Alex Pike",
+    "David Matlock",
+    "Blac Chyna",
+    "Andrew Ordon"
+  ],
+  "companies": [
+    "The Face Podcast",
+    "Aesthetic Surgery Institute",
+    "MedSpa",
+    "omnystudio.com"
+  ],
+  "products": [
+    "VASER",
+    "Renuvion",
+    "J-Plasma",
+    "Morpheus 8",
+    "GLP-1 agonists"
+  ],
+  "topics": [
+    "cosmetic surgery",
+    "body contouring",
+    "vaginal rejuvenation",
+    "liposuction",
+    "brazilian butt lift",
+    "skin tightening",
+    "weight loss drugs",
+    "celebrity procedures",
+    "minimally invasive treatments",
+    "aesthetic trends",
+    "body sculpting",
+    "surgical complications",
+    "social media influence",
+    "holistic health"
+  ],
+  "episode_num": 11,
+  "title": "Beyond the Surface: Hollywood’s Aesthetic Evolution with Dr. David Matlock",
+  "model": "claude-haiku-4-5-20251001"
+}

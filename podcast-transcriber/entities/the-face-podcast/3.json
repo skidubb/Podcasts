@@ -1,0 +1,42 @@
+{
+  "guest": "Kourosh Tavakoli",
+  "people": [
+    "Alex Pike",
+    "Kourosh Tavakoli",
+    "Pamela Anderson",
+    "Demi Moore",
+    "Victoria Beckham",
+    "Tori Spelling",
+    "John Tebbett",
+    "Kendall Jenner",
+    "Kylie Jenner"
+  ],
+  "companies": [
+    "Dow Corning",
+    "FDA",
+    "ISAPS",
+    "University of New South Wales",
+    "Netflix"
+  ],
+  "products": [],
+  "topics": [
+    "breast augmentation",
+    "plastic surgery",
+    "breast implants",
+    "surgical techniques",
+    "fat grafting",
+    "internal bra procedure",
+    "capsular contracture",
+    "revision surgery",
+    "mummy makeover",
+    "aesthetic surgery",
+    "patient expectations",
+    "breast lift",
+    "implant sizing",
+    "cleavage aesthetics",
+    "postpartum body"
+  ],
+  "episode_num": 3,
+  "title": "2. Unlocking the Beauty of Breasts: Expert insights from a Renowned Plastic Surgeon : Dr Kourosh Tavakoli",
+  "model": "claude-haiku-4-5-20251001"
+}

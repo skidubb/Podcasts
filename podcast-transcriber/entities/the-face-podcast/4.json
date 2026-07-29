@@ -1,0 +1,48 @@
+{
+  "guest": "Chia Chi Kao",
+  "people": [
+    "Alex Pike",
+    "Chia Chi Kao",
+    "Audrey Hepburn",
+    "Raquel Welch",
+    "Kendall Jenner",
+    "Bella Hadid",
+    "Scarlett Johansson",
+    "Brad Pitt",
+    "George Clooney",
+    "Paul Newman",
+    "Ariana Grande"
+  ],
+  "companies": [
+    "KAO Center",
+    "Vogue",
+    "Instagram"
+  ],
+  "products": [
+    "PRP",
+    "Exosomes",
+    "Emoxi BBL",
+    "Kybella",
+    "Hyperbaric oxygen"
+  ],
+  "topics": [
+    "ponytail facelift",
+    "facelift techniques",
+    "blepharoplasty",
+    "ko eyes",
+    "neck lift",
+    "filler overuse",
+    "thread lift",
+    "cosmetic surgery",
+    "non-invasive procedures",
+    "skin rejuvenation",
+    "regenerative medicine",
+    "stem cell therapy",
+    "male cosmetic surgery",
+    "recovery and aftercare",
+    "aesthetic standards"
+  ],
+  "episode_num": 4,
+  "title": "The Ponytail Facelift: A deep dive into this innovative and unique procedure with the curator and Board Certified Plastic Surgeon Dr Kao.",
+  "model": "claude-haiku-4-5-20251001"
+}

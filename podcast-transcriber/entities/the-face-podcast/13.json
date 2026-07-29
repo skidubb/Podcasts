@@ -1,0 +1,38 @@
+{
+  "guest": "Robert Cohen",
+  "people": [
+    "Alex Pike",
+    "Robert Cohen",
+    "Michael Marochnik"
+  ],
+  "companies": [
+    "Omny Studio"
+  ],
+  "products": [
+    "Instagram",
+    "iPad"
+  ],
+  "topics": [
+    "breast augmentation",
+    "breast reduction",
+    "plastic surgery",
+    "natural results",
+    "body contouring",
+    "mommy makeover",
+    "breast implants",
+    "fat grafting",
+    "gynecomastia",
+    "tummy tuck",
+    "abdominoplasty",
+    "surgical recovery",
+    "patient care",
+    "surgical complications",
+    "breast lift",
+    "social media influence",
+    "body aesthetics",
+    "surgical revision"
+  ],
+  "episode_num": 13,
+  "title": "Dr. Robert Cohen",
+  "model": "claude-haiku-4-5-20251001"
+}

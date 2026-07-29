@@ -1,0 +1,46 @@
+{
+  "guest": "Sachin Shridharani",
+  "people": [
+    "Alex Pike",
+    "Sachin Shridharani"
+  ],
+  "companies": [
+    "The Face Podcast",
+    "5th Avenue Plastic Surgery",
+    "Lux Surgery",
+    "American Board of Plastic Surgery",
+    "Johns Hopkins"
+  ],
+  "products": [
+    "Ozempic",
+    "Wegovy",
+    "Monjaro",
+    "Kybella",
+    "Renuvion",
+    "J-Plasma",
+    "Sculptra",
+    "Metformin",
+    "Inside Out Beauty"
+  ],
+  "topics": [
+    "body contouring",
+    "plastic surgery",
+    "tummy tuck",
+    "liposuction",
+    "weight loss surgery",
+    "breast surgery",
+    "thigh lift",
+    "hip dips",
+    "non-surgical injectables",
+    "fat transfer",
+    "semaglutide",
+    "post-pregnancy body",
+    "skin tightening",
+    "surgical complications",
+    "patient safety",
+    "drainless abdominoplasty"
+  ],
+  "episode_num": 9,
+  "title": "Mastering the Canvas: A Conversation with a Rising Star in Body Plastic Surgery",
+  "model": "claude-haiku-4-5-20251001"
+}

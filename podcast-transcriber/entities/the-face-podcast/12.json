@@ -1,0 +1,46 @@
+{
+  "guest": "Jason Diamond",
+  "people": [
+    "Alex Pike",
+    "Jason Diamond",
+    "Frank Kamer",
+    "Steve Hoffman",
+    "Sanhammer",
+    "Norm Leaf",
+    "Michael Jackson",
+    "Joan Rivers"
+  ],
+  "companies": [
+    "The Face Podcast",
+    "Diamond Face Institute",
+    "Metacine"
+  ],
+  "products": [
+    "InstaFacial",
+    "Diamond Facial Rejuvenation",
+    "Medicine MinstaFacial",
+    "Diamond Facial Sculpting",
+    "InstaFacial Collection",
+    "Metacine skincare line"
+  ],
+  "topics": [
+    "facial plastic surgery",
+    "facelift techniques",
+    "non-surgical procedures",
+    "skincare innovation",
+    "bioregenerative medicine",
+    "natural results",
+    "facial rejuvenation",
+    "cosmetic procedures",
+    "aesthetic medicine",
+    "patient-centered care",
+    "volume restoration",
+    "neck lifting",
+    "customized implants",
+    "instafacial procedure",
+    "deep plane facelift"
+  ],
+  "episode_num": 12,
+  "title": "The Art of Metacine with Dr Jason Diamond",
+  "model": "claude-haiku-4-5-20251001"
+}

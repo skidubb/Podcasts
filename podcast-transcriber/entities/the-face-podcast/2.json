@@ -1,0 +1,54 @@
+{
+  "guest": "Sachin Shridharani",
+  "people": [
+    "Sachin Shridharani",
+    "Alex Pike",
+    "Alex Pyke",
+    "Kylie Kardashian",
+    "Kim Kardashian",
+    "Kourtney Kardashian",
+    "Tom Ford"
+  ],
+  "companies": [
+    "The Face Podcast",
+    "Johns Hopkins Hospital",
+    "Lux Surgery",
+    "FDA",
+    "Allergan",
+    "Galderma"
+  ],
+  "products": [
+    "Kybella",
+    "Valkyra",
+    "Sculptra",
+    "Radiesse",
+    "Volux",
+    "Botox",
+    "Dysport",
+    "Juveau",
+    "Xeomin",
+    "Daxify",
+    "Quo",
+    "HydraFacial"
+  ],
+  "topics": [
+    "plastic surgery",
+    "non-surgical cosmetic treatments",
+    "injectables",
+    "fat-dissolving injectables",
+    "fillers",
+    "neuromodulators",
+    "cellulite treatment",
+    "body contouring",
+    "facelift",
+    "breast augmentation",
+    "liposuction",
+    "fat transfer",
+    "clinical trials",
+    "aesthetic medicine",
+    "luxury cosmetics"
+  ],
+  "episode_num": 2,
+  "title": "1. Dr Sachin Shridharani",
+  "model": "claude-haiku-4-5-20251001"
+}

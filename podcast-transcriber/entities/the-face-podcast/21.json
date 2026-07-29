@@ -1,0 +1,51 @@
+{
+  "guest": "David Saadat",
+  "people": [
+    "Alex Pike",
+    "David Saadat",
+    "Johnny Depp",
+    "Kylie Jenner",
+    "Kris Jenner",
+    "Mendelsohn",
+    "Sachin",
+    "Andre Bratz",
+    "Brian",
+    "Ben Talley",
+    "Greg Goodman"
+  ],
+  "companies": [
+    "USC",
+    "ProLenium",
+    "Allergan",
+    "Galderm"
+  ],
+  "products": [
+    "NuPhil",
+    "PLLA",
+    "calcium hydroxyapatite",
+    "hyaluronic acid",
+    "neuromodulators",
+    "biostimulators",
+    "nanofat"
+  ],
+  "topics": [
+    "rhinoplasty",
+    "facial harmony",
+    "plastic surgery",
+    "body dysmorphic disorder",
+    "surgical consultation",
+    "biostimulators",
+    "skin rejuvenation",
+    "injectables",
+    "facial anatomy",
+    "non-surgical treatments",
+    "facelift",
+    "surgical outcomes",
+    "patient education",
+    "aesthetic medicine specialty",
+    "social media influence"
+  ],
+  "episode_num": 21,
+  "title": "Rhinoplasty and Facial Harmony with Plastic Surgeon Dr David Saadat",
+  "model": "claude-haiku-4-5-20251001"
+}
