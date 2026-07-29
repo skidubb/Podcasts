@@ -17,6 +17,7 @@ on:
           - all
           - gtm-ai-podcast
           - beauty-and-the-biz
+          - the-face-podcast
           - ratchet-wrench-radio
           - light-reading
           - tower-talks
@@ -61,6 +62,11 @@ jobs:
             name: 'Beauty and the Biz'
             description: 'A podcast for plastic surgeons, medspa owners, and aesthetic practice leaders on growing, marketing, and managing profitable cosmetic practices, hosted by Catherine Maley'
             index: 'beauty-and-the-biz'
+          - slug: the-face-podcast
+            rss: 'https://www.omnycontent.com/d/playlist/d3d56d8d-11c9-411a-aade-af8f001be4a7/141907a0-cc93-41f1-bade-b0a401876f09/011cf5bd-2c72-48e1-861f-b0a40188bd32/podcast.rss'
+            name: 'The Face Podcast with Alex Pike'
+            description: 'A podcast featuring interviews with the world''s leading plastic surgeons on facelifts, rhinoplasty, breast and body contouring, non-invasive treatments and skincare, hosted by Alex Pike'
+            index: 'the-face-podcast'
           - slug: ratchet-wrench-radio
             rss: 'https://feed.podbean.com/ratchetandwrenchradio/feed.xml'
             name: 'Ratchet+Wrench Radio'
