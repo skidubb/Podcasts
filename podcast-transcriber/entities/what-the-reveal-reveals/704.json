@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "R. Bran",
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "CO2 laser",
+    "Microneedling",
+    "Nanofat"
+  ],
+  "topics": [
+    "deep plane facelift",
+    "facelift recovery",
+    "cosmetic surgery",
+    "laser treatment",
+    "facial rejuvenation",
+    "post-operative results",
+    "patient testimonial",
+    "wrinkle treatment",
+    "accelerated recovery",
+    "peri-oral treatment"
+  ],
+  "episode_num": 704,
+  "title": "Accelerated Recovery After Facelift: 66-Year-Old Deep Plane Facelift Patient Just 8 Days Later!",
+  "model": "claude-haiku-4-5-20251001"
+}

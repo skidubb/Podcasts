@@ -1,0 +1,26 @@
+{
+  "guest": null,
+  "people": [
+    "Patient (54-year-old)",
+    "Mother of patient"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "facelift",
+    "deep plane facelift",
+    "neck lift",
+    "cosmetic surgery results",
+    "natural-looking results",
+    "tumescent local anesthesia",
+    "surgical recovery",
+    "patient satisfaction",
+    "anti-aging",
+    "facial rejuvenation"
+  ],
+  "episode_num": 716,
+  "title": "Not Even Her Own Mother Can Tell She Got Something Done… Thrilled 54-Year-Old Facelift Patient Spills All",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,32 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Emily",
+    "Julie"
+  ],
+  "companies": [
+    "Allergan",
+    "Buzzsprout"
+  ],
+  "products": [
+    "Allergan Natrelle 240cc implants"
+  ],
+  "topics": [
+    "breast augmentation",
+    "silicone implants",
+    "plastic surgery",
+    "patient experience",
+    "surgery recovery",
+    "breast implant consultation",
+    "cosmetic surgery results",
+    "post-operative pain",
+    "workout recovery",
+    "natural-looking results",
+    "implant placement",
+    "patient testimonial"
+  ],
+  "episode_num": 740,
+  "title": "240cc Silicone Breast Implants: 44-Year-Old Mom of 3 Shares Her Story",
+  "model": "claude-haiku-4-5-20251001"
+}

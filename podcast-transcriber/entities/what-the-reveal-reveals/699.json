@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "Patient (referred to as 35)",
+    "Dr. Clear"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "facial rejuvenation",
+    "deep plane facelift",
+    "ageism",
+    "age discrimination",
+    "workplace bias",
+    "professional relevance",
+    "self-perception",
+    "appearance and perception",
+    "aging in the workplace",
+    "cosmetic surgery",
+    "recovery timeline",
+    "subconscious bias"
+  ],
+  "episode_num": 699,
+  "title": "Ageism at Work: 53-Year-Old Deep Plane Facelift Patient Shares How Facial Rejuvenation Changed Her Work",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "Microneedling"
+  ],
+  "topics": [
+    "microneedling",
+    "surgical scars",
+    "breast implant removal",
+    "scar treatment",
+    "scar cream",
+    "optimal scars",
+    "patient experience",
+    "plastic surgery"
+  ],
+  "episode_num": 709,
+  "title": "Can Microneedling Erase Surgical Scars? A 33-Year-Old Breast Implant Removal Patient’s Experience",
+  "model": "claude-haiku-4-5-20251001"
+}

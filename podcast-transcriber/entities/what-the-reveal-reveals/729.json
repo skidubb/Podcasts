@@ -1,0 +1,31 @@
+{
+  "guest": null,
+  "people": [
+    "R. B. Claytor",
+    "Emily",
+    "Kleder",
+    "Deb",
+    "Julie",
+    "Marianne"
+  ],
+  "companies": [],
+  "products": [
+    "Lovenox",
+    "DVT protocol"
+  ],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "postpartum body",
+    "plastic surgery",
+    "drain-free surgery",
+    "patient recovery",
+    "body confidence",
+    "surgical risks",
+    "patient experience",
+    "cosmetic procedures"
+  ],
+  "episode_num": 729,
+  "title": "Tummy Tuck at 32: New Mother Shares Her Motivations, Fears, Results, and More",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,29 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Stephanie"
+  ],
+  "companies": [
+    "TouchMD"
+  ],
+  "products": [
+    "TouchMD"
+  ],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "drainless surgery",
+    "recovery",
+    "post-op care",
+    "cosmetic surgery",
+    "body contouring",
+    "patient results",
+    "rectus diastasis",
+    "surgical techniques",
+    "patient satisfaction"
+  ],
+  "episode_num": 731,
+  "title": "“No Drains Are The Way To Go”: 43-Year-Old Discusses Her Tummy Tuck Recovery & Results",
+  "model": "claude-haiku-4-5-20251001"
+}

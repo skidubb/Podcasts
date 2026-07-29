@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "walker"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "neck liposuction",
+    "plastic surgery",
+    "c-section comparison",
+    "post-operative recovery",
+    "body contouring",
+    "patient experience",
+    "cosmetic results",
+    "jawline sculpting"
+  ],
+  "episode_num": 714,
+  "title": "How Does a Tummy Tuck Compare to a C-section? A 38-Year-Old Mother of 2 Shares Her Experience",
+  "model": "claude-haiku-4-5-20251001"
+}

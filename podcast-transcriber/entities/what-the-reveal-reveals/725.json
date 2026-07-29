@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "R. Brannon Claytor",
+    "Debbie"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "breast lift",
+    "mastopexy",
+    "local anesthesia",
+    "tumescent anesthesia",
+    "cosmetic surgery",
+    "patient confidence",
+    "surgical results",
+    "microneedling",
+    "scar treatment",
+    "recovery",
+    "patient testimonial"
+  ],
+  "episode_num": 725,
+  "title": "Breast Lift With Local Anesthesia: This 58-Year-Old Patient Refused General Anesthesia",
+  "model": "claude-haiku-4-5-20251001"
+}

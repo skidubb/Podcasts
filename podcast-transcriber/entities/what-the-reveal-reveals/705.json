@@ -1,0 +1,30 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Kleder"
+  ],
+  "companies": [
+    "Kleder Neon Plastic Surgery",
+    "Buzzsprout"
+  ],
+  "products": [
+    "SmartLipo",
+    "CoolSculpting"
+  ],
+  "topics": [
+    "coolsculpting complications",
+    "abdominal scarring",
+    "smart liposuction",
+    "laser-assisted liposuction",
+    "fibrotic scar tissue",
+    "body contouring",
+    "plastic surgery",
+    "patient experience",
+    "post-operative results",
+    "cosmetic procedures"
+  ],
+  "episode_num": 705,
+  "title": "CoolSculpting Left Her With Abdominal Scarring - Here’s How Dr. Claytor Fixed It With SmartLipo",
+  "model": "claude-haiku-4-5-20251001"
+}

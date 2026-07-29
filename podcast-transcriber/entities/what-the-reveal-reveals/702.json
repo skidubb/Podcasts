@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "drainless surgery",
+    "recovery",
+    "post-operative care",
+    "pain management",
+    "scar treatment",
+    "surgical results",
+    "patient experience",
+    "plastic surgery"
+  ],
+  "episode_num": 702,
+  "title": "What Does Drainless Tummy Tuck Recovery Feel Like? 33-Year-Old Patient Describes the First 2 Weeks",
+  "model": "claude-haiku-4-5-20251001"
+}

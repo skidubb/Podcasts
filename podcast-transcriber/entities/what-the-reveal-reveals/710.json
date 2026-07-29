@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [],
+  "products": [
+    "Crisalix Breast Imaging"
+  ],
+  "topics": [
+    "breast augmentation",
+    "silicone implants",
+    "subfascial placement",
+    "plastic surgery",
+    "patient satisfaction",
+    "board certified surgeons",
+    "surgical consultation",
+    "implant sizing",
+    "post-operative recovery",
+    "cosmetic surgery results"
+  ],
+  "episode_num": 710,
+  "title": "42-Year-Old Woman is 1 Week Post Op From Sub-Fascial Silicone Breast Augmentation",
+  "model": "claude-haiku-4-5-20251001"
+}

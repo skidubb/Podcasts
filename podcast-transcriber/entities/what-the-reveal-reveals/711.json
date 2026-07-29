@@ -1,0 +1,26 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "Tylenol",
+    "Oxycodone"
+  ],
+  "topics": [
+    "arm lift",
+    "brachioplasty",
+    "weight loss",
+    "excess skin",
+    "plastic surgery",
+    "body contouring",
+    "tumescent local anesthesia",
+    "surgical recovery",
+    "post-operative care",
+    "patient testimonial"
+  ],
+  "episode_num": 711,
+  "title": "Excess Skin Hiding Weight Loss Results? This Arm Lift Patient’s Story is For You",
+  "model": "claude-haiku-4-5-20251001"
+}

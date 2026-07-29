@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "R. Brannon Claytor"
+  ],
+  "companies": [
+    "CNPlasticSurgery"
+  ],
+  "products": [],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "diastasis recti",
+    "rectus diastasis repair",
+    "fat grafting",
+    "breast augmentation",
+    "patient experience",
+    "plastic surgery",
+    "back pain relief",
+    "postpartum body",
+    "abdominal separation",
+    "drainless surgery"
+  ],
+  "episode_num": 720,
+  "title": "“I Didn’t Even Know I Had Diastatis Recti!” A 38-Year-Old Drainless Tummy Tuck Patient’s Experience",
+  "model": "claude-haiku-4-5-20251001"
+}
