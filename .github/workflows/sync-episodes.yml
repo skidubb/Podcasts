@@ -18,6 +18,7 @@ on:
           - gtm-ai-podcast
           - beauty-and-the-biz
           - the-face-podcast
+          - plastic-surgery-uncensored
           - what-the-reveal-reveals
           - ratchet-wrench-radio
           - light-reading
@@ -74,6 +75,21 @@ jobs:
             description: 'A podcast featuring interviews with the world''s leading plastic surgeons on facelifts, rhinoplasty, breast and body contouring, non-invasive treatments and skincare, hosted by Alex Pike'
             index: 'beauty-and-the-biz'
             namespace: 'the-face-podcast'
+          # Surgeon-to-consumer education (risks, red flags, procedure
+          # explainers) -- distinct from the practitioner-business (BATB),
+          # practitioner-interview (the-face-podcast) and patient-testimonial
+          # (patient-voice) corpora, so it gets its own namespace in the same
+          # dense index. `since` is PERMANENT: the feed has 331 episodes back
+          # to 2019 and without it the weekly --limit 5 run would slowly
+          # backfill the pre-window archive. 2024-08-14 == the 100th most
+          # recent episode as of 2026-07-29.
+          - slug: plastic-surgery-uncensored
+            rss: 'https://www.spreaker.com/show/4879779/episodes/feed'
+            name: 'Plastic Surgery Uncensored'
+            description: 'A podcast in which Beverly Hills plastic surgeon Dr. Rady Rahban gives unfiltered consumer-facing guidance on cosmetic procedures, surgical risks, choosing a qualified surgeon, recovery and revision surgery'
+            index: 'beauty-and-the-biz'
+            namespace: 'plastic-surgery-uncensored'
+            since: '2024-08-14'
           # Patient-perspective corpus (customer journey), as opposed to the
           # practitioner-facing shows. Shares the beauty-and-the-biz index
           # under a 'patient-voice' namespace that later patient shows can
