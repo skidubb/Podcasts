@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "silicone implants"
+  ],
+  "topics": [
+    "breast augmentation",
+    "cosmetic surgery",
+    "local anesthesia",
+    "subfascial implants",
+    "patient recovery",
+    "surgical results",
+    "patient testimonial",
+    "awake surgery",
+    "tumescent anesthesia",
+    "implant placement"
+  ],
+  "episode_num": 234,
+  "title": "Just 4 Days Post Breast Augmentation, This Patient is Feeling FANTASTIC",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,32 @@
+{
+  "guest": null,
+  "people": [
+    "Patient (37-year-old woman)"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "Insulin pump (arm-stick type)"
+  ],
+  "topics": [
+    "mommy makeover",
+    "abdominoplasty",
+    "tummy tuck",
+    "breast lift",
+    "hernia repair",
+    "drainless surgery",
+    "post-operative recovery",
+    "surgical swelling",
+    "pain management",
+    "recovery timeline",
+    "patient expectations",
+    "before and after results",
+    "activity progression",
+    "mental recovery",
+    "surgical preparation"
+  ],
+  "episode_num": 272,
+  "title": "10 Days Post DRAINLESS Mommy Makeover, This Patient is VERY GLAD She Did It",
+  "model": "claude-haiku-4-5-20251001"
+}

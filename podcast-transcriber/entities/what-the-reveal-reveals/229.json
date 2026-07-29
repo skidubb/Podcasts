@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [
+    "Carl"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "facelift",
+    "cosmetic surgery",
+    "local anesthesia",
+    "tumescent anesthesia",
+    "jawline enhancement",
+    "neck lift",
+    "patient testimonial",
+    "wedding preparation",
+    "surgical recovery",
+    "confidence and self-esteem"
+  ],
+  "episode_num": 229,
+  "title": "Mother of the Groom Feels Beautiful on Her Son's Wedding Day After Getting Facelift",
+  "model": "claude-haiku-4-5-20251001"
+}

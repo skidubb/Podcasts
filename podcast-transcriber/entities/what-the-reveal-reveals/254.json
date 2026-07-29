@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "Tylenol"
+  ],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "plastic surgery",
+    "drainless technique",
+    "post-operative recovery",
+    "pain management",
+    "patient satisfaction",
+    "cosmetic surgery results",
+    "anesthesia",
+    "surgical numbing medication"
+  ],
+  "episode_num": 254,
+  "title": "54-Year-Old Tummy Tuck Patient Wishes She Didn't Wait So Long",
+  "model": "claude-haiku-4-5-20251001"
+}

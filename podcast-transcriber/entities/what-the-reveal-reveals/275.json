@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "plastic surgery",
+    "body lift",
+    "belt lipectomy",
+    "breast augmentation",
+    "weight loss",
+    "skin removal",
+    "patient confidence",
+    "self-esteem",
+    "post-operative recovery",
+    "fitness and exercise",
+    "implant placement",
+    "patient satisfaction"
+  ],
+  "episode_num": 275,
+  "title": "Body Lift and Breast Augmentation Patient is \"So Much More Comfortable Now\"",
+  "model": "claude-haiku-4-5-20251001"
+}

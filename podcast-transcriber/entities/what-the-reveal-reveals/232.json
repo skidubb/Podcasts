@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Klader"
+  ],
+  "companies": [],
+  "products": [
+    "tumescent anesthesia"
+  ],
+  "topics": [
+    "deep plane facelift",
+    "facelift surgery",
+    "awake surgery",
+    "neck lift",
+    "cosmetic surgery",
+    "patient experience",
+    "post-op recovery",
+    "hereditary sagging",
+    "surgical results",
+    "anesthesia",
+    "patient testimonial"
+  ],
+  "episode_num": 232,
+  "title": "Awake Surgery: 60-Year-Old Deep Plane Facelift Patient Shares her Experience One Month Post-Op",
+  "model": "claude-haiku-4-5-20251001"
+}

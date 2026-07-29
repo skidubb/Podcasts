@@ -1,0 +1,30 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Noon"
+  ],
+  "companies": [],
+  "products": [
+    "GLP-1s"
+  ],
+  "topics": [
+    "plastic surgery",
+    "body contouring",
+    "abdominoplasty",
+    "brachioplasty",
+    "thighplasty",
+    "arm lift",
+    "thigh lift",
+    "tummy tuck",
+    "weight loss",
+    "mobility improvement",
+    "quality of life",
+    "senior patients",
+    "local anesthesia",
+    "general anesthesia"
+  ],
+  "episode_num": 298,
+  "title": "70-Year-Old Arm Lift, Thigh Lift, AND Tummy Tuck Patient Has Noticed a HUGE Difference in Mobility",
+  "model": "claude-haiku-4-5-20251001"
+}

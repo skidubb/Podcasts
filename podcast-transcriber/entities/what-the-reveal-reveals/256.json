@@ -1,0 +1,24 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "breast lift",
+    "mastopexy",
+    "tummy tuck",
+    "abdominoplasty",
+    "hernia repair",
+    "diastasis recti",
+    "back pain",
+    "patient experience",
+    "post-surgery results",
+    "body confidence",
+    "two-year follow-up"
+  ],
+  "episode_num": 256,
+  "title": "42-Year-Old Breast Lift, Tummy Tuck, and Hernia Repair Patient, \"Everything Just Feels Better\"",
+  "model": "claude-haiku-4-5-20251001"
+}

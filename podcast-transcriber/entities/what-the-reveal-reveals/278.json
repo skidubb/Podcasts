@@ -1,0 +1,29 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Kleder"
+  ],
+  "companies": [
+    "Bryn Mawr"
+  ],
+  "products": [],
+  "topics": [
+    "facelift",
+    "deep plane facelift",
+    "eyelid lift",
+    "blepharoplasty",
+    "tummy tuck",
+    "mini tummy tuck",
+    "recovery timeline",
+    "surgical results",
+    "before and after",
+    "surgeon selection",
+    "patient testimonial",
+    "cosmetic surgery",
+    "facial rejuvenation"
+  ],
+  "episode_num": 278,
+  "title": "Facelift, Eyelid Lift AND Tummy Tuck Patient is Back to Work Just 12 Days Later",
+  "model": "claude-haiku-4-5-20251001"
+}

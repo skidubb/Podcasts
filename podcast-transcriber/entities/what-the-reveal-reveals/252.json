@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "LaMiNa",
+    "BLT treatment"
+  ],
+  "topics": [
+    "facelift",
+    "plastic surgery",
+    "skin rejuvenation",
+    "co2 laser",
+    "microneedling",
+    "nanofat transfer",
+    "patient results",
+    "self-confidence",
+    "cosmetic procedures",
+    "anti-aging",
+    "patient testimonial",
+    "skin care"
+  ],
+  "episode_num": 252,
+  "title": "2 Years Later: 59-Year-Old Facelift and LaMiNa Patient, \"It Just Gave Me So Much Self-Confidence!\"",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "hernia repair",
+    "tummy tuck",
+    "abdominoplasty",
+    "muscle reconstruction",
+    "diastasis recti",
+    "back pain relief",
+    "balance improvement",
+    "umbilical hernia",
+    "cosmetic surgery",
+    "post-operative results",
+    "patient testimonial",
+    "core strengthening"
+  ],
+  "episode_num": 288,
+  "title": "Hernia Repair Fixed Her Balance and Back Pain: 38-Year-Old Tummy Tuck Patient",
+  "model": "claude-haiku-4-5-20251001"
+}

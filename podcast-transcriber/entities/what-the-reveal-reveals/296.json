@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "Zoom"
+  ],
+  "topics": [
+    "facelift",
+    "blepharoplasty",
+    "eyelid lift",
+    "deep plane facelift",
+    "cosmetic surgery",
+    "patient confidence",
+    "post-surgery results",
+    "one year recovery",
+    "facial rejuvenation",
+    "patient testimonial"
+  ],
+  "episode_num": 296,
+  "title": "One Year After Her Facelift and Eyelid Lift: \"I Hold My Head Up High Now\"",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [
+    "Kleder"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "tummy tuck",
+    "breast lift",
+    "mastopexy",
+    "abdominoplasty",
+    "post-op recovery",
+    "patient experience",
+    "surgical outcomes",
+    "patient testimonial",
+    "cosmetic surgery",
+    "patient satisfaction"
+  ],
+  "episode_num": 312,
+  "title": "Just 2 Weeks Post-Op, This Tummy Tuck and Breast Lift Patient Feels \"ABSOLUTELY Amazing!\"",
+  "model": "claude-haiku-4-5-20251001"
+}

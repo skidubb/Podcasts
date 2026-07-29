@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [
+    "Philadelphia Magazine"
+  ],
+  "products": [],
+  "topics": [
+    "facelift",
+    "deep plane facelift",
+    "awake surgery",
+    "local anesthesia",
+    "tumescent anesthesia",
+    "jaw contouring",
+    "neck lift",
+    "post-operative recovery",
+    "cosmetic surgery",
+    "patient testimonial",
+    "skin tightening",
+    "facial rejuvenation"
+  ],
+  "episode_num": 295,
+  "title": "58-Year-Old Patient is Seeing Results Just 1 Week After Her Facelift",
+  "model": "claude-haiku-4-5-20251001"
+}

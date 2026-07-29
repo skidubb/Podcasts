@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "Botox"
+  ],
+  "topics": [
+    "facial fat grafting",
+    "cosmetic surgery",
+    "patient recovery",
+    "volume restoration",
+    "natural results",
+    "fat vs filler",
+    "stem cells",
+    "stromal vascular fraction",
+    "minimal bruising",
+    "surgical procedure"
+  ],
+  "episode_num": 300,
+  "title": "\"I Would Do This Over and Over Again\": Facial Fat Grafting Patient 1 Week Later",
+  "model": "claude-haiku-4-5-20251001"
+}

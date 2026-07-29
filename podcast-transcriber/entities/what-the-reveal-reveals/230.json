@@ -1,0 +1,26 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "R. Brann"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "plastic surgery consultation",
+    "post-operative recovery",
+    "patient experience",
+    "surgical preparation",
+    "patient testimonial",
+    "cosmetic surgery",
+    "doctor-patient communication",
+    "follow-up care"
+  ],
+  "episode_num": 230,
+  "title": "This Patient Felt Inspired at Her Tummy Tuck Consultation | 10 Days Post Op",
+  "model": "claude-haiku-4-5-20251001"
+}

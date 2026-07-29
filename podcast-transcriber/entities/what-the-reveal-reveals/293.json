@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [
+    "Patient (37-year-old)"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "rectus diastasis repair",
+    "hernia repair",
+    "belly button reconstruction",
+    "post-op recovery",
+    "cosmetic surgery",
+    "patient experience",
+    "before and after",
+    "body contouring"
+  ],
+  "episode_num": 293,
+  "title": "\"Easier Than My C-Sections\": 37-Year-Old Tummy Tuck Patient is 6 Weeks Post-Op",
+  "model": "claude-haiku-4-5-20251001"
+}

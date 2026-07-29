@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "mommy makeover",
+    "breast augmentation",
+    "mastopexy",
+    "abdominoplasty",
+    "tummy tuck",
+    "weight loss recovery",
+    "drainless surgery",
+    "surgical scarring",
+    "patient results",
+    "dvt prophylaxis",
+    "post-operative recovery",
+    "cosmetic surgery",
+    "patient satisfaction",
+    "surgical complications"
+  ],
+  "episode_num": 241,
+  "title": "\"It Looks Completely Natural and You Can Barely See a Scar!\": Mommy Makeover Patient Loves her Results",
+  "model": "claude-haiku-4-5-20251001"
+}

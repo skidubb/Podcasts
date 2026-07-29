@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [
+    "Costco"
+  ],
+  "products": [],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "plastic surgery",
+    "patient recovery",
+    "scar revision",
+    "c-section scar repair",
+    "post-operative care",
+    "pain management",
+    "patient expectations",
+    "body image",
+    "cosmetic surgery results",
+    "surgical recovery timeline"
+  ],
+  "episode_num": 292,
+  "title": "29-Year-Old Tummy Tuck Patient is Feeling FANTASTIC After 3 Weeks",
+  "model": "claude-haiku-4-5-20251001"
+}

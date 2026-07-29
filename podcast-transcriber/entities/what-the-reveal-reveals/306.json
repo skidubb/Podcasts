@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "host"
+  ],
+  "companies": [
+    "North Face",
+    "Goodwill",
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "plastic surgery",
+    "post-operative recovery",
+    "drainless technique",
+    "body contouring",
+    "patient results",
+    "c-section scar",
+    "cosmetic surgery",
+    "patient testimonial",
+    "surgical recovery expectations"
+  ],
+  "episode_num": 306,
+  "title": "\"I Need Belts Now!\": 63-Year-Old Tummy Tuck Patient Gets Real About Her Recovery",
+  "model": "claude-haiku-4-5-20251001"
+}

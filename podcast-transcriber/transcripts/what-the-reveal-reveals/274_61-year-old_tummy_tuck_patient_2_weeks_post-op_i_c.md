@@ -1,0 +1,21 @@
+# 61-Year-Old Tummy Tuck Patient 2 Weeks Post-Op, "I Can Feel My Abs Now"
+
+**Podcast:** Plastic Surgery: What the reveal reveals.
+**Episode:** 274
+**Date:** Jan 29, 2026
+**Duration:** 3 min
+**GUID:** Buzzsprout-18590936
+**MP3:** [61-Year-Old Tummy Tuck Patient 2 Weeks Post-Op, "I Can Feel My Abs Now"](https://www.buzzsprout.com/2246935/episodes/18590936-61-year-old-tummy-tuck-patient-2-weeks-post-op-i-can-feel-my-abs-now.mp3)
+
+---
+
+## Description
+
+"I can feel my abs now, my back is so much stronger...I love that I can sit up straight and feel my abs." This 61-year-old patient is 2 weeks out from her abdominoplasty and has found that her daily life has drastically improved. Her procedure was drainless, which made recovery VERY easy.  We have a comprehensive blood clot prevention program that patients are instructed to follow for a week post-op. This patient shares that it was a piece of cake! Thank you for tuning in to Plastic Surg...
+
+---
+
+## Transcript
+
+Our lovely patient who's 61 years old is two weeks out from her abdominoplasty and she comes in today and she's very graciously agreed to share some of her thoughts and feelings about what she was hoping to achieve and how she's doing so far. I feel I just remember what I used to feel like. I can feel my abs now my back is so much stronger absolutely for real and I didn't tell you this part yet but my GI problems that I had in the past already in two weeks I am noticing a difference but I just love how I can sit up straight and I can feel my abs it is wonderful. Well you look fantastic and really at two weeks you're right now benefiting from our accelerated recovery program the biggest part of which is no drains how did you like not having any drains? Well I never had drains but I can just say it was extremely easy very very easy. And that entire prophylaxis program we had you on where you were giving yourself shots for one week and you had the leg squeezy bobs on was that inconvenient or difficult? No actually I started to start relying on the leg squeezing because it was comforting at night so I liked it and the Luvinox it was a piece of cake after you do it once it's just old hat. Perfect and it's it's great prophylaxis I was invited to go to a meeting recently to talk about this because many surgeons are reluctant to use this algorithm of prophylaxis because they're afraid they're gonna give their patients a hematoma and clearly not an issue and we've given you this beautiful protection preventing any chance of blood clotting. Talk about your results and how you feel about your flat belly. I love my flat belly my daughter has complimented and said I think your waist is a size zero which I really doubt but it really I and I have a waist I used to have a waist in the past again yeah something nice to return to thank you. Well you did really well and your surgery was less than two weeks ago and your recovery has just been as we expect you've done everything we've asked and I'm I know that you came with family today but do you think you could have driven yourself today? Yes I could have driven today I was a little nervous I was practicing yesterday the day before but I was on the Schuylkill Expressway today no problems at all yep I'm ready. A lot of times patients will come in at one week with their family driving and then at two weeks they'll drive themselves and that really speaks to how quickly you're recovering and how fast you're getting back to your regular routine and that has been the case for you? Yes absolutely it's been wonderful it's so much easier I had a hysterectomy through my abdomen and I kind of think that may have been a little harder quite honestly. Well you're you're doing great job in your recovery and you look fantastic and we talked about what your recovery is going to be like from now you should really be at 50% activity now and when I see you back in two weeks you should be up at a hundred percent back to doing whatever you want that you were doing before surgery. Good that sounds great I'm ready I'm ready to go I just asked can I walk around the track 25 times we're gonna do half of 25 that's what I'm up to. Half this week and a hundred percent in two weeks. Looking forward to it. I love it you're so fabulous thank you
+

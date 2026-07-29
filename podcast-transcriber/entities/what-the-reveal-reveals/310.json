@@ -1,0 +1,30 @@
+{
+  "guest": null,
+  "people": [
+    "Patient (38-year-old)",
+    "Host",
+    "Husband",
+    "Daughter"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "hernia repair",
+    "umbilical hernia",
+    "neo-umbilicus",
+    "post-op recovery",
+    "c-section comparison",
+    "surgical drains",
+    "core strength",
+    "plastic surgery outcomes",
+    "cosmetic surgery satisfaction",
+    "post-operative pain management"
+  ],
+  "episode_num": 310,
+  "title": "Her Tummy Tuck Was Easier Than a C-Section: 38-Year-Old Neo-Umbilicus Patient is 1 Year Post-Op",
+  "model": "claude-haiku-4-5-20251001"
+}

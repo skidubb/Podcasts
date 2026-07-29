@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Shannon"
+  ],
+  "companies": [],
+  "products": [
+    "LED light mask"
+  ],
+  "topics": [
+    "facelift",
+    "deep plane facelift",
+    "neck lift",
+    "blepharoplasty",
+    "local anesthesia",
+    "cosmetic surgery",
+    "surgical results",
+    "recovery process",
+    "post-operative care",
+    "tumescent anesthesia",
+    "patient testimonial",
+    "aging concerns"
+  ],
+  "episode_num": 250,
+  "title": "63-Year-Old Deep Plane Facelift Patient, \"My Neck is just INCREDIBLE!\"",
+  "model": "claude-haiku-4-5-20251001"
+}

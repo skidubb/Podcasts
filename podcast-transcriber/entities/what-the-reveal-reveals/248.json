@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Host"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "facelift",
+    "deep plane facelift",
+    "blepharoplasty",
+    "eyelid surgery",
+    "local anesthesia",
+    "awake surgery",
+    "patient testimonial",
+    "cosmetic surgery results",
+    "neck lift",
+    "patient confidence",
+    "surgical experience",
+    "recovery"
+  ],
+  "episode_num": 248,
+  "title": "67-Year-Old Patient Facelift Patient: \"I Even Fell Asleep While the Eyes Were Being Done!\"",
+  "model": "claude-haiku-4-5-20251001"
+}

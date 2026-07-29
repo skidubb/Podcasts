@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [
+    "Kleder"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "breast augmentation",
+    "tummy tuck",
+    "cosmetic surgery",
+    "patient satisfaction",
+    "surgical recovery",
+    "tumescent local anesthesia",
+    "body confidence",
+    "surgical anxiety",
+    "patient testimonial",
+    "plastic surgery outcomes"
+  ],
+  "episode_num": 313,
+  "title": "64-Year-Old Patient is \"Feeling Much More Confident and Secure\" After Her Tummy Tuck and Breast Augmentation",
+  "model": "claude-haiku-4-5-20251001"
+}

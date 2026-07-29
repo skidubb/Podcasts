@@ -1,0 +1,29 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Kleder",
+    "Julie"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "plastic surgery",
+    "post-operative recovery",
+    "drainless surgery",
+    "patient experience",
+    "surgical downtime",
+    "pain management",
+    "surgeon selection",
+    "realistic expectations",
+    "healing process",
+    "c-section recovery"
+  ],
+  "episode_num": 277,
+  "title": "\"The Healing Process Has Been Much Better Than I Was Expecting\": 44-Year-Old Tummy Tuck Patient is 2 Weeks Post-Op",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "Debbie"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "microneedling"
+  ],
+  "topics": [
+    "breast lift",
+    "mastopexy",
+    "local anesthesia",
+    "awake anesthesia",
+    "tumescent anesthesia",
+    "cosmetic surgery",
+    "recovery",
+    "surgical results",
+    "scar treatment",
+    "patient testimonial",
+    "plastic surgery"
+  ],
+  "episode_num": 294,
+  "title": "Breast Lift Under Local AWAKE Anesthesia: \"I Wish I Had Done It Sooner\"",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "breast augmentation",
+    "subfascial surgery",
+    "post-operative recovery",
+    "patient testimonial",
+    "surgical outcomes",
+    "pain management",
+    "patient confidence",
+    "cosmetic surgery",
+    "follow-up care",
+    "surgical experience"
+  ],
+  "episode_num": 285,
+  "title": "Subfascial Breast Augmentation Patient, \"Five Days Out and So Far, So Good\"",
+  "model": "claude-haiku-4-5-20251001"
+}

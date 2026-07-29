@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "breast augmentation",
+    "awake surgery",
+    "local anesthesia",
+    "subfascial implants",
+    "silicone implants",
+    "upper pole fullness",
+    "cosmetic surgery",
+    "patient experience",
+    "post-operative recovery",
+    "implant sizing"
+  ],
+  "episode_num": 273,
+  "title": "IMMEDIATELY POST-OP: Breast Augmentation Patient Shares Her Awake Surgery Experience",
+  "model": "claude-haiku-4-5-20251001"
+}

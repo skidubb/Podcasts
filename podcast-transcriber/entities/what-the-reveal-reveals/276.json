@@ -1,0 +1,24 @@
+{
+  "guest": null,
+  "people": [
+    "R. Brann",
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "eyelid lift",
+    "blepharoplasty",
+    "breast augmentation",
+    "fat grafting",
+    "board-certified surgeons",
+    "plastic surgery",
+    "patient satisfaction",
+    "surgical results",
+    "surgeon selection",
+    "patient consultation"
+  ],
+  "episode_num": 276,
+  "title": "Eyelid Lift and Breast Augmentation Patient Shares the Importance of Choosing a Board-Certified Surgeon",
+  "model": "claude-haiku-4-5-20251001"
+}

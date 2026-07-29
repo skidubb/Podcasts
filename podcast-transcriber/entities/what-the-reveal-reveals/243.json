@@ -1,0 +1,25 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "facelift surgery",
+    "cosmetic surgery",
+    "patient testimonial",
+    "surgical safety",
+    "anesthesia management",
+    "self-image",
+    "appearance and confidence",
+    "post-operative recovery",
+    "patient consultation",
+    "medication considerations"
+  ],
+  "episode_num": 243,
+  "title": "\"I Feel Great, I Look Great\": Patient Undergoes Facelift Because her Appearance Did Not Represent her Inner Self",
+  "model": "claude-haiku-4-5-20251001"
+}

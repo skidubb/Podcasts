@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Patient (63-year-old)"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "hernia repair",
+    "plastic surgery",
+    "body contouring",
+    "patient transformation",
+    "recovery",
+    "self-confidence",
+    "excess skin",
+    "post-operative care",
+    "weight loss surgery",
+    "cosmetic surgery outcomes"
+  ],
+  "episode_num": 286,
+  "title": "\"I Feel Younger, I Have More Stamina\" Shares 63-Year-Old Tummy Tuck Patient",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,22 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [],
+  "topics": [
+    "tummy tuck",
+    "abdominoplasty",
+    "breast augmentation",
+    "cosmetic surgery",
+    "patient satisfaction",
+    "surgery recovery",
+    "patient testimonial",
+    "surgical outcomes",
+    "patient experience"
+  ],
+  "episode_num": 303,
+  "title": "Tummy Tuck and Breast Augmentation Patient, \"I Wish I'd Done It a Whole Decade Earlier\"",
+  "model": "claude-haiku-4-5-20251001"
+}

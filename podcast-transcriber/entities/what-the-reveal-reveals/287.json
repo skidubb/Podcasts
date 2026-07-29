@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "CoolSculpting",
+    "Google"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "liposuction",
+    "body contouring",
+    "surgical recovery",
+    "non-surgical options",
+    "patient results",
+    "high-intensity training",
+    "post-operative exercise",
+    "cosmetic surgery",
+    "patient satisfaction"
+  ],
+  "episode_num": 287,
+  "title": "This Patient is Taking High-Intensity Workout Classes Just 3 Months After Her Tummy Tuck",
+  "model": "claude-haiku-4-5-20251001"
+}

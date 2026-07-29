@@ -1,0 +1,31 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Emily"
+  ],
+  "companies": [
+    "Ideal Implant",
+    "Buzzsprout",
+    "Chris Licks"
+  ],
+  "products": [
+    "Chris Licks imaging system"
+  ],
+  "topics": [
+    "breast augmentation",
+    "silicon implants",
+    "saline implants",
+    "surgical techniques",
+    "implant placement",
+    "patient experiences",
+    "rippling prevention",
+    "local anesthesia",
+    "recovery",
+    "natural results",
+    "implant sizing"
+  ],
+  "episode_num": 236,
+  "title": "Silicon vs. Saline: Two Patients Share Their Experiences with Breast Implants",
+  "model": "claude-haiku-4-5-20251001"
+}

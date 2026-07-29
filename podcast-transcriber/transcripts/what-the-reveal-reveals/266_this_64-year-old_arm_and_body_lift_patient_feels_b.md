@@ -1,0 +1,21 @@
+# This 64-Year-Old Arm and Body Lift Patient Feels "BETTER Than 45 Now!"
+
+**Podcast:** Plastic Surgery: What the reveal reveals.
+**Episode:** 266
+**Date:** Jan 14, 2026
+**Duration:** 4 min
+**GUID:** Buzzsprout-18508161
+**MP3:** [This 64-Year-Old Arm and Body Lift Patient Feels "BETTER Than 45 Now!"](https://www.buzzsprout.com/2246935/episodes/18508161-this-64-year-old-arm-and-body-lift-patient-feels-better-than-45-now.mp3)
+
+---
+
+## Description
+
+"I feel BETTER than 45 now!" This patient is about a year out from her brachioplasty and 6 months out from her belt lipectomy. When asked how her arm recovery was, she replied, "What recovery?" because it was so easy! The first few days of her body lift recovery were tough, but has been uphill ever since. "It's crazy, life is better now!" She shares that many people don't realize that surgery has a positive impact on more than just the physical body. There is a huge increase in mental and emo...
+
+---
+
+## Transcript
+
+We're here today with our lovely patient who's about a year out from her arm lift and then about six months out from her total body lift. Right. And tell us how old you feel. 45. And tell us how old you actually are. 64. That is awesome. I feel better than 45 though. I really do. It's fantastic. Life is good. That is so great. How was your recovery after your arm lift? What recovery? It was great. Okay. Yeah, I didn't have much of a recovery. Pretty quick, fast turnaround. Oh yeah. And how about after your belt lipectomy? First three days were rough but ever since then it's been downhill or uphill. Easy street. We'll call it easy street. It's been good. Yeah. That's fantastic. Yeah. And has this changed your life at all? Absolutely. With everybody around me, my attitude towards people, it's just it's crazy. Life is better now. It really is. Wow. How would you say it impacted your confidence? What would you say? Like a hundred percent. Yeah. I mean I felt like I was confident but I didn't realize how much I was lacking. I was always self-conscious of the body. Always. The old body. Yeah. Can't be too romantic that way. Now you're ready for a bikini on the beach? That's right. I am. Yep. It's fantastic. That's absolutely fantastic. So we've been thinking about how to best describe what this experience is like and I've come up with the term that this is accelerated evolution. Purposeful, accelerated evolution. And that this, these are transformations that if you were to look at your goal of improving your... Well, being in your life. What would you do to try and modify this if you were looking at yourself over generations and generations and generations? What would you say? I mean it's just, it's, you don't realize when you're going in what you think, oh I'm gonna look better and feel better, but you don't realize the impact it has on everything else. Your mind, your attitude, and everything. It just changes. There's a guy by the name of Joe Murray who was a plastic surgeon in the 90s who actually, he was a plastic surgeon before that actually, but he did the very first kidney transplant in the world. And this was back in the 50s. He went on to become a plastic surgeon. He could have created, he basically created the field of transplant surgery, but he decided to go on to be a plastic surgeon. And he wrote a book called Surgery on the Soul. And he said that the part about plastic surgery he liked the most was certainly the physical changes that could be affected, but he felt that there were far deeper emotional and spiritual changes that he was able to help deliver. Yeah, and he got gratification from that. Huge. Yeah. So much so that he stayed as a plastic surgeon and did not go into the field of transplantation that he created. He actually went on to win a Nobel Prize for doing the first kidney transplant, but he stayed in plastic surgery. That's amazing. Yeah. But I get it. I mean, he must have been like you. I did get a chance to meet him, but I am a mere shadow, you know, compared to his greatness. You're the ray of sunshine there. So the old girls can go for it, for sure. You feel younger. Well, thank you so much. Yeah. Well, you look fabulous. Thank you. Thank you for sharing your thoughts with us. Thank you so much for everything.
+

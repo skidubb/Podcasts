@@ -1,0 +1,28 @@
+{
+  "guest": "Donna",
+  "people": [
+    "Donna",
+    "Claytor"
+  ],
+  "companies": [],
+  "products": [
+    "Buzzsprout"
+  ],
+  "topics": [
+    "facelift",
+    "deep plane facelift",
+    "plastic surgery",
+    "patient testimonial",
+    "cosmetic surgery results",
+    "surgical consultation",
+    "patient satisfaction",
+    "surgical technique",
+    "neck lift",
+    "facial rejuvenation",
+    "surgical education",
+    "patient communication"
+  ],
+  "episode_num": 268,
+  "title": "\"It Has Reinvented Me\": 71-Year-Old Facelift Patient Had a Marvelous Experience",
+  "model": "claude-haiku-4-5-20251001"
+}

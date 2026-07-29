@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [
+    "Lovenox",
+    "Schuylkill Expressway"
+  ],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "post-operative recovery",
+    "drainless surgery",
+    "blood clot prevention",
+    "accelerated recovery program",
+    "patient testimonial",
+    "cosmetic surgery results",
+    "core strength",
+    "abdominal contouring",
+    "prophylaxis protocol",
+    "surgical outcomes"
+  ],
+  "episode_num": 274,
+  "title": "61-Year-Old Tummy Tuck Patient 2 Weeks Post-Op, \"I Can Feel My Abs Now\"",
+  "model": "claude-haiku-4-5-20251001"
+}

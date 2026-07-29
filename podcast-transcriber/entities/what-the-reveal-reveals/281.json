@@ -1,0 +1,28 @@
+{
+  "guest": null,
+  "people": [
+    "69-year-old patient",
+    "husband"
+  ],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "facelift surgery",
+    "deep plane facelift",
+    "cosmetic surgery",
+    "confidence boost",
+    "aging",
+    "self-esteem",
+    "invisibility in aging",
+    "patient experience",
+    "recovery",
+    "appearance and psychology",
+    "cancer survivorship",
+    "body image"
+  ],
+  "episode_num": 281,
+  "title": "\"I Don't Feel Invisible Anymore\": 69-Year-Old Facelift Patient Found Her Confidence Again",
+  "model": "claude-haiku-4-5-20251001"
+}

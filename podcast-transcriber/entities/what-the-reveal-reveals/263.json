@@ -1,0 +1,29 @@
+{
+  "guest": null,
+  "people": [
+    "Claytor",
+    "Bryn Mawr Hospital"
+  ],
+  "companies": [
+    "Bryn Mawr Hospital",
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "abdominoplasty",
+    "tummy tuck",
+    "breast lift",
+    "breast surgery",
+    "bra sizing",
+    "patient comfort",
+    "surgical safety",
+    "body contouring",
+    "cosmetic surgery",
+    "patient testimonial",
+    "surgical results",
+    "elective surgery"
+  ],
+  "episode_num": 263,
+  "title": "Tummy Tuck and Breast Lift Patient, \"I Was Really Comfortable Going Into the OR\"",
+  "model": "claude-haiku-4-5-20251001"
+}

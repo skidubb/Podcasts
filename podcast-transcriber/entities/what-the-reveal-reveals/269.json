@@ -1,0 +1,27 @@
+{
+  "guest": null,
+  "people": [
+    "Klater",
+    "Patient"
+  ],
+  "companies": [],
+  "products": [
+    "BLT laser treatment",
+    "LaMiNa"
+  ],
+  "topics": [
+    "facelift",
+    "brow lift",
+    "eye lift",
+    "blepharoplasty",
+    "laser treatment",
+    "patient satisfaction",
+    "natural results",
+    "cosmetic surgery",
+    "facial rejuvenation",
+    "patient testimonial"
+  ],
+  "episode_num": 269,
+  "title": "Facelift, Eye Lift, Brow Lift, AND LaMiNa Patient is Extremely Grateful for Her Experience",
+  "model": "claude-haiku-4-5-20251001"
+}

@@ -1,0 +1,23 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Bryn Mawr"
+  ],
+  "products": [],
+  "topics": [
+    "brachioplasty",
+    "arm lift",
+    "plastic surgery",
+    "awake surgery",
+    "tumescent local anesthesia",
+    "cosmetic surgery",
+    "patient experience",
+    "surgical results",
+    "recovery",
+    "scarring"
+  ],
+  "episode_num": 302,
+  "title": "One Year Later: 60-Year-Old Arm Lift Patient Shares \"Surreal\" Awake Surgery Experience",
+  "model": "claude-haiku-4-5-20251001"
+}

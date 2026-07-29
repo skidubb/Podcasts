@@ -1,0 +1,26 @@
+{
+  "guest": null,
+  "people": [],
+  "companies": [
+    "Buzzsprout"
+  ],
+  "products": [],
+  "topics": [
+    "plastic surgery",
+    "breast implants",
+    "implant exchange",
+    "abdominoplasty",
+    "tummy tuck",
+    "body contouring",
+    "post-pregnancy body",
+    "confidence",
+    "mental health",
+    "surgical outcomes",
+    "patient satisfaction",
+    "body image",
+    "cosmetic surgery"
+  ],
+  "episode_num": 262,
+  "title": "1.5 Years After Her Implant Exchange and Tummy Tuck, This Patient is \"Embracing the New Me\"",
+  "model": "claude-haiku-4-5-20251001"
+}

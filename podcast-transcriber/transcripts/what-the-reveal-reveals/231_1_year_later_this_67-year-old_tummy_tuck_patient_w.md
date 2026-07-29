@@ -1,0 +1,21 @@
+# 1 Year Later: This 67-Year-Old Tummy Tuck Patient Wishes She Did It Sooner
+
+**Podcast:** Plastic Surgery: What the reveal reveals.
+**Episode:** 231
+**Date:** Oct 09, 2025
+**Duration:** 3 min
+**GUID:** Buzzsprout-17985095
+**MP3:** [1 Year Later: This 67-Year-Old Tummy Tuck Patient Wishes She Did It Sooner](https://www.buzzsprout.com/2246935/episodes/17985095-1-year-later-this-67-year-old-tummy-tuck-patient-wishes-she-did-it-sooner.mp3)
+
+---
+
+## Description
+
+This patient is one year out from her tummy tuck and just returned from her trip to Paris! She has been wanting this procedure for years, and the time has finally come where she could afford it and had the time to recover. She had a lot of extra skin from weight loss.  Her self-confidence has improved drastically since undergoing the procedure. She is even shopping for bikinis! Thank you for tuning in to Plastic Surgery: What the reveal reveals! If you enjoyed this episode, please subscr...
+
+---
+
+## Transcript
+
+Our lovely patient, who's 67 years old and is a year out from her abdominoplasty, is just back from a trip to Paris and following up with us and has very graciously agreed to share some of her thoughts and feelings about what she was hoping to achieve with the surgery and how she feels now. Okay, so the surgery was really quite a big step for me, something I wanted to have done for a very long time. And I didn't have the time or the money, but finally those two things came together. And like I said to you, I looked like Jabba the Hutt. And the more I lost weight, the worse my tummy got. So I had very layers of skin hanging over my underwear. And I had dimply skin thanks to my lovely two children who are now in their late 30s. And it was a good experience. I mean, it's an adjustment. It is a healing process. It is. And maybe a little more than I thought it was going to be, but I'm very pleased with the results. I feel like my clothes fit better. I look better. I can look at myself naked. I could not look at myself naked before. I would like be in the bathroom and I'd be like, I can't look at myself. That, so it's, you know, that's a personal thing. That is the first time I've ever heard somebody say that, but that makes a lot of sense. I was just so grossed out, you know, like how I looked. So, so it's been, it's been a very good experience. And you know, hopefully it stays. I am worried about that. Well, you're at a year. I'm at a year, so it should, you know, and I think I'm kind of back to my prior shape. I guess God gives you a shape and, you know, so I'll never look like, you know, a 19 year old with a flat tummy. I don't think that's going to happen, but, but in general, you know, right at 67, I feel great and I feel good about how I look. Like I said, I wish I had done it when I was younger. Is this something that you would recommend to a friend? I would, but I would also be clear to a friend of what the recovery is like. Okay. So it was, you know, the first couple of weeks were not good, which I expected, but definitely the pulling on the muscles and you have to really want to do this. So it's not something you do lightly, but absolutely I would recommend it. I feel like I got the good results and I, you know, like I said, I wish I had done it sooner and cause I was never going to lose that stomach, you know, diet, exercise, none of that was going to change the way my skin looked. And and now it's amazing. I'm like shopping for two piece bathing suits. We have a trip to Morocco coming up. And I have a trip to them. I just came back from Paris. I'm going to Morocco. I'm going to Chicago for my birthday in September. Fantastic. Yeah. So, you know, really, it's come at a really great time in my life where I'm now retired and I'm starting to play golf again. I was out of the golf season last summer, but because, you know, the recovery is a recovery, right. So I had at the end of May and so I really, you know, was still pretty stiff and not feeling it, you know, and I'm glad to be back swimming. That swimming was hard. I didn't expect that, you know, that I really couldn't stretch out. Yeah. But, you know, it's an adjustment. Awesome. Awesome. Well, thank you so much for sharing your story. Okay.
+
