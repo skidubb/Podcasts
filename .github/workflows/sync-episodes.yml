@@ -18,6 +18,7 @@ on:
           - gtm-ai-podcast
           - beauty-and-the-biz
           - the-face-podcast
+          - what-the-reveal-reveals
           - ratchet-wrench-radio
           - light-reading
           - tower-talks
@@ -73,6 +74,18 @@ jobs:
             description: 'A podcast featuring interviews with the world''s leading plastic surgeons on facelifts, rhinoplasty, breast and body contouring, non-invasive treatments and skincare, hosted by Alex Pike'
             index: 'beauty-and-the-biz'
             namespace: 'the-face-podcast'
+          # Patient-perspective corpus (customer journey), as opposed to the
+          # practitioner-facing shows. Shares the beauty-and-the-biz index
+          # under a 'patient-voice' namespace that later patient shows can
+          # join. Dense path -- no `integrated` flag, so the entity layer
+          # applies. NOTE: single-practice testimonials, satisfied patients
+          # only; see the corpus INDEX.md before treating it as sentiment.
+          - slug: what-the-reveal-reveals
+            rss: 'https://rss.buzzsprout.com/2246935.rss'
+            name: 'Plastic Surgery: What the Reveal Reveals'
+            description: 'Short first-person accounts from plastic surgery patients describing their decision, procedure, recovery and results, recorded at Claytor Noone Plastic Surgery'
+            index: 'beauty-and-the-biz'
+            namespace: 'patient-voice'
           - slug: ratchet-wrench-radio
             rss: 'https://feed.podbean.com/ratchetandwrenchradio/feed.xml'
             name: 'Ratchet+Wrench Radio'
